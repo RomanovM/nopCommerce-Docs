@@ -1,7 +1,7 @@
 ---
 title: Hosting providers
 author: AndreiMaz
-uid: user-guide/installing/installation-guide/hosting-provider
+uid: en-US/user-guide/installing/installation-guide/hosting-provider
 ---
 
 # Hosting providers
