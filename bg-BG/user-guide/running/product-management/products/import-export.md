@@ -44,4 +44,4 @@ Then click **import**, upload the table and check, we have a new product in the 
 
 ## See also
 
-* [Adding products](xref:user-guide/running/product-management/products/adding-products/index)
+* [Adding products](xref:en-US/user-guide/running/product-management/products/adding-products/index)
