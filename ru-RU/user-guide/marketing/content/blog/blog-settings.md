@@ -1,7 +1,7 @@
 ---
 title: Blog settings
 author: AndreiMaz
-uid: user-guide/marketing/content/blog/blog-settings
+uid: en-US/user-guide/marketing/content/blog/blog-settings
 ---
 
 # Blog settings
