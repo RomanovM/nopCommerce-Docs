@@ -1,7 +1,7 @@
 ---
 title: Installing on Windows Azure
 author: AndreiMaz
-uid: user-guide/installing/azure
+uid: en-US/user-guide/installing/azure
 ---
 
 # Installing on Windows Azure
