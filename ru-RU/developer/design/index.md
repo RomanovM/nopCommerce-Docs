@@ -1,7 +1,7 @@
 ---
 title: Designer's Guide
 author: AndreiMaz
-uid: developer/design/index
+uid: en-US/developer/design/index
 ---
 
 # Designer's Guide
