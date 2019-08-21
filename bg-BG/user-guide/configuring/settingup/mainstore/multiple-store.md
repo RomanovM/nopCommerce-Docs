@@ -1,7 +1,7 @@
 ---
 title: Setting up Multiple-Store
 author: AndreiMaz
-uid: user-guide/configuring/settingup/mainstore/multiple-store
+uid: en-US/user-guide/configuring/settingup/mainstore/multiple-store
 ---
 
 # Setting up Multiple-Store
