@@ -1,7 +1,7 @@
 ---
 title: Shipping Providers
 author: AndreiMaz
-uid: user-guide/configuring/settingup/shipping/providers/index
+uid: en-US/user-guide/configuring/settingup/shipping/providers/index
 ---
 # Shipping Providers
 

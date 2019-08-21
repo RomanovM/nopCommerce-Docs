@@ -1,7 +1,7 @@
 ---
 title: External Authentication Method
 author: AndreiMaz
-uid: user-guide/configuring/system/external-authentication-method/index
+uid: en-US/user-guide/configuring/system/external-authentication-method/index
 ---
 # External Authentication Method
 

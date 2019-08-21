@@ -1,7 +1,7 @@
 ---
 title: Return Requests
 author: AndreiMaz
-uid: user-guide/running/order-management/return-requests/index
+uid: en-US/user-guide/running/order-management/return-requests/index
 ---
 # Return Requests
 

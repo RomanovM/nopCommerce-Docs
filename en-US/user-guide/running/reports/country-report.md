@@ -1,7 +1,7 @@
 ---
 title: Country report
 author: AndreiMaz
-uid: user-guide/running/reports/country-report
+uid: en-US/user-guide/running/reports/country-report
 ---
 # Country report
 

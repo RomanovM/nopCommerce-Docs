@@ -1,7 +1,7 @@
 ---
 title: Dashboard
 author: AndreiMaz
-uid: user-guide/running/reports/dashboard
+uid: en-US/user-guide/running/reports/dashboard
 ---
 # Dashboard
 

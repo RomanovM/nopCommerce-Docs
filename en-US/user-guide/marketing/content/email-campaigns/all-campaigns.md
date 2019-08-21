@@ -1,7 +1,7 @@
 ---
 title: All campaigns
 author: AndreiMaz
-uid: user-guide/marketing/content/email-campaigns/all-campaigns
+uid: en-US/user-guide/marketing/content/email-campaigns/all-campaigns
 ---
 # All campaigns
 

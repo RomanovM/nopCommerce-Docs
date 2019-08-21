@@ -1,7 +1,7 @@
 ---
 title: Products
 author: AndreiMaz
-uid: user-guide/running/product-management/products/index
+uid: en-US/user-guide/running/product-management/products/index
 ---
 # Products
 

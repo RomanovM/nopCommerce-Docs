@@ -1,7 +1,7 @@
 ---
 title: Tax
 author: AndreiMaz
-uid: user-guide/configuring/settingup/taxes/tax/index
+uid: en-US/user-guide/configuring/settingup/taxes/tax/index
 ---
 # Tax
 

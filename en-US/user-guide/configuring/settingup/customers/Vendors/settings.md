@@ -1,7 +1,7 @@
 ---
 title: Vendor settings
 author: AndreiMaz
-uid: user-guide/configuring/settingup/customers/vendors/settings
+uid: en-US/user-guide/configuring/settingup/customers/vendors/settings
 ---
 # Vendor settings
 

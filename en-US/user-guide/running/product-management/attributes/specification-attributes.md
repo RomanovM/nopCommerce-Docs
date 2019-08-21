@@ -1,7 +1,7 @@
 ---
 title: Specification attributes
 author: AndreiMaz
-uid: user-guide/running/product-management/attributes/specification-attributes
+uid: en-US/user-guide/running/product-management/attributes/specification-attributes
 ---
 # Specification attributes
 

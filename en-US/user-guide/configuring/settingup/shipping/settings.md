@@ -1,7 +1,7 @@
 ---
 title: Shipping Settings
 author: AndreiMaz
-uid: user-guide/configuring/settingup/shipping/settings
+uid: en-US/user-guide/configuring/settingup/shipping/settings
 ---
 # Shipping Settings
 

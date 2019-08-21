@@ -1,7 +1,7 @@
 ---
 title: nopCommerce Interface
 author: AndreiMaz
-uid: user-guide/configuring/nopcommerce-interface
+uid: en-US/user-guide/configuring/nopcommerce-interface
 ---
 # nopCommerce Interface
 

@@ -1,7 +1,7 @@
 ---
 title: News
 author: AndreiMaz
-uid: user-guide/marketing/content/news/index
+uid: en-US/user-guide/marketing/content/news/index
 ---
 # News
 

@@ -1,7 +1,7 @@
 ---
 title: Shopping carts and wishlists
 author: AndreiMaz
-uid: user-guide/running/order-management/shopping-carts-wishlists
+uid: en-US/user-guide/running/order-management/shopping-carts-wishlists
 ---
 # Shopping carts and wishlists
 

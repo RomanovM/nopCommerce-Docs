@@ -1,7 +1,7 @@
 ---
 title: Shipments
 author: AndreiMaz
-uid: user-guide/running/order-management/shipments
+uid: en-US/user-guide/running/order-management/shipments
 ---
 # Shipments
 

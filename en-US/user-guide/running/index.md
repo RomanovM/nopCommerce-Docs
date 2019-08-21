@@ -1,7 +1,7 @@
 ---
 title: Running your store
 author: AndreiMaz
-uid: user-guide/running/index
+uid: en-US/user-guide/running/index
 ---
 # Running your store
 

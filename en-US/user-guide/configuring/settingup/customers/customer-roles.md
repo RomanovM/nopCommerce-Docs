@@ -1,7 +1,7 @@
 ---
 title: Customer roles
 author: AndreiMaz
-uid: user-guide/configuring/settingup/customers/customer-roles
+uid: en-US/user-guide/configuring/settingup/customers/customer-roles
 ---
 # Customer roles
 

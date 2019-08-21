@@ -1,7 +1,7 @@
 ---
 title: Languages
 author: AndreiMaz
-uid: user-guide/configuring/settingup/mainstore/languages
+uid: en-US/user-guide/configuring/settingup/mainstore/languages
 ---
 # Languages
 

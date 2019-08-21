@@ -1,7 +1,7 @@
 ---
 title: Topics (pages)
 author: AndreiMaz
-uid: user-guide/marketing/content/topics
+uid: en-US/user-guide/marketing/content/topics
 ---
 # Topics (pages)
 

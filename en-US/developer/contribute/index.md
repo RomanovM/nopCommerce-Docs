@@ -1,7 +1,7 @@
 ---
 title: Contribute
 author: AndreiMaz
-uid: developer/contribute/index
+uid: en-US/developer/contribute/index
 ---
 # Contribute
 

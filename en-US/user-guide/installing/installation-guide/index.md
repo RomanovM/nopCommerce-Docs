@@ -1,7 +1,7 @@
 ---
 title: Installation guide
 author: AndreiMaz
-uid: user-guide/installing/installation-guide/index
+uid: en-US/user-guide/installing/installation-guide/index
 ---
 # Installation guide
 

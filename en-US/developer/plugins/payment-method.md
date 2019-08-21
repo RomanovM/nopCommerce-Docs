@@ -1,7 +1,7 @@
 ---
 title: How to code my own payment method
 author: AndreiMaz
-uid: developer/plugins/payment-method
+uid: en-US/developer/plugins/payment-method
 ---
 # How to code my own payment method
 

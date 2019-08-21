@@ -1,7 +1,7 @@
 ---
 title: Forum settings
 author: AndreiMaz
-uid: user-guide/marketing/content/forums/settings
+uid: en-US/user-guide/marketing/content/forums/settings
 ---
 # Forum settings
 

@@ -1,7 +1,7 @@
 ---
 title: Getting started
 author: AndreiMaz
-uid: user-guide/getting-started
+uid: en-US/user-guide/getting-started
 ---
 # Getting started
 

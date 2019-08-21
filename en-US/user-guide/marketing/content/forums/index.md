@@ -1,7 +1,7 @@
 ---
 title: Forums
 author: AndreiMaz
-uid: user-guide/marketing/content/forums/index
+uid: en-US/user-guide/marketing/content/forums/index
 ---
 # Forums
 

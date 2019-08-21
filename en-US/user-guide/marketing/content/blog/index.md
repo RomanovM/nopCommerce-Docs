@@ -1,7 +1,7 @@
 ---
 title: Blog
 author: AndreiMaz
-uid: user-guide/marketing/content/blog/index
+uid: en-US/user-guide/marketing/content/blog/index
 ---
 # Blog
 

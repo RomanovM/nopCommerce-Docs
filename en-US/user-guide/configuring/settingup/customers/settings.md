@@ -1,7 +1,7 @@
 ---
 title: Customer settings
 author: AndreiMaz
-uid: user-guide/configuring/settingup/customers/settings
+uid: en-US/user-guide/configuring/settingup/customers/settings
 ---
 # Customer settings
 

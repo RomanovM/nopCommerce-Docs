@@ -1,7 +1,7 @@
 ---
 title: Reward points
 author: AndreiMaz
-uid: user-guide/marketing/promotional/reward-points
+uid: en-US/user-guide/marketing/promotional/reward-points
 ---
 # Reward points
 
