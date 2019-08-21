@@ -1,7 +1,7 @@
 ---
 title: Creating a nopCommerce plugin
 author: AndreiMaz
-uid: developer/plugins/index
+uid: en-US/developer/plugins/index
 ---
 
 # Creating a nopCommerce plugin
