@@ -1,7 +1,7 @@
 ---
 title: Setting up Payments
 author: AndreiMaz
-uid: user-guide/configuring/settingup/payments/index
+uid: en-US/user-guide/configuring/settingup/payments/index
 ---
 
 # Setting up Payments

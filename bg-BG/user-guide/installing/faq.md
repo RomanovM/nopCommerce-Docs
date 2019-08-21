@@ -1,7 +1,7 @@
 ---
 title: FAQ
 author: AndreiMaz
-uid: user-guide/installing/faq
+uid: en-US/user-guide/installing/faq
 ---
 
 # FAQ

@@ -1,7 +1,7 @@
 ---
 title: Content Management
 author: AndreiMaz
-uid: user-guide/marketing/content/index
+uid: en-US/user-guide/marketing/content/index
 ---
 
 # Content Management

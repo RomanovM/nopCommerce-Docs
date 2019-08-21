@@ -1,7 +1,7 @@
 ---
 title: Design
 author: AndreiMaz
-uid: user-guide/configuring/design/index
+uid: en-US/user-guide/configuring/design/index
 ---
 
 # Design

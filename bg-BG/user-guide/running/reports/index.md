@@ -1,7 +1,7 @@
 ---
 title: Reports
 author: AndreiMaz
-uid: user-guide/running/reports/index
+uid: en-US/user-guide/running/reports/index
 ---
 
 # Reports

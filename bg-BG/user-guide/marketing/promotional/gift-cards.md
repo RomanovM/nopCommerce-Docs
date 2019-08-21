@@ -1,7 +1,7 @@
 ---
 title: Gift cards
 author: AndreiMaz
-uid: user-guide/marketing/promotional/gift-cards
+uid: en-US/user-guide/marketing/promotional/gift-cards
 ---
 
 # Gift cards

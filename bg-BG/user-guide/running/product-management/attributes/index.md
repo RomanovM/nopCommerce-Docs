@@ -1,7 +1,7 @@
 ---
 title: Attributes
 author: AndreiMaz
-uid: user-guide/running/product-management/attributes/index
+uid: en-US/user-guide/running/product-management/attributes/index
 ---
 
 # Attributes

@@ -1,7 +1,7 @@
 ---
 title: User guide
 author: AndreiMaz
-uid: user-guide
+uid: en-US/user-guide
 ---
 
 # User guide

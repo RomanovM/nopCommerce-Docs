@@ -1,7 +1,7 @@
 ---
 title: EU VAT configuration guide
 author: AndreiMaz
-uid: user-guide/configuring/settingup/taxes/eu-vat
+uid: en-US/user-guide/configuring/settingup/taxes/eu-vat
 ---
 
 # EU VAT configuration guide

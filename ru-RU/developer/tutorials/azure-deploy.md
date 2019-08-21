@@ -1,7 +1,7 @@
 ---
 title: Step by step to deploy on Azure with GIT and automatic builds
 author: AndreiMaz
-uid: developer/tutorials/azure-deploy
+uid: en-US/developer/tutorials/azure-deploy
 ---
 
 # Step by step to deploy on Azure with GIT and automatic builds

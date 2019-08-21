@@ -1,7 +1,7 @@
 ---
 title: Marketing your store
 author: AndreiMaz
-uid: user-guide/marketing/index
+uid: en-US/user-guide/marketing/index
 ---
 
 # Marketing your store

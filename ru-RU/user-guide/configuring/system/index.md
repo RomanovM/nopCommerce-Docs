@@ -1,7 +1,7 @@
 ---
 title: System Administration
 author: AndreiMaz
-uid: user-guide/configuring/system/index
+uid: en-US/user-guide/configuring/system/index
 ---
 
 # System Administration

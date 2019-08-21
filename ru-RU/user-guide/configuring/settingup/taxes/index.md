@@ -1,7 +1,7 @@
 ---
 title: Setting up Tax
 author: AndreiMaz
-uid: user-guide/configuring/setting-up/taxes/index
+uid: en-US/user-guide/configuring/setting-up/taxes/index
 ---
 
 # Setting up Tax
