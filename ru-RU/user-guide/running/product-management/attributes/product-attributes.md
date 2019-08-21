@@ -1,7 +1,7 @@
 ---
 title: Product attributes
 author: AndreiMaz
-uid: user-guide/running/product-management/attributes/product-attributes
+uid: en-US/user-guide/running/product-management/attributes/product-attributes
 ---
 
 # Product attributes
