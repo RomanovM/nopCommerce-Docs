@@ -1,7 +1,7 @@
 ---
 title: Developers guide
 author: AndreiMaz
-uid: developer-documentation
+uid: en-US/developer-documentation
 ---
 
 # Developers guide
