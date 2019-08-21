@@ -1,7 +1,7 @@
 ---
-title: Installation guide
-author: AndreiMaz
-uid: en-US/user-guide/installing/installation-guide/index
+title: Руководство по установке
+author: RomanovM
+uid: ru-RU/user-guide/installing/installation-guide/index
 ---
 
 # Руководство по установке
