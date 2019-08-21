@@ -1,7 +1,7 @@
 ---
 title: Setting up your store
 author: AndreiMaz
-uid: user-guide/configuring/setting-up/index
+uid: en-US/user-guide/configuring/setting-up/index
 ---
 
 # Setting up your store
