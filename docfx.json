@@ -10,7 +10,8 @@
           "**/obj/**",
           "_site/**",
           "***/readme.md",
-          "***/license.md"
+          "***/license.md",
+          "***/crowdin_nopcommerce.yml"
         ],
         "src": "."
       }
