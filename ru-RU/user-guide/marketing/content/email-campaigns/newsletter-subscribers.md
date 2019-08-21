@@ -1,7 +1,7 @@
 ---
 title: Newsletter subscribers
 author: AndreiMaz
-uid: user-guide/marketing/content/email-campaigns/newsletter-subscribers
+uid: en-US/user-guide/marketing/content/email-campaigns/newsletter-subscribers
 ---
 
 # Newsletter subscribers
