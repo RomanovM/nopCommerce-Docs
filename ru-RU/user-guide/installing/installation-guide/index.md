@@ -4,7 +4,7 @@ author: AndreiMaz
 uid: user-guide/installing/installation-guide/index
 ---
 
-# Installation guide
+# Руководство по установке
 
 This chapter describes how to download nopCommerce software, upload it to your server, define the file permissions, and install it on your system. You may also watch the screencast about nopCommerce installation on our [YouTube channel.](https://www.youtube.com/watch?v=L7NGodeB9sQ)
 
@@ -123,6 +123,6 @@ Specify Custom SQL Server collation: This is an advanced setting and should be l
 
 ## See also
 
-- [Hosting providers](xref:en-US/user-guide/installing/installation-guide/hosting-provider)
-- [Installing Internet Information Services (IIS)](xref:en-US/user-guide/installing/installation-guide/installing-IIS)
-- [Known Issues and Solutions](xref:en-US/user-guide/installing/installation-guide/known-issues-and-solutions)
+- [Hosting providers](xref:ru-RU/user-guide/installing/installation-guide/hosting-provider)
+- [Installing Internet Information Services (IIS)](xref:ru-RU/user-guide/installing/installation-guide/installing-IIS)
+- [Known Issues and Solutions](xref:ru-RU/user-guide/installing/installation-guide/known-issues-and-solutions)
