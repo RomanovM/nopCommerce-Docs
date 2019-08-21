@@ -37,7 +37,7 @@ Define the following vendor’s details:
 * Tick **Active** checkbox to activate the vendor
 
 > [!NOTE]
-> The appropriate message template is disabled by default, you can change it in [Message Templates](xref:user-guide/marketing/content/message-templates) section
+> The appropriate message template is disabled by default, you can change it in [Message Templates](xref:en-US/user-guide/marketing/content/message-templates) section
 
 * **Admin comment**  an optional comment or information for internal use
 
@@ -45,7 +45,7 @@ Define the following vendor’s details:
 
 A store owner able to create attributes for a vendor much like they can for a product. The vendor attributes would then be displayed on the Vendor Detail page in the public store. This would allow for Multi-Vendor stores to be able to collect and display to the customers more information about the vendor without having to try and format it in the Description field that is currently available.
 
-On the **Vendor attributes** section, select Vendor attributes. Learn more about vendor attributes and how to create them [here](xref:user-guide/configuring/settingup/customers/vendors/settings).
+On the **Vendor attributes** section, select Vendor attributes. Learn more about vendor attributes and how to create them [here](xref:en-US/user-guide/configuring/settingup/customers/vendors/settings).
 
 ![vendorattributes](_static/index/vendor3.PNG)
 
@@ -118,4 +118,4 @@ After the vendor's customer account is set up, the vendor can use this customer 
 
 ## See also
 
-[Vendor settings](xref:user-guide/configuring/settingup/customers/vendors/settings)
+[Vendor settings](xref:en-US/user-guide/configuring/settingup/customers/vendors/settings)

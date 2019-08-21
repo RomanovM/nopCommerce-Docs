@@ -13,5 +13,5 @@ If you decide to define and use your own shipping methods, the shipping rates fo
 
 Learn how to set up the required shipment options in the following chapters:
 
-* [Manual (Fixed or By Weight and By Total)](xref:user-guide/configuring/settingup/shipping/providers/manual/index)
-* [UPS](xref:user-guide/configuring/settingup/shipping/providers/ups)
+* [Manual (Fixed or By Weight and By Total)](xref:en-US/user-guide/configuring/settingup/shipping/providers/manual/index)
+* [UPS](xref:en-US/user-guide/configuring/settingup/shipping/providers/ups)
