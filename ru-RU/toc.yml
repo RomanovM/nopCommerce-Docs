@@ -2,7 +2,7 @@
   href: /
   topicHref: index.md
 - name: User guide
-  href: user-guide.md
+  href: index.md
   items:
     - name: Getting started
       href: user-guide/getting-started.md
