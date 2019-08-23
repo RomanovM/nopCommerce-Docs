@@ -39,7 +39,7 @@
     "externalReference": [],
     "xref": [
       "xrefmap.yml"
-    ]
+    ],
     "xrefService": [
       "https://xref.docs.microsoft.com/query?uid={uid}"
     ],
