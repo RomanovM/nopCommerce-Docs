@@ -1,7 +1,7 @@
 ---
 title: System Administration
 author: AndreiMaz
-uid: user-guide/configuring/system/index
+uid: en-US/user-guide/configuring/system/index
 ---
 
 # System Administration
@@ -12,16 +12,16 @@ This chapter concentrates more on the back-end, the front-end is covered in chap
 
 ## See also
 
-* [Plugins](xref: user-guide/configuring/system/plugins.md)
-* [Email accounts](xref: user-guide/configuring/system/email-accounts.md)
-* [Widgets](xref: user-guide/configuring/system/widgets/index.md)
-* [Localization](xref: user-guide/configuring/system/localization.md)
-* [External Authentication Method](xref: user-guide/configuring/system/external-authentication-method/index.md)
-* [Message Queue](xref: user-guide/configuring/system/message-queue.md)
-* [Schedule Tasks](xref: user-guide/configuring/system/schedule-tasks.md)
-* [System Information](xref: user-guide/configuring/system/system-information.md)
-* [Deleting Old Exported Files](xref: user-guide/configuring/system/deleting-old-exported-files.md)
-* [Deleting Abandoned Shopping Carts](xref: user-guide/configuring/system/deleting-abandoned-shopping-carts.md)
-* [Deleting Guests](xref: user-guide/configuring/system/deleting-guests.md)
-* [Warnings](xref: user-guide/configuring/system/warnings.md)
-* [Logs](xref: user-guide/configuring/system/log.md)
+* [Plugins](xref: en-US/user-guide/configuring/system/plugins)
+* [Email accounts](xref: en-US/user-guide/configuring/system/email-accounts)
+* [Widgets](xref: en-US/user-guide/configuring/system/widgets/index)
+* [Localization](xref: en-US/user-guide/configuring/system/localization)
+* [External Authentication Method](xref: en-US/user-guide/configuring/system/external-authentication-method/index)
+* [Message Queue](xref: en-US/user-guide/configuring/system/message-queue)
+* [Schedule Tasks](xref: en-US/user-guide/configuring/system/schedule-tasks)
+* [System Information](xref: en-US/user-guide/configuring/system/system-information)
+* [Deleting Old Exported Files](xref: en-US/user-guide/configuring/system/deleting-old-exported-files)
+* [Deleting Abandoned Shopping Carts](xref: en-US/user-guide/configuring/system/deleting-abandoned-shopping-carts)
+* [Deleting Guests](xref: en-US/user-guide/configuring/system/deleting-guests)
+* [Warnings](xref: en-US/user-guide/configuring/system/warnings)
+* [Logs](xref: en-US/user-guide/configuring/system/log)
