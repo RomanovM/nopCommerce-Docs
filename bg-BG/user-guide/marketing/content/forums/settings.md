@@ -43,5 +43,5 @@ To change a setting for a certain store, tick a checkbox on the left side of it.
 
 ## See also
 
-- [Basic and Advanced modes](xref: en-US/user-guide/configuring/nopcommerce-interface)
-- [Forums](xref: en-US/user-guide/marketing/content/forums/index)
+- [Basic and Advanced modes](xref:en-US/user-guide/configuring/nopcommerce-interface)
+- [Forums](xref:en-US/user-guide/marketing/content/forums/index)
