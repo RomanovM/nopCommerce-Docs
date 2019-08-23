@@ -1,9 +1,6 @@
 - name: English
   href: en-US/
-  homepage: index.md
 - name: Bulgarian
   href: bg-BG/
-  homepage: index.md
 - name: Russian
   href: ru-RU/
-  homepage: index.md
