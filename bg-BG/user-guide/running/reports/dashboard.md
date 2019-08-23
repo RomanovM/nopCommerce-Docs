@@ -50,9 +50,9 @@ Catalog → Low stock report
 
 ## See also
 
-* [Orders](xref: bg-BG/user-guide/running/order-management/orders/index)
-* [Return requests](xref: bg-BG/user-guide/running/order-management/return-requests/index)
-* [Bestsellers](xref: bg-BG/user-guide/running/reports/bestsellers-never-purchased)
-* [Customers](xref: bg-BG/user-guide/running/customer-management/index)
-* [Country report](xref: bg-BG/user-guide/running/reports/country-report)
-* [Customer reports](xref: bg-BG/user-guide/running/reports/customer-reports)
+* [Orders](xref:bg-BG/user-guide/running/order-management/orders/index)
+* [Return requests](xref:bg-BG/user-guide/running/order-management/return-requests/index)
+* [Bestsellers](xref:bg-BG/user-guide/running/reports/bestsellers-never-purchased)
+* [Customers](xref:bg-BG/user-guide/running/customer-management/index)
+* [Country report](xref:bg-BG/user-guide/running/reports/country-report)
+* [Customer reports](xref:bg-BG/user-guide/running/reports/customer-reports)

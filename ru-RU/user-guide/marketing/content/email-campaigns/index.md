@@ -14,5 +14,5 @@ There are several examples of email marketing campaigns you can use for your sto
 
 ## Learn more in following chapters
 
-- **[All campaigns](xref: ru-RU/user-guide/marketing/content/email-campaigns/all-campaigns)**
-- **[Newsletter subscribers](xref: ru-RU/user-guide/marketing/content/email-campaigns/newsletter-subscribers)**
+- **[All campaigns](xref:ru-RU/user-guide/marketing/content/email-campaigns/all-campaigns)**
+- **[Newsletter subscribers](xref:ru-RU/user-guide/marketing/content/email-campaigns/newsletter-subscribers)**

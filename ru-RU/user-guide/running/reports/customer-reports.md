@@ -36,5 +36,5 @@ The third tab shows the number of **Registered customers** for a certain period.
 
 ## See also
 
-* [Country report](xref: ru-RU/user-guide/running/reports/country-report)
-* [Customer list](xref: ru-RU/user-guide/running/customer-management/customer-list)
+* [Country report](xref:ru-RU/user-guide/running/reports/country-report)
+* [Customer list](xref:ru-RU/user-guide/running/customer-management/customer-list)

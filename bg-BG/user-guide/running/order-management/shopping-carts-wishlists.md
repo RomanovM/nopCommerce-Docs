@@ -34,6 +34,6 @@ You can also delete wishlist by clicking on **Delete** button.
 
 ## See also
 
-* [Orders](xref: bg-BG/user-guide/running/order-management/orders/index)
-* [Promotional tools](xref: bg-BG/user-guide/marketing/promotional/index)
+* [Orders](xref:bg-BG/user-guide/running/order-management/orders/index)
+* [Promotional tools](xref:bg-BG/user-guide/marketing/promotional/index)
 * [Video tutorial: managing wishlists](https://www.youtube.com/watch?v=9EN7oZSwIVE)

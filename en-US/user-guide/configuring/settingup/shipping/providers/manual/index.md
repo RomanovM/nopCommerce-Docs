@@ -100,7 +100,7 @@ Click **Save**.
 
 ## See also
 
-* [Shipping Methods (Shipping by weight and by total)](xref: en-US/user-guide/configuring/settingup/shipping/providers/manual/methods)
-* [Shipping Method Restrictions (shipping by weight and by total)](xref: en-US/user-guide/configuring/settingup/shipping/providers/manual/restrictions)
-* [Shipping Methods (Fixed rate)](xref: en-US/user-guide/configuring/settingup/shipping/providers/manual/fixed-rate-methods)
-* [Shipping Method Restrictions (Fixed rate)](xref: en-US/user-guide/configuring/settingup/shipping/providers/manual/fixed-rate-restrictions)
+* [Shipping Methods (Shipping by weight and by total)](xref:en-US/user-guide/configuring/settingup/shipping/providers/manual/methods)
+* [Shipping Method Restrictions (shipping by weight and by total)](xref:en-US/user-guide/configuring/settingup/shipping/providers/manual/restrictions)
+* [Shipping Methods (Fixed rate)](xref:en-US/user-guide/configuring/settingup/shipping/providers/manual/fixed-rate-methods)
+* [Shipping Method Restrictions (Fixed rate)](xref:en-US/user-guide/configuring/settingup/shipping/providers/manual/fixed-rate-restrictions)

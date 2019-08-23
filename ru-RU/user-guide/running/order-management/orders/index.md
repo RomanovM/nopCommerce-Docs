@@ -75,6 +75,6 @@ On the **Order Notes** tab, a store owner can **view** notes that were added to 
 
 ## See also
 
-* [Adding products](xref: ru-RU/user-guide/running/product-management/products/adding-products/index)
-* [Shipments](xref: ru-RU/user-guide/running/order-management/shipments)
+* [Adding products](xref:ru-RU/user-guide/running/product-management/products/adding-products/index)
+* [Shipments](xref:ru-RU/user-guide/running/order-management/shipments)
 * [YouTube tutorial on managing orders](https://www.youtube.com/watch?v=z6TUJOO3gVg&index=5&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4)

@@ -57,4 +57,4 @@ Here you can **delete** a news comment, it will be removed from the system.
 
 ## See also
 
-- [News settings](xref: ru-RU/user-guide/marketing/content/news/news-settings)
+- [News settings](xref:ru-RU/user-guide/marketing/content/news/news-settings)

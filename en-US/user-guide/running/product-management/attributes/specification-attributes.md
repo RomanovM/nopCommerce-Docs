@@ -5,7 +5,7 @@ uid: en-US/user-guide/running/product-management/attributes/specification-attrib
 ---
 # Specification attributes
 
-Specification attributes are similar to [product attributes](xref: en-US/user-guide/running/product-management/attributes/product-attributes), however, they are **only used for information purposes** (visible on product details page) and **for filtering products** on the category details page. They don’t define a product price as well as can’t be used for the inventory tracking.
+Specification attributes are similar to [product attributes](xref:en-US/user-guide/running/product-management/attributes/product-attributes), however, they are **only used for information purposes** (visible on product details page) and **for filtering products** on the category details page. They don’t define a product price as well as can’t be used for the inventory tracking.
 > [!NOTE]
 > By default, there are no specification attributes precreated in nopCommerce.
 
@@ -38,6 +38,6 @@ Click **Edit** beside the attribute option to update it or Delete to remove it f
 
 ## See also
 
-- [Adding new products](xref: en-US/user-guide/running/product-management/products/adding-products/index)
-- [Product attributes](xref: en-US/user-guide/running/product-management/attributes/product-attributes)
+- [Adding new products](xref:en-US/user-guide/running/product-management/products/adding-products/index)
+- [Product attributes](xref:en-US/user-guide/running/product-management/attributes/product-attributes)
 - [YouTube tutorial: Managing Specification Attributes](https://www.youtube.com/watch?v=YmD_vHqWzQw&index=11&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4)

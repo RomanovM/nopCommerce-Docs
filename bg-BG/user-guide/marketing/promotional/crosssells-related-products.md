@@ -50,5 +50,5 @@ After you have chosen related product and saved it, **you can check how related 
 
 ## See also
 
-- [Adding products](xref: bg-BG/user-guide/running/product-management/products/adding-products/index)
-- [Tier prices](xref: bg-BG/user-guide/marketing/promotional/tier-prices)
+- [Adding products](xref:bg-BG/user-guide/running/product-management/products/adding-products/index)
+- [Tier prices](xref:bg-BG/user-guide/marketing/promotional/tier-prices)

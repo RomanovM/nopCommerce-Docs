@@ -24,4 +24,4 @@ Click **Configure** for the method configuration.
 
 ## See also
 
-* [Facebook authentication](xref: ru-RU/user-guide/configuring/system/external-authentication/facebook)
+* [Facebook authentication](xref:ru-RU/user-guide/configuring/system/external-authentication/facebook)

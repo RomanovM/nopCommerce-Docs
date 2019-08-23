@@ -73,5 +73,5 @@ Click **Edit** to view the **Product info panel**, where these stock settings ca
 
 ## See also
 
-* [Product Attributes](xref: ru-RU/user-guide/running/product-management/attributes/product-attributes)
-* [Warehouses](xref: ru-RU/user-guide/configuring/settingup/shipping/warehouses)
+* [Product Attributes](xref:ru-RU/user-guide/running/product-management/attributes/product-attributes)
+* [Warehouses](xref:ru-RU/user-guide/configuring/settingup/shipping/warehouses)

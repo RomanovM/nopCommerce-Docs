@@ -21,6 +21,6 @@ To search for the report, enter one or more of the following search criteria:
 
 ## See also
 
-* [Customer reports](xref: ru-RU/user-guide/running/reports/customer-reports)
-* [Countries](xref: ru-RU/user-guide/configuring/settingup/mainstore/countries)
-* [Orders](xref: ru-RU/user-guide/running/order-management/orders/index)
+* [Customer reports](xref:ru-RU/user-guide/running/reports/customer-reports)
+* [Countries](xref:ru-RU/user-guide/configuring/settingup/mainstore/countries)
+* [Orders](xref:ru-RU/user-guide/running/order-management/orders/index)

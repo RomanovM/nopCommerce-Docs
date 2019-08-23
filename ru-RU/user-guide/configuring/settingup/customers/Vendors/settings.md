@@ -77,5 +77,5 @@ Click **Save.** The new attribute will be displayed in the public store.
 
 ## See also
 
-* [Vendors](xref: ru-RU/user-guide/configuring/settingup/customers/vendors/index)
-* [Setting up Customers](xref: ru-RU/user-guide/configuring/settingup/customers/index)
+* [Vendors](xref:ru-RU/user-guide/configuring/settingup/customers/vendors/index)
+* [Setting up Customers](xref:ru-RU/user-guide/configuring/settingup/customers/index)

@@ -54,6 +54,6 @@ This page enables **multi-store configuration**, it means that the same settings
 
 ## See also
 
-* [Return request settings](xref: ru-RU/user-guide/running/order-management/return-requests/index)
-* [Orders](xref: ru-RU/user-guide/running/order-management/orders/index)
-* [PDF settings](xref: ru-RU/user-guide/configuring/settingup/mainstore/pdf-settings)
+* [Return request settings](xref:ru-RU/user-guide/running/order-management/return-requests/index)
+* [Orders](xref:ru-RU/user-guide/running/order-management/orders/index)
+* [PDF settings](xref:ru-RU/user-guide/configuring/settingup/mainstore/pdf-settings)

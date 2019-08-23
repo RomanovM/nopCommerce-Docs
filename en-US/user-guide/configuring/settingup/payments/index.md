@@ -13,11 +13,11 @@ uid: en-US/user-guide/configuring/settingup/payments/index
 This chapter describes how to set up the payment methods, currency and Payment method Restrictions.
 
 > [!TIP]
-> How to install the payment (or any other) plugin is covered in [Plugins](xref: en-US/user-guide/configuring/system/plugins) chapter.
+> How to install the payment (or any other) plugin is covered in [Plugins](xref:en-US/user-guide/configuring/system/plugins) chapter.
 
 ## See also
 
-- [Payment Methods](xref: en-US/user-guide/configuring/settingup/payments/payment-methods)
-- [Payment statuses](xref: en-US/user-guide/configuring/settingup/payments/payment-statuses)
-- [Payment Method Restrictions](xref: en-US/user-guide/configuring/settingup/payments/payment-method-restrictions)
-- [Currencies](xref: en-US/user-guide/configuring/settingup/payments/currencies)
+- [Payment Methods](xref:en-US/user-guide/configuring/settingup/payments/payment-methods)
+- [Payment statuses](xref:en-US/user-guide/configuring/settingup/payments/payment-statuses)
+- [Payment Method Restrictions](xref:en-US/user-guide/configuring/settingup/payments/payment-method-restrictions)
+- [Currencies](xref:en-US/user-guide/configuring/settingup/payments/currencies)

@@ -12,7 +12,7 @@ To define payment methods go to **Configuration → Payment Methods.**
 
 > [!TIP] By default, there are several payment methods available in nopCommerce, but you can find needed more payment plugins in nopCommerce [Marketplace](https://www.nopcommerce.com/marketplace.aspx).
 
-For further details, refer to the [document](xref: bg-BG/developer/plugins/payment-method) (recommended to be used only by developers).
+For further details, refer to the [document](xref:bg-BG/developer/plugins/payment-method) (recommended to be used only by developers).
 
 ![methods](_static/index/methods.png)
 
@@ -29,8 +29,8 @@ Click **configure** beside a payment method to set it up.
 
 ## See also
 
-* [Square](xref: bg-BG/user-guide/configuring/settingup/payments/methods/square)
-* [Qualpay](xref: bg-BG/user-guide/configuring/settingup/payments/methods/qualpay)
-* [Manual Processing (Credit Card)](xref: bg-BG/user-guide/configuring/settingup/payments/methods/manual-processing)
-* [Purchase order](xref: bg-BG/user-guide/configuring/settingup/payments/methods/purchase-order)
-* [PayPal Standard](xref: bg-BG/user-guide/configuring/settingup/payments/methods/paypal-standard)
+* [Square](xref:bg-BG/user-guide/configuring/settingup/payments/methods/square)
+* [Qualpay](xref:bg-BG/user-guide/configuring/settingup/payments/methods/qualpay)
+* [Manual Processing (Credit Card)](xref:bg-BG/user-guide/configuring/settingup/payments/methods/manual-processing)
+* [Purchase order](xref:bg-BG/user-guide/configuring/settingup/payments/methods/purchase-order)
+* [PayPal Standard](xref:bg-BG/user-guide/configuring/settingup/payments/methods/paypal-standard)

@@ -12,8 +12,8 @@ In case you have questions that are not covered in this guide, please refer to o
 
 ## See also
 
-* [Getting started](xref: bg-BG/user-guide/getting-started)
-* [Installing nopCommerce](xref: bg-BG/user-guide/installing/index)
-* [Configuring your store](xref: bg-BG/user-guide/configuring/index)
-* [Running your store](xref: bg-BG/user-guide/running/index)
-* [Marketing your store](xref: bg-BG/user-guide/marketing/index)
+* [Getting started](xref:bg-BG/user-guide/getting-started)
+* [Installing nopCommerce](xref:bg-BG/user-guide/installing/index)
+* [Configuring your store](xref:bg-BG/user-guide/configuring/index)
+* [Running your store](xref:bg-BG/user-guide/running/index)
+* [Marketing your store](xref:bg-BG/user-guide/marketing/index)

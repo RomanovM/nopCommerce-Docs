@@ -77,5 +77,5 @@ Click **Save.** The new attribute will be displayed in the public store.
 
 ## See also
 
-* [Vendors](xref: bg-BG/user-guide/configuring/settingup/customers/vendors/index)
-* [Setting up Customers](xref: bg-BG/user-guide/configuring/settingup/customers/index)
+* [Vendors](xref:bg-BG/user-guide/configuring/settingup/customers/vendors/index)
+* [Setting up Customers](xref:bg-BG/user-guide/configuring/settingup/customers/index)

@@ -67,4 +67,4 @@ To set up SEO for Topics go to **SEO tab**
 
 ## See also
 
-- [SEO](xref: bg-BG/user-guide/marketing/content/seo)
+- [SEO](xref:bg-BG/user-guide/marketing/content/seo)

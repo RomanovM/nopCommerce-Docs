@@ -23,4 +23,4 @@ Define the **following details**:
 
 ## See also
 
-- [Orders](xref: bg-BG/user-guide/running/order-management/orders/index)
+- [Orders](xref:bg-BG/user-guide/running/order-management/orders/index)

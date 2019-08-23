@@ -43,5 +43,5 @@ Edit **message details as follows**:
 ## See also
 
 - [Video Tutorial on conditions in message templates](https://www.youtube.com/watch?v=5chrb1yH1v4&feature=youtu.be)
-- [Email accounts](xref: bg-BG/user-guide/configuring/system/email-accounts)
-- [Languages](xref: bg-BG/user-guide/configuring/settingup/mainstore/languages)
+- [Email accounts](xref:bg-BG/user-guide/configuring/system/email-accounts)
+- [Languages](xref:bg-BG/user-guide/configuring/settingup/mainstore/languages)
