@@ -1,9 +1,9 @@
 ---
 title: FAQs
 author: AndreiMaz
-uid: developer-faqs
+uid: en-US/developer-faqs
 ---
 
 # FAQs
 
-All Users and Developers FAQs are [here](xref: user-guide/installing/faq.md)
+All Users and Developers FAQs are [here](xref: en-US/user-guide/installing/faq)
