@@ -14,7 +14,7 @@ Customers can have different rights and access certain administrative zones of a
 
 ## See also
 
-- [Customer settings](xref: user-guide/configuring/settingup/customers/settings)
-- [Customer roles](xref: user-guide/configuring/settingup/customers/customer-roles)
-- [Access Control List](xref: user-guide/configuring/settingup/customers/acl)
-- [Vendors](xref: user-guide/configuring/settingup/customers/vendors/index)
+- [Customer settings](xref: user-guide/configuring/settingup/customers/settings.md)
+- [Customer roles](xref: user-guide/configuring/settingup/customers/customer-roles.md)
+- [Access Control List](xref: user-guide/configuring/settingup/customers/acl.md)
+- [Vendors](xref: user-guide/configuring/settingup/customers/vendors/index.md)
