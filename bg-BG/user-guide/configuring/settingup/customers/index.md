@@ -1,7 +1,7 @@
 ---
 title: Setting up Customers
 author: AndreiMaz
-uid: user-guide/configuring/settingup/customers/index
+uid: en-US/user-guide/configuring/settingup/customers/index
 ---
 
 # Setting up Customers
@@ -14,7 +14,7 @@ Customers can have different rights and access certain administrative zones of a
 
 ## See also
 
-- [Customer settings](xref: user-guide/configuring/settingup/customers/settings.md)
-- [Customer roles](xref: user-guide/configuring/settingup/customers/customer-roles.md)
-- [Access Control List](xref: user-guide/configuring/settingup/customers/acl.md)
-- [Vendors](xref: user-guide/configuring/settingup/customers/vendors/index.md)
+- [Customer settings](xref: en-US/user-guide/configuring/settingup/customers/settings)
+- [Customer roles](xref: en-US/user-guide/configuring/settingup/customers/customer-roles)
+- [Access Control List](xref: en-US/user-guide/configuring/settingup/customers/acl)
+- [Vendors](xref: en-US/user-guide/configuring/settingup/customers/vendors/index)
