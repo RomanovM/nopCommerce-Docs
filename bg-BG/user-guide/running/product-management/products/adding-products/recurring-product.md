@@ -1,7 +1,7 @@
 ---
 title: Recurring product
 author: AndreiMaz
-uid: en-US/user-guide/running/product-management/products/adding-products/recurring-products
+uid: user-guide/running/product-management/products/adding-products/recurring-products
 ---
 
 # Recurring product
@@ -22,4 +22,4 @@ You can define a **recurring cycle** to any product in order to enable the syste
 
 ## See also
 
-- [Payment Methods](xref:en-US/user-guide/configuring/settingup/payments/payment-methods)
+- [Payment Methods](xref: user-guide/configuring/settingup/payments/payment-methods)
