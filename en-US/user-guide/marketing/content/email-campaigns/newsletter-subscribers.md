@@ -29,4 +29,4 @@ On the **Newsletter subscribers page** you can find certain subscribers using fo
 
 ## See also
 
-- [Campaigns](xref: user-guide/marketing/content/email-campaigns/all-campaigns.md)
+- [Campaigns](xref: user-guide/marketing/content/email-campaigns/all-campaigns)

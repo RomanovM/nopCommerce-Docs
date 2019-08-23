@@ -12,8 +12,8 @@ In case you have questions that are not covered in this guide, please refer to o
 
 ## See also
 
-* [Начать](xref:user-guide/getting-started.md)
-* [Установка nopCommerce](xref:user-guide/installing/index.md)
-* [Configuring your store](xref:user-guide/configuring/index.md)
-* [Running your store](xref:user-guide/running/index.md)
-* [Marketing your store](xref:user-guide/marketing/index.md)
+* [Начать](xref:user-guide/getting-started)
+* [Установка nopCommerce](xref:user-guide/installing/index)
+* [Configuring your store](xref:user-guide/configuring/index)
+* [Running your store](xref:user-guide/running/index)
+* [Marketing your store](xref:user-guide/marketing/index)

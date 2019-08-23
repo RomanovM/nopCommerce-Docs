@@ -27,5 +27,5 @@ This page enables **multi-store configuration**, it means that the same settings
 
 ## See also
 
-- [Basic and Advanced modes](xref: user-guide/configuring/nopcommerce-interface.md)
-- [Blog](xref: user-guide/marketing/content/blog/index.md)
+- [Basic and Advanced modes](xref: user-guide/configuring/nopcommerce-interface)
+- [Blog](xref: user-guide/marketing/content/blog/index)

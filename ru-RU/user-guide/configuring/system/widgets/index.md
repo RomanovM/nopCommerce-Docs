@@ -14,5 +14,5 @@ A widget (or control) is an element of a graphical user interface (GUI) that dis
 
 ## See also
 
-* [Google Analytics Plugin](xref:user-guide/configuring/system/widgets/google-analytics.md)
-* [Nivo Slider Widget Plugin](xref:user-guide/configuring/system/widgets/nivo-slider.md)
+* [Google Analytics Plugin](xref:user-guide/configuring/system/widgets/google-analytics)
+* [Nivo Slider Widget Plugin](xref:user-guide/configuring/system/widgets/nivo-slider)

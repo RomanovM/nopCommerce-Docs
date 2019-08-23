@@ -87,5 +87,5 @@ You can **Export the categories settings** to an external file for backup purpos
 
 ## See also
 
-- [Adding products](xref:user-guide/running/product-management/products/adding-products/index.md)
-- [SEO](xref:user-guide/marketing/content/seo.md)
+- [Adding products](xref:user-guide/running/product-management/products/adding-products/index)
+- [SEO](xref:user-guide/marketing/content/seo)
