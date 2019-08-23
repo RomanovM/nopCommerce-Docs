@@ -1,7 +1,7 @@
 ---
 title: Online Customers
 author: AndreiMaz
-uid: user-guide/running/customer-management/online-customers
+uid: ru-RU/user-guide/running/customer-management/online-customers
 ---
 
 # Online Customers

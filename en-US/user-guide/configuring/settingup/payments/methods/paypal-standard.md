@@ -1,7 +1,7 @@
 ---
 title: Manual Processing (Credit Card)
 author: AndreiMaz
-uid: user-guide/configuring/settingup/payments/methods/paypal-standard
+uid: en-US/user-guide/configuring/settingup/payments/methods/paypal-standard
 ---
 # PayPal Standard
 

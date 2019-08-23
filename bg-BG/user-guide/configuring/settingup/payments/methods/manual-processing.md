@@ -1,7 +1,7 @@
 ---
 title: Manual Processing (Credit Card)
 author: AndreiMaz
-uid: user-guide/configuring/settingup/payments/methods/manual-processing
+uid: bg-BG/user-guide/configuring/settingup/payments/methods/manual-processing
 ---
 
 # Manual Processing (Credit Card)

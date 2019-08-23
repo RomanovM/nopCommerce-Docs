@@ -1,7 +1,7 @@
 ---
 title: Blog
 author: AndreiMaz
-uid: user-guide/marketing/content/blog/index
+uid: en-US/user-guide/marketing/content/blog/index
 ---
 # Blog
 
@@ -63,4 +63,4 @@ Here you can **delete** a blog comment, it will then be removed from the system.
 ## See also
 
 - [Managing blog tutorial](https://www.youtube.com/watch?v=wKMKUF7VfW0&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4&index=12)
-- [Blog settings](xref: user-guide/marketing/content/blog/blog-settings)
+- [Blog settings](xref: en-US/user-guide/marketing/content/blog/blog-settings)

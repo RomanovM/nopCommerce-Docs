@@ -1,7 +1,7 @@
 ---
 title: Docker
 author: AndreiMaz
-uid: developer/tutorials/docker
+uid: ru-RU/developer/tutorials/docker
 ---
 
 # Docker

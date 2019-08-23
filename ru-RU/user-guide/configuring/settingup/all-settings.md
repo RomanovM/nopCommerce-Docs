@@ -1,7 +1,7 @@
 ---
 title: All Settings (advanced)
 author: AndreiMaz
-uid: user-guide/configuring/setting-up/all-settings
+uid: ru-RU/user-guide/configuring/setting-up/all-settings
 ---
 
 # All Settings (advanced)

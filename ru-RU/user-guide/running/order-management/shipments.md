@@ -1,7 +1,7 @@
 ---
 title: Shipments
 author: AndreiMaz
-uid: user-guide/running/order-management/shipments
+uid: ru-RU/user-guide/running/order-management/shipments
 ---
 
 # Shipments
@@ -41,6 +41,6 @@ In this window you can:
 
 ## See also
 
-* [Setting up Shipping](xref:user-guide/configuring/settingup/shipping/index)
-* [Orders](xref:user-guide/running/order-management/orders/index)
-* [Adding products](xref:user-guide/running/product-management/products/adding-products/index)
+* [Setting up Shipping](xref: ru-RU/user-guide/configuring/settingup/shipping/index)
+* [Orders](xref: ru-RU/user-guide/running/order-management/orders/index)
+* [Adding products](xref: ru-RU/user-guide/running/product-management/products/adding-products/index)

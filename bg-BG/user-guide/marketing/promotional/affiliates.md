@@ -1,7 +1,7 @@
 ---
 title: Affiliates
 author: AndreiMaz
-uid: user-guide/marketing/promotional/affiliates
+uid: bg-BG/user-guide/marketing/promotional/affiliates
 ---
 
 # Affiliates

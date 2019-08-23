@@ -1,7 +1,7 @@
 ---
 title: Avalara tax provider
 author: AndreiMaz
-uid: user-guide/configuring/settingup/taxes/tax/methods/avalara
+uid: ru-RU/user-guide/configuring/settingup/taxes/tax/methods/avalara
 ---
 
 # Avalara tax provider

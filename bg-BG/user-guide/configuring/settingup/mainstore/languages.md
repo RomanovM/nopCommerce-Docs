@@ -1,7 +1,7 @@
 ---
 title: Languages
 author: AndreiMaz
-uid: user-guide/configuring/settingup/mainstore/languages
+uid: bg-BG/user-guide/configuring/settingup/mainstore/languages
 ---
 
 # Languages

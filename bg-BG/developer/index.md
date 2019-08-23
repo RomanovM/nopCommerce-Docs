@@ -1,15 +1,15 @@
 ---
 title: Developers guide
 author: AndreiMaz
-uid: developer-documentation
+uid: bg-BG/developer-documentation
 ---
 
 # Developers guide
 
 The nopCommerce developer documentation is here to help you through the process of nopCommerce customization. Here you will several sections:
 
-* [Developer tutorials](xref:developer/tutorials)
-* [Creating a nopCommerce plugin](xref:developer/plugins/index)
-* [Designer's Guide](xref:developer/design/index)
-* [Copyright notice](xref:developer/copyright-notice)
-* [FAQs](xref:developer-faqs)
+* [Developer tutorials](xref: bg-BG/developer/tutorials)
+* [Creating a nopCommerce plugin](xref: bg-BG/developer/plugins/index)
+* [Designer's Guide](xref: bg-BG/developer/design/index)
+* [Copyright notice](xref: bg-BG/developer/copyright-notice)
+* [FAQs](xref: bg-BG/developer-faqs)

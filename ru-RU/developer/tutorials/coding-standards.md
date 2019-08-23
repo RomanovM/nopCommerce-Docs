@@ -1,7 +1,7 @@
 ---
 title: Coding Standards
 author: AndreiMaz
-uid: developer/tutorials/coding-standards
+uid: ru-RU/developer/tutorials/coding-standards
 ---
 
 # Coding Standards

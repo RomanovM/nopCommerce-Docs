@@ -1,7 +1,7 @@
 ---
 title: Message Queue
 author: AndreiMaz
-uid: user-guide/configuring/system/message-queue
+uid: ru-RU/user-guide/configuring/system/message-queue
 ---
 
 # Message Queue

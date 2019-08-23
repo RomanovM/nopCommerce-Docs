@@ -1,7 +1,7 @@
 ---
 title: Help
 author: AndreiMaz
-uid: user-guide/installing/help
+uid: bg-BG/user-guide/installing/help
 ---
 
 # Help

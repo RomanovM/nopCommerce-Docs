@@ -1,7 +1,7 @@
 ---
 title: Payment statuses
 author: AndreiMaz
-uid: user-guide/configuring/settingup/payments/payment-statuses
+uid: bg-BG/user-guide/configuring/settingup/payments/payment-statuses
 ---
 
 # Payment statuses

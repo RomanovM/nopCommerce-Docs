@@ -1,7 +1,7 @@
 ---
 title: Shipping Settings
 author: AndreiMaz
-uid: user-guide/configuring/settingup/shipping/settings
+uid: bg-BG/user-guide/configuring/settingup/shipping/settings
 ---
 
 # Shipping Settings

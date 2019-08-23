@@ -1,7 +1,7 @@
 ---
 title: Configuring code style
 author: AndreiMaz
-uid: developer/tutorials/code-style
+uid: bg-BG/developer/tutorials/code-style
 ---
 
 # Configuring code style

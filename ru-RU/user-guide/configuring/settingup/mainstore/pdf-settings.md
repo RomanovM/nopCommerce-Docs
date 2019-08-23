@@ -1,7 +1,7 @@
 ---
 title: PDF settings
 author: AndreiMaz
-uid: user-guide/configuring/settingup/mainstore/pdf-settings
+uid: ru-RU/user-guide/configuring/settingup/mainstore/pdf-settings
 ---
 
 # PDF settings

@@ -1,7 +1,7 @@
 ---
 title: Google Analytics Plugin
 author: AndreiMaz
-uid: user-guide/configuring/system/widgets/google-analytics
+uid: bg-BG/user-guide/configuring/system/widgets/google-analytics
 ---
 
 # Google Analytics Plugin

@@ -1,7 +1,7 @@
 ---
 title: Downloadable product
 author: AndreiMaz
-uid: user-guide/running/product-management/products/adding-products/downloadable-products
+uid: en-US/user-guide/running/product-management/products/adding-products/downloadable-products
 ---
 # Downloadable product
 
@@ -22,4 +22,4 @@ Define the **following details**:
 
 ## See also
 
-- [Orders](xref: user-guide/running/order-management/orders/index)
+- [Orders](xref: en-US/user-guide/running/order-management/orders/index)

@@ -1,7 +1,7 @@
 ---
 title: Shipping Method Restrictions (Fixed Rate Shipping)
 author: AndreiMaz
-uid: user-guide/configuring/settingup/shipping/providers/manual/fixed-rate-restrictions
+uid: ru-RU/user-guide/configuring/settingup/shipping/providers/manual/fixed-rate-restrictions
 ---
 
 # Shipping Method Restrictions (Fixed Rate Shipping)

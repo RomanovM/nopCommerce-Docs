@@ -1,7 +1,7 @@
 ---
 title: Activity Log
 author: AndreiMaz
-uid: user-guide/running/customer-management/activity-log
+uid: bg-BG/user-guide/running/customer-management/activity-log
 ---
 
 # Activity Log

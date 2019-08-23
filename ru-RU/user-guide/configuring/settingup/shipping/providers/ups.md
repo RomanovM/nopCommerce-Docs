@@ -1,7 +1,7 @@
 ---
 title: UPS
 author: AndreiMaz
-uid: user-guide/configuring/settingup/shipping/providers/ups
+uid: ru-RU/user-guide/configuring/settingup/shipping/providers/ups
 ---
 
 # UPS

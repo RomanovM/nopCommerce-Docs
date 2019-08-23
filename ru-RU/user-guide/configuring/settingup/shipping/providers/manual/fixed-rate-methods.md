@@ -1,7 +1,7 @@
 ---
 title: Shipping Methods (Fixed Rate Shipping)
 author: AndreiMaz
-uid: user-guide/configuring/settingup/shipping/providers/manual/fixed-rate-methods
+uid: ru-RU/user-guide/configuring/settingup/shipping/providers/manual/fixed-rate-methods
 ---
 
 # Shipping Methods (Fixed Rate Shipping)

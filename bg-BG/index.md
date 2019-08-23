@@ -1,7 +1,7 @@
 ---
 title: nopCommerce Documentation
 author: AndreiMaz
-uid: index
+uid: bg-BG/index
 ---
 # nopCommerce Документиране
 
@@ -10,5 +10,5 @@ nopCommerce is an open source ecommerce software that contains both a catalog fr
 The nopCommerce documentation is here to help you through the process of setting up your store. These will allow you to up-and-run your site quickly.
 
 ## Table of content
-* [User guide](xref:user-guide)
-* [Developers guide](xref:developer-documentation)
+* [User guide](xref: bg-BG/user-guide)
+* [Developers guide](xref: bg-BG/developer-documentation)

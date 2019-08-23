@@ -1,7 +1,7 @@
 ---
 title: Installing a theme
 author: AndreiMaz
-uid: user-guide/configuring/design/installing-theme
+uid: ru-RU/user-guide/configuring/design/installing-theme
 ---
 
 # Installing a theme

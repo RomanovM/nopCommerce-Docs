@@ -1,7 +1,7 @@
 ---
 title: Logs
 author: AndreiMaz
-uid: user-guide/configuring/system/log
+uid: bg-BG/user-guide/configuring/system/log
 ---
 
 # Logs

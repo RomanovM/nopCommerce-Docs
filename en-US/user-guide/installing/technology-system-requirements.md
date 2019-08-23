@@ -1,7 +1,7 @@
 ---
 title: Technology & System Requirements
 author: AndreiMaz
-uid: user-guide/installing/technology-system-requirements
+uid: en-US/user-guide/installing/technology-system-requirements
 ---
 # Technology & System Requirements
 

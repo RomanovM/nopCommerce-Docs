@@ -1,7 +1,7 @@
 ---
 title: Shipping Methods (Shipping by Weight and By Total)
 author: AndreiMaz
-uid: user-guide/configuring/settingup/shipping/providers/manual/methods
+uid: bg-BG/user-guide/configuring/settingup/shipping/providers/manual/methods
 ---
 
 # Shipping Methods (Shipping by Weight and By Total)

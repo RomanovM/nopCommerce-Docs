@@ -1,7 +1,7 @@
 ---
 title: Responsive Design
 author: AndreiMaz
-uid: developer/design/responsive
+uid: bg-BG/developer/design/responsive
 ---
 
 # Responsive Design

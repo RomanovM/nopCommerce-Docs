@@ -1,7 +1,7 @@
 ---
 title: Rental product
 author: AndreiMaz
-uid: user-guide/running/product-management/products/adding-products/rental-products
+uid: bg-BG/user-guide/running/product-management/products/adding-products/rental-products
 ---
 
 # Rental product

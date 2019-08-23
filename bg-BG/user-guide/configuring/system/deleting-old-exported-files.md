@@ -1,7 +1,7 @@
 ---
 title: Deleting Old Exported Files
 author: AndreiMaz
-uid: user-guide/configuring/system/deleting-old-exported-files
+uid: bg-BG/user-guide/configuring/system/deleting-old-exported-files
 ---
 
 # Deleting Old Exported Files

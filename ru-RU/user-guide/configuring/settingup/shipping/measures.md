@@ -1,7 +1,7 @@
 ---
 title: Measures
 author: AndreiMaz
-uid: user-guide/configuring/settingup/shipping/measures
+uid: ru-RU/user-guide/configuring/settingup/shipping/measures
 ---
 
 # Measures

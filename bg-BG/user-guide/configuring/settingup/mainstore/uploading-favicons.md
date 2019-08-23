@@ -1,7 +1,7 @@
 ---
 title: Uploading favicons
 author: RomanovM
-uid: user-guide/configuring/settingup/mainstore/uploading-favicons
+uid: bg-BG/user-guide/configuring/settingup/mainstore/uploading-favicons
 ---
 
 # Uploading favicons

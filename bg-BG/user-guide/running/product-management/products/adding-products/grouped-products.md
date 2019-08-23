@@ -1,7 +1,7 @@
 ---
 title: Grouped product
 author: AndreiMaz
-uid: user-guide/running/product-management/products/adding-products/grouped-products
+uid: bg-BG/user-guide/running/product-management/products/adding-products/grouped-products
 ---
 
 # Grouped product

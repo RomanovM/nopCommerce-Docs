@@ -1,7 +1,7 @@
 ---
 title: Хостинг провайдеры
 author: RomanovM
-uid: ru-RU/user-guide/installing/installation-guide/hosting-provider
+uid: ru-RU/ru-RU/user-guide/installing/installation-guide/hosting-provider
 ---
 
 # Хостинг провайдеры

@@ -1,7 +1,7 @@
 ---
 title: Help
 author: AndreiMaz
-uid: user-guide/installing/help
+uid: en-US/user-guide/installing/help
 ---
 # Help
 

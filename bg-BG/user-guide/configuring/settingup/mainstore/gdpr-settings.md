@@ -1,7 +1,7 @@
 ---
 title: GDPR settings
 author: AndreiMaz
-uid: user-guide/configuring/settingup/mainstore/gdpr-settings
+uid: bg-BG/user-guide/configuring/settingup/mainstore/gdpr-settings
 ---
 
 # GDPR settings

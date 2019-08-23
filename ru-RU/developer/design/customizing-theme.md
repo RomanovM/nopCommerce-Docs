@@ -1,7 +1,7 @@
 ---
 title: Customizing nopCommerce Themes
 author: AndreiMaz
-uid: developer/design/customizing-theme
+uid: ru-RU/developer/design/customizing-theme
 ---
 
 # Customizing nopCommerce Themes

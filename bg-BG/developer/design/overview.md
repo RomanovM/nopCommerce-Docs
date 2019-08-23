@@ -1,7 +1,7 @@
 ---
 title: Overview (Designer's Guide)
 author: AndreiMaz
-uid: developer/design/overview
+uid: bg-BG/developer/design/overview
 ---
 
 # Overview (Designer's Guide)

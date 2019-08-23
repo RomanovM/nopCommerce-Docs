@@ -1,7 +1,7 @@
 ---
 title: System Administration
 author: AndreiMaz
-uid: user-guide/configuring/system/index
+uid: bg-BG/user-guide/configuring/system/index
 ---
 
 # System Administration
@@ -12,16 +12,16 @@ This chapter concentrates more on the back-end, the front-end is covered in chap
 
 ## See also
 
-* [Plugins](xref:user-guide/configuring/system/plugins)
-* [Email accounts](xref:user-guide/configuring/system/email-accounts)
-* [Widgets](xref:user-guide/configuring/system/widgets/index)
-* [Localization](xref:user-guide/configuring/system/localization)
-* [External Authentication Method](xref:user-guide/configuring/system/external-authentication-method/index)
-* [Message Queue](xref:user-guide/configuring/system/message-queue)
-* [Schedule Tasks](xref:user-guide/configuring/system/schedule-tasks)
-* [System Information](xref:user-guide/configuring/system/system-information)
-* [Deleting Old Exported Files](xref:user-guide/configuring/system/deleting-old-exported-files)
-* [Deleting Abandoned Shopping Carts](xref:user-guide/configuring/system/deleting-abandoned-shopping-carts)
-* [Deleting Guests](xref:user-guide/configuring/system/deleting-guests)
-* [Warnings](xref:user-guide/configuring/system/warnings)
-* [Logs](xref:user-guide/configuring/system/log)
+* [Plugins](xref: bg-BG/user-guide/configuring/system/plugins)
+* [Email accounts](xref: bg-BG/user-guide/configuring/system/email-accounts)
+* [Widgets](xref: bg-BG/user-guide/configuring/system/widgets/index)
+* [Localization](xref: bg-BG/user-guide/configuring/system/localization)
+* [External Authentication Method](xref: bg-BG/user-guide/configuring/system/external-authentication-method/index)
+* [Message Queue](xref: bg-BG/user-guide/configuring/system/message-queue)
+* [Schedule Tasks](xref: bg-BG/user-guide/configuring/system/schedule-tasks)
+* [System Information](xref: bg-BG/user-guide/configuring/system/system-information)
+* [Deleting Old Exported Files](xref: bg-BG/user-guide/configuring/system/deleting-old-exported-files)
+* [Deleting Abandoned Shopping Carts](xref: bg-BG/user-guide/configuring/system/deleting-abandoned-shopping-carts)
+* [Deleting Guests](xref: bg-BG/user-guide/configuring/system/deleting-guests)
+* [Warnings](xref: bg-BG/user-guide/configuring/system/warnings)
+* [Logs](xref: bg-BG/user-guide/configuring/system/log)

@@ -1,7 +1,7 @@
 ---
 title: Square
 author: AndreiMaz
-uid: user-guide/configuring/settingup/payments/methods/square
+uid: ru-RU/user-guide/configuring/settingup/payments/methods/square
 ---
 
 # Square

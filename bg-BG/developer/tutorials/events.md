@@ -1,7 +1,7 @@
 ---
 title: Exposing and Handling Events
 author: AndreiMaz
-uid: developer/tutorials/events
+uid: bg-BG/developer/tutorials/events
 ---
 
 # Exposing and Handling Events

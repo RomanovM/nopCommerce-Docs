@@ -1,7 +1,7 @@
 ---
 title: Setting up Payments
 author: AndreiMaz
-uid: user-guide/configuring/settingup/payments/index
+uid: bg-BG/user-guide/configuring/settingup/payments/index
 ---
 
 # Setting up Payments
@@ -12,11 +12,11 @@ uid: user-guide/configuring/settingup/payments/index
 
 This chapter describes how to set up the payment methods, currency and Payment method Restrictions.
 
-> [!TIP] How to install the payment (or any other) plugin is covered in [Plugins](xref:user-guide/configuring/system/plugins) chapter.
+> [!TIP] How to install the payment (or any other) plugin is covered in [Plugins](xref: bg-BG/user-guide/configuring/system/plugins) chapter.
 
 ## See also
 
-- [Payment Methods](xref:user-guide/configuring/settingup/payments/payment-methods)
-- [Payment statuses](xref:user-guide/configuring/settingup/payments/payment-statuses)
-- [Payment Method Restrictions](xref:user-guide/configuring/settingup/payments/payment-method-restrictions)
-- [Currencies](xref:user-guide/configuring/settingup/payments/currencies)
+- [Payment Methods](xref: bg-BG/user-guide/configuring/settingup/payments/payment-methods)
+- [Payment statuses](xref: bg-BG/user-guide/configuring/settingup/payments/payment-statuses)
+- [Payment Method Restrictions](xref: bg-BG/user-guide/configuring/settingup/payments/payment-method-restrictions)
+- [Currencies](xref: bg-BG/user-guide/configuring/settingup/payments/currencies)

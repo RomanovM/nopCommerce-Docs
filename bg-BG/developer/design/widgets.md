@@ -1,7 +1,7 @@
 ---
 title: Widgets (Designer's Guide)
 author: AndreiMaz
-uid: developer/design/widgets
+uid: bg-BG/developer/design/widgets
 ---
 
 # Widgets (Designer's Guide)
