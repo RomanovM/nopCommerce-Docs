@@ -92,7 +92,7 @@ On a new Azure VM, default security rules prevent executables from being downloa
 
 1. Launch Internet Explorer.
 2. Accept default security settings.
-3. [Download](https://www.microsoft.com/en-us/download/details.aspx?id=43717) *WebDeploy_amd64_en-US.msi*
+3. [Download](https://www.microsoft.com/download/details.aspx?id=43717) *WebDeploy_amd64_en-US.msi*
 4. Follow installation steps for Web Deploy
 5. Choose Complete option to install all components
 
@@ -148,7 +148,7 @@ You have now published your web app to an Azure virtual machine.
 
 ## Potential problems and solutions
 
-To [more](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-2.0) accurately understand what the problem is, you need to enable logging - enabled stdoutLog in web.config:
+To [more](https://docs.microsoft.com/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-2.0) accurately understand what the problem is, you need to enable logging - enabled stdoutLog in web.config:
 
 ```sh
 stdoutLogEnabled="true" stdoutLogFile=".\logs\stdout"
