@@ -67,6 +67,6 @@ To tie a certain store to a country in the **Limited to stores** field of the Co
 
 ![countries4](_static/countries/countries4.png)
 
-> [!NOTE] This list is used only when you have several stores configured. For further details refer to [Stores](xref:user-guide/configuring/settingup/mainstore/multiple-store).
+> [!NOTE] This list is used only when you have several stores configured. For further details refer to [Stores](xref:user-guide/configuring/settingup/mainstore/multiple-store.md).
 
 Click **Save**

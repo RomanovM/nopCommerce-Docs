@@ -23,5 +23,5 @@ This page enables **multi-store configuration**, it means that the same settings
 
 ## See also
 
-* [Return Requests](xref:user-guide/running/order-management/return-requests/index)
-* [Order Settings](xref:user-guide/running/order-management/orders/order-settings)
+* [Return Requests](xref:user-guide/running/order-management/return-requests/index.md)
+* [Order Settings](xref:user-guide/running/order-management/orders/order-settings.md)

@@ -2,7 +2,7 @@
   href: /
   topicHref: index.md
 - name: User guide
-  href: index.md
+  href: user-guide/index.md
   items:
     - name: Getting started
       href: user-guide/getting-started.md
@@ -317,7 +317,7 @@
             - name: SEO
               href: user-guide/marketing/content/seo.md
 - name: Developer guide
-  href: developer-documentation.md
+  href: developer/index.md
   items:
     - name: Developer tutorials
       href: developer/tutorials.md

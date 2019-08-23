@@ -22,4 +22,4 @@ You can define a **recurring cycle** to any product in order to enable the syste
 
 ## See also
 
-- [Payment Methods](xref:user-guide/configuring/settingup/payments/payment-methods)
+- [Payment Methods](xref:user-guide/configuring/settingup/payments/payment-methods.md)

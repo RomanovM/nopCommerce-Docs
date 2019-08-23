@@ -40,6 +40,6 @@ In this window you can:
 
 ## See also
 
-* [Setting up Shipping](xref: user-guide/configuring/settingup/shipping/index)
-* [Orders](xref: user-guide/running/order-management/orders/index)
-* [Adding products](xref: user-guide/running/product-management/products/adding-products/index)
+* [Setting up Shipping](xref: user-guide/configuring/settingup/shipping/index.md)
+* [Orders](xref: user-guide/running/order-management/orders/index.md)
+* [Adding products](xref: user-guide/running/product-management/products/adding-products/index.md)
