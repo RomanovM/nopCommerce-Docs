@@ -34,7 +34,7 @@
         - name: nopCommerce Interface
           href: user-guide/configuring/nopcommerce-interface.md
         - name: Setting up your store
-          href: user-guide/configuring/setting-up/index            .md
+          href: user-guide/configuring/setting-up/index.md            
           items:
             - name: Setting up Main Store
               href: user-guide/configuring/settingup/mainstore/index.md
@@ -76,7 +76,7 @@
                 - name: Currencies
                   href: user-guide/configuring/settingup/payments/currencies.md
             - name: Setting up Tax
-              href: user-guide/configuring/setting-up/taxes/index            .md
+              href: user-guide/configuring/setting-up/taxes/index.md            
               items:
                 - name: Tax Settings
                   href: user-guide/configuring/setting-up/taxes/tax-settings.md
@@ -135,7 +135,7 @@
             - name: All Settings (advanced)
               href: user-guide/configuring/setting-up/all-settings.md
         - name: System Administration
-          href: user-guide/configuring/system/index          .md
+          href: user-guide/configuring/system/index.md          
           items:
             - name: Plugins
               href: user-guide/configuring/system/plugins.md
@@ -172,7 +172,7 @@
             - name: Log
               href: user-guide/configuring/system/log.md
         - name: Design
-          href: user-guide/configuring/design/index          .md
+          href: user-guide/configuring/design/index.md          
           items:
             - name: Installing a theme
               href: user-guide/configuring/design/installing-theme.md
@@ -196,7 +196,7 @@
                 - name: Specification attributes
                   href: user-guide/running/product-management/attributes/specification-attributes.md
                 - name: Checkout attributes
-                  href: user-guide/running/product-management/attributes/checkout-attributes  .md
+                  href: user-guide/running/product-management/attributes/checkout-attributes.md  
             - name: Products
               href: user-guide/running/product-management/products/index.md
               items:

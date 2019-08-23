@@ -37,13 +37,10 @@
     "postProcessors": [ "ExtractSearchIndex" ],
     "overwrite": [],
     "externalReference": [],
-    "xref": [
-      "xrefmap.yml"
-    ],
     "xrefService": [
       "https://xref.docs.microsoft.com/query?uid={uid}"
     ],
-    "globalMetadata": {      
+    "globalMetadata": {
       "_navPath": "/",
       "_navRel": "/",
       "_appLogoPath": "/logo.png",
