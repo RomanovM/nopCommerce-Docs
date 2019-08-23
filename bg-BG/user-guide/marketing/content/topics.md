@@ -1,7 +1,7 @@
 ---
 title: Topics (pages)
 author: AndreiMaz
-uid: en-US/user-guide/marketing/content/topics
+uid: user-guide/marketing/content/topics
 ---
 
 # Topics (pages)
@@ -67,4 +67,4 @@ To set up SEO for Topics go to **SEO tab**
 
 ## See also
 
-- [SEO](xref:en-US/user-guide/marketing/content/seo)
+- [SEO](xref: user-guide/marketing/content/seo)
