@@ -1,7 +1,7 @@
 ---
 title: Working with source code and contributions
 author: AndreiMaz
-uid: developer/contribute/source-code
+uid: en-US/developer/contribute/source-code
 ---
 
 # Working with source code and contributions
