@@ -1,7 +1,7 @@
 ---
 title: Payment statuses
 author: AndreiMaz
-uid: en-US/user-guide/configuring/settingup/payments/payment-statuses
+uid: user-guide/configuring/settingup/payments/payment-statuses
 ---
 
 # Payment statuses

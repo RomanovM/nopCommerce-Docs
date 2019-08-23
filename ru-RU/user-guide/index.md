@@ -1,7 +1,7 @@
 ---
 title: User guide
 author: AndreiMaz
-uid: en-US/user-guide
+uid: user-guide
 ---
 
 # Руководство пользователя
@@ -12,8 +12,8 @@ In case you have questions that are not covered in this guide, please refer to o
 
 ## See also
 
-* [Начать](xref:en-US/user-guide/getting-started)
-* [Установка nopCommerce](xref:en-US/user-guide/installing/index)
-* [Configuring your store](xref:en-US/user-guide/configuring/index)
-* [Running your store](xref:en-US/user-guide/running/index)
-* [Marketing your store](xref:en-US/user-guide/marketing/index)
+* [Начать](xref:user-guide/getting-started)
+* [Установка nopCommerce](xref:user-guide/installing/index)
+* [Configuring your store](xref:user-guide/configuring/index)
+* [Running your store](xref:user-guide/running/index)
+* [Marketing your store](xref:user-guide/marketing/index)

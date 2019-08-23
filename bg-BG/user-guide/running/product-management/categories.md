@@ -1,7 +1,7 @@
 ---
 title: Categories
 author: AndreiMaz
-uid: en-US/user-guide/running/product-management/categories
+uid: user-guide/running/product-management/categories
 ---
 
 # Categories
@@ -87,5 +87,5 @@ You can **Export the categories settings** to an external file for backup purpos
 
 ## See also
 
-- [Adding products](xref:en-US/user-guide/running/product-management/products/adding-products/index)
-- [SEO](xref:en-US/user-guide/marketing/content/seo)
+- [Adding products](xref:user-guide/running/product-management/products/adding-products/index)
+- [SEO](xref:user-guide/marketing/content/seo)

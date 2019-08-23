@@ -1,7 +1,7 @@
 ---
 title: Scheduled Tasks
 author: AndreiMaz
-uid: en-US/developer/tutorials/scheduled-tasks
+uid: developer/tutorials/scheduled-tasks
 ---
 
 # Scheduled Tasks
