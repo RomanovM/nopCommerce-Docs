@@ -1,7 +1,7 @@
 ---
 title: Payment Methods
 author: AndreiMaz
-uid: en-US/user-guide/configuring/settingup/payments/payment-methods
+uid: user-guide/configuring/settingup/payments/payment-methods
 ---
 # Payment Methods
 
@@ -12,7 +12,7 @@ To define payment methods go to **Configuration →  Payment Methods.**
 > [!TIP]
 > By default, there are several payment methods available in nopCommerce, but you can find needed more payment plugins in nopCommerce [Marketplace](https://www.nopcommerce.com/marketplace.aspx).
 
-For further details, refer to the [document](xref:en-US/developer/plugins/payment-method) (recommended to be used only by developers).
+For further details, refer to the [document](xref: developer/plugins/payment-method) (recommended to be used only by developers).
 
 ![methods](_static/index/methods.png)
 
@@ -29,8 +29,8 @@ Click **configure** beside a payment method to set it up.
 
 ## See also
 
-* [Square](xref:en-US/user-guide/configuring/settingup/payments/methods/square)
-* [Qualpay](xref:en-US/user-guide/configuring/settingup/payments/methods/qualpay)
-* [Manual Processing (Credit Card)](xref:en-US/user-guide/configuring/settingup/payments/methods/manual-processing)
-* [Purchase order](xref:en-US/user-guide/configuring/settingup/payments/methods/purchase-order)
-* [PayPal Standard](xref:en-US/user-guide/configuring/settingup/payments/methods/paypal-standard)
+* [Square](xref: user-guide/configuring/settingup/payments/methods/square)
+* [Qualpay](xref: user-guide/configuring/settingup/payments/methods/qualpay)
+* [Manual Processing (Credit Card)](xref: user-guide/configuring/settingup/payments/methods/manual-processing)
+* [Purchase order](xref: user-guide/configuring/settingup/payments/methods/purchase-order)
+* [PayPal Standard](xref: user-guide/configuring/settingup/payments/methods/paypal-standard)

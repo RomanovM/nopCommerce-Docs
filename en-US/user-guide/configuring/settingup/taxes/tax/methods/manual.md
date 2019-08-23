@@ -1,7 +1,7 @@
 ---
 title: Manual (Fixed or By Country/State/Zip)
 author: AndreiMaz
-uid: en-US/user-guide/configuring/settingup/taxes/tax/methods/manual
+uid: user-guide/configuring/settingup/taxes/tax/methods/manual
 ---
 # Manual (Fixed or By Country/State/Zip)
 

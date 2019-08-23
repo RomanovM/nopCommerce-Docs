@@ -1,7 +1,7 @@
 ---
 title: Cross-sells and Related products
 author: AndreiMaz
-uid: en-US/user-guide/marketing/promotional/cross-sells-related-products
+uid: user-guide/marketing/promotional/cross-sells-related-products
 ---
 # Cross-sells and Related products
 
@@ -50,5 +50,5 @@ After you have chosen related product and saved it, **you can check how related 
 
 ## See also
 
-- [Adding products](xref:en-US/user-guide/running/product-management/products/adding-products/index)
-- [Tier prices](xref:en-US/user-guide/marketing/promotional/tier-prices)
+- [Adding products](xref: user-guide/running/product-management/products/adding-products/index)
+- [Tier prices](xref: user-guide/marketing/promotional/tier-prices)

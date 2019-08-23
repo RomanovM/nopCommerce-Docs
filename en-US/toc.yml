@@ -1,411 +1,411 @@
 - name: nopCommerce documentation
   href: /
-  homepage: index.md
+  topicHref: index.md
 - name: User guide
-  uid: en-US/user-guide
+  href: user-guide
   items:
     - name: Getting started
-      uid: en-US/user-guide/getting-started
+      href: user-guide/getting-started
     - name: Installing nopCommerce
-      uid: en-US/user-guide/installing/index
+      href: user-guide/installing/index
       items:
         - name: Technology & System Requirements
-          uid: en-US/user-guide/installing/technology-system-requirements
+          href: user-guide/installing/technology-system-requirements
         - name: Installation guide
-          uid: en-US/user-guide/installing/installation-guide/index
+          href: user-guide/installing/installation-guide/index
           items:
             - name: Hosting providers
-              uid: en-US/user-guide/installing/installation-guide/hosting-provider
+              href: user-guide/installing/installation-guide/hosting-provider
             - name: Installing Internet Information Services (IIS)
-              uid: en-US/user-guide/installing/installation-guide/installing-IIS
+              href: user-guide/installing/installation-guide/installing-IIS
             - name: Known Issues and Solutions
-              uid: en-US/user-guide/installing/installation-guide/known-issues-and-solutions
+              href: user-guide/installing/installation-guide/known-issues-and-solutions
         - name: Installing on Windows Azure
-          uid: en-US/user-guide/installing/azure
+          href: user-guide/installing/azure
         - name: Upgrading nopCommerce
-          uid: en-US/user-guide/installing/upgrading
+          href: user-guide/installing/upgrading
         - name: Help
-          uid: en-US/user-guide/installing/help
+          href: user-guide/installing/help
         - name: FAQ
-          uid: en-US/user-guide/installing/faq
+          href: user-guide/installing/faq
     - name: Configuring your store
-      uid: en-US/user-guide/configuring/index
+      href: user-guide/configuring/index
       items:
         - name: nopCommerce Interface
-          uid: en-US/user-guide/configuring/nopcommerce-interface
+          href: user-guide/configuring/nopcommerce-interface
         - name: Setting up your store
-          uid: en-US/user-guide/configuring/setting-up/index            
+          href: user-guide/configuring/setting-up/index            
           items:
             - name: Setting up Main Store
-              uid: en-US/user-guide/configuring/settingup/mainstore/index
+              href: user-guide/configuring/settingup/mainstore/index
               items:
                 - name: Setting up Multiple-Store
-                  uid: en-US/user-guide/configuring/settingup/mainstore/multiple-store
+                  href: user-guide/configuring/settingup/mainstore/multiple-store
                 - name: Countries
-                  uid: en-US/user-guide/configuring/settingup/mainstore/countries
+                  href: user-guide/configuring/settingup/mainstore/countries
                 - name: Languages
-                  uid: en-US/user-guide/configuring/settingup/mainstore/languages
+                  href: user-guide/configuring/settingup/mainstore/languages
                 - name: Security settings
-                  uid: en-US/user-guide/configuring/settingup/mainstore/security-settings
+                  href: user-guide/configuring/settingup/mainstore/security-settings
                 - name: PDF settings
-                  uid: en-US/user-guide/configuring/settingup/mainstore/pdf-settings
+                  href: user-guide/configuring/settingup/mainstore/pdf-settings
                 - name: GDPR settings
-                  uid: en-US/user-guide/configuring/settingup/mainstore/gdpr-settings
+                  href: user-guide/configuring/settingup/mainstore/gdpr-settings
                 - name: Uploading favicons
-                  uid: en-US/user-guide/configuring/settingup/mainstore/uploading-favicons
+                  href: user-guide/configuring/settingup/mainstore/uploading-favicons
             - name: Setting up Payments
-              uid: en-US/user-guide/configuring/settingup/payments/index
+              href: user-guide/configuring/settingup/payments/index
               items:
                 - name: Payment Methods
-                  uid: en-US/user-guide/configuring/settingup/payments/payment-methods
+                  href: user-guide/configuring/settingup/payments/payment-methods
                   items:
                     - name: Manual Processing (Credit Card)
-                      uid: en-US/user-guide/configuring/settingup/payments/methods/manual-processing
+                      href: user-guide/configuring/settingup/payments/methods/manual-processing
                     - name: PayPal Standard
-                      uid: en-US/user-guide/configuring/settingup/payments/methods/paypal-standard
+                      href: user-guide/configuring/settingup/payments/methods/paypal-standard
                     - name: Purchase order
-                      uid: en-US/user-guide/configuring/settingup/payments/methods/purchase-order
+                      href: user-guide/configuring/settingup/payments/methods/purchase-order
                     - name: Square
-                      uid: en-US/user-guide/configuring/settingup/payments/methods/square
+                      href: user-guide/configuring/settingup/payments/methods/square
                     - name: Qualpay
-                      uid: en-US/user-guide/configuring/settingup/payments/methods/qualpay
+                      href: user-guide/configuring/settingup/payments/methods/qualpay
                 - name: Payment statuses
-                  uid: en-US/user-guide/configuring/settingup/payments/payment-statuses
+                  href: user-guide/configuring/settingup/payments/payment-statuses
                 - name: Payment Method Restrictions
-                  uid: en-US/user-guide/configuring/settingup/payments/payment-method-restrictions
+                  href: user-guide/configuring/settingup/payments/payment-method-restrictions
                 - name: Currencies
-                  uid: en-US/user-guide/configuring/settingup/payments/currencies
+                  href: user-guide/configuring/settingup/payments/currencies
             - name: Setting up Tax
-              uid: en-US/user-guide/configuring/setting-up/taxes/index            
+              href: user-guide/configuring/setting-up/taxes/index            
               items:
                 - name: Tax Settings
-                  uid: en-US/user-guide/configuring/setting-up/taxes/tax-settings
+                  href: user-guide/configuring/setting-up/taxes/tax-settings
                 - name: Tax
-                  uid: en-US/user-guide/configuring/settingup/taxes/tax/index
+                  href: user-guide/configuring/settingup/taxes/tax/index
                   items:
                     - name: Avalara tax provider
-                      uid: en-US/user-guide/configuring/settingup/taxes/tax/methods/avalara
+                      href: user-guide/configuring/settingup/taxes/tax/methods/avalara
                     - name: Manual (Fixed or By Country/State/Zip)
-                      uid: en-US/user-guide/configuring/settingup/taxes/tax/methods/manual
+                      href: user-guide/configuring/settingup/taxes/tax/methods/manual
                 - name: EU VAT configuration guide
-                  uid: en-US/user-guide/configuring/settingup/taxes/eu-vat
+                  href: user-guide/configuring/settingup/taxes/eu-vat
             - name: Setting up Shipping
-              uid: en-US/user-guide/configuring/settingup/shipping/index
+              href: user-guide/configuring/settingup/shipping/index
               items:
                 - name: Shipping Settings
-                  uid: en-US/user-guide/configuring/settingup/shipping/settings
+                  href: user-guide/configuring/settingup/shipping/settings
                 - name: Shipping Providers
-                  uid: en-US/user-guide/configuring/settingup/shipping/providers/index
+                  href: user-guide/configuring/settingup/shipping/providers/index
                   items:
                     - name: Manual (Fixed or By Weight and By Total)
-                      uid: en-US/user-guide/configuring/settingup/shipping/providers/manual/index
+                      href: user-guide/configuring/settingup/shipping/providers/manual/index
                       items:
                         - name: Shipping Methods (Fixed Rate Shipping)
-                          uid: en-US/user-guide/configuring/settingup/shipping/providers/manual/fixed-rate-methods
+                          href: user-guide/configuring/settingup/shipping/providers/manual/fixed-rate-methods
                         - name: Shipping Method Restrictions (Fixed Rate Shipping)
-                          uid: en-US/user-guide/configuring/settingup/shipping/providers/manual/fixed-rate-restrictions
+                          href: user-guide/configuring/settingup/shipping/providers/manual/fixed-rate-restrictions
                         - name: Shipping Methods (Shipping by Weight and By Total)
-                          uid: en-US/user-guide/configuring/settingup/shipping/providers/manual/methods
+                          href: user-guide/configuring/settingup/shipping/providers/manual/methods
                         - name: Shipping Method Restrictions (Shipping by Weight and by Total)
-                          uid: en-US/user-guide/configuring/settingup/shipping/providers/manual/restrictions
+                          href: user-guide/configuring/settingup/shipping/providers/manual/restrictions
                     - name: UPS
-                      uid: en-US/user-guide/configuring/settingup/shipping/providers/ups
+                      href: user-guide/configuring/settingup/shipping/providers/ups
                 - name: Warehouses
-                  uid: en-US/user-guide/configuring/settingup/shipping/warehouses
+                  href: user-guide/configuring/settingup/shipping/warehouses
                 - name: Dates and ranges
-                  uid: en-US/user-guide/configuring/settingup/shipping/dates-ranges
+                  href: user-guide/configuring/settingup/shipping/dates-ranges
                 - name: Measures
-                  uid: en-US/user-guide/configuring/settingup/shipping/measures
+                  href: user-guide/configuring/settingup/shipping/measures
                 - name: Pickup Points
-                  uid: en-US/user-guide/configuring/settingup/shipping/pickup-Points
+                  href: user-guide/configuring/settingup/shipping/pickup-Points
             - name: Setting up Customers
-              uid: en-US/user-guide/configuring/settingup/customers/index
+              href: user-guide/configuring/settingup/customers/index
               items: 
                 - name: Customer settings
-                  uid: en-US/user-guide/configuring/settingup/customers/settings
+                  href: user-guide/configuring/settingup/customers/settings
                 - name: Customer roles
-                  uid: en-US/user-guide/configuring/settingup/customers/customer-roles
+                  href: user-guide/configuring/settingup/customers/customer-roles
                 - name: Access Control List
-                  uid: en-US/user-guide/configuring/settingup/customers/acl
+                  href: user-guide/configuring/settingup/customers/acl
                 - name: Vendors
-                  uid: en-US/user-guide/configuring/settingup/customers/vendors/index
+                  href: user-guide/configuring/settingup/customers/vendors/index
                   items:
                     - name: Vendor settings
-                      uid: en-US/user-guide/configuring/settingup/customers/vendors/settings
+                      href: user-guide/configuring/settingup/customers/vendors/settings
             - name: All Settings (advanced)
-              uid: en-US/user-guide/configuring/setting-up/all-settings
+              href: user-guide/configuring/setting-up/all-settings
         - name: System Administration
-          uid: en-US/user-guide/configuring/system/index          
+          href: user-guide/configuring/system/index          
           items:
             - name: Plugins
-              uid: en-US/user-guide/configuring/system/plugins
+              href: user-guide/configuring/system/plugins
             - name: Email accounts
-              uid: en-US/user-guide/configuring/system/email-accounts
+              href: user-guide/configuring/system/email-accounts
             - name: Widgets
-              uid: en-US/user-guide/configuring/system/widgets/index
+              href: user-guide/configuring/system/widgets/index
               items:
                 - name: Google Analytics
-                  uid: en-US/user-guide/configuring/system/widgets/google-analytics
+                  href: user-guide/configuring/system/widgets/google-analytics
                 - name: Nivo Slider
-                  uid: en-US/user-guide/configuring/system/widgets/nivo-slider
+                  href: user-guide/configuring/system/widgets/nivo-slider
             - name: Localization
-              uid: en-US/user-guide/configuring/system/localization
+              href: user-guide/configuring/system/localization
             - name: External Authentication Method
-              uid: en-US/user-guide/configuring/system/external-authentication-method/index
+              href: user-guide/configuring/system/external-authentication-method/index
               items:
                 - name: Facebook
-                  uid: en-US/user-guide/configuring/system/external-authentication/facebook
+                  href: user-guide/configuring/system/external-authentication/facebook
             - name: Message Queue
-              uid: en-US/user-guide/configuring/system/message-queue
+              href: user-guide/configuring/system/message-queue
             - name: Schedule Tasks
-              uid: en-US/user-guide/configuring/system/schedule-tasks
+              href: user-guide/configuring/system/schedule-tasks
             - name: System Information
-              uid: en-US/user-guide/configuring/system/system-information
+              href: user-guide/configuring/system/system-information
             - name: Deleting Old Exported Files
-              uid: en-US/user-guide/configuring/system/deleting-old-exported-files
+              href: user-guide/configuring/system/deleting-old-exported-files
             - name: Deleting Abandoned Shopping Carts
-              uid: en-US/user-guide/configuring/system/deleting-abandoned-shopping-carts
+              href: user-guide/configuring/system/deleting-abandoned-shopping-carts
             - name: Deleting Guests
-              uid: en-US/user-guide/configuring/system/deleting-guests
+              href: user-guide/configuring/system/deleting-guests
             - name: Warnings
-              uid: en-US/user-guide/configuring/system/warnings
+              href: user-guide/configuring/system/warnings
             - name: Log
-              uid: en-US/user-guide/configuring/system/log
+              href: user-guide/configuring/system/log
         - name: Design
-          uid: en-US/user-guide/configuring/design/index          
+          href: user-guide/configuring/design/index          
           items:
             - name: Installing a theme
-              uid: en-US/user-guide/configuring/design/installing-theme
+              href: user-guide/configuring/design/installing-theme
             - name: Media Settings
-              uid: en-US/user-guide/configuring/design/media-settings
+              href: user-guide/configuring/design/media-settings
     - name: Running your store
-      uid: en-US/user-guide/running/index
+      href: user-guide/running/index
       items:
         - name: Product management
-          uid: en-US/user-guide/running/product-management/index
+          href: user-guide/running/product-management/index
           items:
             - name: Categories
-              uid: en-US/user-guide/running/product-management/categories
+              href: user-guide/running/product-management/categories
             - name: Manufacturers
-              uid: en-US/user-guide/running/product-management/manufacturers
+              href: user-guide/running/product-management/manufacturers
             - name: Attributes
-              uid: en-US/user-guide/running/product-management/attributes/index
+              href: user-guide/running/product-management/attributes/index
               items:
                 - name: Product attributes
-                  uid: en-US/user-guide/running/product-management/attributes/product-attributes
+                  href: user-guide/running/product-management/attributes/product-attributes
                 - name: Specification attributes
-                  uid: en-US/user-guide/running/product-management/attributes/specification-attributes
+                  href: user-guide/running/product-management/attributes/specification-attributes
                 - name: Checkout attributes
-                  uid: en-US/user-guide/running/product-management/attributes/checkout-attributes  
+                  href: user-guide/running/product-management/attributes/checkout-attributes  
             - name: Products
-              uid: en-US/user-guide/running/product-management/products/index
+              href: user-guide/running/product-management/products/index
               items:
                 - name: Adding products
-                  uid: en-US/user-guide/running/product-management/products/adding-products/index
+                  href: user-guide/running/product-management/products/adding-products/index
                   items:
                     - name: Downloadable product
-                      uid: en-US/user-guide/running/product-management/products/adding-products/downloadable-products
+                      href: user-guide/running/product-management/products/adding-products/downloadable-products
                     - name: Grouped product
-                      uid: en-US/user-guide/running/product-management/products/adding-products/grouped-products
+                      href: user-guide/running/product-management/products/adding-products/grouped-products
                     - name: Recurring product
-                      uid: en-US/user-guide/running/product-management/products/adding-products/recurring-products
+                      href: user-guide/running/product-management/products/adding-products/recurring-products
                     - name: Rental product
-                      uid: en-US/user-guide/running/product-management/products/adding-products/rental-products
+                      href: user-guide/running/product-management/products/adding-products/rental-products
                 - name: Import/Export
-                  uid: en-US/user-guide/running/product-management/products/import-export
+                  href: user-guide/running/product-management/products/import-export
                 - name: Product tags
-                  uid: en-US/user-guide/running/product-management/products/product-tags
+                  href: user-guide/running/product-management/products/product-tags
                 - name: Product reviews
-                  uid: en-US/user-guide/running/product-management/products/product-reviews
+                  href: user-guide/running/product-management/products/product-reviews
             - name: Catalog settings
-              uid: en-US/user-guide/running/product-management/catalog-settings
+              href: user-guide/running/product-management/catalog-settings
         - name: Order management
-          uid: en-US/user-guide/running/order-management/index
+          href: user-guide/running/order-management/index
           items:
             - name: Orders
-              uid: en-US/user-guide/running/order-management/orders/index
+              href: user-guide/running/order-management/orders/index
               items:
                 - name: Order Settings
-                  uid: en-US/user-guide/running/order-management/orders/order-settings
+                  href: user-guide/running/order-management/orders/order-settings
                 - name: Shopping cart settings
-                  uid: en-US/user-guide/running/order-management/orders/shopping-cart-settings
+                  href: user-guide/running/order-management/orders/shopping-cart-settings
             - name: Shipments
-              uid: en-US/user-guide/running/order-management/shipments
+              href: user-guide/running/order-management/shipments
             - name: Return Requests
-              uid: en-US/user-guide/running/order-management/return-requests/index
+              href: user-guide/running/order-management/return-requests/index
               items:
                 - name: Return request settings
-                  uid: en-US/user-guide/running/order-management/return-requests/return-requests-settings
+                  href: user-guide/running/order-management/return-requests/return-requests-settings
             - name: Shopping carts and wishlists
-              uid: en-US/user-guide/running/order-management/shopping-carts-wishlists
+              href: user-guide/running/order-management/shopping-carts-wishlists
             - name: Inventory management
-              uid: en-US/user-guide/running/order-management/inventory-management
+              href: user-guide/running/order-management/inventory-management
         - name: Customer management
-          uid: en-US/user-guide/running/customer-management/index
+          href: user-guide/running/customer-management/index
           items:
             - name: Customer list
-              uid: en-US/user-guide/running/customer-management/customer-list
+              href: user-guide/running/customer-management/customer-list
             - name: Online Customers
-              uid: en-US/user-guide/running/customer-management/online-customers
+              href: user-guide/running/customer-management/online-customers
             - name: Activity Log
-              uid: en-US/user-guide/running/customer-management/activity-log
+              href: user-guide/running/customer-management/activity-log
         - name: Reports
-          uid: en-US/user-guide/running/reports/index
+          href: user-guide/running/reports/index
           items:
             - name: Dashboard
-              uid: en-US/user-guide/running/reports/dashboard
+              href: user-guide/running/reports/dashboard
             - name: Bestsellers and products never purchased
-              uid: en-US/user-guide/running/reports/bestsellers-never-purchased
+              href: user-guide/running/reports/bestsellers-never-purchased
             - name: Country report
-              uid: en-US/user-guide/running/reports/country-report
+              href: user-guide/running/reports/country-report
             - name: Customer reports
-              uid: en-US/user-guide/running/reports/customer-reports
+              href: user-guide/running/reports/customer-reports
             - name: Low Stock Reports
-              uid: en-US/user-guide/running/reports/low-stock-reports
+              href: user-guide/running/reports/low-stock-reports
     - name: Marketing your store
-      uid: en-US/user-guide/marketing/index
+      href: user-guide/marketing/index
       items:
         - name: Promotional tools
-          uid: en-US/user-guide/marketing/promotional/index
+          href: user-guide/marketing/promotional/index
           items:
             - name: Discounts
-              uid: en-US/user-guide/marketing/promotional/discounts/index
+              href: user-guide/marketing/promotional/discounts/index
               items:
                 - name: Common type of discounts
-                  uid: en-US/user-guide/marketing/promotional/discounts/common-type-of-discounts
+                  href: user-guide/marketing/promotional/discounts/common-type-of-discounts
             - name: Gift cards
-              uid: en-US/user-guide/marketing/promotional/gift-cards
+              href: user-guide/marketing/promotional/gift-cards
             - name: Reward points
-              uid: en-US/user-guide/marketing/promotional/reward-points
+              href: user-guide/marketing/promotional/reward-points
             - name: Affiliates
-              uid: en-US/user-guide/marketing/promotional/affiliates
+              href: user-guide/marketing/promotional/affiliates
             - name: Cross-sells and Related products
-              uid: en-US/user-guide/marketing/promotional/cross-sells-related-products
+              href: user-guide/marketing/promotional/cross-sells-related-products
             - name: Tier prices
-              uid: en-US/user-guide/marketing/promotional/tier-prices
+              href: user-guide/marketing/promotional/tier-prices
         - name: Content Management
-          uid: en-US/user-guide/marketing/content/index
+          href: user-guide/marketing/content/index
           items:
             - name: Email campaigns
-              uid: en-US/user-guide/marketing/content/email-campaigns/index
+              href: user-guide/marketing/content/email-campaigns/index
               items:
                 - name: All campaigns
-                  uid: en-US/user-guide/marketing/content/email-campaigns/all-campaigns
+                  href: user-guide/marketing/content/email-campaigns/all-campaigns
                 - name: Newsletter subscribers
-                  uid: en-US/user-guide/marketing/content/email-campaigns/newsletter-subscribers
+                  href: user-guide/marketing/content/email-campaigns/newsletter-subscribers
             - name: Blog
-              uid: en-US/user-guide/marketing/content/blog/index
+              href: user-guide/marketing/content/blog/index
               items:
                 - name: Blog settings
-                  uid: en-US/user-guide/marketing/content/blog/blog-settings
+                  href: user-guide/marketing/content/blog/blog-settings
             - name: News
-              uid: en-US/user-guide/marketing/content/news/index
+              href: user-guide/marketing/content/news/index
               items:
                 - name: News settings
-                  uid: en-US/user-guide/marketing/content/news/news-settings
+                  href: user-guide/marketing/content/news/news-settings
             - name: Forums
-              uid: en-US/user-guide/marketing/content/forums/index
+              href: user-guide/marketing/content/forums/index
               items:
                 - name: Forum settings
-                  uid: en-US/user-guide/marketing/content/forums/settings
+                  href: user-guide/marketing/content/forums/settings
             - name: Pools
-              uid: en-US/user-guide/marketing/content/polls
+              href: user-guide/marketing/content/polls
             - name: Topics (pages)
-              uid: en-US/user-guide/marketing/content/topics
+              href: user-guide/marketing/content/topics
             - name: Message templates
-              uid: en-US/user-guide/marketing/content/message-templates
+              href: user-guide/marketing/content/message-templates
             - name: SEO
-              uid: en-US/user-guide/marketing/content/seo
+              href: user-guide/marketing/content/seo
 - name: Developer guide
-  uid: en-US/developer-documentation
+  href: developer-documentation
   items:
     - name: Developer tutorials
-      uid: en-US/developer/tutorials
+      href: developer/tutorials
       items:
         - name: Configuring code style
-          uid: en-US/developer/tutorials/code-style
+          href: developer/tutorials/code-style
         - name: Coding Standards
-          uid: en-US/developer/tutorials/coding-standards
+          href: developer/tutorials/coding-standards
         - name: Source code organization. Architecture of nopCommerce.
-          uid: en-US/developer/tutorials/source-code-organization
+          href: developer/tutorials/source-code-organization
         - name: Updating an existing entity. How to add a new property
-          uid: en-US/developer/tutorials/update-existing-entity
+          href: developer/tutorials/update-existing-entity
         - name: The nopCommerce Data Access Layer
-          uid: en-US/developer/tutorials/data-access-layer
+          href: developer/tutorials/data-access-layer
         - name: Inversion of Control and Dependency Injection
-          uid: en-US/developer/tutorials/inversion-of-control
+          href: developer/tutorials/inversion-of-control
         - name: How do I register new routes?
-          uid: en-US/developer/tutorials/register-new-routes
+          href: developer/tutorials/register-new-routes
         - name: Data Validation
-          uid: en-US/developer/tutorials/data-validation
+          href: developer/tutorials/data-validation
         - name: Scheduled Tasks
-          uid: en-US/developer/tutorials/scheduled-tasks
+          href: developer/tutorials/scheduled-tasks
         - name: Exposing and Handling Events
-          uid: en-US/developer/tutorials/events
+          href: developer/tutorials/events
         - name: Settings API
-          uid: en-US/developer/tutorials/settings
+          href: developer/tutorials/settings
         - name: Step by step to deploy on Azure with GIT and automatic builds
-          uid: en-US/developer/tutorials/azure-deploy
+          href: developer/tutorials/azure-deploy
         - name: Docker
-          uid: en-US/developer/tutorials/docker
+          href: developer/tutorials/docker
         - name: How to deploy nopCommerce to Azure
-          uid: en-US/developer/tutorials/azure-publish
+          href: developer/tutorials/azure-publish
     - name: Creating a nopCommerce plugin
-      uid: en-US/developer/plugins/index
+      href: developer/plugins/index
       items:
       - name: How to write a plugin for nopCommerce 4.20 (and above)
-        uid: en-US/developer/plugins/how-to-write-plugin_4.20
+        href: developer/plugins/how-to-write-plugin_4.20
       - name: How to write a plugin for nopCommerce 4.10
-        uid: en-US/developer/plugins/how-to-write-plugin_4.10
+        href: developer/plugins/how-to-write-plugin_4.10
       - name: How to write a plugin for nopCommerce 4.00
-        uid: en-US/developer/plugins/how-to-write-plugin_4.00
+        href: developer/plugins/how-to-write-plugin_4.00
       - name: How to write a plugin for nopCommerce 3.90 (and previous versions)
-        uid: en-US/developer/plugins/how-to-write-plugin_3.90
+        href: developer/plugins/how-to-write-plugin_3.90
       - name: How to code my own payment method
-        uid: en-US/developer/plugins/payment-method
+        href: developer/plugins/payment-method
       - name: How to code my own shipping rate computation method
-        uid: en-US/developer/plugins/shipping-plugin
+        href: developer/plugins/shipping-plugin
       - name: Plugin with data access
-        uid: en-US/developer/plugins/plugin-with-data-access
+        href: developer/plugins/plugin-with-data-access
       - name: How to add a menu item into the administration area from a plugin
-        uid: en-US/developer/plugins/menu-item
+        href: developer/plugins/menu-item
       - name: Adding CSS and JS resource files into nopCommerce Plugin
-        uid: en-US/developer/plugins/resource-files
+        href: developer/plugins/resource-files
     - name: Designer's Guide
-      uid: en-US/developer/design/index
+      href: developer/design/index
       items:
         - name: Overview (Designer's Guide)
-          uid: en-US/developer/design/overview
+          href: developer/design/overview
         - name: Installing / Applying theme in nopCommerce
-          uid: en-US/developer/design/installing-theme
+          href: developer/design/installing-theme
         - name: Creating / Writing your own theme (using current / default theme)
-          uid: en-US/developer/design/new-theme
+          href: developer/design/new-theme
         - name: Understanding Layout / Design
-          uid: en-US/developer/design/understanding-layout
+          href: developer/design/understanding-layout
         - name: Customizing nopCommerce Themes
-          uid: en-US/developer/design/customizing-theme
+          href: developer/design/customizing-theme
         - name: Right To Left Theme
-          uid: en-US/developer/design/right-to-left-theme
+          href: developer/design/right-to-left-theme
         - name: Widgets (Designer's Guide)
-          uid: en-US/developer/design/widgets
+          href: developer/design/widgets
         - name: Responsive Design
-          uid: en-US/developer/design/responsive
+          href: developer/design/responsive
         - name: Tips and Tricks
-          uid: en-US/developer/design/tips-and-tricks
+          href: developer/design/tips-and-tricks
         - name: Contributing a Theme
-          uid: en-US/developer/design/contributing-theme
+          href: developer/design/contributing-theme
     - name: Contribute
-      uid: en-US/developer/contribute/index
+      href: developer/contribute/index
       items:
         - name: Possible ways to contribute
-          uid: en-US/developer/contribute/possible-ways
+          href: developer/contribute/possible-ways
         - name: Sharing your plugins, themes, and language packs
-          uid: en-US/developer/contribute/sharing
+          href: developer/contribute/sharing
         - name: Working with source code and contributions
-          uid: en-US/developer/contribute/source-code
+          href: developer/contribute/source-code
     - name: Copyright notice
-      uid: en-US/developer/copyright-notice
+      href: developer/copyright-notice
     - name: FAQs
-      uid: en-US/developer-faqs
+      href: developer-faqs
 - name: Contribute
   href: https://github.com/nopSolutions/nopCommerce-Docs/blob/master/CONTRIBUTING.md

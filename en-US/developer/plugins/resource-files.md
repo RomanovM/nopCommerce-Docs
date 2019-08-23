@@ -1,7 +1,7 @@
 ---
 title: Adding CSS and JS resource files into nopCommerce Plugin
 author: AndreiMaz
-uid: en-US/developer/plugins/resource-files
+uid: developer/plugins/resource-files
 ---
 # Adding CSS and JS resource files into nopCommerce Plugin
 

@@ -1,7 +1,7 @@
 ---
 title: Common type of discounts
 author: AndreiMaz
-uid: en-US/user-guide/marketing/promotional/discounts/common-type-of-discounts
+uid: user-guide/marketing/promotional/discounts/common-type-of-discounts
 ---
 # Common type of discounts
 

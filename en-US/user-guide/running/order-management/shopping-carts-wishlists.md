@@ -1,7 +1,7 @@
 ---
 title: Shopping carts and wishlists
 author: AndreiMaz
-uid: en-US/user-guide/running/order-management/shopping-carts-wishlists
+uid: user-guide/running/order-management/shopping-carts-wishlists
 ---
 # Shopping carts and wishlists
 
@@ -35,6 +35,6 @@ You can also delete wishlist by clicking on **Delete** button.
 
 ## See also
 
-* [Orders](xref:en-US/user-guide/running/order-management/orders/index)
-* [Promotional tools](xref:en-US/user-guide/marketing/promotional/index)
+* [Orders](xref: user-guide/running/order-management/orders/index)
+* [Promotional tools](xref: user-guide/marketing/promotional/index)
 * [Video tutorial: managing wishlists](https://www.youtube.com/watch?v=9EN7oZSwIVE)

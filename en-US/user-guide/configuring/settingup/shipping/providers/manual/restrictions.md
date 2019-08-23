@@ -1,7 +1,7 @@
 ---
 title: Shipping Method Restrictions (Shipping by Weight and by Total)
 author: AndreiMaz
-uid: en-US/user-guide/configuring/settingup/shipping/providers/manual/restrictions
+uid: user-guide/configuring/settingup/shipping/providers/manual/restrictions
 ---
 # Shipping Method Restrictions (Shipping by Weight and by Total)
 

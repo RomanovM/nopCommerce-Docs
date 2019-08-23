@@ -1,7 +1,7 @@
 ---
 title: Purchase order
 author: AndreiMaz
-uid: en-US/user-guide/configuring/settingup/payments/methods/purchase-order
+uid: user-guide/configuring/settingup/payments/methods/purchase-order
 ---
 # Purchase order
 
