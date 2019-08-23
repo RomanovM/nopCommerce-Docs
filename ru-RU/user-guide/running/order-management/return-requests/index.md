@@ -50,6 +50,6 @@ The store owner can now manage this return request in the Administration Area.
 
 ## See also
 
-* [Return request settings](xref: en-US/user-guide/running/order-management/return-requests/return-requests-settings)
-* [Orders](xref: en-US/user-guide/running/order-management/orders/index)
+* [Return request settings](xref:en-US/user-guide/running/order-management/return-requests/return-requests-settings)
+* [Orders](xref:en-US/user-guide/running/order-management/orders/index)
 * [YouTube Tutorial: Managing Return Requests](https://www.youtube.com/watch?v=VqF2GZ2ip_0&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4&index=17)
