@@ -1,7 +1,7 @@
 ---
 title: Inversion of Control and Dependency Injection
 author: AndreiMaz
-uid: developer/tutorials/inversion-of-control
+uid: en-US/developer/tutorials/inversion-of-control
 ---
 
 # Inversion of Control and Dependency Injection
