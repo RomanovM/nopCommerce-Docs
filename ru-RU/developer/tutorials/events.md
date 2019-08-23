@@ -1,7 +1,7 @@
 ---
 title: Exposing and Handling Events
 author: AndreiMaz
-uid: en-US/developer/tutorials/events
+uid: developer/tutorials/events
 ---
 
 # Exposing and Handling Events
