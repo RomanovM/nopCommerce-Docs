@@ -13,8 +13,6 @@
   <link rel="stylesheet" href="{{_rel}}styles/docfx.css">
   <link rel="stylesheet" href="{{_rel}}styles/main.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-  <link rel="stylesheet" href="{{_rel}}styles/example.css">
-  <link rel="stylesheet" href="{{_rel}}styles/language.css">
   <meta property="docfx:navrel" content="{{_navRel}}">
   <meta property="docfx:tocrel" content="{{_tocRel}}">
   {{#_noindex}}<meta name="searchOption" content="noindex">{{/_noindex}}
@@ -28,4 +26,3 @@
   gtag('js', new Date());
   gtag('config', 'UA-7490022-8');
 </script>
-<script id="language_script" data-debug="1" src="{{_rel}}styles/language.js"></script>

@@ -1,11 +1,4 @@
 <div class="container">
-
-  <language class="languageFrameClick" data-type="flag">
-  </language>
-
-  <language class="languageFrameSelect" data-type="select">
-  </language>
-  
   <div id="header" class="header navbar-header">
     {{>partials/logo}}
   </div>
