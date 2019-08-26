@@ -123,6 +123,6 @@ Specify Custom SQL Server collation: This is an advanced setting and should be l
 
 ## See also
 
-- [Hosting providers](ru-RU/user-guide/installing/installation-guide/hosting-provider)
-- [Installing Internet Information Services (IIS)](xref:en-US/user-guide/installing/installation-guide/installing-IIS)
+- [Hosting providers](xref:ru-RU/user-guide/installing/installation-guide/hosting-provider)
+- [Installing Internet Information Services (IIS)](xref:ru-RU/user-guide/installing/installation-guide/installing-IIS)
 - [Known Issues and Solutions](xref:en-US/user-guide/installing/installation-guide/known-issues-and-solutions)
