@@ -1,3 +1,8 @@
 files:
-  - source: /en-US/**/*.md
-    translation: /%locale%/**/%original_file_name%
+  - source: /lang/en-US/*.xml
+    translation: /lang/%locale%/%file_name%.%locale%.%file_extension%
+    content_segmentation: 0
+    translatable_elements:
+      - /Language/@Name
+      - /Language/@IsRightToLeft
+      - /Language/LocaleResource/Value
