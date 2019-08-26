@@ -1,144 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language Name="English" IsDefault="true" IsRightToLeft="false">
   <LocaleResource Name="AdminEmail">
-    <Value>Admin user email</Value>
+    <Value>Email администратора</Value>
   </LocaleResource>
   <LocaleResource Name="AdminEmailRequired">
-    <Value>Enter admin email</Value>
+    <Value>Введите Email администратора</Value>
   </LocaleResource>
   <LocaleResource Name="AdminPassword">
-    <Value>Admin user password</Value>
+    <Value>Пароль администратора</Value>
   </LocaleResource>
   <LocaleResource Name="AdminPasswordRequired">
-    <Value>Enter admin password</Value>
+    <Value>Введите пароль администратора</Value>
   </LocaleResource>
   <LocaleResource Name="ConfigureDirectoryPermissions">
-    <Value>The '{0}' account is not granted with Modify permission on folder '{1}'. Please configure these permissions.</Value>
+    <Value>У системного пользователя '{0}' нет прав записи на папку '{1}'. Пожалуйста, настройте данные разрешения.</Value>
   </LocaleResource>
   <LocaleResource Name="ConfigureFilePermissions">
-    <Value>The '{0}' account is not granted with Modify permission on file '{1}'. Please configure these permissions.</Value>
+    <Value>У системного пользователя '{0}' нет прав записи на файл '{1}'. Пожалуйста, настройте данные разрешения.</Value>
   </LocaleResource>
   <LocaleResource Name="ConfirmPassword">
-    <Value>Confirm the password</Value>
+    <Value>Подтвердите пароль</Value>
   </LocaleResource>
   <LocaleResource Name="ConfirmPasswordRequired">
-    <Value>Enter confirm password</Value>
+    <Value>Подтвердите пароль</Value>
   </LocaleResource>
   <LocaleResource Name="ConnectionString">
-    <Value>Connection string</Value>
+    <Value>Строка соединения</Value>
   </LocaleResource>
   <LocaleResource Name="ConnectionStringRequired">
-    <Value>A SQL connection string is required</Value>
+    <Value>Введите строку соединения с базой данных</Value>
   </LocaleResource>
   <LocaleResource Name="ConnectionStringValues">
-    <Value>Enter SQL connection values</Value>
+    <Value>Ввести параметры соединения с базой данных</Value>
   </LocaleResource>
   <LocaleResource Name="ConnectionStringWrongFormat">
-    <Value>Wrong SQL connection string format</Value>
+    <Value>Неверный формат строки соединенияс базой данных</Value>
   </LocaleResource>
   <LocaleResource Name="CreateDatabaseIfDoesNotExist">
-    <Value>Create database if it doesn't exist</Value>
+    <Value>Создать базу данных, если её не существует</Value>
   </LocaleResource>
   <LocaleResource Name="CreateSampleData">
-    <Value>Create sample data</Value>
+    <Value>Создать тестовые данные (продукты, категории и т.п.)</Value>
   </LocaleResource>
   <LocaleResource Name="CustomCollation">
-    <Value>Specify custom SQL Server collation</Value>
+    <Value>Указать SQL Server collation</Value>
   </LocaleResource>
   <LocaleResource Name="DatabaseCreationError">
-    <Value>An error occurred while creating the database: {0}</Value>
+    <Value>Ошибка при создании базы данных: {0}</Value>
   </LocaleResource>
   <LocaleResource Name="Database">
-    <Value>Database</Value>
+    <Value>База данных</Value>
   </LocaleResource>
   <LocaleResource Name="DatabaseInformation">
-    <Value>Database information</Value>
+    <Value>Информация о базе данных</Value>
   </LocaleResource>
   <LocaleResource Name="DatabaseName">
-    <Value>Database name</Value>
+    <Value>Название базы данных</Value>
   </LocaleResource>
   <LocaleResource Name="DatabaseNameRequired">
-    <Value>Database name is required</Value>
+    <Value>Введите название базы данных</Value>
   </LocaleResource>
   <LocaleResource Name="DatabaseNotExists">
-    <Value>Database does not exist or you don't have permissions to connect to it</Value>
+    <Value>Указанная база данных не существует или у вас нет разрешения для соединения с ней</Value>
   </LocaleResource>
   <LocaleResource Name="DataProviderRequired">
-    <Value>Select data provider</Value>
+    <Value>Выберите провайдер данных</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation1">
-    <Value>If you need information on how to use nopCommerce, visit</Value>
+    <Value>Если вам необходима информация о том, как пользоваться и настраивать nopCommerce, пожалуйста, посетите</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation2">
-    <Value>the documentation section on nopCommerce.com</Value>
+    <Value>раздел "Документация" на сайте nopCommerce.com</Value>
   </LocaleResource>
   <LocaleResource Name="Example">
-    <Value>Example</Value>
+    <Value>Пример</Value>
   </LocaleResource>
   <LocaleResource Name="Install">
-    <Value>Install</Value>
+    <Value>Установить</Value>
   </LocaleResource>
   <LocaleResource Name="Installing">
-    <Value>Installing nopCommerce...</Value>
+    <Value>Установка nopCommerce...</Value>
   </LocaleResource>
   <LocaleResource Name="PasswordsDoNotMatch">
-    <Value>The passwords do not match</Value>
+    <Value>Пароли не совпадают</Value>
   </LocaleResource>
   <LocaleResource Name="RawConnectionString">
-    <Value>Enter raw connection string (advanced)</Value>
+    <Value>Указать строку соединения (raw)</Value>
   </LocaleResource>
   <LocaleResource Name="Recommended">
-    <Value>[Recommended]</Value>
+    <Value>[Рекомендовано]</Value>
   </LocaleResource>
   <LocaleResource Name="RestartInstallation">
-    <Value>Restart installation</Value>
+    <Value>Перезапустить процесс установки</Value>
   </LocaleResource>
   <LocaleResource Name="RestartInstallationTooltip">
-    <Value>Click to restart the installation process (clear all cached values)</Value>
+    <Value>Нажмите, чтобы начать процесс установки заново (очищает все закешированные значения)</Value>
   </LocaleResource>
   <LocaleResource Name="SetupFailed">
-    <Value>Setup failed: {0}</Value>
+    <Value>Ошибка установки: {0}</Value>
   </LocaleResource>
   <LocaleResource Name="SqlAuthentication">
-    <Value>Use SQL Server account</Value>
+    <Value>Проверка подлинности SQL Server</Value>
   </LocaleResource>
   <LocaleResource Name="SqlCompact">
-    <Value>Use built-in data storage (SQL Server Compact)</Value>
+    <Value>SQL Server Compact</Value>
   </LocaleResource>
   <LocaleResource Name="SqlServerName">
-    <Value>SQL Server name</Value>
+    <Value>Имя или сетевой адрес экземпляра SQL Server</Value>
   </LocaleResource>
   <LocaleResource Name="SqlServerNameRequired">
-    <Value>SQL Server name is required</Value>
+    <Value>Введите имя или сетевой адрес экземпляра SQL Server</Value>
   </LocaleResource>
   <LocaleResource Name="SqlServerPassword">
-    <Value>SQL Password</Value>
+    <Value>Пароль для учетной записи SQL Server</Value>
   </LocaleResource>
   <LocaleResource Name="SqlServerPasswordRequired">
-    <Value>SQL Password is required</Value>
+    <Value>Введите пароль для учетной записи SQL Server</Value>
   </LocaleResource>
   <LocaleResource Name="SqlServerUsername">
-    <Value>SQL Username</Value>
+    <Value>Учетная запись SQL Server</Value>
   </LocaleResource>
   <LocaleResource Name="SqlServerUsernameRequired">
-    <Value>SQL Username is required</Value>
+    <Value>Введите учетную запись SQL Server</Value>
   </LocaleResource>
   <LocaleResource Name="SqlStandard">
-    <Value>Use SQL Server (or SQL Express) database</Value>
+    <Value>SQL Server или SQL Express</Value>
   </LocaleResource>
   <LocaleResource Name="StoreInformation">
-    <Value>Store information</Value>
+    <Value>Информация о магазине</Value>
   </LocaleResource>
   <LocaleResource Name="Title">
-    <Value>nopCommerce installation</Value>
+    <Value>Установка nopCommerce</Value>
   </LocaleResource>
   <LocaleResource Name="Tooltip1">
-    <Value>nopCommerce is the leading ASP.NET online shop e-commerce solution. This wizard will guide you through the process of configuring nopCommerce</Value>
+    <Value>nopCommerce - это ведущее ASP.NET решение для создания интернет-магазина. На этой странице вы сможете установить nopCommerce.</Value>
   </LocaleResource>
   <LocaleResource Name="Tooltip2">
-    <Value>To complete this wizard, you must know some information regarding your database server ("connection string"). Please contact your ISP if necessary. If you're installing on a local machine or server, you might need information from your System Admin.</Value>
+    <Value>Для того, что успешно установить nopCommerce, вам необходимо знать строку подключения к вашей базе данных. Если у вас нет этой информации, то вы можете узнать ее у вашего хостинг-провайдера. Если же вы устанавливаете nopCommerce на локальный компьютер, то вы можете узнать её у вашего системного администратора.</Value>
   </LocaleResource>
   <LocaleResource Name="WindowsAuthentication">
-    <Value>Use integrated Windows authentication</Value>
+    <Value>
+      Проверка подлинности Windows
+    </Value>
   </LocaleResource>
 </Language>
