@@ -1,7 +1,7 @@
 ---
 title: Access Control List
 author: AndreiMaz
-uid: ru-RU/user-guide/configuring/settingup/customers/acl
+uid: en-US/user-guide/configuring/settingup/customers/acl
 ---
 
 # Access Control List
