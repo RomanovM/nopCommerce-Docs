@@ -1,3 +1,5 @@
 files:
   - source: /en-US/**/*.md
     translation: /%locale%/**/%original_file_name%
+  - source: /en-US/toc.yml
+    translation: /%locale%/toc.yml
