@@ -1,7 +1,7 @@
 ---
 title: Inventory management
 author: AndreiMaz
-uid: ru-RU/user-guide/running/order-management/inventory-management
+uid: en-US/user-guide/running/order-management/inventory-management
 ---
 
 # Inventory management
@@ -73,5 +73,5 @@ Click **Edit** to view the **Product info panel**, where these stock settings ca
 
 ## See also
 
-* [Product Attributes](xref:ru-RU/user-guide/running/product-management/attributes/product-attributes)
-* [Warehouses](xref:ru-RU/user-guide/configuring/settingup/shipping/warehouses)
+* [Product Attributes](xref:en-US/user-guide/running/product-management/attributes/product-attributes)
+* [Warehouses](xref:en-US/user-guide/configuring/settingup/shipping/warehouses)
