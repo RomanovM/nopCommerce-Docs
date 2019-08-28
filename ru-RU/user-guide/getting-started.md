@@ -10,10 +10,10 @@ If you are a novice in nopCommerce, follow the steps below to set your store up 
 
 ## 1. Configure your store
 
-- [Configure general store settings](xref:en-US/user-guide/configuring/settingup/mainstore/index)
-- [Configure payment methods](xref:en-US/user-guide/configuring/settingup/payments/payment-methods)
-- [Configure shipping options](xref:en-US/user-guide/configuring/settingup/shipping/index)
-- Configure users list: create [different groups](xref:user-guide/configuring/settingup/customers/customer-roles) of users, give them [separate access to areas of your site](xref:en-US/user-guide/configuring/settingup/customers/acl), offers and so on.
+- [Configure general store settings](xref:en-US/user-guide/configuring/setting-up/mainstore/index)
+- [Configure payment methods](xref:en-US/user-guide/configuring/setting-up/payments/payment-methods)
+- [Configure shipping options](xref:en-US/user-guide/configuring/setting-up/shipping/index)
+- Configure users list: create [different groups](xref:user-guide/configuring/setting-up/customers/customer-roles) of users, give them [separate access to areas of your site](xref:en-US/user-guide/configuring/setting-up/customers/acl), offers and so on.
 
 ## 2. Create a catalog and add products
 
@@ -73,7 +73,7 @@ Whether you want to give a shot to a small project or you are to start a marketp
 
 ### Multi-store
 
-nopCommerce enables you to run more than one store using one interface from a single nopCommerce installation and manage all admin operations from a single panel. Learn [here](xref:en-US/user-guide/configuring/settingup/mainstore/multiple-store) how to set up several stores.
+nopCommerce enables you to run more than one store using one interface from a single nopCommerce installation and manage all admin operations from a single panel. Learn [here](xref:en-US/user-guide/configuring/setting-up/mainstore/multiple-store) how to set up several stores.
 
 ### Multi-Vendor
 
