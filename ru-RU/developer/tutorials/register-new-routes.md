@@ -1,7 +1,7 @@
 ---
 title: How do I register new routes?
 author: AndreiMaz
-uid: ru-RU/developer/tutorials/register-new-routes
+uid: en-US/developer/tutorials/register-new-routes
 ---
 
 # Register new routes
