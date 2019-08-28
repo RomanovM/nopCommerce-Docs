@@ -1,7 +1,7 @@
 ---
 title: Qualpay
 author: AndreiMaz
-uid: ru-RU/user-guide/configuring/settingup/payments/methods/qualpay
+uid: en-US/user-guide/configuring/settingup/payments/methods/qualpay
 ---
 
 # Qualpay
