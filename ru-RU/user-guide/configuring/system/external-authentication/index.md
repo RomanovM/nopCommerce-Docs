@@ -1,7 +1,7 @@
 ---
 title: External Authentication Method
 author: AndreiMaz
-uid: ru-RU/user-guide/configuring/system/external-authentication-method/index
+uid: en-US/user-guide/configuring/system/external-authentication-method/index
 ---
 
 # External Authentication Method
@@ -24,4 +24,4 @@ Click **Configure** for the method configuration.
 
 ## See also
 
-* [Facebook authentication](xref:ru-RU/user-guide/configuring/system/external-authentication/facebook)
+* [Facebook authentication](xref:en-US/user-guide/configuring/system/external-authentication/facebook)
