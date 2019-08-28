@@ -4,7 +4,8 @@
       {
         "files": [
           "**/*.md",
-          "**/*.yml"
+          "**/*.yml",
+          "***/web.config"
         ],
         "exclude": [
           "**/obj/**",
@@ -43,12 +44,12 @@
     "globalMetadata": {
       "_navPath": "/",
       "_navRel": "/",
-      "_appLogoPath": "/logo.png",
+      "_appLogoPath": "logo.png",
       "_enableSearch": true,
       "_gitContribute": {
-        "orgName": "RomanovM",
+        "orgName": "nopSolutions",
         "repoName": "nopCommerce-Docs",
-        "repo": "https://github.com/RomanovM/nopCommerce-Docs.git",
+        "repo": "https://github.com/nopSolutions/nopCommerce-Docs.git",
         "branch": "master"
       },
       "searchScope": [
