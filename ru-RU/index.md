@@ -1,7 +1,7 @@
 ---
 title: nopCommerce Documentation
 author: AndreiMaz
-uid: ru-RU/index
+uid: en-US/index
 ---
 
 # nopCommerce Documentation
@@ -12,5 +12,5 @@ The nopCommerce documentation is here to help you through the process of setting
 
 ## Table of content
 
-* [User guide](xref:ru-RU/user-guide)
-* [Developers guide](xref:ru-RU/developer-documentation)
+* [User guide](xref:en-US/user-guide)
+* [Developers guide](xref:en-US/developer-documentation)
