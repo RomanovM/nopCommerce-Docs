@@ -1,7 +1,7 @@
 ---
 title: Warehouses
 author: AndreiMaz
-uid: ru-RU/user-guide/configuring/settingup/shipping/warehouses
+uid: en-US/user-guide/configuring/settingup/shipping/warehouses
 ---
 
 # Warehouses
