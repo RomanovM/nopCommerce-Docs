@@ -96,8 +96,8 @@ In the Mappings section define:
 
 - **Categories**. You can assign a product to as many categories as you want in nopCommerce. Note that you can manage [product categories](xref:en-US/user-guide/running/product-management/categories) in **Catalog → Categories**.
 - **Manufacturer**. You can assign a product to as many manufacturers as you want in nopCommerce. Note that you can manage [manufacturers](xref:en-US/user-guide/running/product-management/manufacturers) in **Catalog → Manufacturers**.
-- **Limited to stores**, if the product is sold in specific stores. Leave the field empty in case this functionality is not required. Note that in order to use this functionality you have to disable the following setting: **Configuration → Catalog Settings → Ignore** **“Limit per store” rules **(sitewide). Learn how to set up several stores [here](xref:en-US/user-guide/configuring/settingup/mainstore/multiple-store).
-- **Vendor**. You can manage [vendors](xref:en-US/user-guide/configuring/settingup/customers/vendors/index) in **Customers → Vendors**
+- **Limited to stores**, if the product is sold in specific stores. Leave the field empty in case this functionality is not required. Note that in order to use this functionality you have to disable the following setting: **Configuration → Catalog Settings → Ignore** **“Limit per store” rules **(sitewide). Learn how to set up several stores [here](xref:en-US/user-guide/configuring/setting-up/mainstore/multiple-store).
+- **Vendor**. You can manage [vendors](xref:en-US/user-guide/configuring/setting-up/customers/vendors/index) in **Customers → Vendors**
 
 ## Customer roles
 
