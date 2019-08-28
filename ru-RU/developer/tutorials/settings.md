@@ -1,7 +1,7 @@
 ---
 title: Settings API
 author: AndreiMaz
-uid: ru-RU/developer/tutorials/settings
+uid: en-US/developer/tutorials/settings
 ---
 
 # Settings API
