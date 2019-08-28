@@ -1,10 +1,10 @@
 ---
 title: Marketing your store
 author: AndreiMaz
-uid: ru-RU/user-guide/marketing/index
+uid: en-US/user-guide/marketing/index
 ---
 
 # Marketing your store
 
-- [Promotional tools](xref:ru-RU/user-guide/marketing/promotional/index)
-- [Content Management](xref:ru-RU/user-guide/marketing/content/index)
+- [Promotional tools](xref:en-US/user-guide/marketing/promotional/index)
+- [Content Management](xref:en-US/user-guide/marketing/content/index)
