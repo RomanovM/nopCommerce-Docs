@@ -46,8 +46,8 @@ In the **Manufacturer Display panel**, define the following **details**:
 In the **Manufacturer Mappings panel**, define the following **details**:
 
 - **Discounts** - select all discounts associated with this manufacturer. Discounts can be created in the [Promotions](xref:en-US/user-guide/marketing/promotional/index) menu. Note that only discounts with Assigned to categories type are visible here. After discounts are mapped to the manufacturer, they are applied to all products of this manufacturer.
-- **Limited to customer roles** option allows showing this manufacturer only to selected customer roles. Choose the required customer roles from the list that can be created/edited on the [Customer roles](xref:en-US/user-guide/configuring/settingup/customers/customer-roles) page of the Customers menu. If you want the manufacturer to be visible to all - leave the field empty.
-- Select the **Limited to stores** option to make this manufacturer limited to one or more stores. Note that this checkbox is only used when you have several stores configured. For further details refer to [Multi-store support](xref:en-US/user-guide/configuring/settingup/mainstore/multiple-store).
+- **Limited to customer roles** option allows showing this manufacturer only to selected customer roles. Choose the required customer roles from the list that can be created/edited on the [Customer roles](xref:en-US/user-guide/configuring/setting-up/customers/customer-roles) page of the Customers menu. If you want the manufacturer to be visible to all - leave the field empty.
+- Select the **Limited to stores** option to make this manufacturer limited to one or more stores. Note that this checkbox is only used when you have several stores configured. For further details refer to [Multi-store support](xref:en-US/user-guide/configuring/setting-up/mainstore/multiple-store).
 
 ### Setting up SEO
 
