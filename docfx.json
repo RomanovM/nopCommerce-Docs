@@ -5,7 +5,7 @@
         "files": [
           "**/*.md",
           "**/*.yml",
-          "***/web.config"
+          "**/web.config"
         ],
         "exclude": [
           "**/obj/**",
