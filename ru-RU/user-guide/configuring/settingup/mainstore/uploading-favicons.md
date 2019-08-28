@@ -1,7 +1,7 @@
 ---
 title: Uploading favicons
 author: RomanovM
-uid: en-US/user-guide/configuring/settingup/mainstore/uploading-favicons
+uid: ru-RU/user-guide/configuring/settingup/mainstore/uploading-favicons
 ---
 
 # Uploading favicons

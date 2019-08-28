@@ -1,7 +1,7 @@
 ---
 title: Media Settings
 author: AndreiMaz
-uid: en-US/user-guide/configuring/design/media-settings
+uid: ru-RU/user-guide/configuring/design/media-settings
 ---
 
 # Media Settings

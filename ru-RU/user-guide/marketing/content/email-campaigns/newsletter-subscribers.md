@@ -1,7 +1,7 @@
 ---
 title: Newsletter subscribers
 author: AndreiMaz
-uid: en-US/user-guide/marketing/content/email-campaigns/newsletter-subscribers
+uid: ru-RU/user-guide/marketing/content/email-campaigns/newsletter-subscribers
 ---
 
 # Newsletter subscribers
@@ -29,4 +29,4 @@ On the **Newsletter subscribers page** you can find certain subscribers using fo
 
 ## See also
 
-- [Campaigns](xref:en-US/user-guide/marketing/content/email-campaigns/all-campaigns)
+- [Campaigns](xref:ru-RU/user-guide/marketing/content/email-campaigns/all-campaigns)

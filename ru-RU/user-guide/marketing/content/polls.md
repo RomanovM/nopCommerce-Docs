@@ -1,7 +1,7 @@
 ---
 title: Polls
 author: AndreiMaz
-uid: en-US/user-guide/marketing/content/polls
+uid: ru-RU/user-guide/marketing/content/polls
 ---
 
 # Polls

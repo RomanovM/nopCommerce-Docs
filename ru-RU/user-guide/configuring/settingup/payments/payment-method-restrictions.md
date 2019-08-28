@@ -1,7 +1,7 @@
 ---
 title: Payment Method Restrictions
 author: AndreiMaz
-uid: en-US/user-guide/configuring/settingup/payments/payment-method-restrictions
+uid: ru-RU/user-guide/configuring/settingup/payments/payment-method-restrictions
 ---
 
 # Payment Method Restrictions

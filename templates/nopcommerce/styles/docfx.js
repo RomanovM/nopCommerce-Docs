@@ -24,6 +24,8 @@ $(function () {
   breakText();
   renderTabs();
 
+  langSwitch();
+
   window.refresh = function (article) {
     // Update markup result
     if (typeof article == 'undefined' || typeof article.content == 'undefined')
@@ -39,6 +41,12 @@ $(function () {
 
   // Add this event listener when needed
   // window.addEventListener('content-update', contentUpdate);
+
+  function langSwitch(){
+    $("#lang-switcher").on('change', function(e) {
+        window.location = this.value;
+    });
+  }
 
   function breakText() {
     $(".xref").addClass("text-break");

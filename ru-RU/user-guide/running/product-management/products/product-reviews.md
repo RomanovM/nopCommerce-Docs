@@ -1,7 +1,7 @@
 ---
 title: Product reviews
 author: AndreiMaz
-uid: en-US/user-guide/running/product-management/products/product-reviews
+uid: ru-RU/user-guide/running/product-management/products/product-reviews
 ---
 
 # Product reviews
@@ -50,7 +50,7 @@ Tick the **Is approved** checkbox, to approve the review.
 
 On this area, you can view the all addition reviews on current product. **Rating** displays the customer rating. All columns in the table cannot be edited.
 
-For more information on setting up and adding rating values, [click here](xref:en-US/user-guide/running/product-management/catalog-settings)
+For more information on setting up and adding rating values, [click here](xref:ru-RU/user-guide/running/product-management/catalog-settings)
 
 ![r1](_static/product-reviews/review_types.png)
 

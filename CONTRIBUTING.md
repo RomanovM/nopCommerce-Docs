@@ -28,10 +28,10 @@ Structuring rules:
 
 - The folder that unites articles into a group should include the root file `index.md`
 
-So, an image in the `developer/tutorials/source-code-organization.md` file is rendered by the following Markdown:
+So, an image in the `en-US/developer/tutorials/source-code-organization.md` file is rendered by the following Markdown:
 
 ```md
-![description of image for alt attribute](developer/tutorials/_static/source-code-organization/imagename.png)
+![description of image for alt attribute](en-US/developer/tutorials/_static/source-code-organization/imagename.png)
 ```
 
 All images should have [alternative (alt) text](https://wikipedia.org/wiki/Alt_attribute). For advice on specifying alt text, see online resources, such as [WebAIM: Alternative Text](https://webaim.org/techniques/alttext/).

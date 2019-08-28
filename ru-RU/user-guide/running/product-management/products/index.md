@@ -1,7 +1,7 @@
 ---
 title: Products
 author: AndreiMaz
-uid: en-US/user-guide/running/product-management/products/index
+uid: ru-RU/user-guide/running/product-management/products/index
 ---
 
 # Products
@@ -12,7 +12,7 @@ Adding products also includes some important internal settings, such as inventor
 
 Learn how to create products in nopCommerce in our **Adding products chapter**.
 
-- [Adding products](xref:en-US/user-guide/running/product-management/products/adding-products/index)
-- [Import/Export](xref:en-US/user-guide/running/product-management/products/import-export).
-- [Product tags](xref:en-US/user-guide/running/product-management/products/product-tags)
-- [Product reviews](xref:en-US/user-guide/running/product-management/products/product-reviews)
+- [Adding products](xref:ru-RU/user-guide/running/product-management/products/adding-products/index)
+- [Import/Export](xref:ru-RU/user-guide/running/product-management/products/import-export).
+- [Product tags](xref:ru-RU/user-guide/running/product-management/products/product-tags)
+- [Product reviews](xref:ru-RU/user-guide/running/product-management/products/product-reviews)

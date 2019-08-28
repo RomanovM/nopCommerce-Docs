@@ -1,7 +1,7 @@
 ---
 title: Nivo Slider widget plugin
 author: AndreiMaz
-uid: en-US/user-guide/configuring/system/widgets/nivo-slider
+uid: ru-RU/user-guide/configuring/system/widgets/nivo-slider
 ---
 
 # Nivo Slider widget plugin

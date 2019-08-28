@@ -1,7 +1,7 @@
 ---
 title: Promotional tools
 author: AndreiMaz
-uid: en-US/user-guide/marketing/promotional/index
+uid: ru-RU/user-guide/marketing/promotional/index
 ---
 
 # Promotional tools
@@ -10,9 +10,9 @@ nopCommerce allows you to use a lot of promotional tools to market your store. T
 
 **Learn more in following chapters:**
 
-- [Discounts](xref:en-US/user-guide/marketing/promotional/discounts/index)
-- [Gift cards](xref:en-US/user-guide/marketing/promotional/gift-cards)
-- [Reward points](xref:en-US/user-guide/marketing/promotional/reward-points)
-- [Affiliates](xref:en-US/user-guide/marketing/promotional/affiliates)
-- [Cross-sells and Related products](xref:en-US/user-guide/marketing/promotional/cross-sells-related-products)
-- [Tier prices](xref:en-US/user-guide/marketing/promotional/tier-prices)
+- [Discounts](xref:ru-RU/user-guide/marketing/promotional/discounts/index)
+- [Gift cards](xref:ru-RU/user-guide/marketing/promotional/gift-cards)
+- [Reward points](xref:ru-RU/user-guide/marketing/promotional/reward-points)
+- [Affiliates](xref:ru-RU/user-guide/marketing/promotional/affiliates)
+- [Cross-sells and Related products](xref:ru-RU/user-guide/marketing/promotional/cross-sells-related-products)
+- [Tier prices](xref:ru-RU/user-guide/marketing/promotional/tier-prices)
