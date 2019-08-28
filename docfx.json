@@ -4,8 +4,7 @@
       {
         "files": [
           "**/*.md",
-          "**/*.yml",
-          "**/web.config"
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -25,7 +24,8 @@
           "**/*.jpeg",
           "**/*.gif",
           "**/*.svg",
-          "**/*.pdf"
+          "**/*.pdf",
+          "***/web.config"
         ],
         "exclude": [
           "**/obj/**",
