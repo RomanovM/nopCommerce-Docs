@@ -23,7 +23,7 @@
           items:
             - 
               name: Hosting providers
-              href: user-guide/installing/installation-guide/hosting-provider.md
+              href: user-guide/installing/installation-guide/hosting-providers.md
             - 
               name: Installing Internet Information Services (IIS)
               href: user-guide/installing/installation-guide/installing-IIS.md
@@ -55,61 +55,61 @@
           items:
             - 
               name: Setting up Main Store
-              href: user-guide/configuring/settingup/mainstore/index.md
+              href: user-guide/configuring/setting-up/mainstore/index.md
               items:
                 - 
                   name: Setting up Multiple-Store
-                  href: user-guide/configuring/settingup/mainstore/multiple-store.md
+                  href: user-guide/configuring/setting-up/mainstore/multiple-store.md
                 - 
                   name: Countries
-                  href: user-guide/configuring/settingup/mainstore/countries.md
+                  href: user-guide/configuring/setting-up/mainstore/countries.md
                 - 
                   name: Languages
-                  href: user-guide/configuring/settingup/mainstore/languages.md
+                  href: user-guide/configuring/setting-up/mainstore/languages.md
                 - 
                   name: Security settings
-                  href: user-guide/configuring/settingup/mainstore/security-settings.md
+                  href: user-guide/configuring/setting-up/mainstore/security-settings.md
                 - 
                   name: PDF settings
-                  href: user-guide/configuring/settingup/mainstore/pdf-settings.md
+                  href: user-guide/configuring/setting-up/mainstore/pdf-settings.md
                 - 
                   name: GDPR settings
-                  href: user-guide/configuring/settingup/mainstore/gdpr-settings.md
+                  href: user-guide/configuring/setting-up/mainstore/gdpr-settings.md
                 - 
                   name: Uploading favicons
-                  href: user-guide/configuring/settingup/mainstore/uploading-favicons.md
+                  href: user-guide/configuring/setting-up/mainstore/uploading-favicons.md
             - 
               name: Setting up Payments
-              href: user-guide/configuring/settingup/payments/index.md
+              href: user-guide/configuring/setting-up/payments/index.md
               items:
                 - 
                   name: Payment Methods
-                  href: user-guide/configuring/settingup/payments/payment-methods.md
+                  href: user-guide/configuring/setting-up/payments/methods/index.md
                   items:
                     - 
                       name: Manual Processing (Credit Card)
-                      href: user-guide/configuring/settingup/payments/methods/manual-processing.md
+                      href: user-guide/configuring/setting-up/payments/methods/manual-processing.md
                     - 
                       name: PayPal Standard
-                      href: user-guide/configuring/settingup/payments/methods/paypal-standard.md
+                      href: user-guide/configuring/setting-up/payments/methods/paypal-standard.md
                     - 
                       name: Purchase order
-                      href: user-guide/configuring/settingup/payments/methods/purchase-order.md
+                      href: user-guide/configuring/setting-up/payments/methods/purchase-order.md
                     - 
                       name: Square
-                      href: user-guide/configuring/settingup/payments/methods/square.md
+                      href: user-guide/configuring/setting-up/payments/methods/square.md
                     - 
                       name: Qualpay
-                      href: user-guide/configuring/settingup/payments/methods/qualpay.md
+                      href: user-guide/configuring/setting-up/payments/methods/qualpay.md
                 - 
                   name: Payment statuses
-                  href: user-guide/configuring/settingup/payments/payment-statuses.md
+                  href: user-guide/configuring/setting-up/payments/payment-statuses.md
                 - 
                   name: Payment Method Restrictions
-                  href: user-guide/configuring/settingup/payments/payment-method-restrictions.md
+                  href: user-guide/configuring/setting-up/payments/payment-method-restrictions.md
                 - 
                   name: Currencies
-                  href: user-guide/configuring/settingup/payments/currencies.md
+                  href: user-guide/configuring/setting-up/payments/currencies.md
             - 
               name: Setting up Tax
               href: user-guide/configuring/setting-up/taxes/index.md
@@ -119,79 +119,79 @@
                   href: user-guide/configuring/setting-up/taxes/tax-settings.md
                 - 
                   name: Tax
-                  href: user-guide/configuring/settingup/taxes/tax/index.md
+                  href: user-guide/configuring/setting-up/taxes/tax/index.md
                   items:
                     - 
                       name: Avalara tax provider
-                      href: user-guide/configuring/settingup/taxes/tax/methods/avalara.md
+                      href: user-guide/configuring/setting-up/taxes/tax/methods/avalara.md
                     - 
                       name: Manual (Fixed or By Country/State/Zip)
-                      href: user-guide/configuring/settingup/taxes/tax/methods/manual.md
+                      href: user-guide/configuring/setting-up/taxes/tax/methods/manual.md
                 - 
                   name: EU VAT configuration guide
-                  href: user-guide/configuring/settingup/taxes/eu-vat.md
+                  href: user-guide/configuring/setting-up/taxes/eu-vat.md
             - 
               name: Setting up Shipping
-              href: user-guide/configuring/settingup/shipping/index.md
+              href: user-guide/configuring/setting-up/shipping/index.md
               items:
                 - 
                   name: Shipping Settings
-                  href: user-guide/configuring/settingup/shipping/settings.md
+                  href: user-guide/configuring/setting-up/shipping/settings.md
                 - 
                   name: Shipping Providers
-                  href: user-guide/configuring/settingup/shipping/providers/index.md
+                  href: user-guide/configuring/setting-up/shipping/providers/index.md
                   items:
                     - 
                       name: Manual (Fixed or By Weight and By Total)
-                      href: user-guide/configuring/settingup/shipping/providers/manual/index.md
+                      href: user-guide/configuring/setting-up/shipping/providers/manual/index.md
                       items:
                         - 
                           name: Shipping Methods (Fixed Rate Shipping)
-                          href: user-guide/configuring/settingup/shipping/providers/manual/fixed-rate-methods.md
+                          href: user-guide/configuring/setting-up/shipping/providers/manual/fixed-rate-methods.md
                         - 
                           name: Shipping Method Restrictions (Fixed Rate Shipping)
-                          href: user-guide/configuring/settingup/shipping/providers/manual/fixed-rate-restrictions.md
+                          href: user-guide/configuring/setting-up/shipping/providers/manual/fixed-rate-restrictions.md
                         - 
                           name: Shipping Methods (Shipping by Weight and By Total)
-                          href: user-guide/configuring/settingup/shipping/providers/manual/methods.md
+                          href: user-guide/configuring/setting-up/shipping/providers/manual/methods.md
                         - 
                           name: Shipping Method Restrictions (Shipping by Weight and by Total)
-                          href: user-guide/configuring/settingup/shipping/providers/manual/restrictions.md
+                          href: user-guide/configuring/setting-up/shipping/providers/manual/restrictions.md
                     - 
                       name: UPS
-                      href: user-guide/configuring/settingup/shipping/providers/ups.md
+                      href: user-guide/configuring/setting-up/shipping/providers/ups.md
                 - 
                   name: Warehouses
-                  href: user-guide/configuring/settingup/shipping/warehouses.md
+                  href: user-guide/configuring/setting-up/shipping/warehouses.md
                 - 
                   name: Dates and ranges
-                  href: user-guide/configuring/settingup/shipping/dates-ranges.md
+                  href: user-guide/configuring/setting-up/shipping/dates-ranges.md
                 - 
                   name: Measures
-                  href: user-guide/configuring/settingup/shipping/measures.md
+                  href: user-guide/configuring/setting-up/shipping/measures.md
                 - 
                   name: Pickup Points
-                  href: user-guide/configuring/settingup/shipping/pickup-Points.md
+                  href: user-guide/configuring/setting-up/shipping/pickup-points.md
             - 
               name: Setting up Customers
-              href: user-guide/configuring/settingup/customers/index.md
+              href: user-guide/configuring/setting-up/customers/index.md
               items:
                 - 
                   name: Customer settings
-                  href: user-guide/configuring/settingup/customers/settings.md
+                  href: user-guide/configuring/setting-up/customers/settings.md
                 - 
                   name: Customer roles
-                  href: user-guide/configuring/settingup/customers/customer-roles.md
+                  href: user-guide/configuring/setting-up/customers/customer-roles.md
                 - 
                   name: Access Control List
-                  href: user-guide/configuring/settingup/customers/acl.md
+                  href: user-guide/configuring/setting-up/customers/acl.md
                 - 
                   name: Vendors
-                  href: user-guide/configuring/settingup/customers/vendors/index.md
+                  href: user-guide/configuring/setting-up/customers/vendors/index.md
                   items:
                     - 
                       name: Vendor settings
-                      href: user-guide/configuring/settingup/customers/vendors/settings.md
+                      href: user-guide/configuring/setting-up/customers/vendors/settings.md
             - 
               name: All Settings (advanced)
               href: user-guide/configuring/setting-up/all-settings.md
@@ -220,7 +220,7 @@
               href: user-guide/configuring/system/localization.md
             - 
               name: External Authentication Method
-              href: user-guide/configuring/system/external-authentication-method/index.md
+              href: user-guide/configuring/system/external-authentication/index.md
               items:
                 - 
                   name: Facebook
@@ -446,7 +446,7 @@
                   name: Forum settings
                   href: user-guide/marketing/content/forums/settings.md
             - 
-              name: Pools
+              name: Polls
               href: user-guide/marketing/content/polls.md
             - 
               name: Topics (pages)
@@ -463,7 +463,7 @@
   items:
     - 
       name: Developer tutorials
-      href: developer/tutorials.md
+      href: developer/tutorials/index.md
       items:
         - 
           name: Configuring code style
