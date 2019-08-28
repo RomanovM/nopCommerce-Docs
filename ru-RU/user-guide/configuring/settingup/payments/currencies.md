@@ -1,7 +1,7 @@
 ---
 title: Currencies
 author: AndreiMaz
-uid: ru-RU/user-guide/configuring/settingup/payments/currencies
+uid: en-US/user-guide/configuring/settingup/payments/currencies
 ---
 
 # Currencies
