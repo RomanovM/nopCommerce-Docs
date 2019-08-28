@@ -1,7 +1,7 @@
 ---
 title: Deleting Old Exported Files
 author: AndreiMaz
-uid: ru-RU/user-guide/configuring/system/deleting-old-exported-files
+uid: en-US/user-guide/configuring/system/deleting-old-exported-files
 ---
 
 # Deleting Old Exported Files
