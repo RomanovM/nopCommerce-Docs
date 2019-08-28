@@ -1,7 +1,7 @@
 ---
 title: Forum settings
 author: AndreiMaz
-uid: ru-RU/user-guide/marketing/content/forums/settings
+uid: en-US/user-guide/marketing/content/forums/settings
 ---
 
 # Forum settings
@@ -43,5 +43,5 @@ To change a setting for a certain store, tick a checkbox on the left side of it.
 
 ## See also
 
-- [Basic and Advanced modes](xref:ru-RU/user-guide/configuring/nopcommerce-interface)
-- [Forums](xref:ru-RU/user-guide/marketing/content/forums/index)
+- [Basic and Advanced modes](xref:en-US/user-guide/configuring/nopcommerce-interface)
+- [Forums](xref:en-US/user-guide/marketing/content/forums/index)
