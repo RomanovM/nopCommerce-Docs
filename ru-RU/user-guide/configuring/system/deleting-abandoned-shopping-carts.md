@@ -1,7 +1,7 @@
 ---
 title: Deleting Old Exported Files
 author: AndreiMaz
-uid: ru-RU/user-guide/configuring/system/deleting-abandoned-shopping-carts
+uid: en-US/user-guide/configuring/system/deleting-abandoned-shopping-carts
 ---
 
 # Deleting Old Exported Files
