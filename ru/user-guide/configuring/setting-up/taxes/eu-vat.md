@@ -1,8 +1,9 @@
 ---
 title: EU VAT configuration guide
 author: AndreiMaz
-uid: ru/user-guide/configuring/setting-up/taxes/eu-vat
+uid: en/user-guide/configuring/setting-up/taxes/eu-vat
 ---
+
 # EU VAT configuration guide
 
 To set up NopCommerce VAT support for shops in the EU go to **Configuration → Settings → Tax Settings**.
@@ -17,8 +18,7 @@ Click **Save** button.
 
 Go to **Configuration → Countries**. Check that all the countries which are in the scope of the VAT have "**Subject to VAT**" set to **true**.
 
-> [!NOTE]
-> Jersey, Guernsey, and the other Channel Islands are not a part of the UK and are not within the scope of VAT. If you sell to those places you may need to change that.
+> [!NOTE] Jersey, Guernsey, and the other Channel Islands are not a part of the UK and are not within the scope of VAT. If you sell to those places you may need to change that.
 
 Go to **Configuration → Tax Categories**. Set up a tax category for each VAT rate in your country. For example, "Standard Rate", "Zero rate", "Discounted rate". Delete default classes that are already there and are not applicable.
 
@@ -26,4 +26,4 @@ Go to **Configuration → Tax Providers**. Make the Fixed Rate Provider the defa
 
 Click **Configure** to edit tax rates that are charged by the **Fixed Rate Provider**. You'll see your VAT rate categories on the Configuration tab. Click **Edit** beside each category and enter the percentage rates.
 
-Make sure that all products have a tax category assigned to them on their [product pages](xref:ru/user-guide/running/product-management/products/adding-products/index).
+Make sure that all products have a tax category assigned to them on their [product pages](xref:en/user-guide/running/product-management/products/adding-products/index).
