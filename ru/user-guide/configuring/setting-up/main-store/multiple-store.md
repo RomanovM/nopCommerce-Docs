@@ -1,8 +1,9 @@
 ---
 title: Setting up Multiple-Store
 author: AndreiMaz
-uid: ru/user-guide/configuring/setting-up/main-store/multiple-store
+uid: en/user-guide/configuring/setting-up/main-store/multiple-store
 ---
+
 # Setting up Multiple-Store
 
 nopCommerce enables you to run more than one store using one interface from a single nopCommerce installation.
@@ -18,36 +19,35 @@ This example describes the setup of two sample stores, as follows:
 
 1. Upload and install the site on www.store1.com. This is the only place where nopCommerce files and DLLs are stored.
 
-1. From the control panel of www.store2.com ( Your hosting control panel, not nopCommerce Administration area) ensure that all requests to www.store2.com are forwarded (not redirected) to www.store1.com. Perform this using CNAME records. This step is crucial.
+2. From the control panel of www.store2.com ( Your hosting control panel, not nopCommerce Administration area) ensure that all requests to www.store2.com are forwarded (not redirected) to www.store1.com. Perform this using CNAME records. This step is crucial.
 
-1. From the control panel of www.store1.com, configure a domain alias for www.store2.com. This step can be complicated for some users (ask your administrator to perform this step if you have issues).
+3. From the control panel of www.store1.com, configure a domain alias for www.store2.com. This step can be complicated for some users (ask your administrator to perform this step if you have issues).
 
 After completing the steps above, when accessing www.store2.com from your browser, the content of www.store1.com will be displayed. The next step is to configure the stores in the administration area; you can then start uploading content for both stores.
 
-_____________________________________
+* * *
 
 * Optional (sample): This step can be performed from the Plesk control panel below, as follows:
-
+    
   * When www.store2.com is redirected to www.store1.com, the web server for Plesk does not know how to display www.store2.com since it uses Name-Based Virtual Hosting. Therefore, you must create a domain alias for www.store2.com, as described below:
-
+    
   * Log in to the domain panel of www.store1.com, either directly or via the Open in Control Panel link from the server administration panel.
-
+    
   * From the Websites & Domains tab, select the Add New Domain Alias link near the bottom of the tab.
-
+    
   * Enter the full alias. For example - store2.com.
-
+    
   * Ensure the Web service option is selected.
-
+    
   * The Mail service is optional. Check this option if you want emails from www.store2.com to be redirected in a similar way.
-
+    
   * Ensure the Synchronize DNS zone with the primary domain option is unchecked.
-
+    
     Once the installation and technical setup are done, you can manage your stores from the administration area. Go to **Configuration → Stores.** The Stores window is displayed:
 
 ![store window](_static/multiple-store/36381788.png)
 
-> [!NOTE]
-> By default, only one store is created.
+> [!NOTE] By default, only one store is created.
 
 Click **Edit** beside a store to configure it:
 
@@ -68,17 +68,16 @@ The two stores have now been configured using a single nopCommerce installation,
 * www.store1.com
 * www.store2.com
 
-> [!NOTE]
-> The Multi-store solution (distinction of stores by HTTP_HOST) does not work for sites in virtual directories on the same domain.
+> [!NOTE] The Multi-store solution (distinction of stores by HTTP_HOST) does not work for sites in virtual directories on the same domain.
 
 For example, you cannot have one store on <http://www.site.com/store1> and the second store on <http://www.site.com/store2>, since the HTTP_HOST value for both of these sites is the same (www.site.com).
 
-Once the stores have been setup and configured, you can define your entities for each store. This is done in the Stores section of the details pages for each of the following: [Products](xref:ru/user-guide/running/product-management/products/index), [Categories](xref:ru/user-guide/running/product-management/categories), [Manufacturers](xref:ru/user-guide/running/product-management/manufacturers), [Languages](xref:ru/user-guide/configuring/setting-up/main-store/languages), [Currencies](xref:ru/user-guide/configuring/setting-up/payments/currencies), [Message templates](xref:ru/user-guide/marketing/content/message-templates), [Blogs](xref:ru/user-guide/marketing/content/blog/index), [News](xref:ru/user-guide/marketing/content/news/index), [Topics](xref:ru/user-guide/marketing/content/topics).
+Once the stores have been setup and configured, you can define your entities for each store. This is done in the Stores section of the details pages for each of the following: [Products](xref:en/user-guide/running/product-management/products/index), [Categories](xref:en/user-guide/running/product-management/categories), [Manufacturers](xref:en/user-guide/running/product-management/manufacturers), [Languages](xref:en/user-guide/configuring/setting-up/main-store/languages), [Currencies](xref:en/user-guide/configuring/setting-up/payments/currencies), [Message templates](xref:en/user-guide/marketing/content/message-templates), [Blogs](xref:en/user-guide/marketing/content/blog/index), [News](xref:en/user-guide/marketing/content/news/index), [Topics](xref:en/user-guide/marketing/content/topics).
 
 Scroll down to the "Stores" section and choose the name of the existing store in a "Limited to stores" box, as shown in the Edit Product Details screen below:
 
 ![Mappings](_static/multiple-store/15281404.png)
 
-Different [themes](xref:ru/user-guide/configuring/design/installing-theme) can also be configured for different stores.
+Different [themes](xref:en/user-guide/configuring/design/installing-theme) can also be configured for different stores.
 
 In addition, you can override any setting value per store.
