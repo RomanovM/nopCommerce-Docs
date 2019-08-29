@@ -1,6 +1,6 @@
 - name: Russian
-  href: ru-RU/
-  topicHref: ru-RU
+  href: ru/
+  topicHref: ru
 - name: English
-  href: en-US/
-  topicHref: en-US
+  href: en/
+  topicHref: en

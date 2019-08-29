@@ -47,10 +47,10 @@
       "_appLogoPath": "logo.png",
       "_enableSearch": true,
       "_gitContribute": {
-        "orgName": "nopSolutions",
+        "orgName": "RomanovM",
         "repoName": "nopCommerce-Docs",
-        "repo": "https://github.com/nopSolutions/nopCommerce-Docs.git",
-        "branch": "master"
+        "repo": "https://github.com/RomanovM/nopCommerce-Docs.git",
+        "branch": "nopCommerce-4.20"
       },
       "searchScope": [
         "nopCommerce-Docs"

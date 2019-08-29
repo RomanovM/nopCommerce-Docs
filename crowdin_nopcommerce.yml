@@ -1,5 +1,5 @@
 files:
-  - source: /en-US/**/*.md
-    translation: /%locale%/**/%original_file_name%
-  - source: /en-US/toc.yml
-    translation: /%locale%/toc.yml
+  - source: /en/**/*.md
+    translation: /%two_letters_code%/**/%original_file_name%
+  - source: /en/toc.yml
+    translation: /%two_letters_code%/toc.yml
