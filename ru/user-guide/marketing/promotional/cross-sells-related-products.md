@@ -1,20 +1,20 @@
 ---
 title: Cross-sells and Related products
 author: AndreiMaz
-uid: ru/user-guide/marketing/promotional/cross-sells-related-products
+uid: en/user-guide/marketing/promotional/cross-sells-related-products
 ---
+
 # Cross-sells and Related products
 
 **Cross-sells** and **related products** are marketing tools in nopCommerce that can be used to offer your customers additional products they may like based on their shopping behavior (viewing and adding to the cart certain products). It is also a good opportunity for you to up-sell some products. You can use both of these tools simultaneously.
 
 You can set up cross-sells and related products when creating or editing some product on the product info page in **Catalog → Products → Add new/Edit.**
 
-> [!NOTE]
-> **You need to save the product before you can add cross-sells and related product**
+> [!NOTE] **You need to save the product before you can add cross-sells and related product**
 
 ## Cross-sells
 
-The Cross-sell products option provides an opportunity to sell additional products that are usually being bought with the selected product, however, you can add any product from your catalog even non-complementary to the product in the cart.  Cross-sells **are displayed at the bottom of the checkout page**. For example, when your customer is buying a CPU, he/she might need a monitor and something else. You can add an unlimited number of cross-sell products to a product.
+The Cross-sell products option provides an opportunity to sell additional products that are usually being bought with the selected product, however, you can add any product from your catalog even non-complementary to the product in the cart. Cross-sells **are displayed at the bottom of the checkout page**. For example, when your customer is buying a CPU, he/she might need a monitor and something else. You can add an unlimited number of cross-sell products to a product.
 
 ![Cross_sells](_static/cross-sells-related-products/Cross-sells.png)
 
@@ -50,5 +50,5 @@ After you have chosen related product and saved it, **you can check how related 
 
 ## See also
 
-- [Adding products](xref:ru/user-guide/running/product-management/products/adding-products/index)
-- [Tier prices](xref:ru/user-guide/marketing/promotional/tier-prices)
+- [Adding products](xref:en/user-guide/running/product-management/products/adding-products/index)
+- [Tier prices](xref:en/user-guide/marketing/promotional/tier-prices)
