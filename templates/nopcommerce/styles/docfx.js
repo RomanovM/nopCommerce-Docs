@@ -7,7 +7,7 @@ $(function () {
   var show = 'show';
   var hide = 'hide';
   var util = new utility();
-  
+
   workAroundFixedHeaderForAnchors();
   highlight();
   enableSearch();
@@ -42,9 +42,18 @@ $(function () {
   // Add this event listener when needed
   // window.addEventListener('content-update', contentUpdate);
 
-  function langSwitch(){
-    $("#lang-switcher").on('change', function(e) {
-        window.location = this.value;
+  function langSwitch() {
+    $("#lang-switcher").on('change', function (e) {
+      var selectedLang = this.value;
+      var langs = $('option', this).map(function (e) { return $(this).val(); }).get();
+
+      var currentLocationPathname = window.location.pathname;
+
+      if (currentLocationPathname.startsWith(selectedLang))
+        return;
+
+      window.location.href = currentLocationPathname.replace(/^\/[A-Z]{2}-[A-Z]{2}/i, selectedLang);
+
     });
   }
 
@@ -357,11 +366,11 @@ $(function () {
       renderBreadcrumb();
       showSearch();
     }
-    
+
     function showSearch() {
       if ($('#search-results').length !== 0) {
-          $('#search').show();
-          $('body').trigger("searchEvent");
+        $('#search').show();
+        $('body').trigger("searchEvent");
       }
     }
 
@@ -560,7 +569,7 @@ $(function () {
       if ($('footer').is(':visible')) {
         $(".sideaffix").css("bottom", "70px");
       }
-      $('#affix a').click(function(e) {
+      $('#affix a').click(function (e) {
         var scrollspy = $('[data-spy="scroll"]').data()['bs.scrollspy'];
         var target = e.target.hash;
         if (scrollspy && target) {
@@ -1147,13 +1156,13 @@ $(function () {
     $(window).on('hashchange', scrollToCurrent);
 
     $(window).load(function () {
-        // scroll to the anchor if present, offset by the header
-        scrollToCurrent();
+      // scroll to the anchor if present, offset by the header
+      scrollToCurrent();
     });
 
     $(document).ready(function () {
-        // Exclude tabbed content case
-        $('a:not([data-tab])').click(function (e) { delegateAnchors(e); });
+      // Exclude tabbed content case
+      $('a:not([data-tab])').click(function (e) { delegateAnchors(e); });
     });
   }
 });
