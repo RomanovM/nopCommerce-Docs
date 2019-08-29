@@ -1,17 +1,18 @@
 ---
 title: Order management
 author: AndreiMaz
-uid: ru/user-guide/running/order-management/orders/index
+uid: en/user-guide/running/order-management/orders/index
 ---
+
 # Order management
 
 **To view and manage Orders**, go to **Sales → Orders**. The Orders page lists all current orders. After a customer completes a transaction, a new order appears on the orders page.
 
-Top area of the page enables a store owner to search for orders. Enter specific search criteria and use a variety of filters to find any order placed in the store. When any search is performed, the results of the search are displayed in the lower half of the screen.  You can click View to view the order details.
+Top area of the page enables a store owner to search for orders. Enter specific search criteria and use a variety of filters to find any order placed in the store. When any search is performed, the results of the search are displayed in the lower half of the screen. You can click View to view the order details.
 
 ![order-list](_static/index/Admin-Order-List.png)
 
-__To search for orders__, enter one or more of the following search criteria:
+**To search for orders**, enter one or more of the following search criteria:
 
 * **Start date** and **End date** to define a period of orders creation
 * **Product** - enter a product name
@@ -24,12 +25,11 @@ __To search for orders__, enter one or more of the following search criteria:
 * **Billing email address** - customer’s email address
 * **Billing last name** - customer’s last name
 * **Billing country**
-* **Payment method**  - set a specific payment method that was used during checkout
+* **Payment method** - set a specific payment method that was used during checkout
 * **Order notes**
 * **Go directly to order number** - enter the order number and click Go to display the required order
 
-> [!NOTE]
-> You can export the order data to an external file by clicking Export to XML(all) or Export to Excel (all). You can export selected order data to an external file by clicking Export to XML(selected) or Export to Excel (selected).
+> [!NOTE] You can export the order data to an external file by clicking Export to XML(all) or Export to Excel (all). You can export selected order data to an external file by clicking Export to XML(selected) or Export to Excel (selected).
 
 **To view the order full information**, click **View** beside the order in the list.
 
@@ -52,8 +52,7 @@ On the **Billing & Shipping panel**, view and edit the billing and shipping info
 * View and Edit a **shipping address**. Optionally you can click the** View address on Google maps** link to locate the required shipping address.
 * View and Edit a **shipping method**
 * View a **shipping status**. Note: Store owners can create several shipments per order. If you create a shipment but do not ship all products, then the shipping status of an order is **Partially shipped**. Once all the products are shipped, the status changes to **Shipped**. Once all the shipments are delivered, the status changes to **Delivered**.
-* View the **list of shipments**. Click **View** beside the shipment to view its details. The shipment information window will be displayed:
-    ![shipment-details](_static/index/shipment-details.jpeg)
+* View the **list of shipments**. Click **View** beside the shipment to view its details. The shipment information window will be displayed: ![shipment-details](_static/index/shipment-details.jpeg)
 
 **Add Shipment** - enables creating several shipments per order and is visible when there is at least one non-shipped product in the order. Add a new shipment in the Add a new shipment to order window. In the Quantity to ship column, enter the required quantity of the specific order to ship. Once a shipment is created, you can set it to shipped and then delivered, by clicking the Set as shipped and Set as delivered buttons accordingly.
 
@@ -68,8 +67,7 @@ On the *Products* tab a store owner can:
 * **View the product information**, including price, quantity, and total price
 * Click the Product name link to **view a product detail page** or the Download link to **download a product** if it is downloadable, alternatively, a user can upload a file to the downloadable product. In addition, when the Download activation type of a product is set to Manually, an administrator has the option to click **Activate** to enable **downloading** the product from the site or **Deactivate** to disable **downloading** the product from the site
 * **Edit** the product **price**, **quantity**, **discount** and **total**
-* **Delete** a product from the system
-Add Product. In the **Add a New Product to the Order** window find the required product, fill the required values and Add Product.
+* **Delete** a product from the system Add Product. In the **Add a New Product to the Order** window find the required product, fill the required values and Add Product.
 
 ![Order Products](_static/index/order-products.png)
 
@@ -77,6 +75,6 @@ On the **Order Notes** tab, a store owner can **view** notes that were added to 
 
 ## See also
 
-* [Adding products](xref:ru/user-guide/running/product-management/products/adding-products/index)
-* [Shipments](xref:ru/user-guide/running/order-management/shipments)
+* [Adding products](xref:en/user-guide/running/product-management/products/adding-products/index)
+* [Shipments](xref:en/user-guide/running/order-management/shipments)
 * [YouTube tutorial on managing orders](https://www.youtube.com/watch?v=z6TUJOO3gVg&index=5&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4)
