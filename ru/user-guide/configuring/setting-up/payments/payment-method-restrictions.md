@@ -1,8 +1,9 @@
 ---
 title: Payment Method Restrictions
 author: AndreiMaz
-uid: ru/user-guide/configuring/setting-up/payments/payment-method-restrictions
+uid: en/user-guide/configuring/setting-up/payments/payment-method-restrictions
 ---
+
 # Payment Method Restrictions
 
 Payment method restrictions allow you to **restrict payments coming from certain countries.**
@@ -15,5 +16,4 @@ Select the checkbox(es) for the **country or countries** in which you want the p
 
 Click **Save.**
 
-> [!NOTE]
-> If required, you can select the entire restriction column for all countries.
+> [!NOTE] If required, you can select the entire restriction column for all countries.
