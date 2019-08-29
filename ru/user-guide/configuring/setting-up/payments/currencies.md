@@ -1,8 +1,9 @@
 ---
 title: Currencies
 author: AndreiMaz
-uid: ru/user-guide/configuring/setting-up/payments/currencies
+uid: en/user-guide/configuring/setting-up/payments/currencies
 ---
+
 # Currencies
 
 In nopCommerce, **only primary store currency is used,** which is the currency against which all other allowed currencies will be configured. Although nopCommerce allows having multiple currencies for displaying your product prices, the primary currency is used for payment transactions with online payment gateways.
@@ -23,17 +24,15 @@ To define **currency settings** go to **Configuration → Currencies.**
 
 From the Current exchange rate provider dropdown list, select the exchange rate provider that will be used to get live rates.
 
-> [!NOTE]
-> By default in nopCommerce there is only one exchange rate provider available - ECB. To get live rates from ECB you should select EUR as a primary exchange rate currency.
+> [!NOTE] By default in nopCommerce there is only one exchange rate provider available - ECB. To get live rates from ECB you should select EUR as a primary exchange rate currency.
 
- Select the **Auto update** enabled checkbox, to enable receiving **an automatic update of currency rates every hour.**
+Select the **Auto update** enabled checkbox, to enable receiving **an automatic update of currency rates every hour.**
 
-> [!NOTE]
-> By default, all the currency rates are updated once per hour. You can change currency rates updating settings in System → Schedule task, choose Update currency exchange rates.
+> [!NOTE] By default, all the currency rates are updated once per hour. You can change currency rates updating settings in System → Schedule task, choose Update currency exchange rates.
 
 ![currencies2](_static/currencies/currencies2.png)
 
- Click **Save.**
+Click **Save.**
 
 ## Adding new currency
 
@@ -49,7 +48,7 @@ Define the **currency settings:**
 * From the **Display locale** dropdown list, select the display locale for currency values.
 * Enter **Custom Formatting** to be applied to the currency values. In this field, you can specify any symbols for the currency displaying in public store, number of decimal places and so on.
 * In the **Limited to Stores** select a pre-created store from drop-down list
-* From the **Rounding type** drop-down list choose one of the types of rounding:
+* From the **Rounding type** drop-down list choose one of the types of rounding: 
   * Default rounding
   * Rounding up with 0.05 intervals (0.06 round to 0.10)
   * Rounding down with 0.05 intervals (0.06 round to 0.05)
