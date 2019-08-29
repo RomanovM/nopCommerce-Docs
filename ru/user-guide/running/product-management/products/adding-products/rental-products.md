@@ -1,8 +1,9 @@
 ---
 title: Rental product
 author: AndreiMaz
-uid: ru/user-guide/running/product-management/products/adding-products/rental-products
+uid: en/user-guide/running/product-management/products/adding-products/rental-products
 ---
+
 # Rental product
 
 In case a product Is **rental**, tick the corresponding checkbox on the **product info tab**.
