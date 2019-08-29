@@ -1,8 +1,9 @@
 ---
 title: Manual (Fixed or By Country/State/Zip)
 author: AndreiMaz
-uid: ru/user-guide/configuring/setting-up/taxes/tax/methods/manual
+uid: en/user-guide/configuring/setting-up/taxes/tax/methods/manual
 ---
+
 # Manual (Fixed or By Country/State/Zip)
 
 To configure Manual (Fixed or By Country/State/Zip) go to **Configuration → Tax Providers**.
@@ -17,9 +18,8 @@ You can switch Fixed rate tax calculation to Country/State/Zip tax calculation b
 
 ![Fixed rate](_static/manual/tax-fixed-rate.png)
 
-> [!NOTE]
-> this section shows only pre-created tax categories. To create new, go to Configure → Tax Categories.
->
+> [!NOTE] this section shows only pre-created tax categories. To create new, go to Configure → Tax Categories.
+> 
 > * Click **Edit** beside the tax category for which to define a fixed rate.
 > * Enter the required rate in the **Rate** column.
 > * Click **Update**.
