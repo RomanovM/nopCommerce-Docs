@@ -1,8 +1,9 @@
 ---
 title: Order Settings
 author: AndreiMaz
-uid: ru/user-guide/running/order-management/orders/order-settings
+uid: en/user-guide/running/order-management/orders/order-settings
 ---
+
 # Order Settings
 
 To define order settings, go to **Configuration → Settings → Order Settings**. The Order Settings window will be displayed:
@@ -53,6 +54,6 @@ This page enables **multi-store configuration**, it means that the same settings
 
 ## See also
 
-* [Return request settings](xref:ru/user-guide/running/order-management/return-requests/index)
-* [Orders](xref:ru/user-guide/running/order-management/orders/index)
-* [PDF settings](xref:ru/user-guide/configuring/setting-up/main-store/pdf-settings)
+* [Return request settings](xref:en/user-guide/running/order-management/return-requests/index)
+* [Orders](xref:en/user-guide/running/order-management/orders/index)
+* [PDF settings](xref:en/user-guide/configuring/setting-up/main-store/pdf-settings)
