@@ -1,8 +1,9 @@
 ---
 title: PDF settings
 author: AndreiMaz
-uid: ru/user-guide/configuring/setting-up/main-store/pdf-settings
+uid: en/user-guide/configuring/setting-up/main-store/pdf-settings
 ---
+
 # PDF settings
 
 When running a store you might need automatically generated PDF files, like invoices and terms of agreement.
