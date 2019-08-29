@@ -12,5 +12,5 @@ The nopCommerce documentation is here to help you through the process of setting
 
 ## Table of content
 
-* [User guide](xref:en-US/user-guide)
-* [Developers guide](xref:en-US/developer-documentation)
+* [User guide](xref:en-US/user-guide/index)
+* [Developers guide](xref:en-US/developer/index)
