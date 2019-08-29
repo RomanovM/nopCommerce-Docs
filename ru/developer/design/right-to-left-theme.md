@@ -1,8 +1,9 @@
 ---
 title: Right To Left Theme
 author: AndreiMaz
-uid: ru/developer/design/right-to-left-theme
+uid: en/developer/design/right-to-left-theme
 ---
+
 # Right To Left Theme
 
 nopCommerce also supports right to left version of the public store theme.
