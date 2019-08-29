@@ -1,8 +1,9 @@
 ---
 title: Tax Settings
 author: AndreiMaz
-uid: ru/user-guide/configuring/setting-up/taxes/tax-settings
+uid: en/user-guide/configuring/setting-up/taxes/tax-settings
 ---
+
 # Tax Settings
 
 This section describes your store tax settings, for example, defining prices including or excluding tax, defining the tax display type and more.
@@ -13,7 +14,7 @@ To manage your tax settings, go to **Configuration → Settings → Tax Settings
 
 Define the following **tax settings**:
 
-* Tick the **Allow customers to select tax display type** checkbox, to indicate whether customers are allowed to selected the tax display type. When unticked the following dropdown list is displayed:
+* Tick the **Allow customers to select tax display type** checkbox, to indicate whether customers are allowed to selected the tax display type. When unticked the following dropdown list is displayed: 
   * **Excluding tax**: Select to enforce excluding tax.
   * **Including tax**: Select to enforce including tax.
 * Tick the **Prices include tax** checkbox, to indicate entered prices include tax.
@@ -22,7 +23,7 @@ Define the following **tax settings**:
 * Tick the **Hide zero tax **checkbox, to hide the zero tax value in the order summary.
 * Tick the **Hide tax in order summary** checkbox, to hide the tax value in the order summary when prices are shown as tax inclusive.
 * Tick the **Force tax exclusion from order subtotal** checkbox, to always exclude tax from the order subtotal (irrelevant to the selected tax display type). This checkbox affects only pages where the order totals are displayed.
-* From the **Tax based** on dropdown list, select the required option on which the tax is based, as follows:
+* From the **Tax based** on dropdown list, select the required option on which the tax is based, as follows: 
   * **Billing Address**. When this option is selected, the tax is based on the customer billing address. If the billing address is unknown, the default address is used (entered below).
   * **Shipping Address**. When this option is selected, the tax is based on customer shipping address. If the shipping address is unknown, the default address is used (entered below).
   * **Default Address**. When this option is selected, the tax is based on the default address that is entered below.
@@ -51,8 +52,7 @@ Tick the **EU VAT enabled** checkbox, to indicate European Union Value Added Tax
 * **Use web service:** Tick this checkbox, to use the WEB service to validate VAT numbers.
 * **Notify admin when a new VAT number is submitted**: Tick this checkbox, to receive a notification by email, when a new VAT number is submitted.
 
-> [!NOTE]
-> If VAT is enabled, then it charges 0% tax to shipping outside the EU and 0% to those who have supplied a validated and approved VAT number and are shipping within the EU but outside the shop country. Refer to an article for further information on the EU VAT
+> [!NOTE] If VAT is enabled, then it charges 0% tax to shipping outside the EU and 0% to those who have supplied a validated and approved VAT number and are shipping within the EU but outside the shop country. Refer to an article for further information on the EU VAT
 
 Click **Save**.
 
