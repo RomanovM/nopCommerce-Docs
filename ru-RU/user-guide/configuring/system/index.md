@@ -16,7 +16,7 @@ This chapter concentrates more on the back-end, the front-end is covered in chap
 * [Email accounts](xref:en-US/user-guide/configuring/system/email-accounts)
 * [Widgets](xref:en-US/user-guide/configuring/system/widgets/index)
 * [Localization](xref:en-US/user-guide/configuring/system/localization)
-* [External Authentication Method](xref:en-US/user-guide/configuring/system/external-authentication-method/index)
+* [External Authentication Method](xref:en-US/user-guide/configuring/system/external-authentication/index)
 * [Message Queue](xref:en-US/user-guide/configuring/system/message-queue)
 * [Schedule Tasks](xref:en-US/user-guide/configuring/system/schedule-tasks)
 * [System Information](xref:en-US/user-guide/configuring/system/system-information)
