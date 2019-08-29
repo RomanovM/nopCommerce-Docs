@@ -1,13 +1,14 @@
 ---
 title: Specification attributes
 author: AndreiMaz
-uid: ru/user-guide/running/product-management/attributes/specification-attributes
+uid: en/user-guide/running/product-management/attributes/specification-attributes
 ---
+
 # Specification attributes
 
-Specification attributes are similar to [product attributes](xref:ru/user-guide/running/product-management/attributes/product-attributes), however, they are **only used for information purposes** (visible on product details page) and **for filtering products** on the category details page. They don’t define a product price as well as can’t be used for the inventory tracking.
-> [!NOTE]
-> By default, there are no specification attributes precreated in nopCommerce.
+Specification attributes are similar to [product attributes](xref:en/user-guide/running/product-management/attributes/product-attributes), however, they are **only used for information purposes** (visible on product details page) and **for filtering products** on the category details page. They don’t define a product price as well as can’t be used for the inventory tracking.
+
+> [!NOTE] By default, there are no specification attributes precreated in nopCommerce.
 
 To see and edit a list of specification attributes, go to **Catalog → Attributes → Specification Attributes.**
 
@@ -22,13 +23,11 @@ To see and edit a list of specification attributes, go to **Catalog → Attribut
 - On the **Options panel**, click **Add a new** option to add an attribute option.
 - Enter the option **Name** and **Display order** number.
 
-> [!NOTE]
-> for a color attribute, you can also tick a Specify color box, in this case, color variants will be displayed as “color squares” instead of the text names.
+> [!NOTE] for a color attribute, you can also tick a Specify color box, in this case, color variants will be displayed as “color squares” instead of the text names.
 
 ![add_a_new_option](_static/specification-attributes/add_a_new_option.jpg)
 
-> [!NOTE]
-> for a color attribute, you can also tick a Specify color box, in this case, color variants will be displayed as “color squares” instead of the text names.
+> [!NOTE] for a color attribute, you can also tick a Specify color box, in this case, color variants will be displayed as “color squares” instead of the text names.
 
 The **complete list of options** will look as follows.
 
@@ -38,6 +37,6 @@ Click **Edit** beside the attribute option to update it or Delete to remove it f
 
 ## See also
 
-- [Adding new products](xref:ru/user-guide/running/product-management/products/adding-products/index)
-- [Product attributes](xref:ru/user-guide/running/product-management/attributes/product-attributes)
+- [Adding new products](xref:en/user-guide/running/product-management/products/adding-products/index)
+- [Product attributes](xref:en/user-guide/running/product-management/attributes/product-attributes)
 - [YouTube tutorial: Managing Specification Attributes](https://www.youtube.com/watch?v=YmD_vHqWzQw&index=11&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4)
