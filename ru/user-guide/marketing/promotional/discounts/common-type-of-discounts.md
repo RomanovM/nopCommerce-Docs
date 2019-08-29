@@ -1,8 +1,9 @@
 ---
 title: Common type of discounts
 author: AndreiMaz
-uid: ru/user-guide/marketing/promotional/discounts/common-type-of-discounts
+uid: en/user-guide/marketing/promotional/discounts/common-type-of-discounts
 ---
+
 # Common type of discounts
 
 ## Black Friday sale
@@ -29,7 +30,7 @@ Frequently discounts are time-based. Here we entered Black Friday weekend dates.
 
 The last setting is for limitation discount usage. For instance, this discount can be applied once per customer.
 
-Often you need to sell more items of the certain product. In this case, to encourage your customers to buy several items of that, you can offer them a discount.  Let’s consider how to use the discount - Buy one item and get 50% on the second in your nopCommerce store.
+Often you need to sell more items of the certain product. In this case, to encourage your customers to buy several items of that, you can offer them a discount. Let’s consider how to use the discount - Buy one item and get 50% on the second in your nopCommerce store.
 
 ![edit-discount-details](_static/common-type-of-discounts/buy_1.png)
 
