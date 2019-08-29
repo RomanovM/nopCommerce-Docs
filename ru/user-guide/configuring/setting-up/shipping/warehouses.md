@@ -1,8 +1,9 @@
 ---
 title: Warehouses
 author: AndreiMaz
-uid: ru/user-guide/configuring/setting-up/shipping/warehouses
+uid: en/user-guide/configuring/setting-up/shipping/warehouses
 ---
+
 # Warehouses
 
 nopCommerce supports multiple warehouses. This tool allows a store owner to keep track of inventory in different warehouses and improve logistics.
@@ -10,12 +11,15 @@ nopCommerce supports multiple warehouses. This tool allows a store owner to keep
 The following section describes how to add warehouses. This includes the warehouse details, such as name, country, address and more. **To add new warehouses**:
 
 1. Go to **Configuration → Shipping → Warehouses**. The Warehouses window is displayed:
-
+    
     ![Warehouses](_static/warehouses/warehouses.png)
-1. Click **Add new**. The Add a New Warehouse window is displayed:
 
+2. Click **Add new**. The Add a New Warehouse window is displayed:
+    
     ![Add new](_static/warehouses/warehouses-add-new.png)
-1. Define the following warehouse details:
+
+3. Define the following warehouse details:
+    
     * **Name**
     * **Country** of the warehouse
     * **State/province** of the warehouse
