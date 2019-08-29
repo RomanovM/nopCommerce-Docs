@@ -1,47 +1,50 @@
 ---
 title: Manual Processing (Credit Card)
 author: AndreiMaz
-uid: ru/user-guide/configuring/setting-up/payments/methods/paypal-standard
+uid: en/user-guide/configuring/setting-up/payments/methods/paypal-standard
 ---
+
 # PayPal Standard
 
 To use **PayPal Standard** plugin as a payment method please follow these steps:
 
-1. Register a Business account on www.paypal.com. Following the link [https://www.paypal.com/bizsignup/](https://www.paypal.com/bizsignup/). Then fill in the information about yourself and your business:
-
+1. Register a Business account on www.paypal.com. Following the link <https://www.paypal.com/bizsignup/>. Then fill in the information about yourself and your business:
+    
     ![step1](_static/paypal-standard/signUp1step.png)
-
-    > [!NOTE]
-    > If you already have an account you will be redirected to the authorization
-
+    
+    > [!NOTE] If you already have an account you will be redirected to the authorization
+    
     ![step2](_static/paypal-standard/signUp2step.png)
-
+    
     ![step3](_static/paypal-standard/signUp3step.png)
-
+    
     ![step4](_static/paypal-standard/signUp4step.png)
-
+    
     ![step5](_static/paypal-standard/signUp5step.png)
 
-1. In the top navigation bar, click on the **Settings** icon ![settings](_static/paypal-standard/settings_icon.png)
+2. In the top navigation bar, click on the **Settings** icon ![settings](_static/paypal-standard/settings_icon.png)
 
-1. Select **Website payments** in the left panel and click on **Update** in the **Website preferences** line
-
+3. Select **Website payments** in the left panel and click on **Update** in the **Website preferences** line
+    
     ![websitepayments](_static/paypal-standard/websitepaymentsppal.png)
-1. In the **Auto return for website payments** section set the switch to **On.** As the **Return URL** enter the URL of your site, which will be receiving ID transactions sending by PayPal after customer payment.
 
+4. In the **Auto return for website payments** section set the switch to **On.** As the **Return URL** enter the URL of your site, which will be receiving ID transactions sending by PayPal after customer payment.
+    
     ![autoreturnURLPP](_static/paypal-standard/autoreturnURLPP.png)
-1. In the **Payment data transfer** section set the switch to **On** and copy **Identity Token.**
 
+5. In the **Payment data transfer** section set the switch to **On** and copy **Identity Token.**
+    
     ![PDTtoken](_static/paypal-standard/PDTtoken.png)
-1. To configure the plugin in the admin panel of nopCommerce go to **Configuration  → Payment methods,** in the **PayPal Standard** line click on **Configuration**
+
+6. To configure the plugin in the admin panel of nopCommerce go to **Configuration → Payment methods,** in the **PayPal Standard** line click on **Configuration**
 
 ![nopconfig](_static/paypal-standard/nopConfigPP.png)
 
 1. In the **Business Email** field enter an email specified when registering a Business account on paypal.com.
 
-1. In the **PDT Identity Token** field enter the copied **Identity Token** from clause #5.
+2. In the **PDT Identity Token** field enter the copied **Identity Token** from clause #5.
 
-1. Click **Save**
+3. Click **Save**
 
 For the **IPN** (Instant Payment Notification) activation:
 
@@ -59,8 +62,7 @@ For the **IPN** (Instant Payment Notification) activation:
 
 1. Click **Save.** You should get a message that you have successfully activated IPN.
 
-> [!NOTE]
-> Instant Payment Notification (IPN) is PayPal's message service that sends a notification when a transaction is affected. Once IPN is integrated, sellers can automate their back office so they are not required to wait for payments to come in to trigger order fulfillment.
+> [!NOTE] Instant Payment Notification (IPN) is PayPal's message service that sends a notification when a transaction is affected. Once IPN is integrated, sellers can automate their back office so they are not required to wait for payments to come in to trigger order fulfillment.
 
 ## Known Issues
 
