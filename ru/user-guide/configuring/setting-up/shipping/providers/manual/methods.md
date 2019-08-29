@@ -1,8 +1,9 @@
 ---
 title: Shipping Methods (Shipping by Weight and By Total)
 author: AndreiMaz
-uid: ru/user-guide/configuring/setting-up/shipping/providers/manual/methods
+uid: en/user-guide/configuring/setting-up/shipping/providers/manual/methods
 ---
+
 # Shipping Methods (Shipping by Weight and By Total)
 
 A store owner can define required shipping methods in the shipping by weight section.
@@ -27,5 +28,4 @@ Define the following fields for a new record:
 
 Click **Save**.
 
-> [!NOTE]
-> You can click Edit in the Shipping methods window to edit existing shipping methods, as described above.
+> [!NOTE] You can click Edit in the Shipping methods window to edit existing shipping methods, as described above.
