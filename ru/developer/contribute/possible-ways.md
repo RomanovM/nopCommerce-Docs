@@ -1,7 +1,7 @@
 ---
 title: Possible ways to contribute
 author: AndreiMaz
-uid: ru/developer/contribute/possible-ways
+uid: en/developer/contribute/possible-ways
 ---
 
 # Possible ways to contribute
