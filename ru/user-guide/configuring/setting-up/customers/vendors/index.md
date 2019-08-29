@@ -1,8 +1,9 @@
 ---
 title: Vendors
 author: AndreiMaz
-uid: ru/user-guide/configuring/setting-up/customers/vendors/index
+uid: en/user-guide/configuring/setting-up/customers/vendors/index
 ---
+
 # Vendors
 
 **Vendors** is a special category of customers that should be considered separately.
@@ -36,16 +37,15 @@ Define the following vendor’s details:
 * **Vendor's Email.** “Order placed” notifications will be sent to this email.
 * Tick **Active** checkbox to activate the vendor
 
-> [!NOTE]
-> The appropriate message template is disabled by default, you can change it in [Message Templates](xref:ru/user-guide/marketing/content/message-templates) section
+> [!NOTE] The appropriate message template is disabled by default, you can change it in [Message Templates](xref:en/user-guide/marketing/content/message-templates) section
 
-* **Admin comment**  an optional comment or information for internal use
+* **Admin comment** an optional comment or information for internal use
 
 ## Vendor Attributes
 
 A store owner able to create attributes for a vendor much like they can for a product. The vendor attributes would then be displayed on the Vendor Detail page in the public store. This would allow for Multi-Vendor stores to be able to collect and display to the customers more information about the vendor without having to try and format it in the Description field that is currently available.
 
-On the **Vendor attributes** section, select Vendor attributes. Learn more about vendor attributes and how to create them [here](xref:ru/user-guide/configuring/setting-up/customers/vendors/settings).
+On the **Vendor attributes** section, select Vendor attributes. Learn more about vendor attributes and how to create them [here](xref:en/user-guide/configuring/setting-up/customers/vendors/settings).
 
 ![vendorattributes](_static/index/vendor3.PNG)
 
@@ -67,20 +67,19 @@ On the **SEO** panel, define the following SEO parameters:
 
 ![SEO](_static/index/vendor6.png)
 
-* **Meta keywords** - required vendor meta keywords: a brief and concise list of the most important themes of this vendor’s page. The meta keywords tag takes the following      form:
-
+* **Meta keywords** - required vendor meta keywords: a brief and concise list of the most important themes of this vendor’s page. The meta keywords tag takes the following form:
+    
     ```html
     <meta name="keywords" content="keywords, keyword, keyword phrase, etc.">
     ```
 
 * **Meta description** - a description of the vendor: brief and concise summary of your page's content. The meta description tag is in the following format:
-
-    ```html
-    <meta name="description" content="Brief description of the contents of your page.">
-    ```
+    
+        html
+          <meta name="description" content="Brief description of the contents of your page.">
 
 * **Meta title** - specifies the title of your Web page. It is a code which is inserted into the header of your web page and is in the following format:
-
+    
     ```html
     <head>
         <title> Creating Title Tags for Search Engine Optimization & Web Usability</title>
@@ -106,16 +105,14 @@ Click **Edit** beside the customer record you want to assign a vendor to. The Ed
 * On the **Customer Info panel**, select a vendor record previously created from **Manager of Vendor** dropdown list.
 * Ensure the **Vendors** customer role is selected in the **Customer Roles** field.
 
-> [!NOTE]
-> A Vendor customer account cannot have Administrators customer role (which is defined as the default).
+> [!NOTE] A Vendor customer account cannot have Administrators customer role (which is defined as the default).
 
 ![customerinfo](_static/index/vendor8.png)
 
 After the vendor's customer account is set up, the vendor can use this customer account to manage his products, orders, shipments, and view reports. The Administration link at the top of the public store will be displayed after logging in.
 
-> [!TIP]
-> [YouTube tutorial: Managing Vendors](https://www.youtube.com/watch?v=MH6r6tqfLF8&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4&index=9)
+> [!TIP] [YouTube tutorial: Managing Vendors](https://www.youtube.com/watch?v=MH6r6tqfLF8&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4&index=9)
 
 ## See also
 
-[Vendor settings](xref:ru/user-guide/configuring/setting-up/customers/vendors/settings)
+[Vendor settings](xref:en/user-guide/configuring/setting-up/customers/vendors/settings)
