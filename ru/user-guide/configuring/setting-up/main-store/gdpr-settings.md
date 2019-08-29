@@ -1,15 +1,16 @@
 ---
 title: GDPR settings
 author: AndreiMaz
-uid: ru/user-guide/configuring/setting-up/main-store/gdpr-settings
+uid: en/user-guide/configuring/setting-up/main-store/gdpr-settings
 ---
+
 # GDPR settings
 
 *GDPR* (General Data Protection Regulation) is a revised European Union’s new data privacy law which impacts how all companies collect, use and share personal data of their European customers. The regulation entered into force on May 24, 2016 and applies since May 25, 2018. The regulation is an essential step to strengthen individuals' fundamental rights in the digital age and facilitate business by clarifying rules for companies and public bodies in the digital single market.
 
 For more information (please refer to this source):
 
-[https://ec.europa.eu/info/law/law-topic/data-protection/data-protection-eu_en](https://ec.europa.eu/info/law/law-topic/data-protection/data-protection-eu_en)
+<https://ec.europa.eu/info/law/law-topic/data-protection/data-protection-eu_en>
 
 You can enable GDPR settings on your nopCommerce by going to **Administration → Configuration → Settings → GDPR settings**
 
