@@ -16,7 +16,7 @@ The points can also be canceled if a customer canceled an order or sent a return
 
 To manage the Reward Points program go **Configuration → Settings → Reward points.** This page is available in two modes: **basic and advanced.**
 
-![reward_points](_static/reward/reward_points.PNG)
+![reward_points](_static/reward-points/reward_points.PNG)
 
 To set up your reward point program, define these settings:
 
@@ -39,9 +39,9 @@ To set up your reward point program, define these settings:
 
 When a customer uses reward points when checkout it looks like that:
 
-![reward_points_checkout](_static/reward/reward_will_earn.png)
+![reward_points_checkout](_static/reward-points/reward_will_earn.png)
 
-![reward_points_checkout](_static/reward/reward_pints_checkout.png)
+![reward_points_checkout](_static/reward-points/reward_pints_checkout.png)
 
 ## See also
 
