@@ -1,15 +1,14 @@
 ---
 title: Known Issues and Solutions
 author: AndreiMaz
-uid: ru/user-guide/installing/installation-guide/known-issues-and-solutions
+uid: en/user-guide/installing/installation-guide/known-issues-and-solutions
 ---
+
 # Known Issues and Solutions
 
 ## Issue: Installation issues - 500 Internal Error
 
-Server Error
-500 - Internal server error.
-There is a problem with the resource you are looking for, and it cannot be displayed.
+Server Error 500 - Internal server error. There is a problem with the resource you are looking for, and it cannot be displayed.
 
 ### Solution
 
