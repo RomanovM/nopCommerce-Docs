@@ -1,9 +1,8 @@
 ---
 title: Warnings
 author: AndreiMaz
-uid: en-US/user-guide/configuring/system/warnings
+uid: ru-RU/user-guide/configuring/system/warnings
 ---
-
 # Warnings
 
 The following procedure describes how to view any current warnings that current exist in the public store.

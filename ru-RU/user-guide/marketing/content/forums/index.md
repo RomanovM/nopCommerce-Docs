@@ -1,14 +1,14 @@
 ---
 title: Forums
 author: AndreiMaz
-uid: en-US/user-guide/marketing/content/forums/index
+uid: ru-RU/user-guide/marketing/content/forums/index
 ---
-
 # Forums
 
 A forum is an online discussion site where people can hold conversations in the form of posted messages. Depending on the access level of a user or the forum set-up, a posted message might need to be approved by a moderator before it becomes visible. A forum may contain a number of subforums, with each having several topics.
 
-> [!NOTE] in nopCommerce forums are disabled by default. To enable forums, go to Configuration → Settings → Forum Settings. Ensure that Forums enabled is checked. The Forums link should be displayed in the menu in the public store.
+> [!NOTE]
+> in nopCommerce forums are disabled by default. To enable forums, go to Configuration → Settings → Forum Settings. Ensure that Forums enabled is checked. The Forums link should be displayed in the menu in the public store.
 
 To manage forum groups and forums (inside forum groups) go to **Content management → Forums**.
 
@@ -40,4 +40,4 @@ To view an example of how forums should work go to <http://www.nopcommerce.com/b
 
 ## See also
 
-- [Forum settings](xref:en-US/user-guide/marketing/content/forums/settings)
+- [Forum settings](xref:ru-RU/user-guide/marketing/content/forums/settings)

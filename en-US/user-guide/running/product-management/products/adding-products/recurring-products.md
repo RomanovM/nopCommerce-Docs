@@ -7,7 +7,7 @@ uid: en-US/user-guide/running/product-management/products/adding-products/recurr
 
 **Recurring product** type is usually used for **subscriptions** or products with installment payment plans. In case your product is recurring, tick the corresponding checkbox on the **Product info tab**.
 
-![recurring](_static/recurring-product/recurring.png)
+![recurring](_static/recurring-products/recurring.png)
 
 Define the **following details**:
 
@@ -21,4 +21,4 @@ You can define a **recurring cycle** to any product in order to enable the syste
 
 ## See also
 
-- [Payment Methods](xref:en-US/user-guide/configuring/setting-up/payments/payment-methods)
+- [Payment Methods](xref:en-US/user-guide/configuring/setting-up/payments/methods/index)

@@ -55,29 +55,29 @@
           items:
             - 
               name: Setting up Main Store
-              href: user-guide/configuring/setting-up/mainstore/index.md
+              href: user-guide/configuring/setting-up/main-store/index.md
               items:
                 - 
                   name: Setting up Multiple-Store
-                  href: user-guide/configuring/setting-up/mainstore/multiple-store.md
+                  href: user-guide/configuring/setting-up/main-store/multiple-store.md
                 - 
                   name: Countries
-                  href: user-guide/configuring/setting-up/mainstore/countries.md
+                  href: user-guide/configuring/setting-up/main-store/countries.md
                 - 
                   name: Languages
-                  href: user-guide/configuring/setting-up/mainstore/languages.md
+                  href: user-guide/configuring/setting-up/main-store/languages.md
                 - 
                   name: Security settings
-                  href: user-guide/configuring/setting-up/mainstore/security-settings.md
+                  href: user-guide/configuring/setting-up/main-store/security-settings.md
                 - 
                   name: PDF settings
-                  href: user-guide/configuring/setting-up/mainstore/pdf-settings.md
+                  href: user-guide/configuring/setting-up/main-store/pdf-settings.md
                 - 
                   name: GDPR settings
-                  href: user-guide/configuring/setting-up/mainstore/gdpr-settings.md
+                  href: user-guide/configuring/setting-up/main-store/gdpr-settings.md
                 - 
                   name: Uploading favicons
-                  href: user-guide/configuring/setting-up/mainstore/uploading-favicons.md
+                  href: user-guide/configuring/setting-up/main-store/uploading-favicons.md
             - 
               name: Setting up Payments
               href: user-guide/configuring/setting-up/payments/index.md
@@ -513,16 +513,16 @@
       items:
         - 
           name: How to write a plugin for nopCommerce 4.20 (and above)
-          href: developer/plugins/how-to-write-plugin_4.20.md
+          href: developer/plugins/how-to-write-plugin-4.20.md
         - 
           name: How to write a plugin for nopCommerce 4.10
-          href: developer/plugins/how-to-write-plugin_4.10.md
+          href: developer/plugins/how-to-write-plugin-4.10.md
         - 
           name: How to write a plugin for nopCommerce 4.00
-          href: developer/plugins/how-to-write-plugin_4.00.md
+          href: developer/plugins/how-to-write-plugin-4.00.md
         - 
           name: How to write a plugin for nopCommerce 3.90 (and previous versions)
-          href: developer/plugins/how-to-write-plugin_3.90.md
+          href: developer/plugins/how-to-write-plugin-3.90.md
         - 
           name: How to code my own payment method
           href: developer/plugins/payment-method.md

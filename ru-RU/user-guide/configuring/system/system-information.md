@@ -1,9 +1,8 @@
 ---
 title: System Information
 author: AndreiMaz
-uid: en-US/user-guide/configuring/system/system-information
+uid: ru-RU/user-guide/configuring/system/system-information
 ---
-
 # System Information
 
 The following procedure describes how to view the system information of the store and system server.

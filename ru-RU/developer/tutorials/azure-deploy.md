@@ -1,7 +1,7 @@
 ---
 title: Step by step to deploy on Azure with GIT and automatic builds
 author: AndreiMaz
-uid: en-US/developer/tutorials/azure-deploy
+uid: ru-RU/developer/tutorials/azure-deploy
 ---
 
 # Step by step to deploy on Azure with GIT and automatic builds
@@ -10,38 +10,38 @@ uid: en-US/developer/tutorials/azure-deploy
 
 1. **Your own git-repository** You need your own repository, you cannot just build nopCommerce. It's designed to be used with "publish" function in Visual Studio 2017 as default. I use bitbucket myself and keep that in sync with official repository.
 
-2. Setup git on azure
-    
-    - Tutorial: <https://azure.microsoft.com/da-dk/documentation/articles/web-sites-publish-source-control/>
+1. Setup git on azure
+    - Tutorial: [https://azure.microsoft.com/da-dk/documentation/articles/web-sites-publish-source-control/](https://azure.microsoft.com/da-dk/documentation/articles/web-sites-publish-source-control/)
 
-- There's a great video here: <http://channel9.msdn.com/Shows/Azure-Friday/What-is-Kudu-Azure-Web-Sites-Deployment-with-David-Ebbo>
+    - There's a great video here: [http://channel9.msdn.com/Shows/Azure-Friday/What-is-Kudu-Azure-Web-Sites-Deployment-with-David-Ebbo](http://channel9.msdn.com/Shows/Azure-Friday/What-is-Kudu-Azure-Web-Sites-Deployment-with-David-Ebbo)
 
-1. **Prepare for local deploy** When you ensured that the automatic build works, we are ready to customize our deployment scripts. This is needed because the default automatic build only builds `nop.web` projects. The problem with this is that it does not build the admin website, and none of the plugins are build. You cannot refer to the plugins as it would create circular references. So now we need to get the custom build working, these are the install steps (also mention other places) 
-    - Install NodeJs: <https://nodejs.org>
+1. **Prepare for local deploy** When you ensured that the automatic build works, we are ready to customize our deployment scripts. This is needed because the default automatic build only builds `nop.web` projects. The problem with this is that it does not build the admin website, and none of the plugins are build. You cannot refer to the plugins as it would create circular references. So now we need to get the custom build working, these are the install steps (also mention other places)
+    - Install NodeJs: [https://nodejs.org](https://nodejs.org)
 
-- Install Azure CLI: <https://azure.microsoft.com/documentation/articles/xplat-cli-install/>
+    - Install Azure CLI: [https://azure.microsoft.com/documentation/articles/xplat-cli-install/](https://azure.microsoft.com/documentation/articles/xplat-cli-install/)
 
-1. **Get NuGet to work at command line level.** The default behavior of the KUDO script is to check for NuGet packages. Learn more about how you can contribute on [GitHub](https://github.com/nopSolutions/nopCommerce-Docs/blob/master/CONTRIBUTING.md) 
-   - To get access to the `Nuget.exe` file you could either download from here: <https://docs.nuget.org/consume/command-line-reference>. You can also "Enable automatic restore of NuGet packages" in you Visual Studio 2017, and it will be added to your project automatically.
+1. **Get NuGet to work at command line level.** The default behavior of the KUDO script is to check for NuGet packages.
+Learn more about how you can contribute on [GitHub](https://github.com/nopSolutions/nopCommerce-Docs/blob/master/CONTRIBUTING.md)
+   - To get access to the `Nuget.exe` file you could either download from here: [https://docs.nuget.org/consume/command-line-reference](https://docs.nuget.org/consume/command-line-reference). You can also "Enable automatic restore of NuGet packages" in you Visual Studio 2017, and it will be added to your project automatically.
 
-- Ensure that NuGet is in the path. Copy the `nuget.exe` file to preferred location (I use `c:/Program Files/Nuget/Nuget.exe`). Add it to path environment variable.
-- Confirm that NuGet is in your path by starting `cmd.exe` and write *nuget*. you should see the command options.
+   - Ensure that NuGet is in the path. Copy the `nuget.exe` file to preferred location (I use `c:/Program Files/Nuget/Nuget.exe`). Add it to path environment variable.
+   - Confirm that NuGet is in your path by starting `cmd.exe` and write *nuget*. you should see the command options.
 
 1. **Generate deployment scripts locally**
-    
     - Open the "Microsoft Azure Command Prompt"
     - Navigate to the src folder of your project as you normally would in a shell window
-    - Execute the azure script generator (found this nice tutorial: <http://blog.amitapple.com/post/38418009331/azurewebsitecustomdeploymentpart2/#.VWyO3qikLjQ>).
-        
-        So you would write something like:
-        
-        `azure site deploymentscript --aspWAP Presentation\Nop.Web\Nop.Web.csproj -s NopCommerce.sln`
+    - Execute the azure script generator (found this nice tutorial: [http://blog.amitapple.com/post/38418009331/azurewebsitecustomdeploymentpart2/#.VWyO3qikLjQ](http://blog.amitapple.com/post/38418009331/azurewebsitecustomdeploymentpart2/#.VWyO3qikLjQ)).
 
-- Verify that it has generated 2 files (in your local repository root): `.deployment` `deploy.cmd` 
-    1. **Run generated script**
-- You must keep the .deployment and deploy.cmd file to the root of git repository
-- Edit the deploy.cmd as the `%DEPLOYMENT_SOURCE%` variable contain the root of the git repository. So I would add `%DEPLOYMENT_SOURCE%\src\Presentation\Nop.Web\Nop.Web.csproj` instead of `%DEPLOYMENT_SOURCE%\Presentation\Nop.Web\Nop.Web.csproj`. All paths in the deployment section must be corrected.
-- Run deploy.cmd to see if the default deploy script works locally. It should create an \artifact folder just outside of your git repository.
+        So you would write something like:
+
+        `azure site deploymentscript --aspWAP Presentation\Nop.Web\Nop.Web.csproj -s NopCommerce.sln`
+    - Verify that it has generated 2 files (in your local repository root):
+    `.deployment`
+    `deploy.cmd`
+1. **Run generated script**
+    - You must keep the .deployment and deploy.cmd file to the root of git repository
+    - Edit the deploy.cmd as the `%DEPLOYMENT_SOURCE%` variable contain the root of the git repository. So I would add `%DEPLOYMENT_SOURCE%\src\Presentation\Nop.Web\Nop.Web.csproj` instead of `%DEPLOYMENT_SOURCE%\Presentation\Nop.Web\Nop.Web.csproj`. All paths in the deployment section must be corrected.
+    - Run deploy.cmd to see if the default deploy script works locally. It should create an \artifact folder just outside of your git repository.
 
 1. **Customize the deployment script** So now we are at the final part :smile:. This is where all that work pays off :smile:. We want to alter the following piece:
 
@@ -69,9 +69,8 @@ uid: en-US/developer/tutorials/azure-deploy
     ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     ```
 
-     So between no ::1 and ::2 that's where we are gonna place our commands for building plugins.
-     An example for the first plugin would be:
-    
+    So between no ::1 and ::2 that's where we are gonna place our commands for building plugins.
+    An example for the first plugin would be:
 
     ```sh
     :: 1.01 Build plugin customer roles to temporary path

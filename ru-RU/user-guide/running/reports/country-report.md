@@ -1,9 +1,8 @@
 ---
 title: Country report
 author: AndreiMaz
-uid: en-US/user-guide/running/reports/country-report
+uid: ru-RU/user-guide/running/reports/country-report
 ---
-
 # Country report
 
 Country report contains a list of orders that includes the number of orders and the total order sum in each country. This enables store owners to view the orders per country.
@@ -21,6 +20,6 @@ To search for the report, enter one or more of the following search criteria:
 
 ## See also
 
-* [Customer reports](xref:en-US/user-guide/running/reports/customer-reports)
-* [Countries](xref:en-US/user-guide/configuring/setting-up/mainstore/countries)
-* [Orders](xref:en-US/user-guide/running/order-management/orders/index)
+* [Customer reports](xref:ru-RU/user-guide/running/reports/customer-reports)
+* [Countries](xref:ru-RU/user-guide/configuring/setting-up/main-store/countries)
+* [Orders](xref:ru-RU/user-guide/running/order-management/orders/index)

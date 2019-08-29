@@ -1,9 +1,8 @@
 ---
 title: Settings API
 author: AndreiMaz
-uid: en-US/developer/tutorials/settings
+uid: ru-RU/developer/tutorials/settings
 ---
-
 # Settings API
 
 Like any other website platforms nopCommerce has settings such as "Store name" or "One page checkout enabled". There are two ways to manage settings in nopCommerce.

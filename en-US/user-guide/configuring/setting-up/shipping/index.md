@@ -16,4 +16,4 @@ Please note that nopCommerce offers integration with third-party shipping servic
 * [Warehouses](xref:en-US/user-guide/configuring/setting-up/shipping/warehouses)
 * [Dates and ranges](xref:en-US/user-guide/configuring/setting-up/shipping/dates-ranges)
 * [Measures](xref:en-US/user-guide/configuring/setting-up/shipping/measures)
-* [Pickup Points](xref:en-US/user-guide/configuring/setting-up/shipping/pickup-Points)
+* [Pickup Points](xref:en-US/user-guide/configuring/setting-up/shipping/pickup-points)

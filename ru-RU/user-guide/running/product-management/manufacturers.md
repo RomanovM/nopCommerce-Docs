@@ -1,9 +1,8 @@
 ---
 title: Manufacturers
 author: AndreiMaz
-uid: en-US/user-guide/running/product-management/manufacturers
+uid: ru-RU/user-guide/running/product-management/manufacturers
 ---
-
 # Manufacturers
 
 To manage manufacturers go to **Catalog → Manufacturers.**
@@ -34,7 +33,8 @@ In the **Manufacturer Display panel**, define the following **details**:
 - Select the **Allow customers to select page size** checkbox, to enable customers to select a page size, i.e. the number of products displayed on the Manufacturer Details page. The page size can be selected by customers from the page sizes list entered by the store owner in the Page size options field.
 - When this option is disabled, customers will not be able to select a page size on the Manufacturer Details page and the store owner enters a certain page size. In this case, the Page size field becomes visible in the Administration area.
 
-> [!TIP] For example, when you add seven products to a manufacturer and you set its page size to three. Three products per page will be displayed on this manufacturer details page in the public store, and the total amount of pages will be three.
+> [!TIP]
+> For example, when you add seven products to a manufacturer and you set its page size to three. Three products per page will be displayed on this manufacturer details page in the public store, and the total amount of pages will be three.
 
 - **Price ranges** - allow defining ranges of price by which customers can filter the manufacturers. Enter a price range in the currency that you defined in the Currencies window. Separate the ranges by a semicolon, for example, 0-999; 1000-1200; 1201 - (1201 means 1201 and over).
 - **Display Order** - the order number for displaying the manufacturer. This display number is used to sort manufacturers in the public store (ascending). The manufacturer with the display order 1 will be placed at the top of the list.
@@ -45,9 +45,9 @@ In the **Manufacturer Display panel**, define the following **details**:
 
 In the **Manufacturer Mappings panel**, define the following **details**:
 
-- **Discounts** - select all discounts associated with this manufacturer. Discounts can be created in the [Promotions](xref:en-US/user-guide/marketing/promotional/index) menu. Note that only discounts with Assigned to categories type are visible here. After discounts are mapped to the manufacturer, they are applied to all products of this manufacturer.
-- **Limited to customer roles** option allows showing this manufacturer only to selected customer roles. Choose the required customer roles from the list that can be created/edited on the [Customer roles](xref:en-US/user-guide/configuring/setting-up/customers/customer-roles) page of the Customers menu. If you want the manufacturer to be visible to all - leave the field empty.
-- Select the **Limited to stores** option to make this manufacturer limited to one or more stores. Note that this checkbox is only used when you have several stores configured. For further details refer to [Multi-store support](xref:en-US/user-guide/configuring/setting-up/mainstore/multiple-store).
+- **Discounts** - select all discounts associated with this manufacturer. Discounts can be created in the [Promotions](xref:ru-RU/user-guide/marketing/promotional/index) menu. Note that only discounts with Assigned to categories type are visible here. After discounts are mapped to the manufacturer, they are applied to all products of this manufacturer.
+- **Limited to customer roles** option allows showing this manufacturer only to selected customer roles. Choose the required customer roles from the list that can be created/edited on the [Customer roles](xref:ru-RU/user-guide/configuring/setting-up/customers/customer-roles) page of the Customers menu. If you want the manufacturer to be visible to all - leave the field empty.
+- Select the **Limited to stores** option to make this manufacturer limited to one or more stores. Note that this checkbox is only used when you have several stores configured. For further details refer to [Multi-store support](xref:ru-RU/user-guide/configuring/setting-up/main-store/multiple-store).
 
 ### Setting up SEO
 
@@ -93,6 +93,6 @@ You can **export** the manufacturer settings to an external file for backup purp
 
 ## See also
 
-- [Adding products user](xref:en-US/user-guide/running/product-management/products/adding-products/index)
-- [SEO](xref:en-US/user-guide/marketing/content/seo)
+- [Adding products user](xref:ru-RU/user-guide/running/product-management/products/adding-products/index)
+- [SEO](xref:ru-RU/user-guide/marketing/content/seo)
 - [Video tutorial: managing](https://www.youtube.com/watch?v=NnWD9-zi8s4&feature=youtu.be)

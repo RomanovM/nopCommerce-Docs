@@ -1,9 +1,8 @@
 ---
 title: News
 author: AndreiMaz
-uid: en-US/user-guide/marketing/content/news/index
+uid: ru-RU/user-guide/marketing/content/news/index
 ---
-
 # News
 
 nopCommerce allows you to post news in your store. There can be any important tidings like nopCommerce latest release information, your company updates and so on.
@@ -23,13 +22,13 @@ Select tab: **News items** and click **Add new**
 Define the **following details for news item**:
 
 - Enter the **Title** of this news item. For example: The Launch of our new nopCommerce Store
-- In the **Short Description** field, enter an abstract of this news item. This is the text your visitors will see on news - items list
+- In the **Short Description** field, enter an abstract of this news item. This is the text your visitors will see on news  - items list
 - In the **Full Description** field, enter the body text of this news item
 - Select the **Allow comments** checkbox, to enable customers to add comments to the news items
 - Select **Start and End date of a news** item in Coordinated Universal Time (UTC).
-    
-    > [!NOTE] You can leave these fields empty if you do not want to define news item start and end dates
 
+  > [!NOTE]
+  > You can leave these fields empty if you do not want to define news item start and end dates
 - Select the Published checkbox, to publish this news item in your store
 
 While editing existing news or after clicking **Save and Continue Edit** button for a new one, you can click on **Preview** button to see how the news will appear on the site.
@@ -57,4 +56,4 @@ Here you can **delete** a news comment, it will be removed from the system.
 
 ## See also
 
-- [News settings](xref:en-US/user-guide/marketing/content/news/news-settings)
+- [News settings](xref:ru-RU/user-guide/marketing/content/news/news-settings)

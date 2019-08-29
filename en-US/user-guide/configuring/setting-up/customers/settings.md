@@ -23,7 +23,7 @@ To define customer settings, go to **Configuration → Settings → Customer Set
 
 ## Common
 
-![common](_static/customer-settings/customersettings1.png)
+![common](_static/settings/customersettings1.png)
 
 Define the **customer settings,** as follows:
 
@@ -42,7 +42,7 @@ Define the **customer settings,** as follows:
 
 ## Password and security
 
-![password](_static/customer-settings/customersettings2.png)
+![password](_static/settings/customersettings2.png)
 
 * Set the **Password minimum length, Password must have at least one lowercase, Password must have at least one uppercase, Password must have at least one non alphanumeric character, Password must have at least one digit** to change password complexity
 * **Unduplicated passwords number** - number of passwords that mustn't be the same as previous one.
@@ -62,7 +62,7 @@ Define the **customer settings,** as follows:
 
 ## Account
 
-![account](_static/customer-settings/customersettings3.png)
+![account](_static/settings/customersettings3.png)
 
 * Tick the **'Usernames' enabled** checkbox, to enable using usernames for login and registration instead of emails. Note: it is not recommended to change the option in the Product environment. When this checkbox is selected, the following options are displayed:
   * **Allow customers to change their usernames:** select this option if customers are allowed to change their usernames.
@@ -85,7 +85,7 @@ Define the **customer settings,** as follows:
 
 ## Profile
 
-![profile](_static/customer-settings/customersettings4.png)
+![profile](_static/settings/customersettings4.png)
 
 * **Allow viewing of customer profiles.** This enables the role to see the details of other customers.
 * Tick the **Show customers location** checkbox if required
@@ -93,7 +93,7 @@ Define the **customer settings,** as follows:
 
 On the **Customer form fields** panel, define the whether the following form fields are enabled in the system:
 
-![customerformfields](_static/customer-settings/customersettings5.png)
+![customerformfields](_static/settings/customersettings5.png)
 
 * **‘Gender’ enabled**
 * **‘Date of Birth’ enabled.** When enabled, you can also decide whether this field should be required and enter a minimum allowed age (for example, to ensure that a customer is above 18)
@@ -112,11 +112,11 @@ On the **Customer form fields** panel, define the whether the following form fie
 > [!NOTE]
 > If the default form fields are not enough for your requirements, you can manage additional customer attributes using this table. Customer attributes are created in the same manner as checkout attributes. For further details, refer to [Checkout Attributes](xref:en-US/user-guide/running/product-management/attributes/checkout-attributes).
 
-![customercustomattributes](_static/customer-settings/customersettings6.png)
+![customercustomattributes](_static/settings/customersettings6.png)
 
 On the **Address Form Fields** panel, a store owner can manage the address form fields available during the registration. You can select which fields are enabled and required among the following:
 
-![addressformfields](_static/customer-settings/customersettings7.png)
+![addressformfields](_static/settings/customersettings7.png)
 
 * Company
 * Street address
@@ -131,6 +131,6 @@ On the **Address Form Fields** panel, a store owner can manage the address form 
 > [!NOTE]
 > If the default address fields are not enough for your requirements, you can manage additional address attributes using this table. Address attributes are created in the same manner as checkout attributes. For further details, refer to [Checkout Attributes](xref:en-US/user-guide/running/product-management/attributes/checkout-attributes).
 
-![customaddressattributes](_static/customer-settings/customersettings8.png)
+![customaddressattributes](_static/settings/customersettings8.png)
 
 Click **Save.**

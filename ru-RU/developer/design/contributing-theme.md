@@ -1,9 +1,8 @@
 ---
 title: Contributing a Theme
 author: AndreiMaz
-uid: en-US/developer/design/contributing-theme
+uid: ru-RU/developer/design/contributing-theme
 ---
-
 # Contributing a Theme
 
 nopCommerce is supported by a very active community. So, any kind of contribution is highly appreciated.

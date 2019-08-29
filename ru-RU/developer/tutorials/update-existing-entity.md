@@ -1,9 +1,8 @@
 ---
 title: Updating an existing entity. How to add a new property.
 author: AndreiMaz
-uid: en-US/developer/tutorials/update-existing-entity
+uid: ru-RU/developer/tutorials/update-existing-entity
 ---
-
 # Updating an existing entity. How to add a new property
 
 This tutorial covers how to add a property to the "Category" entity that ships with the nopCommerce source code.

@@ -22,7 +22,7 @@ To use **PayPal Standard** plugin as a payment method please follow these steps:
 
     ![step5](_static/paypal-standard/signUp5step.png)
 
-1. In the top navigation bar, click on the **Settings** icon ![settings](_static/paypal-standard/settings icon.png)
+1. In the top navigation bar, click on the **Settings** icon ![settings](_static/paypal-standard/settings_icon.png)
 
 1. Select **Website payments** in the left panel and click on **Update** in the **Website preferences** line
 

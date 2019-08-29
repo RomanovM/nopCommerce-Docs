@@ -7,7 +7,7 @@ uid: en-US/user-guide/configuring/setting-up/index
 
 This chapter describes how to set up your store(s). It includes several basiс settings:
 
-* [Setting up Main Store](xref:en-US/user-guide/configuring/setting-up/mainstore/index)
+* [Setting up Main Store](xref:en-US/user-guide/configuring/setting-up/main-store/index)
 * [Setting up Payments](xref:en-US/user-guide/configuring/setting-up/payments/index)
 * [Setting up Tax](xref:en-US/user-guide/configuring/setting-up/taxes/index)
 * [Setting up Shipping](xref:en-US/user-guide/configuring/setting-up/shipping/index)

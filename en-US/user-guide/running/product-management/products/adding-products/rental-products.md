@@ -7,7 +7,7 @@ uid: en-US/user-guide/running/product-management/products/adding-products/rental
 
 In case a product Is **rental**, tick the corresponding checkbox on the **product info tab**.
 
-![rental](_static/rental-product/rental.png)
+![rental](_static/rental-products/rental.png)
 
 Define the **following details**:
 
@@ -16,7 +16,7 @@ Define the **following details**:
 
 When buying rental products, customers have to specify the rental period in the public store. The amount to be paid is calculated automatically.
 
-![rental](_static/rental-product/rental1.png)
+![rental](_static/rental-products/rental1.png)
 
 ## See also
 

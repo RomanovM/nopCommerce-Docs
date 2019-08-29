@@ -1,9 +1,8 @@
 ---
 title: Online Customers
 author: AndreiMaz
-uid: en-US/user-guide/running/customer-management/online-customers
+uid: ru-RU/user-guide/running/customer-management/online-customers
 ---
-
 # Online Customers
 
 Online Customers section enables store owners to view customers that were online within the last 20 minutes. This information is useful for the store owners as it shows the last visited page and helps to decide upon actions required to convert visitors into buyers.
@@ -18,4 +17,5 @@ The Online Customers window includes the following columns:
 - **Customer IP Address**
 - **Customer Location**
 - **Last Activity** - date and time the online customer last logged in
-- **Last Visited Page** - you can enable or disable this feature in customer settings This product includes GeoLite2 data created by MaxMind, available from <http://www.maxmind.com>
+- **Last Visited Page** - you can enable or disable this feature in customer settings
+This product includes GeoLite2 data created by MaxMind, available from [http://www.maxmind.com](http://www.maxmind.com)

@@ -1,9 +1,8 @@
 ---
 title: Overview (Designer's Guide)
 author: AndreiMaz
-uid: en-US/developer/design/overview
+uid: ru-RU/developer/design/overview
 ---
-
 # Overview (Designer's Guide)
 
 ## What is a theme

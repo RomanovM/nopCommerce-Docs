@@ -1,16 +1,16 @@
 ---
 title: Adding products
 author: AndreiMaz
-uid: en-US/user-guide/running/product-management/products/adding-products/index
+uid: ru-RU/user-guide/running/product-management/products/adding-products/index
 ---
-
 # Adding products
 
 Setting up products in the best way possible is highly important for a store. Make sure to not miss any detail, such displaying different size and color options, giving a thorough product description, adding appealing pictures, etc.
 
 To add a new product, go to **Catalog → Products**. Click **Add new** button in the right top corner.
 
-> [!NOTE] you can import a product from an external file by clicking Import from Excel. Once you have a list of products, you can export it to an external file for backup purposes, by clicking Export to XML(all) or Export to Excel (all). You can export selected products by clicking Export to XML (selected) and Export to Excel (selected). Additionally, it is possible to Download catalog as PDF to print the selected products to a PDF file. To remove products from the list, select the items to be deleted and click the Delete (selected) button.
+> [!NOTE]
+> you can import a product from an external file by clicking Import from Excel. Once you have a list of products, you can export it to an external file for backup purposes, by clicking Export to XML(all) or Export to Excel (all). You can export selected products by clicking Export to XML (selected) and Export to Excel (selected). Additionally, it is possible to Download catalog as PDF to print the selected products to a PDF file. To remove products from the list, select the items to be deleted and click the Delete (selected) button.
 
 ![products_page](_static/index/products_page.png)
 
@@ -30,11 +30,9 @@ Start by filling up General Information on the **Product info panel**:
 - Enter **SKU**, the product stock keeping unit, used internally for tracking the product. This is your internal unique ID used to track this product.
 - Tick **Published**, to make the product visible in your store.
 - Enter **Product Tags**, the keywords for product identification. Enter tags separating them by comma. The more products are associated with a particular tag, the larger it will look in the Popular Tags area, displayed in the sidebar of the Catalog page
-    
+
     ![popular_tags](_static/index/popular_tags.png)
-
 - Enter **GTIN** (global trade item number). These identifiers include UPC (in North America), EAN (in Europe), JAN (in Japan), and ISBN (for Books).
-
 - Enter **Manufacturer part number** - a part number provided by a manufacturer for the product.
 - **Show on homepage**. If this checkbox is selected, the store owner can also specify the Display Order.
 - Tick **Allow customer reviews**, to enable customers to provide reviews of the product.
@@ -46,10 +44,10 @@ Start by filling up General Information on the **Product info panel**:
 
 Define whether the product is a
 
-- [Gift Card](xref:en-US/user-guide/marketing/promotional/gift-cards)
-- [Downloadable Product](xref:en-US/user-guide/running/product-management/products/adding-products/downloadable-products)
-- [Recurring Product](xref:en-US/user-guide/running/product-management/products/adding-products/recurring-products)
-- [Rental Product](xref:en-US/user-guide/running/product-management/products/adding-products/rental-products)
+- [Gift Card](xref:ru-RU/user-guide/marketing/promotional/gift-cards)
+- [Downloadable Product](xref:ru-RU/user-guide/running/product-management/products/adding-products/downloadable-products)
+- [Recurring Product](xref:ru-RU/user-guide/running/product-management/products/adding-products/recurring-products)
+- [Rental Product](xref:ru-RU/user-guide/running/product-management/products/adding-products/rental-products)
 
 ## Product price
 
@@ -71,13 +69,13 @@ In the **Prices** section define:
 - **Reference amount** - the base amount.
 - **Reference unit** - measure of a previously entered value.
 - **Discounts**. Learn how to set up discounts here.
-- Whether the product is exempted from tax, by ticking **Tax exempt**. Otherwise, from the Tax category dropdown list, select the required tax classification for this product. Tax categories can be configured by the store owner in the **Configuration → Tax → Tax Categories.**
+- Whether the product is exempted from tax, by ticking **Tax exempt**. Otherwise, from the Tax category dropdown list, select the required tax classification for this product. Tax categories can be configured by the store owner in  the **Configuration → Tax → Tax Categories.**
 - The product as **Telecommunications, broadcasting, and electronic services**, to apply special tax rules used in the European Union. Find more info here.
-- Set up [tier prices](xref:en-US/user-guide/marketing/promotional/tier-prices) if required.
+- Set up [tier prices](xref:ru-RU/user-guide/marketing/promotional/tier-prices) if required.
 
 ## Inventory settings
 
-Define the inventory settings for the product as described [here](xref:en-US/user-guide/running/order-management/inventory-management).
+Define the inventory settings for the product as described [here](xref:ru-RU/user-guide/running/order-management/inventory-management).
 
 ## Shipping details
 
@@ -94,10 +92,10 @@ Define product-specific shipping details:
 
 In the Mappings section define:
 
-- **Categories**. You can assign a product to as many categories as you want in nopCommerce. Note that you can manage [product categories](xref:en-US/user-guide/running/product-management/categories) in **Catalog → Categories**.
-- **Manufacturer**. You can assign a product to as many manufacturers as you want in nopCommerce. Note that you can manage [manufacturers](xref:en-US/user-guide/running/product-management/manufacturers) in **Catalog → Manufacturers**.
-- **Limited to stores**, if the product is sold in specific stores. Leave the field empty in case this functionality is not required. Note that in order to use this functionality you have to disable the following setting: **Configuration → Catalog Settings → Ignore** **“Limit per store” rules **(sitewide). Learn how to set up several stores [here](xref:en-US/user-guide/configuring/setting-up/mainstore/multiple-store).
-- **Vendor**. You can manage [vendors](xref:en-US/user-guide/configuring/setting-up/customers/vendors/index) in **Customers → Vendors**
+- **Categories**. You can assign a product to as many categories as you want in nopCommerce. Note that you can manage [product categories](xref:ru-RU/user-guide/running/product-management/categories) in **Catalog → Categories**.
+- **Manufacturer**. You can assign a product to as many manufacturers as you want in nopCommerce. Note that you can manage [manufacturers](xref:ru-RU/user-guide/running/product-management/manufacturers) in **Catalog → Manufacturers**.
+- **Limited to stores**, if the product is sold in specific stores. Leave the field empty in case this functionality is not required. Note that in order to use this functionality you have to disable the following setting: **Configuration → Catalog Settings → Ignore** **“Limit per store” rules **(sitewide). Learn how to set up several stores [here](xref:ru-RU/user-guide/configuring/setting-up/main-store/multiple-store).
+- **Vendor**. You can manage [vendors](xref:ru-RU/user-guide/configuring/setting-up/customers/vendors/index) in **Customers → Vendors**
 
 ## Customer roles
 
@@ -113,7 +111,7 @@ Define whether the product **Requires other product**. In this case select the R
 
 ## Related products and Cross-sells
 
-Set up Related products and Cross-sells as described [here](xref:en-US/user-guide/marketing/promotional/cross-sells-related-products)
+Set up Related products and Cross-sells as described [here](xref:ru-RU/user-guide/marketing/promotional/cross-sells-related-products)
 
 ## Product pictures
 
@@ -126,7 +124,7 @@ Go to **Pictures** tab on Edit product details page to add product pictures.
 
 ## Attributes
 
-On the **Product attributes** tab, add Product attributes. Learn more about product attributes and how to create them [here](xref:en-US/user-guide/running/product-management/attributes/product-attributes). Once you have a list of the attributes created, click **Add new record** on the Attributes tab. The grid is expanded, as follows:
+On the **Product attributes** tab, add Product attributes. Learn more about product attributes and how to create them [here](xref:ru-RU/user-guide/running/product-management/attributes/product-attributes). Once you have a list of the attributes created, click **Add new record** on the Attributes tab. The grid is expanded, as follows:
 
 ![product_attributes2](_static/index/product_attributes2.png)
 
@@ -135,13 +133,15 @@ On the **Product attributes** tab, add Product attributes. Learn more about prod
 - Tick **Is required** to set this attribute as required for customers.
 - Define the **Control type** for this attribute (e.g. dropdown list, radio button list, etc.).
 
-> [!NOTE] For the «Date picker» control type, it is possible to set a number of years to be displayed by using «catalogsettings.countdisplayedyearsdatepicker» parameter in All Settings (advanced). For example, if you set zero then only current year will be displayed. If you set 5 then current year and the next 5 years will be displayed.
+> [!NOTE]
+> For the «Date picker» control type, it is possible to set a number of years to be displayed by using «catalogsettings.countdisplayedyearsdatepicker» parameter in All Settings (advanced). For example, if you set zero then only current year will be displayed. If you set 5 then current year and the next 5 years will be displayed.
 
 - Define the **Display Order** for this attribute.
 - Click **Update**.
 - The **Values** field now displays a number of predefined values for this attribute. **View/Edit values**, if required.
 
-> [!NOTE] There are two Attribute value types, Simple and Associated to product. Choose the Associated to product type if you want this attribute value to be another product from your catalog and track its stock as well. Here you can use Bundled products functionality allowing customers to buy different combinations or sets of products as a single product and shoppers have an opportunity to set the required quantity of the attributes. (“Customer enters quantity” option).
+> [!NOTE]
+> There are two Attribute value types, Simple and Associated to product. Choose the Associated to product type if you want this attribute value to be another product from your catalog and track its stock as well. Here you can use Bundled products functionality allowing customers to buy different combinations or sets of products as a single product and shoppers have an opportunity to set the required quantity of the attributes. (“Customer enters quantity” option).
 
 - If required, define Conditions for this attribute, i.e. this attribute becomes visible when other attributes have certain values.
 
@@ -155,9 +155,9 @@ On the **Attribute Combinations** tab, define different attribute combinations a
 - **Overridden price**, if the price for products with certain attributes is different from the product regular price
 - Product combination **quantity under which the admin will be notified**
 
-On the **Specification Attributes tab**, add Specification attributes. Learn more about specification attributes and how to create them [here](xref:en-US/user-guide/running/product-management/attributes/specification-attributes)
+On the **Specification Attributes tab**, add Specification attributes. Learn more about specification attributes and how to create them [here](xref:ru-RU/user-guide/running/product-management/attributes/specification-attributes)
 
-To add a new attribute, fill the **Add a new product specification attribute** section:
+ To add a new attribute, fill the **Add a new product specification attribute** section:
 
 ![add_a_new_specification_attribute2](_static/index/add_a_new_specification_attribute2.png)
 
@@ -184,7 +184,7 @@ Define the following SEO parameters for the product page:
 - **Meta title** - a title for the Web page.
 - **Search engine friendly page name** - a name of the page used by search engines. If you enter nothing then the product page URL is formed using the product name. If you enter custom-seo-page-name, then the following custom the URL will be used: `http://www.yourStore.com/custom-seo-page-name`.
 
-Read more about SEO [here](xref:en-US/user-guide/marketing/content/seo).
+Read more about SEO [here](xref:ru-RU/user-guide/marketing/content/seo).
 
 ## Stock quantity history
 
@@ -194,7 +194,7 @@ On this tab you can view all the product quantity changes, orders with the produ
 
 ## See also
 
-- [Product categories](xref:en-US/user-guide/running/product-management/categories)
-- [Order management](xref:en-US/user-guide/running/order-management/index)
+- [Product categories](xref:ru-RU/user-guide/running/product-management/categories)
+- [Order management](xref:ru-RU/user-guide/running/order-management/index)
 - [Webinar. First steps in nopCommerce](https://www.youtube.com/watch?v=B_CfgJH0ylM&list=PLnL_aDfmRHwsJn1rnKaXdIcJg4pKJeeXs)
 - [Video tutorial: Adding a new product](https://www.youtube.com/watch?v=wVgTgdQVWPQ&index=2&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4)

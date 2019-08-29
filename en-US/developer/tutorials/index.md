@@ -1,7 +1,7 @@
 ---
 title: Developer tutorials
 author: AndreiMaz
-uid: en-US/developer/tutorials
+uid: en-US/developer/tutorials/index
 ---
 # Developers tutorials
 

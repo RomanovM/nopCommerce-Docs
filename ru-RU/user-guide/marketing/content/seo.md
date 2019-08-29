@@ -1,9 +1,8 @@
 ---
 title: SEO
 author: AndreiMaz
-uid: en-US/user-guide/marketing/content/seo
+uid: ru-RU/user-guide/marketing/content/seo
 ---
-
 # SEO
 
 SEO stands for search engine optimization, it is a process of getting traffic from “free,” “organic,” “editorial” or “natural” search results on search engines. All major search engines have primary search results, where web pages and other content such as videos or local listings are shown and ranked based on what a search engine considers most relevant to users.
@@ -20,13 +19,14 @@ To edit SEO settings, go to **Configuration → Settings → General Settings.**
 
 - In the **Default title** field, enter the default title for the pages in your store
 - From the **Page Title SEO adjustment** field, select the required page title SEO adjustment, as follows:
-    
-    A page name comes after the store name in the title: `YOURSTORE.COM` | PAGENAME
-    
-    The store name comes after a page name in the title: PAGENAME | `YOURSTORE.COM`
+
+    A page name comes after the store name in the title:
+    `YOURSTORE.COM` | PAGENAME
+
+    The store name comes after a page name in the title:
+    PAGENAME | `YOURSTORE.COM`
 
 - Specify the **Page Title separator**.
-
 - Enter the **Default meta keywords description** for the pages in your store. This can be overridden for individual **categories, manufacturers, and products**.
 - Enter the **Default meta description** for the pages in your store. This can be overridden for individual **categories, manufacturers, and products**.
 - Select the **Generate product META description**, to automatically generate the product META descriptions (if not specified on the product details page) based on the **product's short description**.
@@ -40,18 +40,19 @@ There are several types of pages in nopCommerce for which you can set up individ
 ![p2](_static/seo/seo2.png)
 
 - Enter the required **Meta keywords**, which are a brief and concise list of keyword and phrases for the page. The meta keywords tag takes the following format:
-    
+
     ```html
     <meta name="keywords" content="keywords, keyword, keyword phrase, etc." >
     ```
 
 - In the **Meta description** field, enter a description of the page. The meta description tag is a brief and concise summary of your page's content. The meta description tag is in the following format:
-    
-        html
-          <meta name="description" content="Brief description of the contents of your page." >
+
+    ```html
+    <meta name="description" content="Brief description of the contents of your page." >
+    ```
 
 - In the **Meta title** field, enter the required title. The title tag specifies the title of your Web page. It is a code which is inserted into the header of your web page and is in the following format:
-    
+
     ```html
     <head>
       <title> Creating Title Tags for Search Engine Optimization & Web Usability </title>
@@ -62,10 +63,10 @@ There are several types of pages in nopCommerce for which you can set up individ
 
 ## See also
 
-- [Adding products](xref:en-US/user-guide/running/product-management/products/adding-products/index)
-- [Product categories](xref:en-US/user-guide/running/product-management/categories)
-- [Manufacturers](xref:en-US/user-guide/running/product-management/manufacturers)
-- [Vendors](xref:en-US/user-guide/configuring/setting-up/customers/vendors/index)
-- [Topics (pages)](xref:en-US/user-guide/marketing/content/topics)
-- [News](xref:en-US/user-guide/marketing/content/news/index)
-- [Blog](xref:en-US/user-guide/marketing/content/blog/index)
+- [Adding products](xref:ru-RU/user-guide/running/product-management/products/adding-products/index)
+- [Product categories](xref:ru-RU/user-guide/running/product-management/categories)
+- [Manufacturers](xref:ru-RU/user-guide/running/product-management/manufacturers)
+- [Vendors](xref:ru-RU/user-guide/configuring/setting-up/customers/vendors/index)
+- [Topics (pages)](xref:ru-RU/user-guide/marketing/content/topics)
+- [News](xref:ru-RU/user-guide/marketing/content/news/index)
+- [Blog](xref:ru-RU/user-guide/marketing/content/blog/index)

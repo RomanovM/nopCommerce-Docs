@@ -1,9 +1,8 @@
 ---
 title: Widgets (Designer's Guide)
 author: AndreiMaz
-uid: en-US/developer/design/widgets
+uid: ru-RU/developer/design/widgets
 ---
-
 # Widgets (Designer's Guide)
 
 > A widget is a stand-alone application that can be embedded into third party sites by any user on a page. It's a small application that can be installed and executed within a web page by an end user. (Wikipedia).
@@ -13,7 +12,7 @@ In nopCommerce, a widget plugin allows you to embed 3rd party code/application i
 Currently, default nopCommerce installation allows the store admin to embed two widget plugins:
 
 1. Google Analytics
-2. Nivo Slider
+1. Nivo Slider
 
 ## Google Analytics Widget
 

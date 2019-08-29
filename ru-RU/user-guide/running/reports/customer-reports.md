@@ -1,9 +1,8 @@
 ---
 title: Customer reports
 author: AndreiMaz
-uid: en-US/user-guide/running/reports/customer-reports
+uid: ru-RU/user-guide/running/reports/customer-reports
 ---
-
 # Customer reports
 
 Customer reports give a store owner general information about registered customers and their orders. To view the reports, go to **Reports → Customer reports**.
@@ -36,5 +35,5 @@ The third tab shows the number of **Registered customers** for a certain period.
 
 ## See also
 
-* [Country report](xref:en-US/user-guide/running/reports/country-report)
-* [Customer list](xref:en-US/user-guide/running/customer-management/customer-list)
+* [Country report](xref:ru-RU/user-guide/running/reports/country-report)
+* [Customer list](xref:ru-RU/user-guide/running/customer-management/customer-list)

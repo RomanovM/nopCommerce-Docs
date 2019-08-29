@@ -1,9 +1,8 @@
 ---
 title: Sharing your plugins, themes, and language packs
 author: AndreiMaz
-uid: en-US/developer/contribute/sharing
+uid: ru-RU/developer/contribute/sharing
 ---
-
 # Sharing your plugins, themes, and language packs
 
 You can easily upload your plugin or language pack to our [Marketplace](http://www.nopcommerce.com/marketplace.aspx) directory to share it with other users. Just go to [My account](http://www.nopcommerce.com/account.aspx) page, then "Your contributions and extensions" tab. Click "Upload a new extension" button in order to upload a new extension.

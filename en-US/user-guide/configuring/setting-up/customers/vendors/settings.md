@@ -11,9 +11,9 @@ This section describes how to define the **vendor settings** of your store. This
 
 Go to **Configuration → Settings → Vendor Settings.** The Vendor Settings window is displayed:
 
-![commonsettings](_static/vendor-settings/vendorsettings1.png)
+![commonsettings](_static/settings/vendorsettings1.png)
 
-![catalog](_static/vendor-settings/vendorsettings2.png)
+![catalog](_static/settings/vendorsettings2.png)
 
 Define the vendor settings, as follows:
 
@@ -39,7 +39,7 @@ This page enables **multi-store configuration**, it means that the same settings
 
 You can create any number of vendor attributes. Some different attributes that could be created would be business name, website and etc.
 
-![vendorattributes](_static/vendor-settings/vendorsettings3.png)
+![vendorattributes](_static/settings/vendorsettings3.png)
 
 ### Adding vendor attributes
 
@@ -47,7 +47,7 @@ Click **Add new** to add the attribute.
 
 In the **Attribute Info** panel, define the following information:
 
-![addvendorattribute](_static/vendor-settings/vendorsettings4.png)
+![addvendorattribute](_static/settings/vendorsettings4.png)
 
 * **Name** - the name of the vendor attribute.
 * **Required** - when an attribute is required, vendors must choose an appropriate attribute value before they can continue.
@@ -63,7 +63,7 @@ Click **Save and Continue Edit** to proceed to the **values** editing tab.
 
 On the **Attribute values** panel, click **Add a new attribute value** to create a new attribute value.
 
-![attributevalues](_static/vendor-settings/vendorsettings5.png)
+![attributevalues](_static/settings/vendorsettings5.png)
 
 In the Add a new attribute value window, define the following information:
 
