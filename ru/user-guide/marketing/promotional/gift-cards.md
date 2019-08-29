@@ -1,8 +1,9 @@
 ---
 title: Gift cards
 author: AndreiMaz
-uid: ru/user-guide/marketing/promotional/gift-cards
+uid: en/user-guide/marketing/promotional/gift-cards
 ---
+
 # Gift cards
 
 In nopCommerce, you have an opportunity to sell gift cards among other types of products.
@@ -19,11 +20,11 @@ You can create gift card products, defining the product as a gift card by checki
 
 ## Activating a gift card
 
-After customers complete purchases with the gift card products, you can then search and view the list of all the purchased gift cards in **Sales → Gift cards**.  Gift cards have automatically generated gift card codes, but all of them are disabled by default.
+After customers complete purchases with the gift card products, you can then search and view the list of all the purchased gift cards in **Sales → Gift cards**. Gift cards have automatically generated gift card codes, but all of them are disabled by default.
 
 You should tick the checkbox **Is gift card*** activated to activate the card, and generate Coupon code here.
 
- You can set up when a gift card will be activated and deactivated in **Configuration → Settings → Order Settings** from the drop-down lists Gift card activation order status and Gift card deactivation order status (they can be: **Pending, Processing, Complete, Cancelled**)
+You can set up when a gift card will be activated and deactivated in **Configuration → Settings → Order Settings** from the drop-down lists Gift card activation order status and Gift card deactivation order status (they can be: **Pending, Processing, Complete, Cancelled**)
 
 Define Gift card information:
 
@@ -37,7 +38,7 @@ Define Gift card information:
 ![edit-gift-card](_static/gift-cards/gift-card-edit.jpg)
 
 > [!NOTE]
->
+> 
 > - **The sender and recipient emails will not be visible for physical gift cards. These mails are visible only for virtual gift cards**
 > - **The Notify Recipient button is relevant only for virtual gifts card and not physical gift cards**
 
@@ -55,5 +56,5 @@ A gift card is performed in the public store by entering the serial number in th
 
 ## See also
 
-- [Adding product](xref:ru/user-guide/running/product-management/products/adding-products/index)
+- [Adding product](xref:en/user-guide/running/product-management/products/adding-products/index)
 - [YouTube tutorial on managing gift cards](https://www.youtube.com/watch?v=4SJ7uBZGas0&index=4&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4)
