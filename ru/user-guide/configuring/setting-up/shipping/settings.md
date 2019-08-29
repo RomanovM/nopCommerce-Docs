@@ -1,8 +1,9 @@
 ---
 title: Shipping Settings
 author: AndreiMaz
-uid: ru/user-guide/configuring/setting-up/shipping/settings
+uid: en/user-guide/configuring/setting-up/shipping/settings
 ---
+
 # Shipping Settings
 
 This chapter describes how to **set up the shipping details of a store**. Besides the location and warehouses set, there are other things which comprise good logistics.
