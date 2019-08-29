@@ -1,8 +1,9 @@
 ---
 title: Discounts
 author: AndreiMaz
-uid: ru/user-guide/marketing/promotional/discounts/index
+uid: en/user-guide/marketing/promotional/discounts/index
 ---
+
 # Discounts
 
 In nopCommerce you can use discounts to enable access to special offers. They can be applied to certain categories, products, to the total amount and so on. You can use different requirements available out of the box and via plugins from [nopCommerce marketplace](http://www.nopcommerce.com/marketplace.aspx) for applying to your discounts.
@@ -13,13 +14,12 @@ The most common way of using the discounts is a coupon code. The coupon code is 
 
 The top area of the page enables you to search for a discounts by different search criteria:
 
-- **Discount name**  full discount  name (or a part discount  name)
+- **Discount name** full discount name (or a part discount name)
 - **Coupon code**
 - **Discount type**
 - **Start date** and **End date** for discounts created between these dates
 
-> [!NOTE]
-> **By default, there are no discounts available in nopCommerce, so you can create them from scratch and follow your own marketing strategy**
+> [!NOTE] **By default, there are no discounts available in nopCommerce, so you can create them from scratch and follow your own marketing strategy**
 
 ![discounts](_static/index/discounts.png)
 
@@ -34,9 +34,11 @@ Enter the **Name** of the discount.
 From the **Discount type** dropdown list, assign the discount to the required option, as follows:
 
 - **Assigned to order total**: These discounts are applied to the entire customer order (order total)
-
+    
     ![discount-assigned-to-products](_static/index/discount-applied-to-product.png)
+
 - **Assigned to products**: After this discount is created, the store owner has to assign this discount to a product (on the product details page)
+
 - **Assigned to categories**: After this discount is created, the store owner has to assign this discount to a category appearing in the Discount applied to the category tab (category details page). This enables the discount to be applied to all products in this category
 - **Assigned to manufacturers**: After this discount is created, the store owner has to assign this discount to a manufacturer appearing in the Discount applied to the manufacturer tab (manufacturer details page). This enables the discount to be applied to all products in this manufacturer
 - **Assigned to shipping**: These discounts are applied to the shipping fee
@@ -52,17 +54,15 @@ Select the Requires coupon code checkbox, to enable a customer to supply a coupo
 
 After ticking the checkbox the **Coupon code option** appears. You can enter the **required coupon code** in this field. This enables customers to enter this coupon code during checkout to apply the discount.
 
-> [!TIP]
-> Customers can apply an unlimited number of **coupon codes** to one order if they fit it.
+> [!TIP] Customers can apply an unlimited number of **coupon codes** to one order if they fit it.
 
-You can also limit the number of times the discount will be used.  From the Discount limitation dropdown list, select the required limitation regarding the discount:
+You can also limit the number of times the discount will be used. From the Discount limitation dropdown list, select the required limitation regarding the discount:
 
 - **Unlimited**
 - **N Times only**: Select this option and enter the number of times this discount will be available.
 - **N Times per Customer**: Select this option and enter the number of times this discount will be available for one customer.
 
-> [!TIP]
-> In **Maximum discounted quantity** (only applies when Discount type is Assigned to Products or Categories) specify the maximum product quantity which could be discounted. It can be used for scenarios like "buy 2 get 1 free". Click **Save**.
+> [!TIP] In **Maximum discounted quantity** (only applies when Discount type is Assigned to Products or Categories) specify the maximum product quantity which could be discounted. It can be used for scenarios like "buy 2 get 1 free". Click **Save**.
 
 ## Adding discount requirements
 
@@ -92,6 +92,6 @@ When customers apply a discount while proceeding to the checkout, it is displaye
 ## See also
 
 - More plugins on discount types and discount requirement types on [nopCommerce marketplace](http://www.nopcommerce.com/marketplace.aspx)
-- How to [install plugins](xref:ru/user-guide/configuring/system/plugins)
+- How to [install plugins](xref:en/user-guide/configuring/system/plugins)
 - YouTube tutorial on [using discounts in nopCommerce](https://www.youtube.com/watch?v=cAXxnV79dzw&index=7&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4)
-- [Common types of discounts](xref:ru/user-guide/marketing/promotional/discounts/common-type-of-discounts)
+- [Common types of discounts](xref:en/user-guide/marketing/promotional/discounts/common-type-of-discounts)
