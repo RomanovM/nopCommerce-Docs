@@ -44,7 +44,7 @@ $(function () {
 
   function langSwitch() {
     $("#lang-switcher").on('change', function (e) {
-      var selectedLang = this.value;
+      var selectedLang = this.value.substring(0, 3);
       var langs = $('option', this).map(function (e) { return $(this).val(); }).get();
 
       var currentLocationPathname = window.location.pathname;
