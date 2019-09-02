@@ -1,6 +1,6 @@
 ---
-title: User guide
-uid: en/user-guide/index
+title: Руководство пользователя
+uid: ru/user-guide/index
 ---
 
 # User guide
