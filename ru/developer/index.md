@@ -1,6 +1,6 @@
 ---
-title: Developers guide
-uid: en/developer/index
+title: Руководство разработчиков
+uid: ru/developer/index
 ---
 
 # Developers guide
