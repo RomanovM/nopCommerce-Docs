@@ -1,4 +1,4 @@
-﻿- name: English
+- name: English
   href: en/
   topicHref: en/index.md
 
@@ -7,8 +7,8 @@
   topicHref: ar/index.md
   
 - name: 简体中文 (Chinese)
-  href: zh-CN/
-  topicHref: zh-CN/index.md
+  href: zh/
+  topicHref: zh/index.md
 
 - name: Česky (Czech)
   href: cs/
@@ -51,8 +51,8 @@
   topicHref: pl/index.md
 
 - name: Portugês (Portuguese)
-  href: pt-BR/
-  topicHref: pt-BR/index.md
+  href: pt/
+  topicHref: pt/index.md
 
 - name: Română (Romanian)
   href: ro/
@@ -63,12 +63,12 @@
   topicHref: ru/index.md
 
 - name: Español (Spanish)
-  href: es-ES/
-  topicHref: es-ES/index.md
+  href: es/
+  topicHref: es/index.md
 
 - name: Svenska (Swedish)
-  href: sv-SE/
-  topicHref: sv-SE/index.md
+  href: sv/
+  topicHref: sv/index.md
   
 - name: ภาษาไทย (Thai)
   href: th/
