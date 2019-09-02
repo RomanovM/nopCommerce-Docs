@@ -1,6 +1,5 @@
 ---
 title: UPS
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/shipping/providers/ups
 ---
 # UPS

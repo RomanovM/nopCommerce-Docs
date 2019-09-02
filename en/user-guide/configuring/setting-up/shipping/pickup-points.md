@@ -1,6 +1,5 @@
 ---
 title: Pickup Points
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/shipping/pickup-points
 ---
 # Pickup Points

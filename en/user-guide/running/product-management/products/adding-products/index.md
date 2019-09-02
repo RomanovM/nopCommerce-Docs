@@ -1,6 +1,5 @@
 ---
 title: Adding products
-author: AndreiMaz
 uid: en/user-guide/running/product-management/products/adding-products/index
 ---
 # Adding products

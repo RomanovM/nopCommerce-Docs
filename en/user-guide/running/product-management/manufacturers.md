@@ -1,6 +1,5 @@
 ---
 title: Manufacturers
-author: AndreiMaz
 uid: en/user-guide/running/product-management/manufacturers
 ---
 # Manufacturers

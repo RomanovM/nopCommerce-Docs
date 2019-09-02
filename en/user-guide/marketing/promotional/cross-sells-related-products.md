@@ -1,6 +1,5 @@
 ---
 title: Cross-sells and Related products
-author: AndreiMaz
 uid: en/user-guide/marketing/promotional/cross-sells-related-products
 ---
 # Cross-sells and Related products

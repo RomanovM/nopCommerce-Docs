@@ -1,6 +1,5 @@
 ---
 title: Attributes
-author: AndreiMaz
 uid: en/user-guide/running/product-management/attributes/index
 ---
 # Attributes

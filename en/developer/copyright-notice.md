@@ -1,6 +1,5 @@
 ---
 title: Copyright notice
-author: AndreiMaz
 uid: en/developer/copyright-notice
 ---
 # Copyright notice

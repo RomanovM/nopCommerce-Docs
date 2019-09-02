@@ -1,6 +1,5 @@
 ---
 title: Measures
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/shipping/measures
 ---
 # Measures

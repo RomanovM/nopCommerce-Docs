@@ -1,6 +1,5 @@
 ---
 title: Email campaigns
-author: AndreiMaz
 uid: en/user-guide/marketing/content/email-campaigns/index
 ---
 # Email campaigns

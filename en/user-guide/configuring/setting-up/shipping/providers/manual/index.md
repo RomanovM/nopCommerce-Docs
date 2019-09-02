@@ -1,6 +1,5 @@
 ---
 title: Manual (Fixed or By Weight and By Total)
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/shipping/providers/manual/index
 ---
 # Manual (Fixed or By Weight and By Total)

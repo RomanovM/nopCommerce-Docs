@@ -1,6 +1,5 @@
 ---
 title: Contribute
-author: AndreiMaz
 uid: en/developer/contribute/index
 ---
 # Contribute

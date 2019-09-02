@@ -1,6 +1,5 @@
 ---
 title: Customer settings
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/customers/settings
 ---
 # Customer settings

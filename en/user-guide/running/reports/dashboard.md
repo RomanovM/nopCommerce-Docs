@@ -1,6 +1,5 @@
 ---
 title: Dashboard
-author: AndreiMaz
 uid: en/user-guide/running/reports/dashboard
 ---
 # Dashboard

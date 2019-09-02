@@ -1,6 +1,5 @@
 ---
 title: Shipments
-author: AndreiMaz
 uid: en/user-guide/running/order-management/shipments
 ---
 # Shipments

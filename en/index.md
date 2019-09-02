@@ -1,6 +1,5 @@
 ---
 title: nopCommerce Documentation
-author: AndreiMaz
 uid: en/index
 ---
 # nopCommerce Documentation

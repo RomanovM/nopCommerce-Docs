@@ -1,6 +1,5 @@
 ---
 title: Rental product
-author: AndreiMaz
 uid: en/user-guide/running/product-management/products/adding-products/rental-products
 ---
 # Rental product

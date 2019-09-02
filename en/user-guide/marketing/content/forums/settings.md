@@ -1,6 +1,5 @@
 ---
 title: Forum settings
-author: AndreiMaz
 uid: en/user-guide/marketing/content/forums/settings
 ---
 # Forum settings

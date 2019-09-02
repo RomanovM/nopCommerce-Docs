@@ -1,6 +1,5 @@
 ---
 title: Discounts
-author: AndreiMaz
 uid: en/user-guide/marketing/promotional/discounts/index
 ---
 # Discounts

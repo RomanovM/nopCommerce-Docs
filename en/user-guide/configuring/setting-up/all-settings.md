@@ -1,6 +1,5 @@
 ---
 title: All Settings (advanced)
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/all-settings
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Help
-author: AndreiMaz
 uid: en/user-guide/installing/help
 ---
 # Help

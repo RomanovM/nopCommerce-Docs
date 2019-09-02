@@ -1,6 +1,5 @@
 ---
 title: Reports
-author: AndreiMaz
 uid: en/user-guide/running/reports/index
 ---
 # Reports

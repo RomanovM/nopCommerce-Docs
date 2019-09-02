@@ -1,6 +1,5 @@
 ---
 title: Product reviews
-author: AndreiMaz
 uid: en/user-guide/running/product-management/products/product-reviews
 ---
 # Product reviews

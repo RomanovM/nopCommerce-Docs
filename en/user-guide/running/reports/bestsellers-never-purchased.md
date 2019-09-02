@@ -1,6 +1,5 @@
 ---
 title: Bestsellers and products never purchased
-author: AndreiMaz
 uid: en/user-guide/running/reports/bestsellers-never-purchased
 ---
 # Bestsellers and products never purchased

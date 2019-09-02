@@ -1,6 +1,5 @@
 ---
 title: Tier prices
-author: AndreiMaz
 uid: en/user-guide/marketing/promotional/tier-prices
 ---
 # Tier prices

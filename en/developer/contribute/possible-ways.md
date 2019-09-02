@@ -1,6 +1,5 @@
 ---
 title: Possible ways to contribute
-author: AndreiMaz
 uid: en/developer/contribute/possible-ways
 ---
 

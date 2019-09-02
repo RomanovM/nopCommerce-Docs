@@ -1,6 +1,5 @@
 ---
 title: Access Control List
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/customers/acl
 ---
 # Access Control List

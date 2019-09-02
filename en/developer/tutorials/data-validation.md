@@ -1,6 +1,5 @@
 ---
 title: Data Validation
-author: AndreiMaz
 uid: en/developer/tutorials/data-validation
 ---
 # Data Validation

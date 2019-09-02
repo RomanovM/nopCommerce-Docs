@@ -1,6 +1,5 @@
 ---
 title: Configuring your store
-author: AndreiMaz
 uid: en/user-guide/configuring/index
 ---
 # Configuring your store

@@ -1,6 +1,5 @@
 ---
 title: Configuring code style
-author: AndreiMaz
 uid: en/developer/tutorials/code-style
 ---
 # Configuring code style

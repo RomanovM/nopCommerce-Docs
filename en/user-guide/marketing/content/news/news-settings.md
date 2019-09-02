@@ -1,6 +1,5 @@
 ---
 title: News settings
-author: AndreiMaz
 uid: en/user-guide/marketing/content/news/news-settings
 ---
 # News settings

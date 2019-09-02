@@ -1,6 +1,5 @@
 ---
 title: Developers guide
-author: AndreiMaz
 uid: en/developer/index
 ---
 # Developers guide

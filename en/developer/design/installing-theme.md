@@ -1,6 +1,5 @@
 ---
 title: Installing / Applying theme in nopCommerce
-author: AndreiMaz
 uid: en/developer/design/installing-theme
 ---
 # Installing / Applying theme in nopCommerce

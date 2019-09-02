@@ -1,6 +1,5 @@
 ---
 title: Inventory management
-author: AndreiMaz
 uid: en/user-guide/running/order-management/inventory-management
 ---
 # Inventory management

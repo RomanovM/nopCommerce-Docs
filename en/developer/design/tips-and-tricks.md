@@ -1,6 +1,5 @@
 ---
 title: Tips and Tricks
-author: AndreiMaz
 uid: en/developer/design/tips-and-tricks
 ---
 # Tips and Tricks

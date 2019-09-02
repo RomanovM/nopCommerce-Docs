@@ -1,6 +1,5 @@
 ---
 title: Installation guide
-author: AndreiMaz
 uid: en/user-guide/installing/installation-guide/index
 ---
 # Installation guide

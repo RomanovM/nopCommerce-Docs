@@ -1,6 +1,5 @@
 ---
 title: Reward points
-author: AndreiMaz
 uid: en/user-guide/marketing/promotional/reward-points
 ---
 # Reward points

@@ -1,6 +1,5 @@
 ---
 title: Customer reports
-author: AndreiMaz
 uid: en/user-guide/running/reports/customer-reports
 ---
 # Customer reports

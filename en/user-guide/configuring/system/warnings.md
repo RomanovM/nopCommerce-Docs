@@ -1,6 +1,5 @@
 ---
 title: Warnings
-author: AndreiMaz
 uid: en/user-guide/configuring/system/warnings
 ---
 # Warnings

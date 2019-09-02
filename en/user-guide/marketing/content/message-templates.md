@@ -1,6 +1,5 @@
 ---
 title: Message templates
-author: AndreiMaz
 uid: en/user-guide/marketing/content/message-templates
 ---
 # Message templates

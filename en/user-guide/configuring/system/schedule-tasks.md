@@ -1,6 +1,5 @@
 ---
 title: Schedule Tasks
-author: AndreiMaz
 uid: en/user-guide/configuring/system/schedule-tasks
 ---
 # Schedule Tasks

@@ -1,6 +1,5 @@
 ---
 title: Catalog settings
-author: AndreiMaz
 uid: en/user-guide/running/product-management/catalog-settings
 ---
 # Catalog settings

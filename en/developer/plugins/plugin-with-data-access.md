@@ -1,6 +1,5 @@
 ---
 title: Plugin with data access
-author: AndreiMaz
 uid: en/developer/plugins/plugin-with-data-access
 ---
 # Plugin with data access

@@ -1,6 +1,5 @@
 ---
 title: Installing nopCommerce
-author: AndreiMaz
 uid: en/user-guide/installing/index
 ---
 # Installing nopCommerce

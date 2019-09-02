@@ -1,6 +1,5 @@
 ---
 title: Promotional tools
-author: AndreiMaz
 uid: en/user-guide/marketing/promotional/index
 ---
 # Promotional tools

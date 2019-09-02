@@ -1,6 +1,5 @@
 ---
 title: Categories
-author: AndreiMaz
 uid: en/user-guide/running/product-management/categories
 ---
 # Categories

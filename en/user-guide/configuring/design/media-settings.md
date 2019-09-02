@@ -1,6 +1,5 @@
 ---
 title: Media Settings
-author: AndreiMaz
 uid: en/user-guide/configuring/design/media-settings
 ---
 # Media Settings

@@ -1,6 +1,5 @@
 ---
 title: Blog settings
-author: AndreiMaz
 uid: en/user-guide/marketing/content/blog/blog-settings
 ---
 # Blog settings

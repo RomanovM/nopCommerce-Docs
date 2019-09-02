@@ -1,6 +1,5 @@
 ---
 title: How to deploy nopCommerce to Azure
-author: AndreiMaz
 uid: en/developer/tutorials/azure-publish
 ---
 # How to deploy nopCommerce to Azure

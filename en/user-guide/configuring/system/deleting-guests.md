@@ -1,6 +1,5 @@
 ---
 title: System Administration
-author: AndreiMaz
 uid: en/user-guide/configuring/system/deleting-guests
 ---
 # System Administration

@@ -1,6 +1,5 @@
 ---
 title: Activity Log
-author: AndreiMaz
 uid: en/user-guide/running/customer-management/activity-log
 ---
 # Activity Log

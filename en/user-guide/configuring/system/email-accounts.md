@@ -1,6 +1,5 @@
 ---
 title: Email accounts
-author: AndreiMaz
 uid: en/user-guide/configuring/system/email-accounts
 ---
 # Email accounts

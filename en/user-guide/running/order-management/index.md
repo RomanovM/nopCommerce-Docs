@@ -1,6 +1,5 @@
 ---
 title: Order management
-author: AndreiMaz
 uid: en/user-guide/running/order-management/index
 ---
 # Order management

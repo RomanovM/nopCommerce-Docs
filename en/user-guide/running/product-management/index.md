@@ -1,6 +1,5 @@
 ---
 title: Product management
-author: AndreiMaz
 uid: en/user-guide/running/product-management/index
 ---
 # Product management

@@ -1,6 +1,5 @@
 ---
 title: Payment Methods
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/payments/methods/index
 ---
 # Payment Methods

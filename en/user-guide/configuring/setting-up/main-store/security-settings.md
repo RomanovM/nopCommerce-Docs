@@ -1,6 +1,5 @@
 ---
 title: Security Settings
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/main-store/security-settings
 ---
 # Security Settings

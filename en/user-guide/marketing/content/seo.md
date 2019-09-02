@@ -1,6 +1,5 @@
 ---
 title: SEO
-author: AndreiMaz
 uid: en/user-guide/marketing/content/seo
 ---
 # SEO

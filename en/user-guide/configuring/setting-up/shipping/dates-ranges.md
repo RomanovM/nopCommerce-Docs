@@ -1,6 +1,5 @@
 ---
 title: Dates and ranges
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/shipping/dates-ranges
 ---
 # Dates and ranges

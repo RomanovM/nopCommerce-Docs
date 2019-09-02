@@ -1,6 +1,5 @@
 ---
 title: Designer's Guide
-author: AndreiMaz
 uid: en/developer/design/index
 ---
 

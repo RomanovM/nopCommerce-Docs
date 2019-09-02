@@ -1,6 +1,5 @@
 ---
 title: Return request settings
-author: AndreiMaz
 uid: en/user-guide/running/order-management/return-requests/return-requests-settings
 ---
 # Return request settings

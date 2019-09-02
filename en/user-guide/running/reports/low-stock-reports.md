@@ -1,6 +1,5 @@
 ---
 title: Low Stock Reports
-author: AndreiMaz
 uid: en/user-guide/running/reports/low-stock-reports
 ---
 # Low Stock Reports

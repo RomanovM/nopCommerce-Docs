@@ -1,6 +1,5 @@
 ---
 title: Logs
-author: AndreiMaz
 uid: en/user-guide/configuring/system/log
 ---
 # Logs

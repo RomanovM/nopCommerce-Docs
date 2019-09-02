@@ -1,6 +1,5 @@
 ---
 title: Shopping cart settings
-author: AndreiMaz
 uid: en/user-guide/running/order-management/orders/shopping-cart-settings
 ---
 # Shopping cart settings

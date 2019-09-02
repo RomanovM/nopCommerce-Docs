@@ -1,6 +1,5 @@
 ---
 title: Import/Export
-author: AndreiMaz
 uid: en/user-guide/running/product-management/products/import-export
 ---
 # Import/Export

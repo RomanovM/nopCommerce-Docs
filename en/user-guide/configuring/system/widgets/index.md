@@ -1,6 +1,5 @@
 ---
 title: Widgets
-author: AndreiMaz
 uid: en/user-guide/configuring/system/widgets/index
 ---
 # Widgets

@@ -1,6 +1,5 @@
 ---
 title: Coding Standards
-author: AndreiMaz
 uid: en/developer/tutorials/coding-standards
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Sharing your plugins, themes, and language packs
-author: AndreiMaz
 uid: en/developer/contribute/sharing
 ---
 # Sharing your plugins, themes, and language packs

@@ -1,6 +1,5 @@
 ---
 title: Currencies
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/payments/currencies
 ---
 # Currencies

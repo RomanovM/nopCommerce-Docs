@@ -1,6 +1,5 @@
 ---
 title: Setting up Main Store
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/main-store/index
 ---
 # Setting up Main Store

@@ -1,6 +1,5 @@
 ---
 title: Customer list
-author: AndreiMaz
 uid: en/user-guide/running/customer-management/customer-list
 ---
 # Customer list

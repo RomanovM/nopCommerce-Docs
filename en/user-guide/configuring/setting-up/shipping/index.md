@@ -1,6 +1,5 @@
 ---
 title: Setting up Shipping
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/shipping/index
 ---
 # Setting up Shipping

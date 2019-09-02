@@ -1,6 +1,5 @@
 ---
 title: Product tags
-author: AndreiMaz
 uid: en/user-guide/running/product-management/products/product-tags
 ---
 # Product tags

@@ -1,6 +1,5 @@
 ---
 title: Order Settings
-author: AndreiMaz
 uid: en/user-guide/running/order-management/orders/order-settings
 ---
 # Order Settings

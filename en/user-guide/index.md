@@ -1,6 +1,5 @@
 ---
 title: User guide
-author: AndreiMaz
 uid: en/user-guide/index
 ---
 # User guide

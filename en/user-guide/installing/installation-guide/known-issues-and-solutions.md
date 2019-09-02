@@ -1,6 +1,5 @@
 ---
 title: Known Issues and Solutions
-author: AndreiMaz
 uid: en/user-guide/installing/installation-guide/known-issues-and-solutions
 ---
 # Known Issues and Solutions

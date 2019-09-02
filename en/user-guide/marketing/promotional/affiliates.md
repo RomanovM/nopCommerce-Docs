@@ -1,6 +1,5 @@
 ---
 title: Affiliates
-author: AndreiMaz
 uid: en/user-guide/marketing/promotional/affiliates
 ---
 # Affiliates

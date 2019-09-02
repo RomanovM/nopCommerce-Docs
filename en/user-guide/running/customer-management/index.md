@@ -1,6 +1,5 @@
 ---
 title: Customer management
-author: AndreiMaz
 uid: en/user-guide/running/customer-management/index
 ---
 # Customer management

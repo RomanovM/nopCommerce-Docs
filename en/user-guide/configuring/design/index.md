@@ -1,6 +1,5 @@
 ---
 title: Design
-author: AndreiMaz
 uid: en/user-guide/configuring/design/index
 ---
 # Design

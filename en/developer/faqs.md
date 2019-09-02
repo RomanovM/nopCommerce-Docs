@@ -1,6 +1,5 @@
 ---
 title: FAQs
-author: AndreiMaz
 uid: en/developer/faqs
 ---
 # FAQs

@@ -1,6 +1,5 @@
 ---
 title: Upgrading nopCommerce
-author: AndreiMaz
 uid: en/user-guide/installing/upgrading
 ---
 # Upgrading nopCommerce

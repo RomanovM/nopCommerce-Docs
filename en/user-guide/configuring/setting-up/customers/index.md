@@ -1,6 +1,5 @@
 ---
 title: Setting up Customers
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/customers/index
 ---
 # Setting up Customers

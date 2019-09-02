@@ -1,6 +1,5 @@
 ---
 title: How to write a plugin for nopCommerce
-author: AndreiMaz
 uid: en/developer/plugins/how-to-write-plugin-4.20
 ---
 # How to write a plugin for nopCommerce

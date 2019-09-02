@@ -1,6 +1,5 @@
 ---
 title: Avalara tax provider
-author: AndreiMaz
 uid: en/user-guide/configuring/setting-up/taxes/tax/methods/avalara
 ---
 # Avalara tax provider
