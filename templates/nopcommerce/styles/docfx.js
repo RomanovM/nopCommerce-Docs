@@ -52,7 +52,7 @@ $(function () {
       if (currentLocationPathname.startsWith(selectedLang))
         return;
 
-      window.location.href = currentLocationPathname.replace(/^\/[A-Z]{2}-[A-Z]{2}/i, selectedLang);
+      window.location.href = currentLocationPathname.replace(/^\/[A-Z]{2}/i, selectedLang);
 
     });
   }
