@@ -3,3 +3,7 @@ files:
     translation: /%two_letters_code%/**/%original_file_name%
   - source: /en/toc.yml
     translation: /%two_letters_code%/toc.yml
+  - source: /en/**/*.xml
+    translation: /%two_letters_code%/**/%original_file_name%
+  - source: /en/**/*.html
+    translation: /%two_letters_code%/**/%original_file_name%
