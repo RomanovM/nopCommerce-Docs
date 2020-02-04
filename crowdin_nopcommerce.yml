@@ -7,3 +7,5 @@ files:
     translation: /%two_letters_code%/**/%original_file_name%
   - source: /en/**/*.html
     translation: /%two_letters_code%/**/%original_file_name%
+  - source: /en/**/*.htm
+    translation: /%two_letters_code%/**/%original_file_name%
