@@ -1,9 +1,9 @@
 ---
-title: Dashboard
+title: Панель
 uid: en/user-guide/running/reports/dashboard
 ---
 
-# Dashboard
+# Панель
 
 The dashboard is the first page you see when accessing the admin area. It enables you to view your store statistics, including the total number of orders that were processed over the period of time you choose (year, month, week), registered customers, low stock products, the most popular products in your store, etc.
 
@@ -49,9 +49,9 @@ Catalog → Low stock report
 
 ## See also
 
-* [Orders](xref:en/user-guide/running/order-management/orders/index)
-* [Return requests](xref:en/user-guide/running/order-management/return-requests/index)
-* [Bestsellers](xref:en/user-guide/running/reports/bestsellers-never-purchased)
-* [Customers](xref:en/user-guide/running/customer-management/index)
-* [Country report](xref:en/user-guide/running/reports/country-report)
-* [Customer reports](xref:en/user-guide/running/reports/customer-reports)
+* [Orders](xref:ru/user-guide/running/order-management/orders/index)
+* [Return requests](xref:ru/user-guide/running/order-management/return-requests/index)
+* [Bestsellers](xref:ru/user-guide/running/reports/bestsellers-never-purchased)
+* [Customers](xref:ru/user-guide/running/customer-management/index)
+* [Country report](xref:ru/user-guide/running/reports/country-report)
+* [Customer reports](xref:ru/user-guide/running/reports/customer-reports)
