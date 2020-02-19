@@ -2,6 +2,7 @@
 title: Running your store
 uid: en/user-guide/running/index
 ---
+
 # Running your store
 
 * [Product management](xref:en/user-guide/running/product-management/index)
