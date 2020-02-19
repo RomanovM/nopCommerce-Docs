@@ -2,6 +2,7 @@
 title: Reports
 uid: en/user-guide/running/reports/index
 ---
+
 # Reports
 
 Reports are important for management, they allow to monitor store performance, track key metrics and support decision making. nopCommerce reports provide access to sales and customer information.
