@@ -2,6 +2,7 @@
 title: Dashboard
 uid: en/user-guide/running/reports/dashboard
 ---
+
 # Dashboard
 
 The dashboard is the first page you see when accessing the admin area. It enables you to view your store statistics, including the total number of orders that were processed over the period of time you choose (year, month, week), registered customers, low stock products, the most popular products in your store, etc.
