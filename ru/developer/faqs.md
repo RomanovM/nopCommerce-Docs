@@ -1,8 +1,8 @@
 ---
-title: ЧАВО
-uid: ru/developer/faqs
+title: FAQs
+uid: en/developer/faqs
 ---
 
-# ЧАВО
+# FAQs
 
-Все вопросы и ответы [здесь](xref:ru/user-guide/installing/faq)
+All Users and Developers FAQs are [here](xref:en/user-guide/installing/faq)
