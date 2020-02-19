@@ -1,7 +1,7 @@
 ---
 title: nopCommerce Documentation
 author: git.RomanovM
-contributors: [nop.boyko-stanev, nop.nop-templates, nop.16286]
+contributors: nop.boyko-stanev, nop.nop-templates, nop.16286, git.exileDev
 uid: en/index
 ---
 # nopCommerce Documentation
