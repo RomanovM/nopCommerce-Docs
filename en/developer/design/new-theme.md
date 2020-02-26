@@ -4,6 +4,7 @@ uid: en/developer/design/new-theme
 author: git.AndreiMaz
 contributors: git.a-patel, git.exileDev, git.DmitriyKulagin
 ---
+
 # Creating / Writing your own theme (using current / default theme)
 
 Open your nopCommerce solution or website (web version) in Visual Studio - Go to this location:
