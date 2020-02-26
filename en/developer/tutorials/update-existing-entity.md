@@ -4,6 +4,7 @@ uid: en/developer/tutorials/update-existing-entity
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # Updating an existing entity. How to add a new property
 
 This tutorial covers how to add a property to the "Category" entity that ships with the nopCommerce source code.
