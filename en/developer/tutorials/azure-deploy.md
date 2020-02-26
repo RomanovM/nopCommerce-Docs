@@ -35,9 +35,7 @@ contributors: git.DmitriyKulagin, git.exileDev
         So you would write something like:
 
         `azure site deploymentscript --aspWAP Presentation\Nop.Web\Nop.Web.csproj -s NopCommerce.sln`
-    - Verify that it has generated 2 files (in your local repository root):
-    `.deployment`
-    `deploy.cmd`
+    - Verify that it has generated 2 files (in your local repository root): `.deployment` `deploy.cmd`
 1. **Run generated script**
     - You must keep the .deployment and deploy.cmd file to the root of git repository
     - Edit the deploy.cmd as the `%DEPLOYMENT_SOURCE%` variable contain the root of the git repository. So I would add `%DEPLOYMENT_SOURCE%\src\Presentation\Nop.Web\Nop.Web.csproj` instead of `%DEPLOYMENT_SOURCE%\Presentation\Nop.Web\Nop.Web.csproj`. All paths in the deployment section must be corrected.
@@ -69,8 +67,7 @@ contributors: git.DmitriyKulagin, git.exileDev
     ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     ```
 
-    So between no ::1 and ::2 that's where we are gonna place our commands for building plugins.
-    An example for the first plugin would be:
+    So between no ::1 and ::2 that's where we are gonna place our commands for building plugins. An example for the first plugin would be:
 
     ```sh
     :: 1.01 Build plugin customer roles to temporary path
