@@ -4,6 +4,7 @@ uid: en/developer/tutorials/events
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
+
 # Exposing and Handling Events
 
 Events are notifications broadcasted to interested parties. Events are triggered on data changes like inserts, updates and deletes. nopCommerce allows developers to "listen" for events they might be interested in. There are two ways a developer will work with events. A developer will either want to publish events for listeners to consume, or subscribe to events other developers will have programmatically published.
