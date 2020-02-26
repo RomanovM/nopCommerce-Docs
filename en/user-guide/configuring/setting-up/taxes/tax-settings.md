@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/taxes/tax-settings
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # Tax Settings
 
 This section describes your store tax settings, for example, defining prices including or excluding tax, defining the tax display type and more.
@@ -52,8 +53,7 @@ Tick the **EU VAT enabled** checkbox, to indicate European Union Value Added Tax
 * **Use web service:** Tick this checkbox, to use the WEB service to validate VAT numbers.
 * **Notify admin when a new VAT number is submitted**: Tick this checkbox, to receive a notification by email, when a new VAT number is submitted.
 
-> [!NOTE]
-> If VAT is enabled, then it charges 0% tax to shipping outside the EU and 0% to those who have supplied a validated and approved VAT number and are shipping within the EU but outside the shop country. Refer to an article for further information on the EU VAT
+> [!NOTE] If VAT is enabled, then it charges 0% tax to shipping outside the EU and 0% to those who have supplied a validated and approved VAT number and are shipping within the EU but outside the shop country. Refer to an article for further information on the EU VAT
 
 Click **Save**.
 
