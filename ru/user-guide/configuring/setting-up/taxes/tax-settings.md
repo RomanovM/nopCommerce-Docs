@@ -1,6 +1,6 @@
 ---
 title: Tax Settings
-uid: en/user-guide/configuring/setting-up/taxes/tax-settings
+uid: ru/user-guide/configuring/setting-up/taxes/tax-settings
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
