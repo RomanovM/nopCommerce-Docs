@@ -34,6 +34,9 @@
           name: Installing on Windows Azure
           href: user-guide/installing/azure.md
         - 
+          name: Installing on Linux
+          href: user-guide/installing/linux.md
+        - 
           name: Upgrading nopCommerce
           href: user-guide/installing/upgrading.md
         - 
@@ -481,6 +484,9 @@
           name: The nopCommerce Data Access Layer
           href: developer/tutorials/data-access-layer.md
         - 
+          name: Entity events and how they work
+          href: developer/tutorials/entity-event.md
+        - 
           name: Inversion of Control and Dependency Injection
           href: developer/tutorials/inversion-of-control.md
         - 
@@ -593,4 +599,7 @@
       href: developer/faqs.md
 - 
   name: Contribute
-  href: https://github.com/nopSolutions/nopCommerce-Docs/blob/nopCommerce-4.20/CONTRIBUTING.md
+  href: https://github.com/nopSolutions/nopCommerce-Docs/blob/master/CONTRIBUTING.md
+- 
+  name: Premium support services
+  href: https://www.nopcommerce.com/nopcommerce-premium-support-services?utm_source=documentation&utm_medium=menu&utm_campaign=docs-menu

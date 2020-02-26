@@ -1,10 +1,9 @@
 ---
 title: nopCommerce Documentation
-author: git.RomanovM
-contributors: nop.boyko-stanev, nop.nop-templates, nop.16286, git.exileDev
 uid: en/index
+author: git.AndreiMaz
+contributors: git.AndreiMaz
 ---
-
 # nopCommerce Documentation
 
 nopCommerce is an open source ecommerce software that contains both a catalog frontend and an administration tool backend. nopCommerce is a fully customizable shopping cart, stable, secure and extendable. From downloads to documentation, [nopCommerce.com](https://www.nopCommerce.com) offers a comprehensive base of information, resources, and support to the nopCommerce community.

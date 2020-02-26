@@ -1,8 +1,8 @@
 ---
 title: Developers guide
 uid: en/developer/index
-author: AndreiMaz
-contributors: enter your id here
+author: git.AndreiMaz
+contributors: git.DmitriyKulagin, git.exileDev
 ---
 # Developers guide
 
