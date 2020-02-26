@@ -4,6 +4,7 @@ uid: en/developer/tutorials/azure-publish
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # How to deploy nopCommerce to Azure
 
 ## Create a VM on Azure
