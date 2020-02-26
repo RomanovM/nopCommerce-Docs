@@ -1,6 +1,6 @@
 ---
 title: Reward points
-uid: en/user-guide/marketing/promotional/reward-points
+uid: ru/user-guide/marketing/promotional/reward-points
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin, git.IvanIvanIvanov
 ---
