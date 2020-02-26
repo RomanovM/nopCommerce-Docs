@@ -4,6 +4,7 @@ uid: en/user-guide/running/reports/country-report
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # Country report
 
 Country report contains a list of orders that includes the number of orders and the total order sum in each country. This enables store owners to view the orders per country.
