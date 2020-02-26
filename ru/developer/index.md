@@ -2,7 +2,7 @@
 title: Developers guide
 uid: en/developer/index
 author: AndreiMaz
-contributors: enter your id here
+contributors: git.AndreiMaz, git.RomanovM, nop.1030
 ---
 
 # Developers guide
