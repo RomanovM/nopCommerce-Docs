@@ -24,7 +24,7 @@ This style rule can be applied to fields, properties, methods, or events.
   //Right
   capacity = 0;
   ```
-  
+
   ```csharp
   //Wrong
   this.capacity = 0;
@@ -36,7 +36,7 @@ This style rule can be applied to fields, properties, methods, or events.
   //Right
   ID = 0;
   ```
-  
+
   ```csharp
   //Wrong
   this.ID = 0;
@@ -48,7 +48,7 @@ This style rule can be applied to fields, properties, methods, or events.
   //Right
   Display();
   ```
-  
+
   ```csharp
   //Wrong
   this.Display();
@@ -60,7 +60,7 @@ This style rule can be applied to fields, properties, methods, or events.
   //Right
   Elapsed += Handler;
   ```
-  
+
   ```csharp
   //Wrong
   this.Elapsed += Handler;
@@ -76,7 +76,7 @@ This style rule can be applied to local variables, method parameters, and class 
   //Right
   private int _member;
   ```
-  
+
   ```csharp
   //Wrong
   private Int32 _member;
@@ -88,7 +88,7 @@ This style rule can be applied to local variables, method parameters, and class 
   //Right
   var local = int.MaxValue;
   ```
-  
+
   ```csharp
   //Wrong
   var local = Int32.MaxValue;
@@ -107,7 +107,7 @@ The style rules in this section concern modifier preferences, including requirin
       private const string thisFieldIsConst = "constant";
   }
   ```
-  
+
   ```csharp
   //Wrong
   class MyClass
@@ -116,8 +116,7 @@ The style rules in this section concern modifier preferences, including requirin
   }
   ```
 
-- Prefer the specified ordering:
-*`public, private, protected, internal, static, extern, new, virtual, abstract, sealed, override, readonly, unsafe, volatile, async:silent`*
+- Prefer the specified ordering: *`public, private, protected, internal, static, extern, new, virtual, abstract, sealed, override, readonly, unsafe, volatile, async:silent`*
 
   ```csharp
   //Right
@@ -137,7 +136,7 @@ The style rules in this section concern parentheses preferences, including the u
   //Right
   var v = a + (b * c);
   ```
-  
+
   ```csharp
   //Wrong
   var v = a + b * c;
@@ -149,7 +148,7 @@ The style rules in this section concern parentheses preferences, including the u
   //Right
   var v = (a < b) == (c > d);
   ```
-  
+
   ```csharp
   //Wrong
   var v = a < b == c > d;
@@ -161,7 +160,7 @@ The style rules in this section concern parentheses preferences, including the u
   //Right
   var v = a || (b && c);
   ```
-  
+
   ```csharp
   //Wrong
   var v = a || b && c;
@@ -173,7 +172,7 @@ The style rules in this section concern parentheses preferences, including the u
   //Right
   var v = a.b.Length;
   ```
-  
+
   ```csharp
   //Wrong
   var v = (a.b).Length;
@@ -189,7 +188,7 @@ The style rules in this section concern expression-level preferences, including 
   //Right
   var c = new Customer() { Age = 21 };
   ```
-  
+
   ```csharp
   //Wrong
   var c = new Customer();
@@ -202,7 +201,7 @@ The style rules in this section concern expression-level preferences, including 
   //Right
   var list = new List<int> { 1, 2, 3 };
   ```
-  
+
   ```csharp
   //Wrong
   var list = new List<int>();
@@ -218,7 +217,7 @@ The style rules in this section concern expression-level preferences, including 
   (string name, int age) customer = GetCustomer();
   var name = customer.name;
   ```
-  
+
   ```csharp
   //Wrong
   (string name, int age) customer = GetCustomer();
@@ -231,7 +230,7 @@ The style rules in this section concern expression-level preferences, including 
   //Right
   var tuple = (age, name);
   ```
-  
+
   ```csharp
   //Wrong
   var tuple = (age: age, name: name);
@@ -243,7 +242,7 @@ The style rules in this section concern expression-level preferences, including 
   //Right
   var anon = new { age = age, name = name };
   ```
-  
+
   ```csharp
   //Wrong
   var anon = new { age, name };
@@ -255,11 +254,11 @@ The style rules in this section concern expression-level preferences, including 
   //Right
   private int Age { get; }
   ```
-  
+
   ```csharp
   //Wrong
   private int age;
-  
+
   public int Age
   {
       get
@@ -276,7 +275,7 @@ The style rules in this section concern expression-level preferences, including 
   if (value is null)
       return;
   ```
-  
+
   ```csharp
   //Wrong
   if (object.ReferenceEquals(value, null))
@@ -289,7 +288,7 @@ The style rules in this section concern expression-level preferences, including 
   //Right
   string s = expr ? "hello" : "world";
   ```
-  
+
   ```csharp
   //Wrong
   string s;
@@ -309,7 +308,7 @@ The style rules in this section concern expression-level preferences, including 
   //Right
   return expr ? "hello" : "world"
   ```
-  
+
   ```csharp
   //Wrong
   if (expr)
@@ -328,7 +327,7 @@ The style rules in this section concern expression-level preferences, including 
   //Right
   x += 1;
   ```
-  
+
   ```csharp
   //Wrong
   x = x + 1;
@@ -344,7 +343,7 @@ The style rules in this section concern null-checking preferences.
   //Right
   var v = x ?? y;
   ```
-  
+
   ```csharp
   //Wrong
   var v = x != null ? x : y; // or
@@ -357,7 +356,7 @@ The style rules in this section concern null-checking preferences.
   //Right
   var v = o?.ToString();
   ```
-  
+
   ```csharp
   //Wrong
   var v = o == null ? null : o.ToString(); // or
@@ -376,7 +375,7 @@ The style rules in this section concern the use of the var keyword versus an exp
   //Right
   var x = 5;
   ```
-  
+
   ```csharp
   //Wrong
   int x = 5;
@@ -388,7 +387,7 @@ The style rules in this section concern the use of the var keyword versus an exp
   //Right
   var obj = new Customer();
   ```
-  
+
   ```csharp
   //Wrong
   Customer obj = new Customer();
@@ -400,7 +399,7 @@ The style rules in this section concern the use of the var keyword versus an exp
   //Right
   var f = this.Init();
   ```
-  
+
   ```csharp
   //Wrong
   bool f = this.Init();
@@ -416,7 +415,7 @@ The style rules in this section concern the use of [expression-bodied members](h
   //Right
   public int GetAge() { return this.Age; }
   ```
-  
+
   ```csharp
   //Wrong
   public int GetAge() => this.Age;
@@ -428,7 +427,7 @@ The style rules in this section concern the use of [expression-bodied members](h
   //Right
   public Customer(int age) { Age = age; }
   ```
-  
+
   ```csharp
   //Wrong
   public Customer(int age) => Age = age;
@@ -441,7 +440,7 @@ The style rules in this section concern the use of [expression-bodied members](h
   public static ComplexNumber operator + (ComplexNumber c1, ComplexNumber c2)
   { return new ComplexNumber(c1.Real + c2.Real, c1.Imaginary + c2.Imaginary); }
   ```
-  
+
   ```csharp
   //Wrong
   public static ComplexNumber operator + (ComplexNumber c1, ComplexNumber c2)
@@ -454,7 +453,7 @@ The style rules in this section concern the use of [expression-bodied members](h
   //Right
   public int Age => _age;
   ```
-  
+
   ```csharp
   //Wrong
   public int Age { get { return _age; }}
@@ -466,7 +465,7 @@ The style rules in this section concern the use of [expression-bodied members](h
   //Right
   public T this[int i] => _values[i];
   ```
-  
+
   ```csharp
   //Wrong
   public T this[int i] { get { return _values[i]; } }
@@ -478,7 +477,7 @@ The style rules in this section concern the use of [expression-bodied members](h
   //Right
   public int Age { get => _age; set => _age = value; }
   ```
-  
+
   ```csharp
   //Wrong
   public int Age { get { return _age; } set { _age = value; } }
@@ -490,7 +489,7 @@ The style rules in this section concern the use of [expression-bodied members](h
   //Right
   Func<int, int> square = x => x * x;
   ```
-  
+
   ```csharp
   //Wrong
   Func<int, int> square = x => { return x * x; };
@@ -506,7 +505,7 @@ The style rules in this section concern the use of [pattern matching](https://do
   //Right
   if (o is int i) {...}
   ```
-  
+
   ```csharp
   //Wrong
   if (o is int) {var i = (int)o; ... }
@@ -518,7 +517,7 @@ The style rules in this section concern the use of [pattern matching](https://do
   //Right
   if (o is string s) {...}
   ```
-  
+
   ```csharp
   //Wrong
   var s = o as string;
@@ -535,7 +534,7 @@ This style rule concerns whether out variables are declared inline or not. Start
   //Right
   if (int.TryParse(value, out int i) {...}
   ```
-  
+
   ```csharp
   //Wrong
   int i;
@@ -552,7 +551,7 @@ This style rule concerns using the [default literal for default value expression
   //Right
   void DoWork(CancellationToken cancellationToken = default) { ... }
   ```
-  
+
   ```csharp
   //Wrong
   void DoWork(CancellationToken cancellationToken = default(CancellationToken)) {   ... }
@@ -568,7 +567,7 @@ These style rules concern the syntax around null checking, including using throw
   //Right
   this.s = s ?? throw new ArgumentNullException(nameof(s));
   ```
-  
+
   ```csharp
   //Wrong
   if (s == null) { throw new ArgumentNullException(nameof(s)); }
@@ -581,7 +580,7 @@ These style rules concern the syntax around null checking, including using throw
   //Right
   func?.Invoke(args);
   ```
-  
+
   ```csharp
   //Wrong
   if (func != null) { func(args); }
@@ -597,7 +596,7 @@ This style rule concerns the use of curly braces { } to surround code blocks.
   //Right
   if (test) this.Display();
   ```
-  
+
   ```csharp
   //Wrong
   if (test) { this.Display(); }
@@ -619,7 +618,7 @@ These formatting rules concern the sorting and display of *`using`* directives a
   using System.Threading.Tasks;
   using Octokit;
   ```
-  
+
   ```csharp
   //Wrong
   using System.Collections.Generic;
@@ -635,7 +634,7 @@ These formatting rules concern the sorting and display of *`using`* directives a
   using System.Threading.Tasks;
   using Octokit;
   ```
-  
+
   ```csharp
   //Wrong
   using System.Collections.Generic;
@@ -673,9 +672,9 @@ These formatting rules concern the use of new lines to format code.
       }
   }
   ```
-  
+
 - Place else statements on a new line.
-  
+
   ```csharp
   //Right
   if (...) {
@@ -694,9 +693,9 @@ These formatting rules concern the use of new lines to format code.
       ...
   }
   ```
-  
+
 - Place catch statements on a new line.
-  
+
   ```csharp
   //Right
   try {
@@ -715,9 +714,9 @@ These formatting rules concern the use of new lines to format code.
       ...
   }
   ```
-  
+
 - Require finally statements to be on a new line after the closing brace.
-  
+
   ```csharp
   //Right
   try {
@@ -741,9 +740,9 @@ These formatting rules concern the use of new lines to format code.
       ...
   }
   ```
-  
+
 - Require members of object initializers to be on separate lines
-  
+
   ```csharp
   //Right
   var z = new B()
@@ -760,9 +759,9 @@ These formatting rules concern the use of new lines to format code.
       A = 3, B = 4
   }
   ```
-  
+
 - Require members of anonymous types to be on separate lines
-  
+
   ```csharp
   //Right
   var z = new
@@ -830,9 +829,9 @@ These formatting rules concern the use of indentation to format code.
       break;
   }
   ```
-  
+
 - Indent *`switch`* labels
-  
+
   ```csharp
   //Right
   switch(c) {
@@ -862,9 +861,9 @@ These formatting rules concern the use of indentation to format code.
       break;
   }
   ```
-  
+
 - Labels are placed at the same indent as the current context
-  
+
   ```csharp
   //Right
   class C
@@ -894,7 +893,7 @@ These formatting rules concern the use of indentation to format code.
       }
   }
   ```
-  
+
   ```csharp
   //Wrong
   class C
@@ -925,9 +924,9 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   int y = (int) x;
   ```
-  
+
 - Place a space character after a keyword in a control flow statement such as a   *`for`* loop
-  
+
   ```csharp
   //Right
   for (int i;i<x;i++) { ... }
@@ -937,19 +936,19 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   for(int i;i<x;i++) { ... }
   ```
-  
+
 - Place a space character before the colon for bases or interfaces in a type   declaration
-  
+
   ```csharp
   //Right
   interface I
   {
-  
+
   }
-  
+
   class C : I
   {
-  
+
   }
   ```
 
@@ -957,27 +956,27 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   interface I
   {
-  
+
   }
-  
+
   class C: I
   {
-  
+
   }
   ```
-  
+
 - Place a space character after the colon for bases or interfaces in a type   declaration
-  
+
   ```csharp
   //Right
   interface I
   {
-  
+
   }
-  
+
   class C : I
   {
-  
+
   }
   ```
 
@@ -985,17 +984,17 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   interface I
   {
-  
+
   }
-  
+
   class C :I
   {
-  
+
   }
   ```
-  
+
 - Insert space before and after the binary operator
-  
+
   ```csharp
   //Right
   return x * (x - y);
@@ -1005,14 +1004,14 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   return x*(x-y);
   ```
-  
+
   ```csharp
   //Wrong
   return x  *  (x-y);
   ```
-  
+
 - Remove space characters after the opening parenthesis and before the closing   parenthesis of a method declaration parameter list
-  
+
   ```csharp
   //Right
   void Bark(int x) { ... }
@@ -1022,16 +1021,16 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   void Bark( int x ) { ... }
   ```
-  
+
 - Remove space within empty parameter list parentheses for a method declaration
-  
+
   ```csharp
   //Right
   void Goo()
   {
       Goo(1);
   }
-  
+
   void Goo(int x)
   {
       Goo();
@@ -1044,16 +1043,16 @@ These formatting rules concern the use of space characters to format code.
   {
       Goo(1);
   }
-  
+
   void Goo(int x)
   {
       Goo();
   }
-  
+
   ```
-  
+
 - Remove space characters between the method name and opening parenthesis in the   method declaration
-  
+
   ```csharp
   //Right
   void M() { }
@@ -1063,9 +1062,9 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   void M () { }
   ```
-  
+
 - Remove space characters after the opening parenthesis and before the closing   parenthesis of a method call
-  
+
   ```csharp
   //Right
   MyMethod(argument);
@@ -1075,16 +1074,16 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   MyMethod( argument );
   ```
-  
+
 - Remove space within empty argument list parentheses
-  
+
   ```csharp
   //Right
   void Goo()
   {
       Goo(1);
   }
-  
+
   void Goo(int x)
   {
       Goo();
@@ -1097,22 +1096,22 @@ These formatting rules concern the use of space characters to format code.
   {
       Goo(1);
   }
-  
+
   void Goo(int x)
   {
       Goo( );
   }
   ```
-  
+
 - Remove space between method call name and opening parenthesis
-  
+
   ```csharp
   //Right
   void Goo()
   {
       Goo(1);
   }
-  
+
   void Goo(int x)
   {
       Goo();
@@ -1125,15 +1124,15 @@ These formatting rules concern the use of space characters to format code.
   {
       Goo(1);
   }
-  
+
   void Goo(int x)
   {
       Goo ();
   }
   ```
-  
+
 - Insert space after a comma
-  
+
   ```csharp
   //Right
   int[] x = new int[] { 1, 2, 3, 4, 5 };
@@ -1143,9 +1142,9 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   int[] x = new int[] { 1,2,3,4,5 }
   ```
-  
+
 - Remove space before a comma
-  
+
   ```csharp
   //Right
   int[] x = new int[] { 1, 2, 3, 4, 5 };
@@ -1155,9 +1154,9 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   int[] x = new int[] { 1 , 2 , 3 , 4 , 5 };
   ```
-  
+
 - Insert space after each semicolon in a for statement
-  
+
   ```csharp
   //Right
   for (int i = 0; i < x.Length; i++)
@@ -1167,9 +1166,9 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   for (int i = 0;i < x.Length;i++)
   ```
-  
+
 - Remove space before each semicolon in a for statement
-  
+
   ```csharp
   //Right
   for (int i = 0; i < x.Length; i++)
@@ -1179,9 +1178,9 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   for (int i = 0 ; i < x.Length ; i++)
   ```
-  
+
 - Remove extra space characters in declaration statements
-  
+
   ```csharp
   //Right
   int x = 0;
@@ -1191,9 +1190,9 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   int    x    =    0   ;
   ```
-  
+
 - Remove space before opening square brackets *`[`*
-  
+
   ```csharp
   //Right
   int[] numbers = new int[] { 1, 2, 3, 4, 5 };
@@ -1203,9 +1202,9 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   int [] numbers = new int [] { 1, 2, 3, 4, 5 };
   ```
-  
+
 - Remove space between empty square brackets *`[]`*
-  
+
   ```csharp
   //Right
   int[] numbers = new int[] { 1, 2, 3, 4, 5 };
@@ -1215,9 +1214,9 @@ These formatting rules concern the use of space characters to format code.
   //Wrong
   int[ ] numbers = new int[ ] { 1, 2, 3, 4, 5 };
   ```
-  
+
 - Remove space characters in non-empty square brackets *`[0]`*
-  
+
   ```csharp
   //Right
   int index = numbers[0];
@@ -1244,9 +1243,9 @@ These formatting rules concern the use of single lines versus separate lines for
   //Wrong
   int i = 0; string name = "John";
   ```
-  
+
 - Leave code block on single line
-  
+
   ```csharp
   //Right
   public int Foo { get; set; }
@@ -1273,9 +1272,9 @@ These formatting rules concern the use of single lines versus separate lines for
   //Wrong
   const int Test_Constant = 1;
   ```
-  
+
 - Fields with *`public`* access are referred to as PascalCase notation
-  
+
   ```csharp
   //Right
   public int TestField;
@@ -1285,9 +1284,9 @@ These formatting rules concern the use of single lines versus separate lines for
   //Wrong
   public int testField;
   ```
-  
+
 - Interface names must be in PascalCase notation and have the prefix *`I`*
-  
+
   ```csharp
   //Right
   public interface ITestInterface;
@@ -1297,9 +1296,9 @@ These formatting rules concern the use of single lines versus separate lines for
   //Wrong
   public interface testInterface;
   ```
-  
+
 - The names of classes, structures, methods, enums, events, properties,   namespaces, and delegates should be in PascalCase notation
-  
+
   ```csharp
   //Right
   public class SomeClass;
@@ -1309,9 +1308,9 @@ These formatting rules concern the use of single lines versus separate lines for
   //Wrong
   public class someClass;
   ```
-  
+
 - Assigned to the parameter of a generic type a descriptive name in the notation   PascalCase, unless enough of a letter and a descriptive name has no practical   value
-  
+
   ```csharp
   //Right
   public interface ISessionChannel<TSession> { /*...*/ }
@@ -1327,9 +1326,9 @@ These formatting rules concern the use of single lines versus separate lines for
   public delegate bool Predicate<T>(T item);
   public struct Nullable<T> where T : struct { /*...*/ }
   ```
-  
+
 - Use the prefix *`T`* for descriptive names of type parameters
-  
+
   ```csharp
   //Right
   public interface ISessionChannel<TSession>
