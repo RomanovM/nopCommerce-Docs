@@ -1,6 +1,6 @@
 ---
 title: Marketing your store
-uid: en/user-guide/marketing/index
+uid: ru/user-guide/marketing/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.IvanIvanIvanov
 ---
