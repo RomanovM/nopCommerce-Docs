@@ -1,6 +1,6 @@
 ---
 title: Shipments
-uid: en/user-guide/running/order-management/shipments
+uid: ru/user-guide/running/order-management/shipments
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
