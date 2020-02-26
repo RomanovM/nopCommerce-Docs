@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/shipping/providers/manual/fixed-rate-r
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
+
 # Shipping Method Restrictions (Fixed Rate Shipping)
 
 A store owner can define restrictions for certain shipping methods in certain countries. To do so, go to **Configuration → Shipping → Shipping Providers → click Configure beside Fixed Rate Shipping**. The configuration window is displayed:
