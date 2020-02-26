@@ -4,6 +4,7 @@ uid: en/developer/plugins/index
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin
 ---
+
 # Creating a nopCommerce plugin
 
 * [How to write a plugin for nopCommerce 4.20 (and above)](xref:en/developer/plugins/how-to-write-plugin-4.20)
