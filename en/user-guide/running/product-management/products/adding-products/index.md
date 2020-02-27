@@ -4,14 +4,14 @@ uid: en/user-guide/running/product-management/products/adding-products/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.sanju741, git.exileDev, git.IvanIvanIvanov
 ---
+
 # Adding products
 
 Setting up products in the best way possible is highly important for a store. Make sure to not miss any detail, such displaying different size and color options, giving a thorough product description, adding appealing pictures, etc.
 
 To add a new product, go to **Catalog → Products**. Click **Add new** button in the right top corner.
 
-> [!NOTE]
-> you can import a product from an external file by clicking Import from Excel. Once you have a list of products, you can export it to an external file for backup purposes, by clicking Export to XML(all) or Export to Excel (all). You can export selected products by clicking Export to XML (selected) and Export to Excel (selected). Additionally, it is possible to Download catalog as PDF to print the selected products to a PDF file. To remove products from the list, select the items to be deleted and click the Delete (selected) button.
+> [!NOTE] you can import a product from an external file by clicking Import from Excel. Once you have a list of products, you can export it to an external file for backup purposes, by clicking Export to XML(all) or Export to Excel (all). You can export selected products by clicking Export to XML (selected) and Export to Excel (selected). Additionally, it is possible to Download catalog as PDF to print the selected products to a PDF file. To remove products from the list, select the items to be deleted and click the Delete (selected) button.
 
 ![products_page](_static/index/products_page.png)
 
@@ -123,8 +123,7 @@ Go to **Pictures** tab on Edit product details page to add product pictures.
 - In the **Title** field, enter a value for the "alt" attribute of "img" HTML element. If empty, then a default rule will be used (e.g. product name).
 - Define the **Display order** of the image on a product page.
 
-> [!TIP]
-> [YouTube tutorial: Importing mass product images](https://www.youtube.com/watch?v=9BUqR_OGiq4)
+> [!TIP] [YouTube tutorial: Importing mass product images](https://www.youtube.com/watch?v=9BUqR_OGiq4)
 
 ## Attributes
 
@@ -137,15 +136,13 @@ On the **Product attributes** tab, add Product attributes. Learn more about prod
 - Tick **Is required** to set this attribute as required for customers.
 - Define the **Control type** for this attribute (e.g. dropdown list, radio button list, etc.).
 
-> [!NOTE]
-> For the «Date picker» control type, it is possible to set a number of years to be displayed by using «catalogsettings.countdisplayedyearsdatepicker» parameter in All Settings (advanced). For example, if you set zero then only current year will be displayed. If you set 5 then current year and the next 5 years will be displayed.
+> [!NOTE] For the «Date picker» control type, it is possible to set a number of years to be displayed by using «catalogsettings.countdisplayedyearsdatepicker» parameter in All Settings (advanced). For example, if you set zero then only current year will be displayed. If you set 5 then current year and the next 5 years will be displayed.
 
 - Define the **Display Order** for this attribute.
 - Click **Update**.
 - The **Values** field now displays a number of predefined values for this attribute. **View/Edit values**, if required.
 
-> [!NOTE]
-> There are two Attribute value types, Simple and Associated to product. Choose the Associated to product type if you want this attribute value to be another product from your catalog and track its stock as well. Here you can use Bundled products functionality allowing customers to buy different combinations or sets of products as a single product and shoppers have an opportunity to set the required quantity of the attributes. (“Customer enters quantity” option).
+> [!NOTE] There are two Attribute value types, Simple and Associated to product. Choose the Associated to product type if you want this attribute value to be another product from your catalog and track its stock as well. Here you can use Bundled products functionality allowing customers to buy different combinations or sets of products as a single product and shoppers have an opportunity to set the required quantity of the attributes. (“Customer enters quantity” option).
 
 - If required, define Conditions for this attribute, i.e. this attribute becomes visible when other attributes have certain values.
 

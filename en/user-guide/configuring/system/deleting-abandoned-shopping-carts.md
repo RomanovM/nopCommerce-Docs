@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/system/deleting-abandoned-shopping-carts
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
+
 # Deleting Old Exported Files
 
 The following procedure describes how to delete abandoned shopping carts and wishlists.

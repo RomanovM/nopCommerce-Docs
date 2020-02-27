@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/main-store/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---
+
 # Setting up Main Store
 
 By default nopCommerce installation, only one store is created and needs to be configured, as described below.

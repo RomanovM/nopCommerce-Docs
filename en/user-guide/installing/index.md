@@ -4,6 +4,7 @@ uid: en/user-guide/installing/index
 author: git.AndreiMaz
 contributors: git.skoshelev, git.exileDev, git.IvanIvanIvanov
 ---
+
 # Installing nopCommerce
 
 nopCommerce can be downloaded as a ready to install e-commerce engine or as full source code ready to be modified. This chapter will cover everything you need to know for downloading and installing nopCommerce.
