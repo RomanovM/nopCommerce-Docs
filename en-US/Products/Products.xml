@@ -138,8 +138,8 @@
     <a class="btn blue-button" href="https://downloads.nopcommerce.com/certification/sample_questions.pdf" target="_blank"> Download preparation sheet </a>
     <a class="btn blue-button" href="https://downloads.nopcommerce.com/certification/faq.pdf" target="_blank"> Download FAQ </a>
   </div>
-</div>]]>
-    </Value>
+</div>
+    ]]></Value>
   </LocaleResource>
   <LocaleResource Id="1" Name="Name">
     <Value>nopCommerce copyright removal key</Value>
@@ -184,8 +184,8 @@
     <Value><![CDATA[The package includes support that is designed to answer general questions, development skills, bug fixing warranty, and help merchants with product issues.]]></Value>
   </LocaleResource>
   <LocaleResource Id="541" Name="FullDescription">
-    <Value>
-      <![CDATA[<p>The nopCommerce team provides paid premium support services, which are intended for people who run mission critical websites, work on projects with tight deadlines, or simply want to get dedicated support by nopCommerce core development team.</p>
+    <Value><![CDATA[
+      <p>The nopCommerce team provides paid premium support services, which are intended for people who run mission critical websites, work on projects with tight deadlines, or simply want to get dedicated support by nopCommerce core development team.</p>
 <p>Find the details below:</p>
 <table class="nopCommerce-feature-list" border="0" cellspacing="0" cellpadding="0">
   <tbody>
