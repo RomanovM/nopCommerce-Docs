@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language Name="Русский">
+  <LocaleResource Id="2127" Name="Name">
+    <Value>Программа сертификации разработчиков</Value>
+  </LocaleResource>
+  <LocaleResource Id="2127" Name="ShortDescription">
+    <Value><![CDATA[Официальная сертификация от команды nopCommerce]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="2127" Name="FullDescription">
+    <Value><![CDATA[
+<div class="certification-product-description">
+  <h2>Введение в сертификацию</h2>
+  <p>The world of nopCommerce is expanding every day. More and more store owners are introduced to nopCommerce as more and more web developers start using it. For the mutual benefit of store owners and developers, we are happy to announce the nopCommerce developer certification test. This test is designed to verify developers’ proficiency in nopCommerce and their skills as nopCommerce developers, thus giving them official recognition and proof.</p>
+  <h2>Коротко</h2>
+  <p>Our certification is an online exam. To pass the exam, it is required to score 80% or more. Upon passing the exam, a developer is given the Specialist certificate and awarded the Certified Specialist badge.</p>
+  <p>The exam fee is $100 and is non-refundable. To apply for the exam, a developer should buy an online exam voucher. The voucher can be used at any convenient time, so it is not necessary to buy it right before the exam. In case of failure to pass the exam, the developer is allowed to retake it for an additional fee anytime.</p>
+  <h2>Преимущества</h2>
+  <ul class="certificate-benefits">
+    <li>
+      <h3>
+        <span class="arrow-left-title sprite-image">.</span>
+        <span class="page-content-text">Official skills recognition</span>
+      </h3>
+      <p>
+        Obtaining the certificate and the certified specialist badge will make you or your agency more marketable, and give you more prestige in the nopCommerce community. Certified experts will be listed in the <a href="/certified-developers">certified developers directory</a> on the official nopCommerce site.
+      </p>
+    </li>
+    <li>
+      <h3>
+        <span class="arrow-left-title sprite-image">.</span>
+        <span class="page-content-text">Staying current with technologies</span>
+      </h3>
+      <p>Certification is based on the latest nopCommerce version and is an excellent test of a developer's skills and knowledge.</p>
+    </li>
+    <li>
+      <h3>
+        <span class="arrow-left-title sprite-image">.</span>
+        <span class="page-content-text">Advancing your career</span>
+      </h3>
+      <p>Being a certified specialist, you can find better opportunities in the job market, quickly advance in your existing job, or keep your team's skills on the top.</p>
+    </li>
+    <li>
+      <h3>
+        <span class="arrow-left-title sprite-image">.</span>
+        <span class="page-content-text">Attracting more clients</span>
+      </h3>
+      <p>Certified specialists draw more clients and generally are more trustworthy. Obtaining the certificate is an effective way to attract clients by indicating your exceptional and officially recognized position as a nopCommerce developer.</p>
+    </li>
+    <li>
+      <h3>
+        <span class="arrow-left-title sprite-image">.</span>
+        <span class="page-content-text">Adequate self-evaluation</span>
+      </h3>
+      <p>The certificate can boost your self-confidence as a professional and be a good ground for promotion or raise.</p>
+    </li>
+    <li>
+      <h3>
+        <span class="arrow-left-title sprite-image">.</span>
+        <span class="page-content-text">For solution partners</span>
+      </h3>
+      <p>
+        The number of certified specialists is shown under the title of the agency on the <a href="/solution-partners">Solution partners</a> page.
+      </p>
+    </li>
+  </ul>
+  <h2>On successful certification you receive</h2>
+  <div class="certification-receive-section">
+    <div class="container">
+      <div class="stats-section">
+        <div class="stats-1">
+          <div class="stats-img"> </div>
+          <div class="stats-subtext">The nopCommerce certified developer certificate (PDF version).</div>
+        </div>
+        <div class="stats-2">
+          <div class="stats-img"> </div>
+          <div class="stats-subtext">The certified developer Badge, it will be added to your profile on our forums.</div>
+        </div>
+        <div class="stats-3">
+          <div class="stats-img"> </div>
+          <div class="stats-subtext">
+            Mention on the official nopCommerce site on the <a href="/certified-developers">certification directory</a> page.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2>Requirements</h2>
+  <p>Everyone can take the exam, but we strongly recommend a candidate to have:</p>
+  <ul class="requirement">
+    <li>
+      <span class="arrow-left-title sprite-image">.</span>
+      <span class="page-content-text">Solid understanding of the .NET Framework and ASP.NET MVC development</span>
+    </li>
+    <li>
+      <span class="arrow-left-title sprite-image">.</span>
+      <span class="page-content-text">Experience in frontend development</span>
+    </li>
+    <li>
+      <span class="arrow-left-title sprite-image">.</span>
+      <span class="page-content-text">Experience in design and development of nopCommerce powered shops</span>
+    </li>
+  </ul>
+  <h2>Certification process</h2>
+  <ul class="certification-process">
+    <li>
+      <span class="arrow-left-title sprite-image">.</span>
+      <span class="page-content-text">After completing an application form, the invitation to take the exam will be sent to the email indicated in the form within 24 hours</span>
+    </li>
+    <li>
+      <span class="arrow-left-title sprite-image">.</span>
+      <span class="page-content-text">The exam will be taken online</span>
+    </li>
+    <li>
+      <span class="arrow-left-title sprite-image">.</span>
+      <span class="page-content-text">The exam must be completed in one session</span>
+    </li>
+    <li>
+      <span class="arrow-left-title sprite-image">.</span>
+      <span class="page-content-text">The length of the session is 60 minutes</span>
+    </li>
+    <li>
+      <span class="arrow-left-title sprite-image">.</span>
+      <span class="page-content-text">The exam is an open-book type</span>
+    </li>
+    <li>
+      <span class="arrow-left-title sprite-image">.</span>
+      <span class="page-content-text">The entire exam consists of 50 questions</span>
+    </li>
+    <li>
+      <span class="arrow-left-title sprite-image">.</span>
+      <span class="page-content-text">80% of correct answers grant the certificate</span>
+    </li>
+  </ul>
+  <h3>
+    Find the list of certified specialists in the <a href="/certified-developers">certification directory</a>.
+  </h3>
+  <div class="need-help">
+    <a class="btn blue-button" href="https://downloads.nopcommerce.com/certification/sample_questions.pdf" target="_blank"> Download preparation sheet </a>
+    <a class="btn blue-button" href="https://downloads.nopcommerce.com/certification/faq.pdf" target="_blank"> Download FAQ </a>
+  </div>
+</div>
+    ]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="1" Name="Name">
+    <Value>nopCommerce copyright removal key</Value>
+  </LocaleResource>
+  <LocaleResource Id="1" Name="ShortDescription">
+    <Value><![CDATA[Would you like to remove the "Powered by nopCommerce" link in the bottom of the footer?]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="1" Name="FullDescription">
+    <Value><![CDATA[<div class="copyright-removal-description-wrapper"><h2>nopCommerce license terms</h2><p>According to the terms of the nopCommerce license, without purchasing the Copyright removal key:</p><ul><li>You may NOT remove or hide the "Powered by nopCommerce" statement that appears at the bottom of each page within a nopCommerce-powered website</li><li>When users click on the "powered by nopCommerce" text it must direct them to <a href="https://www.nopCommerce.com">https://www.nopCommerce.com</a>. The "Powered by nopCommerce" link must be in the same format, unedited, as delivered in the program source code. This obligation shall also apply to any copies or derivative works! </li><li>The copyright notice at the footer of your store (website) must remain intact, unedited and clearly visible. Please do NOT attempt to edit, remove or hide the copyright notice in any way.</li></ul><p>Upon purchase of a "copyright removal key" you are permitted to remove the "Powered by nopCommerce" statement.</p><p>According to The World Intellectual Property Organization Copyright Treaty, The Digital Millennium Copyright Act (the USA), and official Directive of the European Union, site pages or an entire site which violates authors’ rights might be removed from Google search results and from other search engines if an author whose rights were violated makes such a request.</p><p>Copyright infringement is illegal - please be advised.</p></div>]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="5892" Name="Name">
+    <Value>nopCommerce copyright removal key</Value>
+  </LocaleResource>
+  <LocaleResource Id="5892" Name="ShortDescription">
+    <Value><![CDATA[<p><span>Your license will be set for this URL</span>. For example, <i>www.yourStore.com</i></p>]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="5892" Name="FullDescription">
+    <Value><![CDATA[]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="5897" Name="Name">
+    <Value>Wildcard copyright removal key</Value>
+  </LocaleResource>
+  <LocaleResource Id="5897" Name="ShortDescription">
+    <Value><![CDATA[<p>A wildcard copyright removal key is for multiple sites on a SINGLE domain. If you purchase such key for domain www.yourDomain.com, then you can remove &quot;powered by nopCommerce&quot; on the following sites as well - subdomain1.yourDomain.com, subdomain2.yourDomain.com, www.yourDomain.com/site3, www.yourDomain.com/site4.</p>]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="5897" Name="FullDescription">
+    <Value><![CDATA[]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="5898" Name="Name">
+    <Value>Server copyright removal key</Value>
+  </LocaleResource>
+  <LocaleResource Id="5898" Name="ShortDescription">
+    <Value><![CDATA[<p>A server copyright removal key is for one IP address. If you purchase such key for IP address (e.g. 210.111.222.333), then you can remove &quot;powered by nopCommerce&quot; on all sites which could be accessed using this IP address. But it's limited to 100 sites per key (for example, if you have 200 sites, then you have to buy two server copyright removal keys). Please note that it's not allowed to purchase this key for IP addresses of hosting companies (e.g. Windows Azure, AWS, CloudFlare, etc).</p>]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="5898" Name="FullDescription">
+    <Value><![CDATA[]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="541" Name="Name">
+    <Value>nopCommerce premium support services</Value>
+  </LocaleResource>
+  <LocaleResource Id="541" Name="ShortDescription">
+    <Value><![CDATA[The package includes support that is designed to answer general questions, development skills, bug fixing warranty, and help merchants with product issues.]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="541" Name="FullDescription">
+    <Value><![CDATA[
+      <p>The nopCommerce team provides paid premium support services, which are intended for people who run mission critical websites, work on projects with tight deadlines, or simply want to get dedicated support by nopCommerce core development team.</p>
+<p>Find the details below:</p>
+<table class="nopCommerce-feature-list" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td class="title" colspan="2">General Terms</td>
+    </tr>
+    <tr>
+      <td class="feature">Support period</td>
+      <td class="feature-community-line">3 months or 1 year</td>
+    </tr>
+    <tr>
+      <td class="feature">Guaranteed response time</td>
+      <td class="feature-community-line">24 hours (1 business day)</td>
+    </tr>
+    <tr>
+      <td class="feature">Bug fix warranty *</td>
+      <td class="feature-community-line">5 business days</td>
+    </tr>
+    <tr>
+      <td class="feature">Permitted service requests (per contract term)</td>
+      <td class="feature-community-line">unlimited</td>
+    </tr>
+    <tr>
+      <td class="feature">Languages</td>
+      <td class="feature-community-line">English or Russian</td>
+    </tr>
+    <tr>
+      <td class="feature">Support contact method</td>
+      <td class="feature-community-line">Internal ticket system</td>
+    </tr>
+    <tr>
+      <td class="feature">Service level window (SLW)</td>
+      <td class="feature-community-line">
+        Monday-Friday<br /> Excluding holidays
+      </td>
+    </tr>
+    <tr>
+      <td class="feature">Covered versions</td>
+      <td class="feature-community-line">nopCommerce 3.00 and above</td>
+    </tr>
+    <tr>
+      <td class="title" colspan="2">What is included?</td>
+    </tr>
+    <tr>
+      <td class="feature">Support from the core team</td>
+      <td class="feature-community-line">
+        <div class="yes"> </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="feature">
+        General questions <br /> <em>Configuration, installation and upgrade questions, optimization, etc</em>
+      </td>
+      <td class="feature-community-line">
+        <div class="yes"> </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="feature">Development and customization questions</td>
+      <td class="feature-community-line">
+        <div class="yes"> </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="feature">Bug fixing *</td>
+      <td class="feature-community-line">
+        <div class="yes"> </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="feature">Architectural advising</td>
+      <td class="feature-community-line">
+        <div class="yes"> </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="feature">Custom code review</td>
+      <td class="feature-community-line">
+        <div class="yes"> </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="feature">Support for third-party plugins and themes **</td>
+      <td class="feature-community-line">
+        <div class="no"> </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="feature">Underlying technologies (e.g. Windows, IIS, SQL Server)</td>
+      <td class="feature-community-line">
+        <div class="no"> </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="feature last">Complex customization queries ***</td>
+      <td class="feature-community-line last">
+        <div class="no"> </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>* - nopCommerce agrees to resolve any bug identified by a current customer and identified as a bug by mutual agreement between the customer and an authorized nopCommerce representative. nopCommerce agrees to provide a fix which corrects or mitigates the behavior introduced by the bug within 5 business days from the date the bug is confirmed by mutual agreement. The fix may require the customer to upgrade to the latest nopCommerce version and may be provided as a patch, a manual update, or a full release at the discretion of nopCommerce.</p>
+<p>
+  ** - all plugins and themes available on our <a href="/marketplace">marketplace</a>.
+</p>
+<p>
+  *** - If you need some non-trivial customization or you are interested in a custom plugin, then <a href="/request-quote">request a quote</a> or contact our <a href="/solution-partners">solution partners</a> to get started.
+</p>]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="5894" Name="Name">
+    <Value>Premium support services (1 year support period)</Value>
+  </LocaleResource>
+  <LocaleResource Id="5894" Name="ShortDescription">
+    <Value><![CDATA[]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="5894" Name="FullDescription">
+    <Value><![CDATA[]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="5893" Name="Name">
+    <Value>Premium support services (3 months support period)</Value>
+  </LocaleResource>
+  <LocaleResource Id="5893" Name="ShortDescription">
+    <Value><![CDATA[]]></Value>
+  </LocaleResource>
+  <LocaleResource Id="5893" Name="FullDescription">
+    <Value><![CDATA[]]></Value>
+  </LocaleResource>
+</Language>
