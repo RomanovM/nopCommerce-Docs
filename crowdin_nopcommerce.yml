@@ -5,5 +5,5 @@ files:
     translation: /%locale%/**/%original_file_name%
     content_segmentation: 0
     translatable_elements:
-      - /Language[@Name]
+      - '/Language[@Name]'
       - /Language/LocaleResource/Value
