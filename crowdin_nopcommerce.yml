@@ -1,5 +1,9 @@
 files:
-  - source: /en-US/**/*.md
+  - source: /en-US/**/*.html
     translation: /%locale%/**/%original_file_name%
-  - source: /en-US/toc.yml
-    translation: /%locale%/toc.yml
+  - source: /en-US/**/*.xml
+    translation: /%locale%/**/%original_file_name%
+    content_segmentation: 0
+    translatable_elements:
+      - /Language[@Name]
+      - /Language/LocaleResource/Value
