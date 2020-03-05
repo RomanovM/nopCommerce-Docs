@@ -1,6 +1,6 @@
 ---
 title: Vendors
-uid: en/user-guide/configuring/setting-up/customers/vendors/index
+uid: ru/user-guide/configuring/setting-up/customers/vendors/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---
@@ -46,7 +46,7 @@ Define the following vendor’s details:
 
 A store owner able to create attributes for a vendor much like they can for a product. The vendor attributes would then be displayed on the Vendor Detail page in the public store. This would allow for Multi-Vendor stores to be able to collect and display to the customers more information about the vendor without having to try and format it in the Description field that is currently available.
 
-On the **Vendor attributes** section, select Vendor attributes. Learn more about vendor attributes and how to create them [here](xref:en/user-guide/configuring/setting-up/customers/vendors/settings).
+On the **Vendor attributes** section, select Vendor attributes. Learn more about vendor attributes and how to create them [here](xref:ru/user-guide/configuring/setting-up/customers/vendors/settings).
 
 ![vendorattributes](_static/index/vendor3.png)
 
