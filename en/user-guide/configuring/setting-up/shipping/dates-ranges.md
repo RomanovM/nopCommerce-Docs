@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/shipping/dates-ranges
 author: git.AndreiMaz
 contributors: git.rajupaladiya, git.exileDev
 ---
+
 # Dates and ranges
 
 ## Delivery dates
