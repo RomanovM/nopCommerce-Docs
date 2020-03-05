@@ -5,9 +5,9 @@ author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
 
-# How to write a plugin for nopCommerce 3.90 (and previous versions)
+# Как написать плагин для nopCommerce 3.90 (и предыдущие версии)
 
-> In computing, a plug-in (or plugin) is a set of software components that add specific abilities to a larger software application (Wikipedia).
+> В компьютерах плагин (или плагин) представляет собой набор программных компонентов, которые добавляют специфические способности к более крупному программному приложению (Wikipedia).
 
 Plugins are used to extend the functionality of nopCommerce. nopCommerce has several types of plugins. For example, payment methods (such as PayPal), tax providers, shipping method computation methods (such as UPS, USP, FedEx), widgets (such as 'live chat' block), and many others. nopCommerce is already distributed with many different plugins. You can also search various plugins on the [nopCommerce official site](https://www.nopcommerce.com/marketplace) to see if someone has already created a plugin that suits your needs. If not, this article will guide you through the process of creating your own plugin.
 
