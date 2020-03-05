@@ -28,8 +28,7 @@ For versions below 4.00 to find out what went wrong you need to turn off the cus
 
 1. Open web.config file
 2. Find out the following line `<customErrors defaultRedirect="errorpage.htm" mode="RemoteOnly">`
-3. Replace it with `<customErrors defaultRedirect="errorpage.htm" mode="Off">`
-Also, check Admin → System → Log for any errors.
+3. Replace it with `<customErrors defaultRedirect="errorpage.htm" mode="Off">` Also, check Admin → System → Log for any errors.
 
 ## Why does my home page take so long to load?
 
