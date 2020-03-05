@@ -4,17 +4,18 @@ uid: en/user-guide/configuring/setting-up/payments/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---
+
 # Setting up Payments
 
 **Payments** is the core of eCommerce. This section will cover global store settings that allow payments to be received.
 
 > [!NOTE]
->  nopCommerce is partnering with leading payment providers and supports leading payment gateways that can be found in nopCommerce marketplace
+> nopCommerce is partnering with leading payment providers and supports leading payment gateways that can be found in nopCommerce marketplace
 
 This chapter describes how to set up the payment methods, currency and Payment method Restrictions.
 
 > [!TIP]
->  How to install the payment (or any other) plugin is covered in [Plugins](xref:en/user-guide/configuring/system/plugins) chapter.
+> How to install the payment (or any other) plugin is covered in [Plugins](xref:en/user-guide/configuring/system/plugins) chapter.
 
 ## See also
 

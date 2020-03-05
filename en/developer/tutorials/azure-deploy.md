@@ -4,6 +4,7 @@ uid: en/developer/tutorials/azure-deploy
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # Step by step to deploy on Azure with GIT and automatic builds
 
 ## Step by step guide for automatic deployment of nopCommerce with git on azure
@@ -34,7 +35,9 @@ contributors: git.DmitriyKulagin, git.exileDev
         So you would write something like:
 
         `azure site deploymentscript --aspWAP Presentation\Nop.Web\Nop.Web.csproj -s NopCommerce.sln`
-    - Verify that it has generated 2 files (in your local repository root): `.deployment` `deploy.cmd`
+    - Verify that it has generated 2 files (in your local repository root):
+    `.deployment`
+    `deploy.cmd`
 1. **Run generated script**
     - You must keep the .deployment and deploy.cmd file to the root of git repository
     - Edit the deploy.cmd as the `%DEPLOYMENT_SOURCE%` variable contain the root of the git repository. So I would add `%DEPLOYMENT_SOURCE%\src\Presentation\Nop.Web\Nop.Web.csproj` instead of `%DEPLOYMENT_SOURCE%\Presentation\Nop.Web\Nop.Web.csproj`. All paths in the deployment section must be corrected.
@@ -43,50 +46,35 @@ contributors: git.DmitriyKulagin, git.exileDev
 1. **Customize the deployment script** So now we are at the final part :smile:. This is where all that work pays off :smile:. We want to alter the following piece:
 
     ```sh
-
-          ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-          :: Deployment
-          :: ----------echo Handling .NET Web Application deployment.
-
-    :: 1. 
-          Restore NuGet packages
-          IF /I "NopCommerce.sln" NEQ "" (
-          call :ExecuteCmd nuget restore "%DEPLOYMENT_SOURCE%\NopCommerce.sln"
-          IF !ERRORLEVEL!
-
-          NEQ 0 goto error
-          )
-          :: 2.
-
-          Build to the temporary path
-          IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
-          call :ExecuteCmd "%MSBUILD_PATH%" "%DEPLOYMENT_SOURCE%\Presentation\Nop.Web\Nop.Web.csproj" /nologo /verbosity:m /t:Build /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="%DEPLOYMENT_TEMP%";AutoParameterizationWebConfigConnectionStrings=false;Configuration=Release /p:SolutionDir="%DEPLOYMENT_SOURCE%\.\\" %SCM_BUILD_ARGS%
-          ) ELSE (
-          call :ExecuteCmd "%MSBUILD_PATH%" "%DEPLOYMENT_SOURCE%\Presentation\Nop.Web\Nop.Web.csproj" /nologo /verbosity:m /t:Build /p:AutoParameterizationWebConfigConnectionStrings=false;Configuration=Release /p:SolutionDir="%DEPLOYMENT_SOURCE%\.\\" %SCM_BUILD_ARGS%
-          )
-          IF !ERRORLEVEL!
-
-          NEQ 0 goto error
-          :: 3.
-
-          KuduSync
-          IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
-          call :ExecuteCmd "%KUDU_SYNC_CMD%" -v 50 -f "%DEPLOYMENT_TEMP%" -t "%DEPLOYMENT_TARGET%" -n "%NEXT_MANIFEST_PATH%" -p "%PREVIOUS_MANIFEST_PATH%" -i ".git;.hg;.deployment;deploy.cmd"
-          IF !ERRORLEVEL!
-
-          NEQ 0 goto error
-          )
-          ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    :: Deployment
+    :: ----------echo Handling .NET Web Application deployment.
+    :: 1. Restore NuGet packages
+    IF /I "NopCommerce.sln" NEQ "" (
+    call :ExecuteCmd nuget restore "%DEPLOYMENT_SOURCE%\NopCommerce.sln"
+    IF !ERRORLEVEL! NEQ 0 goto error
+    )
+    :: 2. Build to the temporary path
+    IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
+    call :ExecuteCmd "%MSBUILD_PATH%" "%DEPLOYMENT_SOURCE%\Presentation\Nop.Web\Nop.Web.csproj" /nologo /verbosity:m /t:Build /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="%DEPLOYMENT_TEMP%";AutoParameterizationWebConfigConnectionStrings=false;Configuration=Release /p:SolutionDir="%DEPLOYMENT_SOURCE%\.\\" %SCM_BUILD_ARGS%
+    ) ELSE (
+    call :ExecuteCmd "%MSBUILD_PATH%" "%DEPLOYMENT_SOURCE%\Presentation\Nop.Web\Nop.Web.csproj" /nologo /verbosity:m /t:Build /p:AutoParameterizationWebConfigConnectionStrings=false;Configuration=Release /p:SolutionDir="%DEPLOYMENT_SOURCE%\.\\" %SCM_BUILD_ARGS%
+    )
+    IF !ERRORLEVEL! NEQ 0 goto error
+    :: 3. KuduSync
+    IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
+    call :ExecuteCmd "%KUDU_SYNC_CMD%" -v 50 -f "%DEPLOYMENT_TEMP%" -t "%DEPLOYMENT_TARGET%" -n "%NEXT_MANIFEST_PATH%" -p "%PREVIOUS_MANIFEST_PATH%" -i ".git;.hg;.deployment;deploy.cmd"
+    IF !ERRORLEVEL! NEQ 0 goto error
+    )
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     ```
 
-    So between no ::1 and ::2 that's where we are gonna place our commands for building plugins. An example for the first plugin would be:
+    So between no ::1 and ::2 that's where we are gonna place our commands for building plugins.
+    An example for the first plugin would be:
 
     ```sh
-
-          :: 1.01 Build plugin customer roles to temporary path
-          call :ExecuteCmd "%MSBUILD_PATH%" "%DEPLOYMENT_SOURCE%\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.csproj" /nologo /verbosity:m /t:Build /p:AutoParameterizationWebConfigConnectionStrings=false;Configuration=Release /p:SolutionDir="%DEPLOYMENT_SOURCE%\.\\" %SCM_BUILD_ARGS%
-
+    :: 1.01 Build plugin customer roles to temporary path
+    call :ExecuteCmd "%MSBUILD_PATH%" "%DEPLOYMENT_SOURCE%\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.csproj" /nologo /verbosity:m /t:Build /p:AutoParameterizationWebConfigConnectionStrings=false;Configuration=Release /p:SolutionDir="%DEPLOYMENT_SOURCE%\.\\" %SCM_BUILD_ARGS%
     ```
 
 Now the plugin is build when you run the deploy scripts :)

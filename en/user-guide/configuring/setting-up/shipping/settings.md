@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/shipping/settings
 author: git.AndreiMaz
 contributors: git.rajupaladiya, git.exileDev
 ---
+
 # Shipping Settings
 
 This chapter describes how to **set up the shipping details of a store**. Besides the location and warehouses set, there are other things which comprise good logistics.
@@ -14,7 +15,8 @@ To manage shipping settings go to **Configuration → Settings → Shipping Sett
 
 Select the **Pick Up in Store enabled** to display the pickup in store option during checkout at the shipping address step. Users will see the following screen:
 
-![Shipping Address](_static/settings/shipping-address.png) ![Pickup Point Address](_static/settings/Pickup-Point-address.png)
+![Shipping Address](_static/settings/shipping-address.png)
+![Pickup Point Address](_static/settings/Pickup-Point-address.png)
 
 * Choose to **Display Pickup points on the map** if you want to display them on the Google Maps. Customers should not enter a shipping address and choose a shipping method when this option is selected. Note: You can also specify a fee for the 'Pick Up in Store' option.
 * Tick **Free shipping over ‘x’**, to enable free shipping for orders over a certain total amount. The following field is then displayed, enabling you to define the value of X:

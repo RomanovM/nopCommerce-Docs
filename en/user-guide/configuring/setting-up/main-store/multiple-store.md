@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/main-store/multiple-store
 author: git.AndreiMaz
 contributors: git.rajupaladiya, git.DmitriyKulagin, git.exileDev
 ---
+
 # Setting up Multiple-Store
 
 nopCommerce enables you to run more than one store using one interface from a single nopCommerce installation.
@@ -48,7 +49,7 @@ _____________________________________
 ![store window](_static/multiple-store/mainstore.png)
 
 > [!NOTE]
->  By default, only one store is created.
+> By default, only one store is created.
 
 Click **Edit** beside a store to configure it:
 
@@ -70,7 +71,7 @@ The two stores have now been configured using a single nopCommerce installation,
 * www.store2.com
 
 > [!NOTE]
->  The Multi-store solution (distinction of stores by HTTP_HOST) does not work for sites in virtual directories on the same domain.
+> The Multi-store solution (distinction of stores by HTTP_HOST) does not work for sites in virtual directories on the same domain.
 
 For example, you cannot have one store on <http://www.site.com/store1> and the second store on <http://www.site.com/store2>, since the HTTP_HOST value for both of these sites is the same (www.site.com).
 

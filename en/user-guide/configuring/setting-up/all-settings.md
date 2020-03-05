@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/all-settings
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.ivkadp
 ---
+
 # All Settings (advanced)
 
 All Settings is an advanced tool for modifying all settings of the site on one screen. For example, you have got multiple stores and need to create an exact copy of first store setting-wise. Then doing all the changes on one screen with the help of “All Settings” can save you a lot of time.
@@ -26,4 +27,5 @@ Add a new setting, as follows:
 
 Click Insert. The new setting in displayed in the All settings window.
 
-> [!NOTE] You can click the Edit button beside each parameter to edit the parameter value, as described above.
+> [!NOTE]
+> You can click the Edit button beside each parameter to edit the parameter value, as described above.

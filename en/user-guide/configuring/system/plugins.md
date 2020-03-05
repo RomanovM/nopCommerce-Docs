@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/system/plugins
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # Plugins
 
 Plugins are a set of components adding specific capabilities to a nopCommerce store. Examples of plugins include Payment modules, Shipping Rate Computation Methods and more. This section describes how to install plugins manually.
@@ -15,7 +16,7 @@ The plugins on the marketplace can be sorted by category, version, name or ratin
 The plugins available on the marketplace are developed either by the nopCommerce team, solution partners or third party vendors.
 
 > [!NOTE]
->  plugins labelled “By nopCommerce team” are developed by the nopCommerce team and are distributed freely. Third-party services connectors are developed in the course of the Technology Partnership program, they are subject to nopCommerce [premium support services](http://www.nopcommerce.com/nopcommerce-premium-support-services) and are also distributed freely.
+> plugins labelled “By nopCommerce team” are developed by the nopCommerce team and are distributed freely. Third-party services connectors are developed in the course of the Technology Partnership program, they are subject to nopCommerce [premium support services](http://www.nopcommerce.com/nopcommerce-premium-support-services) and are also distributed freely.
 
 ## To install a plugin
 
@@ -24,7 +25,7 @@ The plugins available on the marketplace are developed either by the nopCommerce
     1. Upload the plugin or theme using the "Upload plugin or theme" button indicating the path to the location of the archive with the plugin in your local storage.
 
     > [!TIP]
-    >  You can download more nopCommerce plugins on our [extensions directory](https://www.nopcommerce.com/marketplace).
+    > You can download more nopCommerce plugins on our [extensions directory](https://www.nopcommerce.com/marketplace).
 
     ![Upload plugin](_static/plugins/plugin-upload.png)
 
@@ -33,7 +34,7 @@ The plugins available on the marketplace are developed either by the nopCommerce
 1. The plugin is displayed in the Plugins windows (Configuration → Local Plugins).
 
     > [!NOTE]
-    >  If you're running nopCommerce in medium trust, then it's recommended to clear your `\Plugins\bin\` directory
+    > If you're running nopCommerce in medium trust, then it's recommended to clear your `\Plugins\bin\` directory
 
 ## To uninstall a plugin
 

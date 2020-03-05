@@ -4,6 +4,7 @@ uid: en/user-guide/getting-started
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # Getting started
 
 If you are a novice in nopCommerce, follow the steps below to set your store up and running:
@@ -79,4 +80,5 @@ nopCommerce enables you to run more than one store using one interface from a si
 
 Multi-vendor and drop shipping tools enable you to sell online without having to keep stocks or ship orders. Watch the [video tutorial](https://www.youtube.com/watch?v=MH6r6tqfLF8&index=9&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4) on multi-vendor support.
 
-> [!TIP] If you have some issues on configuring your store catalog, don’t hesitate to place questions on [community forums](http://www.nopcommerce.com/boards/forum/5/general-support) or request [premium support](http://www.nopcommerce.com/nopcommerce-premium-support-services) services.
+> [!TIP]
+> If you have some issues on configuring your store catalog, don’t hesitate to place questions on [community forums](http://www.nopcommerce.com/boards/forum/5/general-support) or request [premium support](http://www.nopcommerce.com/nopcommerce-premium-support-services) services.

@@ -4,6 +4,7 @@ uid: en/user-guide/marketing/content/topics
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # Topics (pages)
 
 Topics (pages) are free-form content blocks that can be displayed on your site, either embedded within other pages or on a page of their own. These are often used for FAQ pages, policy pages, special instructions, and so on. To create custom pages, you should create new topics, which you will see in the grid, and then enter your custom page content. Content can be written for each language separately.
@@ -53,13 +54,11 @@ To set up SEO for Topics go to **SEO tab**
 - In the **Meta title** field, enter the required title. The title tag specifies the title of your Web page. It is code which is inserted into the header of your web page and is in the following format:
 
    ```html
-
-          <head>
-          <title>
-          Creating Title Tags for Search Engine Optimization & Web Usability
-          <title>
-          </head>
-
+   <head>
+     <title>
+        Creating Title Tags for Search Engine Optimization & Web Usability
+      <title>
+   </head>
    ```
 
 - In the **Search engine friendly page name** field, enter the name of the page used by search engines. If you enter nothing then the web page URL is formed using the page name. If you enter custom-seo-page-name, then the following custom the URL will be used: `http://www.yourStore.com/custom-seo-page-name`
@@ -67,7 +66,7 @@ To set up SEO for Topics go to **SEO tab**
 - Click **Save**. The topic will be displayed in the public store.
 
 > [!NOTE]
->  You can click Edit in the Manage Topics window to display the Edit Topic window and then edit the topic, as described above. In the Topic Info tab, you can click on the URL link at the bottom of the page to view the URL of the topic in the public store.
+> You can click Edit in the Manage Topics window to display the Edit Topic window and then edit the topic, as described above. In the Topic Info tab, you can click on the URL link at the bottom of the page to view the URL of the topic in the public store.
 
 ## See also
 

@@ -4,6 +4,7 @@ uid: en/developer/plugins/shipping-plugin
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
+
 # How to code my own shipping rate computation method
 
 If customers have some shippable products, they can choose a shipping option during checkout. These shipping options are returned from shipping rate computation methods (such as UPS, USPS, FedEx, etc). Shipping rate computation methods are implemented as plugins in nopCommerce. We recommend you read [How to write a plugin for nopCommerce 4.20](xref:en/developer/plugins/how-to-write-plugin-4.20) before you start coding a new shipping rate computation method. The article will explain to you the required steps for creating a plugin. So actually a shipping rate computation method is an ordinary plugin which implements an **IShippingRateComputationMethod** interface (Nop.Services.Shipping namespace). So add a new shipping plugin project (class library) to solution and let's get started.
@@ -32,12 +33,10 @@ public class UPSComputationMethod : BasePlugin, IShippingRateComputationMethod
 - **GetConfigurationPageUrl**. As you remember we created a controller in the previous step. This method should return a url of its Configure method. For example:
 
 ```csharp
-
-          public override string GetConfigurationPageUrl()
-          {
-          return $"{_webHelper.GetStoreLocation()}Admin/FixedOrByWeight/Configure";
-          }
-
+public override string GetConfigurationPageUrl()
+{
+    return $"{_webHelper.GetStoreLocation()}Admin/FixedOrByWeight/Configure";
+}
 ```
 
 ## Conclusion

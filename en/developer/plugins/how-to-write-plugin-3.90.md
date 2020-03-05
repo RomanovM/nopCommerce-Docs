@@ -4,6 +4,7 @@ uid: en/developer/plugins/how-to-write-plugin-3.90
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # How to write a plugin for nopCommerce 3.90 (and previous versions)
 
 > In computing, a plug-in (or plugin) is a set of software components that add specific abilities to a larger software application (Wikipedia).
@@ -18,7 +19,7 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
 
     ![p1](_static/how-to-write-plugin-3.90/write_plugin_3.90_4.jpg)
 
-1. Once the plugin project is created update the project build output path. Set it to `..\..\Presentation\Nop.Web\Plugins\{Group}.{Name}\`. For example, Authorize.NET payment plugin has the following output path: `..\..\Presentation\Nop.Web\Plugins\Payments.AuthorizeNet\`. After it's done, appropriate plugin DLLs will be automatically copied to the `\Presentation\Nop.Web\Plugins\` directory which is searched by the nopCommerce core for valid plugins. But please note that it's also not a requirement. And you can choose any output directory name for a plugin.
+1. Once the plugin project is created update the project build output path. Set it to `..\..\Presentation\Nop.Web\Plugins\{Group}.{Name}`. For example, Authorize.NET payment plugin has the following output path: `..\..\Presentation\Nop.Web\Plugins\Payments.AuthorizeNet`. After it's done, appropriate plugin DLLs will be automatically copied to the `\Presentation\Nop.Web\Plugins` directory which is searched by the nopCommerce core for valid plugins. But please note that it's also not a requirement. And you can choose any output directory name for a plugin.
 
     ![p1](_static/how-to-write-plugin-3.90/write_plugin_3.90_1.jpg)
 
@@ -31,17 +32,15 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
 1. The next step is creating a `Description.txt` file required for each plugin. This file contains meta information describing your plugin. Just copy this file from any other existing plugin and modify it for your needs. For example, PayPal Standard payment plugin has the following `Description.txt` file:
 
     ```txt
-
-          Group: Payment methods
-          FriendlyName: PayPal Standard
-          SystemName: Payments.PayPalStandard
-          Version: 1.28
-          SupportedVersions: 3.90
-          Author: nopCommerce team
-          DisplayOrder: 1
-          FileName: Nop.Plugin.Payments.PayPalStandard.dll
-          Description: This plugin allows paying with PayPal Standard
-
+    Group: Payment methods
+    FriendlyName: PayPal Standard
+    SystemName: Payments.PayPalStandard
+    Version: 1.28
+    SupportedVersions: 3.90
+    Author: nopCommerce team
+    DisplayOrder: 1
+    FileName: Nop.Plugin.Payments.PayPalStandard.dll
+    Description: This plugin allows paying with PayPal Standard
     ```
 
     Actually all fields are self-descriptive, but here are some notes. **SystemName** field should be unique. **Version** field is a version number of your plugin; you can set it to any value you like. **SupportedVersions** field can contain a list of supported nopCommerce versions separated by commas (ensure that the current version of nopCommerce is included in this list, otherwise, it will not be loaded). **FileName** field has the following format *Nop.Plugin.{Group}.{Name}.dll* (it is your plugin assembly filename). Ensure that "Copy to Output Directory" property of this file is set to "Copy if newer".
@@ -51,7 +50,7 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
 1. You should also created a web.config file and ensure that it's copied to output. Just copy it from any existing plugin.
 
     > [!IMPORTANT]
-    >  Going forward make sure "Copy local" properties of all third-party assembly references (including core libraries such as Nop.Services.dll or Nop.Web.Framework.dll) are set to "False" (do not copy)
+    > Going forward make sure "Copy local" properties of all third-party assembly references (including core libraries such as Nop.Services.dll or Nop.Web.Framework.dll) are set to "False" (do not copy)
 
 1. The last required step is to create a class which implements IPlugin interface (Nop.Core.Plugins namespace). nopCommerce has BasePlugin class which already implements some IPlugin methods and allows you to avoid source code duplication. nopCommerce also provides you with some specific interfaces derived from IPlugin. For example, we have "IPaymentMethod" interface which is used for creating new payment method plugins. It contains some methods which are specific only for payment methods such as ProcessPayment() or GetAdditionalHandlingFee(). Currently nopCommerce has the following specific plugin interfaces:
 
@@ -66,7 +65,7 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
     If your plugin doesn't fit any of these interfaces, then use the "IMiscPlugin" interface.
 
 > [!IMPORTANT]
->  After each project build, clean the solution before making changes. Some resources will be cached and can lead to developer insanity.
+> After each project build, clean the solution before making changes. Some resources will be cached and can lead to developer insanity.
 
 ## Handling requests. Controllers, models and views
 
@@ -87,9 +86,8 @@ So let's start:
 - **Create the controller**. Add a Controllers folder in the new plugin, and then add a new controller class. A good practice is to name plugin controllers `{Group}{Name}Controller.cs`. For example, PaymentAuthorizeNetController. Of course it's not a requirement to name controllers this way (but just a recommendation). Then create an appropriate action method for configuration page (in admin area). Let's name it "Configure". Prepare a model class and pass it to the following view. For nopCommerce versions 2.00-3.30 you should pass embedded view path - "Nop.Plugin.{Group}.{Name}.Views. {Group}{Name}.Configure". And starting nopCommerce version 3.40 you should pass physical view path - `~/Plugins/{PluginOutputDirectory}/Views/{ControllerName}/Configure.cshtml`. For example, open Authorize.NET payment plugin and look at its implementation of PaymentAuthorizeNetController.
 
     > [!TIP]
-    > 
-    > - The easiest way to complete the steps described above is opening any other plugin and copying these files into your plugin project. Then just rename appropriate classes and directories.
-    > - If you want to limit access to a certain action method of the controller to administrators (store owners), then just mark it with [AdminAuthorize] attribute.
+    >   - The easiest way to complete the steps described above is opening any other plugin and copying these files into your plugin project. Then just rename appropriate classes and directories.
+    >   - If you want to limit access to a certain action method of the controller to administrators (store owners), then just mark it with [AdminAuthorize] attribute.
 
     For example, the project structure of Authorize.NET plugin looks like the image below
 
@@ -102,46 +100,42 @@ Now we need to register appropriate plugin routes. ASP.NET routing is responsibl
 - Some of the specific plugin interfaces (described above) and the "IMiscPlugin" interface have the following method: "GetConfigurationRoute". It should return a route to a controller action which is used for plugin configuration. Implement the "GetConfigurationRoute" method of your plugin interface. This method informs nopCommerce about what route is used for plugin configuration. If your plugin doesn't have a configuration page, then "GetConfigurationRoute" should return null. For example see the code below:
 
     ```csharp
-
-          public void GetConfigurationRoute(out string actionName,
-          out string controllerName,
-          out RouteValueDictionary routeValues)
-          {
-          actionName = "Configure";
-          controllerName = "PaymentAuthorizeNet";
-          routeValues = new RouteValueDictionary()
-          {
-          { "Namespaces", "Nop.Plugin.Payments.AuthorizeNet.Controllers" },
-          { "area", null }
-          };
-          }
-
+    public void GetConfigurationRoute(out string actionName,
+                out string controllerName,
+                out RouteValueDictionary routeValues)
+    {
+        actionName = "Configure";
+        controllerName = "PaymentAuthorizeNet";
+        routeValues = new RouteValueDictionary()
+        {
+            { "Namespaces", "Nop.Plugin.Payments.AuthorizeNet.Controllers" },
+            { "area", null }
+        };
+    }
     ```
 
 - (optional) If you need to add some custom route, then create `RouteProvider.cs` file. It informs the nopCommerce system about plugin routes. For example, the following RouteProvider class adds a new route which can be accessed by opening your web browser and navigating to `http://www.yourStore.com/Plugins/PaymentPayPalStandard/PDTHandler` URL (used by PayPal plugin):
 
     ```csharp
+    public partial class RouteProvider : IRouteProvider
+    {
+        public void RegisterRoutes(RouteCollection routes)
+        {
+             routes.MapRoute("Plugin.Payments.PayPalStandard.PDTHandler",
+                 "Plugins/PaymentPayPalStandard/PDTHandler",
+                 new { controller = "PaymentPayPalStandard", action = "PDTHandler" },
+                 new[] { "Nop.Plugin.Payments.PayPalStandard.Controllers"  }
+            );
+        }
 
-          public partial class RouteProvider : IRouteProvider
-          {
-          public void RegisterRoutes(RouteCollection routes)
-          {
-          routes.MapRoute("Plugin.Payments.PayPalStandard.PDTHandler",
-          "Plugins/PaymentPayPalStandard/PDTHandler",
-          new { controller = "PaymentPayPalStandard", action = "PDTHandler" },
-          new[] { "Nop.Plugin.Payments.PayPalStandard.Controllers"  }
-          );
-          }
-
-          public int Priority
-          {
-          get
-          {
-          return 0;
-          }
-          }
-          }
-
+        public int Priority
+        {
+            get
+            {
+                return 0;
+            }
+        }
+    }
     ```
 
     Once you have installed your plugin and added the configuration method you will find a link to configure your plugin under Admin → Configuration → Plugins.
@@ -154,28 +148,27 @@ This step is optional. Some plugins can require additional logic during plugin i
 - Uninstall. This method will be invoked during plugin uninstallation.
 
 > [!IMPORTANT]
->  If you override one of these methods, do not hide its base implementation.
+> If you override one of these methods, do not hide its base implementation.
 
 For example, the project structure of Authorize.NET plugin looks like the image below
 
 ```csharp
-
-          public override void Install()
-          {
-          var settings = new AuthorizeNetPaymentSettings()
-          {
-          UseSandbox = true,
-          TransactMode = TransactMode.Authorize,
-          TransactionKey = "123",
-          LoginId = "456"
-          };
-          _settingService.SaveSetting(settings);
-          base.Install();
-          }
-
+public override void Install()
+{
+    var settings = new AuthorizeNetPaymentSettings()
+    {
+        UseSandbox = true,
+        TransactMode = TransactMode.Authorize,
+        TransactionKey = "123",
+        LoginId = "456"
+    };
+    _settingService.SaveSetting(settings);
+    base.Install();
+}
 ```
 
-> [!TIP] The list of installed plugins is located in `\App_Data\InstalledPlugins.txt`. The list is created during installation.
+> [!TIP]
+> The list of installed plugins is located in `\App_Data\InstalledPlugins.txt`. The list is created during installation.
 
 ## Upgrading nopCommerce may break plugins
 

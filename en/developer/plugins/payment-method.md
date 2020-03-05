@@ -4,6 +4,7 @@ uid: en/developer/plugins/payment-method
 author: git.AndreiMaz
 contributors: git.Sandeep911, git.exileDev, git.DmitriyKulagin
 ---
+
 # How to code my own payment method
 
 Payment methods are implemented as plugins in nopCommerce. We recommend you read [How to write a plugin for nopCommerce 4.20](xref:en/developer/plugins/how-to-write-plugin-4.20) before you start coding a new payment method. It will explain to you what the required steps are for creating a plugin.
@@ -23,16 +24,14 @@ First thing you need to do is create a controller. This controller is responsibl
 Then you have to create a view component for displaying plugin in public store. This view component and an appropriate view will define how your customers will see the payment information page during checkout. First let's create a view component class. It should be placed in /Components folder. Look how it's done for PayPalStandard plugin:
 
 ```csharp
-
-          [ViewComponent(Name = "PaymentPayPalStandard")]
-          public class PaymentPayPalStandardViewComponent : NopViewComponent
-          {
-          public IViewComponentResult Invoke()
-          {
-          return View("~/Plugins/Payments.PayPalStandard/Views/PaymentInfo.cshtml");
-          }
-          }
-
+[ViewComponent(Name = "PaymentPayPalStandard")]
+public class PaymentPayPalStandardViewComponent : NopViewComponent
+{
+    public IViewComponentResult Invoke()
+    {
+        return View("~/Plugins/Payments.PayPalStandard/Views/PaymentInfo.cshtml");
+    }
+}
 ```
 
 Invoke method returns an appropriate PaymentInfo view from */Views* folder of your plugin. Note that we use our custom NopViewComponent class as a base class instead of existing built-in ViewComponent.
@@ -52,23 +51,19 @@ public class CheckMoneyOrderPaymentProcessor : BasePlugin, IPaymentMethod
 - **ValidatePaymentForm** is used in the public store to validate customer input. It returns a list of warnings (for example, a customer did not enter his credit card name). If your payment method does not ask the customer to enter additional information, then the ValidatePaymentForm should return an empty list:
 
     ```csharp
-
-          public IList<string> ValidatePaymentForm(IFormCollection form)
-          {
-          return new List<string>();
-          }
-
+    public IList<string> ValidatePaymentForm(IFormCollection form)
+    {
+        return new List<string>();
+    }
     ```
 
 - **GetPaymentInfo** method is used in the public store to parse customer input, such as credit card information. This method returns a ProcessPaymentRequest object with parsed customer input (for example, credit card information). If your payment method does not ask the customer to enter additional information, then GetPaymentInfo will return an empty ProcessPaymentRequest object:
 
     ```csharp
-
-          public ProcessPaymentRequest GetPaymentInfo(IFormCollection form)
-          {
-          return new ProcessPaymentRequest();
-          }
-
+    public ProcessPaymentRequest GetPaymentInfo(IFormCollection form)
+    {
+        return new ProcessPaymentRequest();
+    }
     ```
 
 - **ProcessPayment**. This method is always invoked right before a customer places an order. Use it when you need to process a payment before an order is stored into database. For example, capture or authorize credit card. Usually this method is used when a customer is not redirected to third-party site for completing a payment and all payments are handled on your site (for example, PayPal Direct).
@@ -84,23 +79,19 @@ public class CheckMoneyOrderPaymentProcessor : BasePlugin, IPaymentMethod
 - **GetConfigurationPageUrl**. As you remember we created a controller in the previous step. This method should return a url of its Configure method. For example:
 
     ```csharp
-
-          public override string GetConfigurationPageUrl()
-          {
-          return $"{_webHelper.GetStoreLocation()}Admin/PaymentCheckMoneyOrder/Configure";
-          }
-
+    public override string GetConfigurationPageUrl()
+    {
+        return $"{_webHelper.GetStoreLocation()}Admin/PaymentCheckMoneyOrder/Configure";
+    }
     ```
 
 - **GetPublicViewComponent**. This method should return the name of the view component which used to display public information for customers. We have created an appropriate view component on the previous step. For example:
 
     ```csharp
-
-          public string GetPublicViewComponent()
-          {
-          viewComponentName = "CheckMoneyOrder";
-          }
-
+    public string GetPublicViewComponent()
+    {
+        viewComponentName = "CheckMoneyOrder";
+    }
     ```
 
 - **SupportCapture, SupportPartiallyRefund, SupportRefund, SupportVoid**. These properties indicate whether appropriate methods of your payment method are supported.

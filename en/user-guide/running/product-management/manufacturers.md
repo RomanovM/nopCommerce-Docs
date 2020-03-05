@@ -4,6 +4,7 @@ uid: en/user-guide/running/product-management/manufacturers
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin, git.dunaenko
 ---
+
 # Manufacturers
 
 To manage manufacturers go to **Catalog → Manufacturers.**
@@ -35,7 +36,7 @@ In the **Manufacturer Display panel**, define the following **details**:
 - When this option is disabled, customers will not be able to select a page size on the Manufacturer Details page and the store owner enters a certain page size. In this case, the Page size field becomes visible in the Administration area.
 
 > [!TIP]
->  For example, when you add seven products to a manufacturer and you set its page size to three. Three products per page will be displayed on this manufacturer details page in the public store, and the total amount of pages will be three.
+> For example, when you add seven products to a manufacturer and you set its page size to three. Three products per page will be displayed on this manufacturer details page in the public store, and the total amount of pages will be three.
 
 - **Price ranges** - allow defining ranges of price by which customers can filter the manufacturers. Enter a price range in the currency that you defined in the Currencies window. Separate the ranges by a semicolon, for example, 0-999; 1000-1200; 1201 - (1201 means 1201 and over).
 - **Display Order** - the order number for displaying the manufacturer. This display number is used to sort manufacturers in the public store (ascending). The manufacturer with the display order 1 will be placed at the top of the list.
@@ -63,11 +64,9 @@ In the **SEO panel**, define the following **details**:
 - **Meta title** specifies the title of your Web page. It is a code which is inserted into the header of your web page:
 
 ```html
-
-          <head>
-          <title> Creating Title Tags for Search Engine Optimization & Web Usability </title>
-          </head>
-
+<head>
+    <title> Creating Title Tags for Search Engine Optimization & Web Usability </title>
+</head>
 ```
 
 - **Search engine friendly page name** - the name of the page used by search engines. If you leave the field blank, then the category page URL would be formed using the manufacturer name. If you enter custom-seo-page-name, then the following custom URL will be used: `http://www.yourStore.com/custom-seo-page-name`

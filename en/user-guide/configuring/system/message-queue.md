@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/system/message-queue
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
+
 # Message Queue
 
 Emails are not sent immediately in nopCommerce. They are queued. Message queue contains all emails that are already sent or not yet sent.
@@ -23,4 +24,5 @@ To load message queues:
     * In the **Go directly to email** field, enter the email and click Go to display the required email.
 1. Click **Load** to load the message queues matching the criteria.
 
-> [!NOTE] You can click the Delete selected button to delete selected emails from the grid. You can click Delete All to remove all emails.
+> [!NOTE]
+> You can click the Delete selected button to delete selected emails from the grid. You can click Delete All to remove all emails.

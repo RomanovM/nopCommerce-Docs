@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/customers/vendors/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---
+
 # Vendors
 
 **Vendors** is a special category of customers that should be considered separately.
@@ -38,7 +39,7 @@ Define the following vendor’s details:
 * Tick **Active** checkbox to activate the vendor
 
 > [!NOTE]
->  The appropriate message template is disabled by default, you can change it in [Message Templates](xref:en/user-guide/marketing/content/message-templates) section
+> The appropriate message template is disabled by default, you can change it in [Message Templates](xref:en/user-guide/marketing/content/message-templates) section
 
 * **Admin comment**  an optional comment or information for internal use
 
@@ -83,11 +84,9 @@ On the **SEO** panel, define the following SEO parameters:
 * **Meta title** - specifies the title of your Web page. It is a code which is inserted into the header of your web page and is in the following format:
 
     ```html
-
-          <head>
-          <title> Creating Title Tags for Search Engine Optimization & Web Usability</title>
-          </head>
-
+    <head>
+        <title> Creating Title Tags for Search Engine Optimization & Web Usability</title>
+    </head>
     ```
 
 * **Search engine friendly page name** - the name of the page used by search engines. If you enter nothing then the vendor page URL is formed using the vendor name. If you enter custom-seo-page-name, then the following custom the URL will be used: `http://www.yourStore.com/custom-seo-page-name`
@@ -110,14 +109,14 @@ Click **Edit** beside the customer record you want to assign a vendor to. The Ed
 * Ensure the **Vendors** customer role is selected in the **Customer Roles** field.
 
 > [!NOTE]
->  A Vendor customer account cannot have Administrators customer role (which is defined as the default).
+> A Vendor customer account cannot have Administrators customer role (which is defined as the default).
 
 ![customerinfo](_static/index/vendor8.png)
 
 After the vendor's customer account is set up, the vendor can use this customer account to manage his products, orders, shipments, and view reports. The Administration link at the top of the public store will be displayed after logging in.
 
 > [!TIP]
->  [YouTube tutorial: Managing Vendors](https://www.youtube.com/watch?v=MH6r6tqfLF8&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4&index=9)
+> [YouTube tutorial: Managing Vendors](https://www.youtube.com/watch?v=MH6r6tqfLF8&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4&index=9)
 
 ## See also
 

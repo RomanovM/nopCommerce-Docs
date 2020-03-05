@@ -4,6 +4,7 @@ uid: en/developer/design/contributing-theme
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # Contributing a Theme
 
 nopCommerce is supported by a very active community. So, any kind of contribution is highly appreciated.

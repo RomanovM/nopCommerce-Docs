@@ -4,6 +4,7 @@ uid: en/developer/plugins/how-to-write-plugin-4.20
 author: git.AndreiMaz
 contributors: git.Kevat, git.exileDev, git.DmitriyKulagin
 ---
+
 # How to write a plugin for nopCommerce
 
 Plugins are used to extend the functionality of nopCommerce. nopCommerce has several types of plugins. For example, payment methods (such as PayPal), tax providers, shipping method computation methods (such as UPS, USP, FedEx), widgets (such as 'live chat' block), and many others. nopCommerce is already distributed with many different plugins. You can also search various plugins on the [nopCommerce official site](https://www.nopcommerce.com/marketplace.aspx) to see if someone has already created a plugin that suits your needs. If not, this article will guide you through the process of creating your own plugin.
@@ -19,55 +20,51 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
 1. Once the plugin project is created you have to open its `.csproj` file in any text editor and replace its content with the following one:
 
     ```xml
-
-          <Project Sdk="Microsoft.NET.Sdk">
-          <PropertyGroup>
-          <TargetFramework>netcoreapp2.2</TargetFramework>
-          <Copyright>SOME_COPYRIGHT</Copyright>
-          <Company>YOUR_COMPANY</Company>
-          <Authors>SOME_AUTHORS</Authors>
-          <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
-          <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
-          <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
-          <RepositoryType>Git</RepositoryType>
-          <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
-          <OutDir>$(OutputPath)</OutDir><!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project.
-
-          You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project--><CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-          </PropertyGroup>
-          <ItemGroup>
-          <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
-          </ItemGroup>
+    <Project Sdk="Microsoft.NET.Sdk">
+        <PropertyGroup>
+            <TargetFramework>netcoreapp2.2</TargetFramework>
+            <Copyright>SOME_COPYRIGHT</Copyright>
+            <Company>YOUR_COMPANY</Company>
+            <Authors>SOME_AUTHORS</Authors>
+            <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+            <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+            <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+            <RepositoryType>Git</RepositoryType>
+            <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
+            <OutDir>$(OutputPath)</OutDir>
+            <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+            <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        </PropertyGroup>
+        <ItemGroup>
+            <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+        </ItemGroup>
         <!-- This target execute after "Build" target -->
         <Target Name="NopTarget" AfterTargets="Build">
             <!-- Delete unnecessary libraries from plugins path -->
             <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\ $(OutDir)" Targets="NopClear" />
-          </Target>
-          </Project>
-
+        </Target>
+    </Project>
     ```
 
     > [!TIP]
-    >  Where PLUGIN_OUTPUT_DIRECTORY should be replaced with the plugin name, for example, Payments.PayPalStandard.
-    > 
+    > Where PLUGIN_OUTPUT_DIRECTORY should be replaced with the plugin name, for example, Payments.PayPalStandard.
+    >
     > We do it this way to be able to use a new approach to add third-party references which was introduced  in .NET Core. But actually it’s not required. Moreover, references from already referenced libraries will be loaded automatically. So it is very convenient.
 
 1. The next step is creating a `plugin.json` file required for each plugin. This file contains meta information describing your plugin. Just copy this file from any other existing plugin and modify it for your needs. For example, PayPal Standard payment plugin has the following `plugin.json` file:
 
     ```json
-
-          {
-          "Group": "Payment methods",
-          "FriendlyName": "PayPal Standard",
-          "SystemName": "Payments.PayPalStandard",
-          "Version": "1.49",
-          "SupportedVersions": [ "4.20" ],
-          "Author": "nopCommerce team",
-          "DisplayOrder": 1,
-          "FileName": "Nop.Plugin.Payments.PayPalStandard.dll",
-          "Description": "This plugin allows paying with PayPal Standard"
-          }
-
+    {
+        "Group": "Payment methods",
+        "FriendlyName": "PayPal Standard",
+        "SystemName": "Payments.PayPalStandard",
+        "Version": "1.49",
+        "SupportedVersions": [ "4.20" ],
+        "Author": "nopCommerce team",
+        "DisplayOrder": 1,
+        "FileName": "Nop.Plugin.Payments.PayPalStandard.dll",
+        "Description": "This plugin allows paying with PayPal Standard"
+    }
     ```
 
     Actually all fields are self-descriptive, but here are some notes. **SystemName** field should be unique. **Version** field is a version number of your plugin; you can set it to any value you like. **SupportedVersions** field can contain a list of supported nopCommerce versions separated by commas (ensure that the current version of nopCommerce is included in this list, otherwise, it will not be loaded). **FileName** field has the following format Nop.Plugin.{Group}.{Name}.dll (it is your plugin assembly filename). Ensure that *"Copy to Output Directory"* property of this file is set to *"Copy if newer"*.
@@ -86,10 +83,10 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
 - **IMiscPlugin**. If your plugin doesn't fit any of these interfaces
 
 > [!IMPORTANT]
->  Important note: After each project build, clean the solution before making changes. Some resources will be cached and can lead to developer insanity.
+> Important note: After each project build, clean the solution before making changes. Some resources will be cached and can lead to developer insanity.
 
 > [!IMPORTANT]
->  You may need to rebuild your solution after adding your plugin. If you do not see DLLs for your plugin under Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY, you need to rebuild your solution. nopCommerce will not list your plugin in the Local Plugins page if your DLLs do not exist in the correct folder in Nop.Web.
+> You may need to rebuild your solution after adding your plugin. If you do not see DLLs for your plugin under Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY, you need to rebuild your solution. nopCommerce will not list your plugin in the Local Plugins page if your DLLs do not exist in the correct folder in Nop.Web.
 
 ## Handling requests. Controllers, models and views
 
@@ -112,10 +109,8 @@ So let's start:
 - Use the following attributes for your action method:
 
     ```csharp
-
-          [AuthorizeAdmin] //confirms access to the admin panel
-          [Area(AreaNames.Admin)] //specifies the area containing a controller or action
-
+    [AuthorizeAdmin] //confirms access to the admin panel
+    [Area(AreaNames.Admin)] //specifies the area containing a controller or action
     ```
 
     For example, open PayPalStandard payment plugin and look at its implementation of PaymentPayPalStandardController.
@@ -123,12 +118,10 @@ So let's start:
 Then for each plugin which has a configuration page you should specify a configuration url. Base class named BasePlugin has GetConfigurationPageUrl method which returns a configuration url:
 
 ```csharp
-
-          public override string GetConfigurationPageUrl()
-          {
-          return $"{_webHelper.GetStoreLocation()}Admin/{CONTROLLER_NAME}/{ACTION_NAME}";
-          }
-
+public override string GetConfigurationPageUrl()
+{
+    return $"{_webHelper.GetStoreLocation()}Admin/{CONTROLLER_NAME}/{ACTION_NAME}";
+}
 ```
 
 Where *{CONTROLLER_NAME}* is a name of your controller and *{ACTION_NAME}* is a name of action (usually it's "Configure").
@@ -136,7 +129,7 @@ Where *{CONTROLLER_NAME}* is a name of your controller and *{ACTION_NAME}* is a 
 Once you have installed your plugin and added the configuration method you will find a link to configure your plugin under **Admin → Configuration → Local Plugins**.
 
 > [!TIP]
->  Tip: The easiest way to complete the steps described above is opening any other plugin and copying these files into your plugin project. Then just rename appropriate classes and directories.
+> Tip: The easiest way to complete the steps described above is opening any other plugin and copying these files into your plugin project. Then just rename appropriate classes and directories.
 
 For example, the project structure of PayPalStandard plugin looks like the image below:
 
@@ -150,29 +143,25 @@ This step is optional. Some plugins can require additional logic during plugin i
 1. **Uninstall**. This method will be invoked during plugin uninstallation.
 
 > [!IMPORTANT]
->  Important note: If you override one of these methods, do not hide its base implementation.
+> Important note: If you override one of these methods, do not hide its base implementation.
 
 For example, overridden "Install" method should include the following method call: *base.Install()*. The "Install" method of PayPalStandard plugin looks like the code below
 
 ```csharp
-
-          public override void Install()
-          {
-          var settings = new PayPalStandardPaymentSettings()
-          {
-          UseSandbox = true
-          };
-          _settingService.SaveSetting(settings);
-          ...
-
-
-          base.Install();
-          }
-
+public override void Install()
+{
+    var settings = new PayPalStandardPaymentSettings()
+    {
+        UseSandbox = true
+    };
+    _settingService.SaveSetting(settings);
+    ...
+    base.Install();
+}
 ```
 
 > [!TIP]
->  Tip: The list of installed plugins is located in `\App_Data\Plugins.json`. The list is created during installation.
+> Tip: The list of installed plugins is located in `\App_Data\Plugins.json`. The list is created during installation.
 
 ## Routes
 
@@ -181,17 +170,15 @@ Here we will have a look at how to register plugin routes. ASP.NET Core routing 
 1. If you need to add some custom route, then create `RouteProvider.cs` file. It informs the nopCommerce system about plugin routes. For example, the following RouteProvider class adds a new route which can be accessed by opening your web browser and navigating to `http://www.yourStore.com/Plugins/PaymentPayPalStandard/PDTHandler` URL (used by PayPal plugin):
 
 ```csharp
-
-          public partial class RouteProvider : IRouteProvider
-          {
-          public void RegisterRoutes(IRouteBuilder routeBuilder)
-          {
-          routeBuilder.MapRoute("Plugin.Payments.PayPalStandard.PDTHandler", "Plugins/PaymentPayPalStandard/PDTHandler",
-          new { controller = "PaymentPayPalStandard", action = "PDTHandler" });
-          }
-          public int Priority => -1;
-          }
-
+public partial class RouteProvider : IRouteProvider
+{
+    public void RegisterRoutes(IRouteBuilder routeBuilder)
+    {
+         routeBuilder.MapRoute("Plugin.Payments.PayPalStandard.PDTHandler", "Plugins/PaymentPayPalStandard/PDTHandler",
+            new { controller = "PaymentPayPalStandard", action = "PDTHandler" });
+    }
+    public int Priority => -1;
+}
 ```
 
 ## Upgrading nopCommerce may break plugins
@@ -201,7 +188,6 @@ Some plugins may become outdated and no longer work with the newer version of no
 ## Conclusion
 
 Hopefully this will get you started with nopCommerce and prepare you to build more elaborate plugins.
-
 
 ## Plugin template
 

@@ -4,6 +4,7 @@ uid: en/user-guide/marketing/promotional/reward-points
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin, git.IvanIvanIvanov
 ---
+
 # Reward points
 
 The **Reward Points** functionality enables you to create and implement loyalty program for improving customer experience and increase customer loyalty. The Reward Points Program allows customers to earn points for certain actions they take on the site like registering and making purchases.
@@ -36,7 +37,7 @@ To set up your reward point program, define these settings:
 - Click **Save**
 
 > [!NOTE]
->  **Reward points are applied only to registered users**
+> **Reward points are applied only to registered users**
 
 When a customer uses reward points when checkout it looks like that:
 

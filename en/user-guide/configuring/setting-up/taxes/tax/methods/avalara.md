@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/taxes/tax/methods/avalara
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
+
 # Avalara tax provider
 
 ## Connect to AvaTax
@@ -11,7 +12,8 @@ contributors: git.exileDev
 After installing the AvaTax integration you need to configure the integration
 
 > [!NOTE]
->  Be sure that the plugin is installed in Local Plugins and is checked as Active (Configuration → Plugins). To enable the plugin click Edit  → and check “Is Enabled” Checkbox
+> Be sure that the plugin is installed in Local Plugins and is checked as Active (Configuration → Plugins). To enable the
+plugin click Edit  → and check “Is Enabled” Checkbox
 
 ![Local plugins](_static/avalara/local-plugins.png)
 
@@ -35,13 +37,15 @@ Follow the instructions on top of the page, each field’s function is annotated
     * **Commit transactions** Is enabled to commit transactions right after they are saved
     * **Validate address** is enabled to validate address entered
 1. **Save** and click the **Test Connection** button to perform test connection
-1. To perform the Test Tax Calculation fill the form on the bottom of the page (Please note, that nopCommerce Avalara tax plugin commits transactions to US addresses only) and click **Test Tax Transaction**
+1. To perform the Test Tax Calculation fill the form on the bottom of the page (Please note, that nopCommerce
+Avalara tax plugin commits transactions to US addresses only) and click **Test Tax Transaction**
 
 ## Assign Avalara AvaTax Code
 
 Navigate to **Configuration → Tax Categories**
 
-At the top left right of the page you will see the branded Avalara Tax Codes button. Clicking it the drop-down menu will show the following menu
+At the top left right of the page you will see the branded Avalara Tax Codes button. Clicking it the drop-down menu will
+show the following menu
 
 ![Tax categoties](_static/avalara/tax-categories.png)
 
@@ -52,13 +56,14 @@ At the top left right of the page you will see the branded Avalara Tax Codes but
 ## Assign an Avalara tax exempt category to a customer
 
 1. Click **Customers → Customer Details**
-1. Find the highlighted **Entity use code** field and select the field, select the appropriate customer type code.
+1. Find the highlighted **Entity use code** field and select the field, select the appropriate customer type
+code.
 
     ![Customer details](_static/avalara/customer-entity-use-code.png)
 1. Click **Save**
 
 > [!NOTE]
->  It is not necessary to check Tax Exempt check box: Assigning Entity use code is enough
+> It is not necessary to check Tax Exempt check box: Assigning Entity use code is enough
 
 ## Assign an AvaTax System Tax Code to an item
 
