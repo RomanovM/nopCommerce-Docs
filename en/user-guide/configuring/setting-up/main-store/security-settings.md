@@ -20,8 +20,7 @@ Define the **Security Settings,** as follows:
 * Tick the **Enable honeypot to enable [honeypot](https://en.wikipedia.org/wiki/Honeypot_(computing)).** In computer terminology, a honeypot is a trap set to detect, deflect, or, in some manner, counteract attempts at unauthorized use of information systems.
 * In the **Encryption private key** field, enter the encryption private key used for storing sensitive data. Click Change at any time to change this key. All sensitive data is encrypted using this private key.
 
-> [!NOTE]
-> It is recommended to make a backup of your database before you change the encryption key. Sensitive data includes all credit card information (only when this credit card information is stored in the store database).
+> [!NOTE] It is recommended to make a backup of your database before you change the encryption key. Sensitive data includes all credit card information (only when this credit card information is stored in the store database).
 
 The next panel will reveal following settings when **CAPTCHA enabled** is ticked:
 
@@ -36,5 +35,4 @@ The next panel will reveal following settings when **CAPTCHA enabled** is ticked
 * Enter the reCAPTCHA **public key** if enabled.
 * Enter the reCAPTCHA **private key** if enable.
 
-> [!NOTE]
-> Dropped support for Recaptcha v1.
+> [!NOTE] Dropped support for Recaptcha v1.
