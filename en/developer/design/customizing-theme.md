@@ -54,7 +54,7 @@ If you wish to make changes in stylesheet in regard to the logo, look for the fo
           max-width: 100%;
           opacity: 1;
           }
-        
+
 ```
 
 ## How to change a layout
@@ -62,7 +62,7 @@ If you wish to make changes in stylesheet in regard to the logo, look for the fo
 1. If you would like to customize / make changes in the base layout (i.e. `_Root.cshtml`) of your nopCommerce website. Please look for this css code in your `style.css`
 
     ```css
-    
+
           .master-wrapper-content {
           position: relative;
           z-index: 0;
@@ -78,23 +78,23 @@ If you wish to make changes in stylesheet in regard to the logo, look for the fo
           display: block;
           clear: both;
           }
-        
+
     ```
 
 1. If you would like to customize / make changes in the layout of `_ColumnOne.cshtml`. Please look for this css code in your `style.css`
 
     ```css
-    
+
           .center-1 {
           margin: 0 0 100px;
           }
-        
+
     ```
 
 1. If you would like to customize / make changes in the layout of `_ColumnTwo.cshtml`. Please look for this css code in your `style.css`
 
     ```css
-        
+
           .center-2, .side-2 {
           margin: 0 0 50px;
           }
@@ -103,7 +103,7 @@ If you wish to make changes in stylesheet in regard to the logo, look for the fo
           display: block;
           clear: both;
           }
-        
+
     ```
 
 ## How to make changes in header menu (top menu)
