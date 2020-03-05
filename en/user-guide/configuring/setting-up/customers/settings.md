@@ -39,8 +39,7 @@ Define the **customer settings,** as follows:
 * Choose whether to **Allow customers to select time zone** in the public store on the accounts page. Otherwise, the default time zone is used.
 * Select the **Default store time zone** from a dropdown list.
 
- > [!NOTE]
- > The current time zone is displayed automatically.
+ > [!NOTE] The current time zone is displayed automatically.
 
 ## Password and security
 
@@ -53,8 +52,7 @@ Define the **customer settings,** as follows:
   * Hashed
   * Encrypted
 
-> [!NOTE]
-> This setting is for storing customers’ passwords and will be applied only to newly registered customers.
+> [!NOTE] This setting is for storing customers’ passwords and will be applied only to newly registered customers.
 
 * In the **Password lifetime** enter the number of days for password expiration.
 * In the **Password recovery link.Days valid** field, enter the number of days for password recovery link. Set it to 0 if you don’t want the link to expire.
@@ -111,8 +109,7 @@ On the **Customer form fields** panel, define the whether the following form fie
 * Tick the **Accept Privacy policy enabled** checkbox, to request customers to accept the privacy policy during the registration.
 * Tick the **‘Newsletter’ enabled** checkbox to offer customers a newsletter subscription during the registration. When the ‘Newsletter’ enabled checkbox is selected, the Newsletter ticked by default checkbox is displayed, which automatically sets the 'Newsletter' checkbox on the registration page as ticked.
 
-> [!NOTE]
-> If the default form fields are not enough for your requirements, you can manage additional customer attributes using this table. Customer attributes are created in the same manner as checkout attributes. For further details, refer to [Checkout Attributes](xref:en/user-guide/running/product-management/attributes/checkout-attributes).
+> [!NOTE] If the default form fields are not enough for your requirements, you can manage additional customer attributes using this table. Customer attributes are created in the same manner as checkout attributes. For further details, refer to [Checkout Attributes](xref:en/user-guide/running/product-management/attributes/checkout-attributes).
 
 ![customercustomattributes](_static/settings/customersettings6.png)
 
@@ -130,8 +127,7 @@ On the **Address Form Fields** panel, a store owner can manage the address form 
 * Phone number
 * Fax number
 
-> [!NOTE]
-> If the default address fields are not enough for your requirements, you can manage additional address attributes using this table. Address attributes are created in the same manner as checkout attributes. For further details, refer to [Checkout Attributes](xref:en/user-guide/running/product-management/attributes/checkout-attributes).
+> [!NOTE] If the default address fields are not enough for your requirements, you can manage additional address attributes using this table. Address attributes are created in the same manner as checkout attributes. For further details, refer to [Checkout Attributes](xref:en/user-guide/running/product-management/attributes/checkout-attributes).
 
 ![customaddressattributes](_static/settings/customersettings8.png)
 
