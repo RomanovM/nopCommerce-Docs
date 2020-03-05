@@ -4,6 +4,7 @@ uid: en/developer/tutorials/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # Developers tutorials
 
 The following is a list of common questions asked by developers working with nopCommerce. It also describes some of the architectural choices the nopCommerce team made.
