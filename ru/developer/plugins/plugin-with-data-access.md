@@ -1,6 +1,6 @@
 ---
 title: Plugin with data access
-uid: en/developer/plugins/plugin-with-data-access
+uid: ru/developer/plugins/plugin-with-data-access
 author: nop.52152
 contributors: git.DmitriyKulagin, git.rodolphito, git.exileDev
 ---
