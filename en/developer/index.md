@@ -4,6 +4,7 @@ uid: en/developer/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # Developers guide
 
 The nopCommerce developer documentation is here to help you through the process of nopCommerce customization. Here you will several sections:

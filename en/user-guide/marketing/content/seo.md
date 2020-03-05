@@ -4,6 +4,7 @@ uid: en/user-guide/marketing/content/seo
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # SEO
 
 SEO stands for search engine optimization, it is a process of getting traffic from “free,” “organic,” “editorial” or “natural” search results on search engines. All major search engines have primary search results, where web pages and other content such as videos or local listings are shown and ranked based on what a search engine considers most relevant to users.

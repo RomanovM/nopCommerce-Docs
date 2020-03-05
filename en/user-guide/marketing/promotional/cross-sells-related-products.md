@@ -4,14 +4,14 @@ uid: en/user-guide/marketing/promotional/cross-sells-related-products
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.IvanIvanIvanov
 ---
+
 # Cross-sells and Related products
 
 **Cross-sells** and **related products** are marketing tools in nopCommerce that can be used to offer your customers additional products they may like based on their shopping behavior (viewing and adding to the cart certain products). It is also a good opportunity for you to up-sell some products. You can use both of these tools simultaneously.
 
 You can set up cross-sells and related products when creating or editing some product on the product info page in **Catalog → Products → Add new/Edit.**
 
-> [!NOTE]
-  > **You need to save the product before you can add cross-sells and related product**
+> [!NOTE] **You need to save the product before you can add cross-sells and related product**
 
 ## Cross-sells
 

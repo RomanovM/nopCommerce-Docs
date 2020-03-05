@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/payments/methods/manual-processing
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---
+
 # Manual Processing (Credit Card)
 
 This is a special gateway that allows all orders to be successfully entered on the site, but it does NOT charge the customer or make any calls to any live gateway. It is recommended to use this payment method if you want to perform one of the following:

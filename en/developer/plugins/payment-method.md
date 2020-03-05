@@ -4,6 +4,7 @@ uid: en/developer/plugins/payment-method
 author: git.AndreiMaz
 contributors: git.Sandeep911, git.exileDev, git.DmitriyKulagin
 ---
+
 # How to code my own payment method
 
 Payment methods are implemented as plugins in nopCommerce. We recommend you read [How to write a plugin for nopCommerce 4.20](xref:en/developer/plugins/how-to-write-plugin-4.20) before you start coding a new payment method. It will explain to you what the required steps are for creating a plugin.

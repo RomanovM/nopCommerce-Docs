@@ -4,6 +4,7 @@ uid: en/user-guide/marketing/content/email-campaigns/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.IvanIvanIvanov
 ---
+
 # Email campaigns
 
 During customer registration, a customer can select the **Newsletters option** to receive nopCommerce newsletters.

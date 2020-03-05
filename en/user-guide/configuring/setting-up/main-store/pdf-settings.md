@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/main-store/pdf-settings
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.ivkadp
 ---
+
 # PDF settings
 
 When running a store you might need automatically generated PDF files, like invoices and terms of agreement.

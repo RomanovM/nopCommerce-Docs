@@ -4,6 +4,7 @@ uid: en/developer/contribute/possible-ways
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
+
 # Possible ways to contribute
 
 ## Here are a few ways you can contribute to the nopCommerce project

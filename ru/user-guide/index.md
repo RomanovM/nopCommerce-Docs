@@ -4,6 +4,7 @@ uid: en/user-guide/index
 author: git.AndreiMaz
 contributors: git.exileDev, git.dunaenko
 ---
+
 # User guide
 
 **nopCommerce User Guide** helps you get started with the **nopCommerce** e-commerce platform. It explains how to install, configure, build, maintain, and develop an online store using the platform.

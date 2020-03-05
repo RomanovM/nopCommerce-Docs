@@ -4,6 +4,7 @@ uid: en/user-guide/running/reports/customer-reports
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # Customer reports
 
 Customer reports give a store owner general information about registered customers and their orders. To view the reports, go to **Reports → Customer reports**.

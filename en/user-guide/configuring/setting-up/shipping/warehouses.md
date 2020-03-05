@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/shipping/warehouses
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
+
 # Warehouses
 
 nopCommerce supports multiple warehouses. This tool allows a store owner to keep track of inventory in different warehouses and improve logistics.

@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/shipping/providers/ups
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
+
 # UPS
 
 To access your account at UPS use a username, a password, and an **XML license number**, which you will be provided with after the registration process.

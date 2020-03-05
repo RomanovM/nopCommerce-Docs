@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/payments/currencies
 author: git.AndreiMaz
 contributors: git.exileDev, git.ivkadp
 ---
+
 # Currencies
 
 In nopCommerce, **only primary store currency is used,** which is the currency against which all other allowed currencies will be configured. Although nopCommerce allows having multiple currencies for displaying your product prices, the primary currency is used for payment transactions with online payment gateways.
@@ -24,13 +25,11 @@ To define **currency settings** go to **Configuration → Currencies.**
 
 From the Current exchange rate provider dropdown list, select the exchange rate provider that will be used to get live rates.
 
-> [!NOTE]
-  > By default in nopCommerce there is only one exchange rate provider available - ECB. To get live rates from ECB you should select EUR as a primary exchange rate currency.
+> [!NOTE] By default in nopCommerce there is only one exchange rate provider available - ECB. To get live rates from ECB you should select EUR as a primary exchange rate currency.
 
  Select the **Auto update** enabled checkbox, to enable receiving **an automatic update of currency rates every hour.**
 
-> [!NOTE]
-  > By default, all the currency rates are updated once per hour. You can change currency rates updating settings in System → Schedule task, choose Update currency exchange rates.
+> [!NOTE] By default, all the currency rates are updated once per hour. You can change currency rates updating settings in System → Schedule task, choose Update currency exchange rates.
 
 ![currencies2](_static/currencies/currencies2.png)
 

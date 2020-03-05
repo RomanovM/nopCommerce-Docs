@@ -4,6 +4,7 @@ uid: en/user-guide/running/product-management/products/adding-products/rental-pr
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.dunaenko, git.IvanIvanIvanov
 ---
+
 # Rental product
 
 In case a product Is **rental**, tick the corresponding checkbox on the **product info tab**.

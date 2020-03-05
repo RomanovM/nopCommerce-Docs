@@ -4,6 +4,7 @@ uid: en/user-guide/running/reports/low-stock-reports
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
+
 # Low Stock Reports
 
 The low stock report contains a list of products that are currently under stock. In the example shown below, the min stock quantity was set to 20 and the stock quantity is 0, therefore a low stock report is generated for this product. You can set up low stock settings when adding the product.

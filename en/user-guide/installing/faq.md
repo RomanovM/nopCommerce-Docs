@@ -4,6 +4,7 @@ uid: en/user-guide/installing/faq
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.rajupaladiya, git.exileDev, git.IvanIvanIvanov
 ---
+
 # FAQ
 
 ## Why choose nopCommerce?

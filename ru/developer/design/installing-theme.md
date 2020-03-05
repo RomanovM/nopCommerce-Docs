@@ -4,6 +4,7 @@ uid: en/developer/design/installing-theme
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin
 ---
+
 # Installing / Applying theme in nopCommerce
 
 Let's assume you just downloaded a new theme which is in a zip file.

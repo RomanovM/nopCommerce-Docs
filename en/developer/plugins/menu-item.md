@@ -4,6 +4,7 @@ uid: en/developer/plugins/menu-item
 author: git.AndreiMaz
 contributors: git.Sandeep911, git.DmitriyKulagin, git.exileDev
 ---
+
 # How to add a menu item into the administration area from a plugin
 
 In nopCommerce, administration menu is build from the *sitemap.config* file which is located in *~/Areas/Admin folder*.

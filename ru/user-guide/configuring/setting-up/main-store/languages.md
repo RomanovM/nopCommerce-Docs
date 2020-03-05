@@ -4,17 +4,16 @@ uid: en/user-guide/configuring/setting-up/main-store/languages
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.ivkadp
 ---
+
 # Languages
 
 In nopCommerce, your store can have several languages installed. However, the customers will only see the data that has been defined in their selected language.
 
-> [!TIP]
-  > **By default**, the English language is installed.
+> [!TIP] **By default**, the English language is installed.
 
 ![language](_static/languages/Language.png)
 
-> [!NOTE]
-  > You can download new language packs from the official [Marketplace](http://www.nopcommerce.com/marketplace).
+> [!NOTE] You can download new language packs from the official [Marketplace](http://www.nopcommerce.com/marketplace).
 
 ## Adding new language
 
@@ -42,5 +41,4 @@ Click **Add new**. In the Add a new language window, **define the following sett
 
 * Click **Save.**
 
-> [!NOTE]
-  > After adding a new language, the Import resources from XML and the Export to XML buttons appear enabling you to import and export all resources for a new language.
+> [!NOTE] After adding a new language, the Import resources from XML and the Export to XML buttons appear enabling you to import and export all resources for a new language.
