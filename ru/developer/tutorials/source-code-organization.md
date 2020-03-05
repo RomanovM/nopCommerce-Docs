@@ -1,6 +1,6 @@
 ---
 title: Source code organization. Architecture of nopCommerce.
-uid: en/developer/tutorials/source-code-organization
+uid: ru/developer/tutorials/source-code-organization
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
