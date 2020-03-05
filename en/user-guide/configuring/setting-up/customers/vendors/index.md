@@ -83,11 +83,11 @@ On the **SEO** panel, define the following SEO parameters:
 * **Meta title** - specifies the title of your Web page. It is a code which is inserted into the header of your web page and is in the following format:
 
     ```html
-    
+
           <head>
           <title> Creating Title Tags for Search Engine Optimization & Web Usability</title>
           </head>
-        
+
     ```
 
 * **Search engine friendly page name** - the name of the page used by search engines. If you enter nothing then the vendor page URL is formed using the vendor name. If you enter custom-seo-page-name, then the following custom the URL will be used: `http://www.yourStore.com/custom-seo-page-name`
