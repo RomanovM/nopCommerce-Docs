@@ -10,7 +10,8 @@ contributors: git.exileDev, git.dunaenko, git.IvanIvanIvanov
 **Grouped products**, or products **with variants**, is a convenient tool to sell a product that has different supplementary items or different attribute sets. Different combinations of such product **can be sold as separate products**, and the price may vary.
 
 In nopCommerce, grouped products look like a single product details page displaying all possible options. It is a convenient and SEO-friendly tool to sell complex products.
-> [!TIP] **For example**, a base product, such as a camera body, can be grouped with different sets of lens. Another use case of a grouped product is selling one type of a product with different attribute sets. For example, chocolate with different flavours. In this case, a customer can easily see the main product and all its options on the same page.
+> [!TIP]
+> **For example**, a base product, such as a camera body, can be grouped with different sets of lens. Another use case of a grouped product is selling one type of a product with different attribute sets. For example, chocolate with different flavours. In this case, a customer can easily see the main product and all its options on the same page.
 
 ![grouped](_static/grouped-products/grouped.png)
 

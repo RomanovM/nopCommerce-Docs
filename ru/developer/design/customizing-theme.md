@@ -30,7 +30,8 @@ In order to upload your store logo in a nopCommerce website, there are basically
 
     You can mention the path of your custom logo here.
 
-    > [!NOTE] In the above mentioned css code: logo.gif is the name of the store logo image file
+    > [!NOTE]
+> In the above mentioned css code: logo.gif is the name of the store logo image file
 
 1. Change logo.gif with `YourLogo.gif/jpg/png`
 1. Save changes to the `Header.cshtml` file

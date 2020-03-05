@@ -46,7 +46,8 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
     </Project>
     ```
 
-    > [!TIP] Where PLUGIN_OUTPUT_DIRECTORY should be replaced with the plugin name, for example, Payments.PayPalStandard.
+    > [!TIP]
+> Where PLUGIN_OUTPUT_DIRECTORY should be replaced with the plugin name, for example, Payments.PayPalStandard.
     > 
     > We do it this way to be able to use a new approach to add third-party references which was introduced  in .NET Core. But actually it’s not required. Moreover, references from already referenced libraries will be loaded automatically. So it is very convenient.
 
@@ -125,7 +126,8 @@ Where *{CONTROLLER_NAME}* is a name of your controller and *{ACTION_NAME}* is a 
 
 Once you have installed your plugin and added the configuration method you will find a link to configure your plugin under **Admin → Configuration → Local Plugins**.
 
-> [!TIP] Tip: The easiest way to complete the steps described above is opening any other plugin and copying these files into your plugin project. Then just rename appropriate classes and directories.
+> [!TIP]
+> Tip: The easiest way to complete the steps described above is opening any other plugin and copying these files into your plugin project. Then just rename appropriate classes and directories.
 
 For example, the project structure of PayPalStandard plugin looks like the image below:
 
@@ -155,7 +157,8 @@ public override void Install()
 }
 ```
 
-> [!TIP] Tip: The list of installed plugins is located in `\App_Data\Plugins.json`. The list is created during installation.
+> [!TIP]
+> Tip: The list of installed plugins is located in `\App_Data\Plugins.json`. The list is created during installation.
 
 ## Routes
 

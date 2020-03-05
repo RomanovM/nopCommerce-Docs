@@ -11,7 +11,8 @@ contributors: git.exileDev
 
 After installing the AvaTax integration you need to configure the integration
 
-> [!NOTE] Be sure that the plugin is installed in Local Plugins and is checked as Active (Configuration → Plugins). To enable the plugin click Edit  → and check “Is Enabled” Checkbox
+> [!NOTE]
+> Be sure that the plugin is installed in Local Plugins and is checked as Active (Configuration → Plugins). To enable the plugin click Edit  → and check “Is Enabled” Checkbox
 
 ![Local plugins](_static/avalara/local-plugins.png)
 
@@ -57,7 +58,8 @@ At the top left right of the page you will see the branded Avalara Tax Codes but
     ![Customer details](_static/avalara/customer-entity-use-code.png)
 1. Click **Save**
 
-> [!NOTE] It is not necessary to check Tax Exempt check box: Assigning Entity use code is enough
+> [!NOTE]
+> It is not necessary to check Tax Exempt check box: Assigning Entity use code is enough
 
 ## Assign an AvaTax System Tax Code to an item
 

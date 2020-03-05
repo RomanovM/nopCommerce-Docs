@@ -36,7 +36,8 @@ To set up your reward point program, define these settings:
 - In the **Page size** field set the page size for history of reward points on **My account page**
 - Click **Save**
 
-> [!NOTE] **Reward points are applied only to registered users**
+> [!NOTE]
+> **Reward points are applied only to registered users**
 
 When a customer uses reward points when checkout it looks like that:
 

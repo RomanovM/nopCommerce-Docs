@@ -55,7 +55,8 @@ In the **Attribute Info** panel, define the following information:
 * From the **Control Type** drop-down list, select the required method for displaying the attribute value: **Drop-down list, Radio button list, Checkbox, Textbox, Multiline textbox, Read-only checkbox.**
 * **Display order** - the vendor attribute display order.
 
-> [!NOTE] Dropdown lists, radio lists, checkbox and read-only checkbox  require the store owner to define values. Textbox and Multiline textbox control types do not require the store owner to define values since customers will be required to fill these textbox fields.
+> [!NOTE]
+> Dropdown lists, radio lists, checkbox and read-only checkbox  require the store owner to define values. Textbox and Multiline textbox control types do not require the store owner to define values since customers will be required to fill these textbox fields.
 
 Click **Save and Continue Edit** to proceed to the **values** editing tab.
 

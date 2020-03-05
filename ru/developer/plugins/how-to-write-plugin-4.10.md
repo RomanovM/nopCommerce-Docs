@@ -116,7 +116,8 @@ Where ControllerName is a name of your controller and ActionName is a name of ac
 
 Once you have installed your plugin and added the configuration method you will find a link to configure your plugin under Admin → Configuration → Plugins.
 
-> [!TIP] The easiest way to complete the steps described above is opening any other plugin and copying these files into your plugin project. Then just rename appropriate classes and directories.
+> [!TIP]
+> The easiest way to complete the steps described above is opening any other plugin and copying these files into your plugin project. Then just rename appropriate classes and directories.
 
 For example, the project structure of PayPalStandard plugin looks like the image below:
 
@@ -145,7 +146,8 @@ public override void Install()
 }
 ```
 
-> [!TIP] The list of installed plugins is located in `\App_Data\installedPlugins.json`. The list is created during installation.
+> [!TIP]
+> The list of installed plugins is located in `\App_Data\installedPlugins.json`. The list is created during installation.
 
 ## Routes
 

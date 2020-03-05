@@ -13,7 +13,8 @@ You can check **payment statuses in Sales → Orders :**
 
 * **Authorized:** when the amount was charged, but not captured or transferred, just the credit card was verified.
 
-> [!TIP] If you do not want to charge the customer until you ship, then use Authorize. For charges that come in as Authorized only, you can later capture them via the Administration area using the Capture button on the order page.
+> [!TIP]
+> If you do not want to charge the customer until you ship, then use Authorize. For charges that come in as Authorized only, you can later capture them via the Administration area using the Capture button on the order page.
 
 * **Partially refunded:** when order paid and partially refunded.
 

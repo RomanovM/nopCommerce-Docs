@@ -19,7 +19,8 @@ You can switch Fixed rate tax calculation to Country/State/Zip tax calculation b
 
 ![Fixed rate](_static/manual/tax-fixed-rate.png)
 
-> [!NOTE] this section shows only pre-created tax categories. To create new, go to Configure → Tax Categories.
+> [!NOTE]
+> this section shows only pre-created tax categories. To create new, go to Configure → Tax Categories.
 > 
 > * Click **Edit** beside the tax category for which to define a fixed rate.
 > * Enter the required rate in the **Rate** column.

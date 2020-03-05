@@ -35,7 +35,8 @@ Go to **Configuration → Languages**. The Languages window is displayed:
 
 Click Edit, beside the language. In the **Edit Language Details window**, select the **String resources panel**.
 
-> [!TIP] For example, you want to change the name of a panel on top of the page from “*Administration*” (on the picture below) to “*Control panel*”.
+> [!TIP]
+> For example, you want to change the name of a panel on top of the page from “*Administration*” (on the picture below) to “*Control panel*”.
 > 
 > ![Example 1](_static/localization/lang-example-before-change.jpeg)
 > 

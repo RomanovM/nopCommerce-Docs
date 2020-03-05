@@ -9,7 +9,8 @@ contributors: git.DmitriyKulagin, git.IvanIvanIvanov
 
 During customer registration, a customer can select the **Newsletters option** to receive nopCommerce newsletters. The other way of filling in email subscribers is to **export the list of subscribers** to an external CSV file as well **import list of subscribers from an external CSV** file into nopCommerce.
 
-> [!TIP] **You can manage newsletter subscribers on Promotions → Newsletter subscribers.**
+> [!TIP]
+> **You can manage newsletter subscribers on Promotions → Newsletter subscribers.**
 
 Use your subscribers list to create email campaigns to easily and quickly reach the target audience without any additional marketing activities. Campaigns help to promote trust and loyalty to a company while also increasing sales.
 

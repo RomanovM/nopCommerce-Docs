@@ -33,7 +33,8 @@ Define the following information:
 * **Is system role**. This setting shows whether this role is used in the code. It is predefined and cannot be modified.
 * Click the **Choose product button** beside the **Purchased with product** field in order to choose a special product. A customer is added to this customer role once this product is purchased (paid).
 
-> [!NOTE] In case of refund or order cancellation you must manually remove a customer from this role.
+> [!NOTE]
+> In case of refund or order cancellation you must manually remove a customer from this role.
 
 * **System Name** of the customer role
 

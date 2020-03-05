@@ -65,7 +65,8 @@ To set up SEO for Topics go to **SEO tab**
 
 - Click **Save**. The topic will be displayed in the public store.
 
-> [!NOTE] You can click Edit in the Manage Topics window to display the Edit Topic window and then edit the topic, as described above. In the Topic Info tab, you can click on the URL link at the bottom of the page to view the URL of the topic in the public store.
+> [!NOTE]
+> You can click Edit in the Manage Topics window to display the Edit Topic window and then edit the topic, as described above. In the Topic Info tab, you can click on the URL link at the bottom of the page to view the URL of the topic in the public store.
 
 ## See also
 

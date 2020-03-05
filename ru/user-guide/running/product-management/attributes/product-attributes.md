@@ -17,7 +17,8 @@ To define product attributes go to **Catalog → Attributes → Product Attribut
 
 ![product_attributes](_static/product-attributes/product_attributes.png)
 
-> [!TIP] **By default**, there are **no product attributes precreated** in nopCommerce.
+> [!TIP]
+> **By default**, there are **no product attributes precreated** in nopCommerce.
 
 ## Adding product attributes
 
@@ -29,7 +30,8 @@ In the Add a new product attribute window fill the fields **Name** and **Descrip
 
 Click **Save and Continue Edit** to proceed to the **values** editing window.
 
-> [!TIP] [YouTube tutorial: Adding a product with color attributes](https://youtu.be/QihipwQ61YU)
+> [!TIP]
+> [YouTube tutorial: Adding a product with color attributes](https://youtu.be/QihipwQ61YU)
 
 ## Adding predefined values
 
@@ -45,9 +47,11 @@ In the **Add a new value** window a user has an opportunity to:
 - determine whether the value is preselected for a customer as well as its display order in an attribute list.
 - After filling the fields, click **Save**.
 
-> [!TIP] **It's not necessary to create attributes values** when adding product attribute, you can create them later when will apply certain product attribute to the product. Once the attributes and values are set, they can be grouped and managed on the Product Attributes tab.
+> [!TIP]
+> **It's not necessary to create attributes values** when adding product attribute, you can create them later when will apply certain product attribute to the product. Once the attributes and values are set, they can be grouped and managed on the Product Attributes tab.
 
-> [!NOTE] Some store owners prefer to highlight products differentiated by attributes and create a separate product with each specific attribute (for example, separately listed blue T-shirts and red T-shirts). In this case, we recommend creating a grouped product (shirts, as in the example) in order for all of the variations to be displayed on the same page, once the grouped product is being viewed by a customer. Read more about [grouped products](xref:ru/user-guide/running/product-management/products/adding-products/grouped-products).
+> [!NOTE]
+> Some store owners prefer to highlight products differentiated by attributes and create a separate product with each specific attribute (for example, separately listed blue T-shirts and red T-shirts). In this case, we recommend creating a grouped product (shirts, as in the example) in order for all of the variations to be displayed on the same page, once the grouped product is being viewed by a customer. Read more about [grouped products](xref:ru/user-guide/running/product-management/products/adding-products/grouped-products).
 
 ## See also
 

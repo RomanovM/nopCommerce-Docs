@@ -26,6 +26,7 @@ Define the following new unit details:
 
 The new dimension (weight) unit is added to the Dimensions (Weights) panel.
 
-> [!NOTE] You can set the primary dimension (weight) by clicking Mark as primary dimension (weight).
+> [!NOTE]
+> You can set the primary dimension (weight) by clicking Mark as primary dimension (weight).
 
 Click **Edit** beside the measure to edit its details, as described above.

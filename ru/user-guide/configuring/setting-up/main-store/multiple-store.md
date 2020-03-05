@@ -48,7 +48,8 @@ _____________________________________
 
 ![store window](_static/multiple-store/mainstore.png)
 
-> [!NOTE] By default, only one store is created.
+> [!NOTE]
+> By default, only one store is created.
 
 Click **Edit** beside a store to configure it:
 
@@ -69,7 +70,8 @@ The two stores have now been configured using a single nopCommerce installation,
 * www.store1.com
 * www.store2.com
 
-> [!NOTE] The Multi-store solution (distinction of stores by HTTP_HOST) does not work for sites in virtual directories on the same domain.
+> [!NOTE]
+> The Multi-store solution (distinction of stores by HTTP_HOST) does not work for sites in virtual directories on the same domain.
 
 For example, you cannot have one store on <http://www.site.com/store1> and the second store on <http://www.site.com/store2>, since the HTTP_HOST value for both of these sites is the same (www.site.com).
 

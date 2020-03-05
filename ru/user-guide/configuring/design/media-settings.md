@@ -19,7 +19,8 @@ Define the media settings, as follows:
 
 - Click the **Change** button above **Pictures are stored into** option to choose between database or file system.
 
-  > [!NOTE] It is recommended to make a backup of the database before clicking the Change button.
+  > [!NOTE]
+> It is recommended to make a backup of the database before clicking the Change button.
 - In the **Maximum image size** field, enter the maximumProduct detail image size image size (meaning, the longest side) allowed for image upload (pixels).
 - Tick **Multiple thumb directories** to have multiple thumb directories. Is useful when your hosting company has - limitations on the amount of files per directory.
 - In the **Default image quality (0 - 100)** the quality of uploaded images is set. You would have to manually delete all already generated thumbs.

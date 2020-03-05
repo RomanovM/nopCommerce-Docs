@@ -165,7 +165,8 @@ public override void Install()
 }
 ```
 
-> [!TIP] The list of installed plugins is located in `\App_Data\InstalledPlugins.txt`. The list is created during installation.
+> [!TIP]
+> The list of installed plugins is located in `\App_Data\InstalledPlugins.txt`. The list is created during installation.
 
 ## Upgrading nopCommerce may break plugins
 

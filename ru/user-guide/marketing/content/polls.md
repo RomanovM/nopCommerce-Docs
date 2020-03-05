@@ -28,7 +28,8 @@ Define the **following details for the new poll**:
 
   ![p3](_static/polls/polls_3.png)
 
-  > [!NOTE] if you use clear default nopCommerce theme the polls will be displayed in the left column by default. In case you use another theme please check these details from the theme provider.
+  > [!NOTE]
+> if you use clear default nopCommerce theme the polls will be displayed in the left column by default. In case you use another theme please check these details from the theme provider.
 
 - Select the **Published** checkbox to make  this poll active
 - If you want to **Show polls on home page** select the corresponding checkbox
@@ -37,7 +38,8 @@ Define the **following details for the new poll**:
 - Select **Start and End dates** in Coordinated Universal Time (UTC). If you don't want to specify them just leave the  - fields empty
 - **Select the Limited to stores** option to make this poll limited to one or more stores.
 
-> [!NOTE] You can leave these fields empty if you do not want to define poll start and end dates
+> [!NOTE]
+> You can leave these fields empty if you do not want to define poll start and end dates
 
 To add poll answers go to **Poll answers tab**:
 

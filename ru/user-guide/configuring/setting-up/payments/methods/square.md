@@ -70,7 +70,8 @@ Production application mode is used to accept real payments in a live store.
 
     ![square_prod_configuration_page_get_access_token](_static/square/square_prod_configuration_page_get_access_token.png)
 
-    > [!NOTE] If for whatever reason you would like to disable an access to your accounts, simply **Revoke access tokens** from the plugin configuration page.
+    > [!NOTE]
+> If for whatever reason you would like to disable an access to your accounts, simply **Revoke access tokens** from the plugin configuration page.
 
 - Choose the previously created location. **Location** is a required parameter for payment requests.
 
@@ -98,7 +99,8 @@ Sandbox application mode is used to test the Square payment configuration.
 
     ![square_sandbox_configuration_page_select_location](_static/square/square_sandbox_configuration_page_select_location.png)
 
-> [!NOTE] By default, you can select the **Default Test Account** location. Learn more about using the Square sandbox environment [here](https://developer.squareup.com/docs/testing/sandbox).
+> [!NOTE]
+> By default, you can select the **Default Test Account** location. Learn more about using the Square sandbox environment [here](https://developer.squareup.com/docs/testing/sandbox).
 
 - Fill in the remaining fields and click **Save** to complete the configuration.
 
