@@ -32,15 +32,17 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
 1. The next step is creating a `Description.txt` file required for each plugin. This file contains meta information describing your plugin. Just copy this file from any other existing plugin and modify it for your needs. For example, PayPal Standard payment plugin has the following `Description.txt` file:
 
     ```txt
-    Group: Payment methods
-    FriendlyName: PayPal Standard
-    SystemName: Payments.PayPalStandard
-    Version: 1.28
-    SupportedVersions: 3.90
-    Author: nopCommerce team
-    DisplayOrder: 1
-    FileName: Nop.Plugin.Payments.PayPalStandard.dll
-    Description: This plugin allows paying with PayPal Standard
+    
+          Group: Payment methods
+          FriendlyName: PayPal Standard
+          SystemName: Payments.PayPalStandard
+          Version: 1.28
+          SupportedVersions: 3.90
+          Author: nopCommerce team
+          DisplayOrder: 1
+          FileName: Nop.Plugin.Payments.PayPalStandard.dll
+          Description: This plugin allows paying with PayPal Standard
+        
     ```
 
     Actually all fields are self-descriptive, but here are some notes. **SystemName** field should be unique. **Version** field is a version number of your plugin; you can set it to any value you like. **SupportedVersions** field can contain a list of supported nopCommerce versions separated by commas (ensure that the current version of nopCommerce is included in this list, otherwise, it will not be loaded). **FileName** field has the following format *Nop.Plugin.{Group}.{Name}.dll* (it is your plugin assembly filename). Ensure that "Copy to Output Directory" property of this file is set to "Copy if newer".
@@ -99,42 +101,46 @@ Now we need to register appropriate plugin routes. ASP.NET routing is responsibl
 - Some of the specific plugin interfaces (described above) and the "IMiscPlugin" interface have the following method: "GetConfigurationRoute". It should return a route to a controller action which is used for plugin configuration. Implement the "GetConfigurationRoute" method of your plugin interface. This method informs nopCommerce about what route is used for plugin configuration. If your plugin doesn't have a configuration page, then "GetConfigurationRoute" should return null. For example see the code below:
 
     ```csharp
-    public void GetConfigurationRoute(out string actionName,
-                out string controllerName,
-                out RouteValueDictionary routeValues)
-    {
-        actionName = "Configure";
-        controllerName = "PaymentAuthorizeNet";
-        routeValues = new RouteValueDictionary()
-        {
-            { "Namespaces", "Nop.Plugin.Payments.AuthorizeNet.Controllers" },
-            { "area", null }
-        };
-    }
+    
+          public void GetConfigurationRoute(out string actionName,
+          out string controllerName,
+          out RouteValueDictionary routeValues)
+          {
+          actionName = "Configure";
+          controllerName = "PaymentAuthorizeNet";
+          routeValues = new RouteValueDictionary()
+          {
+          { "Namespaces", "Nop.Plugin.Payments.AuthorizeNet.Controllers" },
+          { "area", null }
+          };
+          }
+        
     ```
 
 - (optional) If you need to add some custom route, then create `RouteProvider.cs` file. It informs the nopCommerce system about plugin routes. For example, the following RouteProvider class adds a new route which can be accessed by opening your web browser and navigating to `http://www.yourStore.com/Plugins/PaymentPayPalStandard/PDTHandler` URL (used by PayPal plugin):
 
     ```csharp
-    public partial class RouteProvider : IRouteProvider
-    {
-        public void RegisterRoutes(RouteCollection routes)
-        {
-             routes.MapRoute("Plugin.Payments.PayPalStandard.PDTHandler",
-                 "Plugins/PaymentPayPalStandard/PDTHandler",
-                 new { controller = "PaymentPayPalStandard", action = "PDTHandler" },
-                 new[] { "Nop.Plugin.Payments.PayPalStandard.Controllers"  }
-            );
-        }
+    
+          public partial class RouteProvider : IRouteProvider
+          {
+          public void RegisterRoutes(RouteCollection routes)
+          {
+          routes.MapRoute("Plugin.Payments.PayPalStandard.PDTHandler",
+          "Plugins/PaymentPayPalStandard/PDTHandler",
+          new { controller = "PaymentPayPalStandard", action = "PDTHandler" },
+          new[] { "Nop.Plugin.Payments.PayPalStandard.Controllers"  }
+          );
+          }
 
-        public int Priority
-        {
-            get
-            {
-                return 0;
-            }
-        }
-    }
+          public int Priority
+          {
+          get
+          {
+          return 0;
+          }
+          }
+          }
+        
     ```
 
     Once you have installed your plugin and added the configuration method you will find a link to configure your plugin under Admin → Configuration → Plugins.
@@ -151,18 +157,20 @@ This step is optional. Some plugins can require additional logic during plugin i
 For example, the project structure of Authorize.NET plugin looks like the image below
 
 ```csharp
-public override void Install()
-{
-    var settings = new AuthorizeNetPaymentSettings()
-    {
-        UseSandbox = true,
-        TransactMode = TransactMode.Authorize,
-        TransactionKey = "123",
-        LoginId = "456"
-    };
-    _settingService.SaveSetting(settings);
-    base.Install();
-}
+
+          public override void Install()
+          {
+          var settings = new AuthorizeNetPaymentSettings()
+          {
+          UseSandbox = true,
+          TransactMode = TransactMode.Authorize,
+          TransactionKey = "123",
+          LoginId = "456"
+          };
+          _settingService.SaveSetting(settings);
+          base.Install();
+          }
+        
 ```
 
 > [!TIP] The list of installed plugins is located in `\App_Data\InstalledPlugins.txt`. The list is created during installation.
