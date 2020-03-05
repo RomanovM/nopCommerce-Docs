@@ -4,7 +4,6 @@ uid: en/developer/design/understanding-layout
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin
 ---
-
 # Understanding Layout / Design
 
 What are layouts? Every web developer/designer wants to maintain a consistent look and feel across all of the pages within the website. Back in the days, the concept of "Master Pages" was introduced in ASP.NET 2.0 which helps in maintaining a consistent look of the website by mapping it with .aspx pages.

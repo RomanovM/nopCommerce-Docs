@@ -4,7 +4,6 @@ uid: en/user-guide/marketing/content/news/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---
-
 # News
 
 nopCommerce allows you to post news in your store. There can be any important tidings like nopCommerce latest release information, your company updates and so on.
@@ -29,7 +28,8 @@ Define the **following details for news item**:
 - Select the **Allow comments** checkbox, to enable customers to add comments to the news items
 - Select **Start and End date of a news** item in Coordinated Universal Time (UTC).
 
-  > [!NOTE] You can leave these fields empty if you do not want to define news item start and end dates
+  > [!NOTE]
+  > You can leave these fields empty if you do not want to define news item start and end dates
 - Select the Published checkbox, to publish this news item in your store
 
 While editing existing news or after clicking **Save and Continue Edit** button for a new one, you can click on **Preview** button to see how the news will appear on the site.

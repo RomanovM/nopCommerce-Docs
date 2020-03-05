@@ -4,7 +4,6 @@ uid: en/user-guide/configuring/design/installing-theme
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin
 ---
-
 # Installing a theme
 
 After downloading a new theme which is in a zip file, extract the contents of your zip file and copy it in **"Themes" folder** like shown on the picture below:

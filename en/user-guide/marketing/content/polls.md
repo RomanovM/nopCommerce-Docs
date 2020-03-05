@@ -4,7 +4,6 @@ uid: en/user-guide/marketing/content/polls
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
-
 # Polls
 
 You can use **Polls functionality** in nopCommerce to make your e-commerce site more interactive. There are many ways you can use polls for an e-commerce site. One popular way is to use them as a short customer satisfaction survey. People like being asked for a feedback and this is a good opportunity to see how you are doing as an online merchant.
@@ -28,7 +27,8 @@ Define the **following details for the new poll**:
 
   ![p3](_static/polls/polls_3.png)
 
-  > [!NOTE] if you use clear default nopCommerce theme the polls will be displayed in the left column by default. In case you use another theme please check these details from the theme provider.
+  > [!NOTE]
+  > if you use clear default nopCommerce theme the polls will be displayed in the left column by default. In case you use another theme please check these details from the theme provider.
 
 - Select the **Published** checkbox to make  this poll active
 - If you want to **Show polls on home page** select the corresponding checkbox
@@ -37,7 +37,8 @@ Define the **following details for the new poll**:
 - Select **Start and End dates** in Coordinated Universal Time (UTC). If you don't want to specify them just leave the  - fields empty
 - **Select the Limited to stores** option to make this poll limited to one or more stores.
 
-> [!NOTE] You can leave these fields empty if you do not want to define poll start and end dates
+> [!NOTE]
+  > You can leave these fields empty if you do not want to define poll start and end dates
 
 To add poll answers go to **Poll answers tab**:
 

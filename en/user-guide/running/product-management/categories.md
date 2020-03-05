@@ -4,7 +4,6 @@ uid: en/user-guide/running/product-management/categories
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin, git.dunaenko, git.IvanIvanIvanov
 ---
-
 # Categories
 
 Prior to adding new products, a store manager should create categories, to which the products will later be assigned. To manage categories, go to **Catalog → Categories.**
@@ -24,7 +23,8 @@ In the **Category Info panel**, define the following category information:
 - **Picture** - an image representing the category. Upload the image from your device.
 - If this category will be a subcategory, select a **Parent category** from the Parent Category drop-down list. The new category will be placed under this category in the public store.
 
-> [!NOTE] For example, when you add seven products to a category and you set its page size to three. Three products per page will be displayed on this category details page in the public store, and the total amount of pages will be three.
+> [!NOTE]
+  > For example, when you add seven products to a category and you set its page size to three. Three products per page will be displayed on this category details page in the public store, and the total amount of pages will be three.
 
 When this option is disabled, customers will not be able to select a page size on the Category Details page and the store owner enters a certain page size. In this case, the Page size field becomes visible in the Administration area.
 
@@ -78,7 +78,8 @@ After the product was added to the category, define the following information in
 - Is featured product
 - Display order
 
-> [!NOTE] By clicking **View**, you will be transferred to the Edit Product Details page.
+> [!NOTE]
+  > By clicking **View**, you will be transferred to the Edit Product Details page.
 
 Click **Save**. The new category will be displayed in the public store under its parent category.
 

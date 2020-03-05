@@ -4,7 +4,6 @@ uid: en/user-guide/marketing/promotional/gift-cards
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin, git.IvanIvanIvanov
 ---
-
 # Gift cards
 
 In nopCommerce, you have an opportunity to sell gift cards among other types of products.
@@ -39,6 +38,7 @@ Define Gift card information:
 ![edit-gift-card](_static/gift-cards/gift-card-edit.jpg)
 
 > [!NOTE]
+  >
 > 
 > - **The sender and recipient emails will not be visible for physical gift cards. These mails are visible only for virtual gift cards**
 > - **The Notify Recipient button is relevant only for virtual gifts card and not physical gift cards**

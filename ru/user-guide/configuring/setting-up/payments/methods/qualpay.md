@@ -4,7 +4,6 @@ uid: en/user-guide/configuring/setting-up/payments/methods/qualpay
 author: git.AndreiMaz
 contributors: git.exileDev, git.ivkadp
 ---
-
 # Qualpay
 
 To configure **Qualpay** plugin as a payment method follow these steps:
@@ -40,7 +39,8 @@ To configure **Qualpay** plugin as a payment method follow these steps:
 
 **Save** the configuration.
 
-> [!NOTE] For this plugin to work properly ensure that you have set your primary store currency to USD.
+> [!NOTE]
+  > For this plugin to work properly ensure that you have set your primary store currency to USD.
 > 
 > If you’d like to display Qualpay Customer Vault details on a customer details page, make sure that the Qualpay Widget is activated on your Widgets page.
 

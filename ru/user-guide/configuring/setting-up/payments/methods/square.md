@@ -4,7 +4,6 @@ uid: en/user-guide/configuring/setting-up/payments/methods/square
 author: git.AndreiMaz
 contributors: git.holydk, git.exileDev, git.ivkadp
 ---
-
 # Square
 
 To configure **Square** plugin as a payment method follow these steps:
@@ -26,7 +25,8 @@ To configure **Square** plugin as a payment method follow these steps:
         ![square_locations_page](_static/square/square_locations_page.png)
     - Create new location.
 
-    > [!IMPORTANT] Your merchant account must have at least one location with enabled credit card processing. Please refer to the Square customer support if you have any questions about how to set this up.
+    > [!IMPORTANT]
+  > Your merchant account must have at least one location with enabled credit card processing. Please refer to the Square customer support if you have any questions about how to set this up.
 
 1. Create new Square application.
 
@@ -70,7 +70,8 @@ Production application mode is used to accept real payments in a live store.
 
     ![square_prod_configuration_page_get_access_token](_static/square/square_prod_configuration_page_get_access_token.png)
 
-    > [!NOTE] If for whatever reason you would like to disable an access to your accounts, simply **Revoke access tokens** from the plugin configuration page.
+    > [!NOTE]
+  > If for whatever reason you would like to disable an access to your accounts, simply **Revoke access tokens** from the plugin configuration page.
 
 - Choose the previously created location. **Location** is a required parameter for payment requests.
 
@@ -98,7 +99,8 @@ Sandbox application mode is used to test the Square payment configuration.
 
     ![square_sandbox_configuration_page_select_location](_static/square/square_sandbox_configuration_page_select_location.png)
 
-> [!NOTE] By default, you can select the **Default Test Account** location. Learn more about using the Square sandbox environment [here](https://developer.squareup.com/docs/testing/sandbox).
+> [!NOTE]
+  > By default, you can select the **Default Test Account** location. Learn more about using the Square sandbox environment [here](https://developer.squareup.com/docs/testing/sandbox).
 
 - Fill in the remaining fields and click **Save** to complete the configuration.
 

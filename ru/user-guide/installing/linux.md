@@ -4,7 +4,6 @@ uid: en/user-guide/installing/linux
 author: git.AndreiMaz
 contributors: git.skoshelev
 ---
-
 # Installing on Linux
 
 This chapter describes how to install the nopCommerce software on Linux system on the example of XUbuntu 19.04:

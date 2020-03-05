@@ -4,7 +4,6 @@ uid: en/developer/plugins/resource-files
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
-
 # Adding CSS and JS resource files into nopCommerce Plugin
 
 To load resource files correctly you need to add its references into your plugin's view files.

@@ -4,7 +4,6 @@ uid: en/user-guide/installing/installation-guide/index
 author: git.AndreiMaz
 contributors: git.rajupaladiya, git.exileDev, git.DmitriyKulagin, git.IvanIvanIvanov
 ---
-
 ## Installation process
 
 nopCommerce requires write permissions for the directories and files described below
@@ -91,6 +90,7 @@ Specify Custom SQL Server collation: This is an advanced setting and should be l
 - Click **Install** to order to start the installation process. When the setup process is complete, your new site's home page is displayed.
 
 > [!NOTE]
+  >
 > 
 > 1. The **Restart installation** button at the bottom of the installation page enables you to restart the installation process in case anything goes wrong.
 > 

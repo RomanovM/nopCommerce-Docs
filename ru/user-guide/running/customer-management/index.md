@@ -4,7 +4,6 @@ uid: en/user-guide/running/customer-management/index
 author: git.AndreiMaz
 contributors: git.exileDev, git.dunaenko
 ---
-
 # Customer management
 
 Customers in nopCommerce is a broad group including all users.

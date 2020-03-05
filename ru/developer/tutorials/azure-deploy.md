@@ -4,7 +4,6 @@ uid: en/developer/tutorials/azure-deploy
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
-
 # Step by step to deploy on Azure with GIT and automatic builds
 
 ## Step by step guide for automatic deployment of nopCommerce with git on azure
