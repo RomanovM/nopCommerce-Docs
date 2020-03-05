@@ -1,10 +1,10 @@
 ---
 - 
-  name: nopCommerce documentation
+  name: Документация nopCommerce
   href: /
   topicHref: index.md
 - 
-  name: User guide
+  name: Руководство пользователя
   href: user-guide/index.md
   items:
     - 
@@ -461,7 +461,7 @@
               name: SEO
               href: user-guide/marketing/content/seo.md
 - 
-  name: Developer guide
+  name: Руководство разработчика
   href: developer/index.md
   items:
     - 

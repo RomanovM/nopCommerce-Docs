@@ -1,6 +1,6 @@
 ---
 title: Customer reports
-uid: en/user-guide/running/reports/customer-reports
+uid: ru/user-guide/running/reports/customer-reports
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---

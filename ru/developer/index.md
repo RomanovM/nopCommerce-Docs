@@ -1,13 +1,13 @@
 ---
 title: Developers guide
-uid: en/developer/index
+uid: ru/developer/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
 
 # Developers guide
 
-The nopCommerce developer documentation is here to help you through the process of nopCommerce customization. Here you will several sections:
+Документация для разработчика nopCommerce поможет вам в процессе настройки nopCommerce. Here you will several sections:
 
 * [Developer tutorials](xref:en/developer/tutorials/index)
 * [Creating a nopCommerce plugin](xref:en/developer/plugins/index)

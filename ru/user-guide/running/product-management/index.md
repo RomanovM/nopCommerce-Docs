@@ -1,6 +1,6 @@
 ---
 title: Product management
-uid: en/user-guide/running/product-management/index
+uid: ru/user-guide/running/product-management/index
 author: git.AndreiMaz
 contributors: git.exileDev, git.dunaenko, git.IvanIvanIvanov
 ---

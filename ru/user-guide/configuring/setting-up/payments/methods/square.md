@@ -1,6 +1,6 @@
 ---
 title: Square
-uid: en/user-guide/configuring/setting-up/payments/methods/square
+uid: ru/user-guide/configuring/setting-up/payments/methods/square
 author: git.AndreiMaz
 contributors: git.holydk, git.exileDev, git.ivkadp
 ---

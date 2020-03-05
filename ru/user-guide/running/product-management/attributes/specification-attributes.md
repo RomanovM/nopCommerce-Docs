@@ -1,13 +1,13 @@
 ---
 title: Specification attributes
-uid: en/user-guide/running/product-management/attributes/specification-attributes
+uid: ru/user-guide/running/product-management/attributes/specification-attributes
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.dunaenko
 ---
 
 # Specification attributes
 
-Specification attributes are similar to [product attributes](xref:en/user-guide/running/product-management/attributes/product-attributes), however, they are **only used for information purposes** (visible on product details page) and **for filtering products** on the category details page. They don’t define a product price as well as can’t be used for the inventory tracking.
+Specification attributes are similar to [product attributes](xref:ru/user-guide/running/product-management/attributes/product-attributes), however, they are **only used for information purposes** (visible on product details page) and **for filtering products** on the category details page. They don’t define a product price as well as can’t be used for the inventory tracking.
 > [!NOTE] By default, there are no specification attributes precreated in nopCommerce.
 
 To see and edit a list of specification attributes, go to **Catalog → Attributes → Specification Attributes.**
