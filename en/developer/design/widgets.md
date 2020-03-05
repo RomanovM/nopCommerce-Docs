@@ -4,6 +4,7 @@ uid: en/developer/design/widgets
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin
 ---
+
 # Widgets (Designer's Guide)
 
 > A widget is a stand-alone application that can be embedded into third party sites by any user on a page. It's a small application that can be installed and executed within a web page by an end user. (Wikipedia).
