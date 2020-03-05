@@ -1,6 +1,6 @@
 ---
 title: EU VAT configuration guide
-uid: en/user-guide/configuring/setting-up/taxes/eu-vat
+uid: ru/user-guide/configuring/setting-up/taxes/eu-vat
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
@@ -27,4 +27,4 @@ Go to **Configuration → Tax Providers**. Make the Fixed Rate Provider the defa
 
 Click **Configure** to edit tax rates that are charged by the **Fixed Rate Provider**. You'll see your VAT rate categories on the Configuration tab. Click **Edit** beside each category and enter the percentage rates.
 
-Make sure that all products have a tax category assigned to them on their [product pages](xref:en/user-guide/running/product-management/products/adding-products/index).
+Make sure that all products have a tax category assigned to them on their [product pages](xref:ru/user-guide/running/product-management/products/adding-products/index).
