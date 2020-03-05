@@ -1,6 +1,6 @@
 ---
 title: Shipping Method Restrictions (Fixed Rate Shipping)
-uid: en/user-guide/configuring/setting-up/shipping/providers/manual/fixed-rate-restrictions
+uid: ru/user-guide/configuring/setting-up/shipping/providers/manual/fixed-rate-restrictions
 author: git.AndreiMaz
 contributors: git.exileDev
 ---

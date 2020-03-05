@@ -1,6 +1,6 @@
 ---
 title: Newsletter subscribers
-uid: en/user-guide/marketing/content/email-campaigns/newsletter-subscribers
+uid: ru/user-guide/marketing/content/email-campaigns/newsletter-subscribers
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.IvanIvanIvanov
 ---

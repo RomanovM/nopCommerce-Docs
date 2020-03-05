@@ -1,6 +1,6 @@
 ---
 title: Currencies
-uid: en/user-guide/configuring/setting-up/payments/currencies
+uid: ru/user-guide/configuring/setting-up/payments/currencies
 author: git.AndreiMaz
 contributors: git.exileDev, git.ivkadp
 ---

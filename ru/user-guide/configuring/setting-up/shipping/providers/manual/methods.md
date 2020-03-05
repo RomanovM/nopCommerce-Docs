@@ -1,6 +1,6 @@
 ---
 title: Shipping Methods (Shipping by Weight and By Total)
-uid: en/user-guide/configuring/setting-up/shipping/providers/manual/methods
+uid: ru/user-guide/configuring/setting-up/shipping/providers/manual/methods
 author: git.AndreiMaz
 contributors: git.rajupaladiya, git.exileDev
 ---

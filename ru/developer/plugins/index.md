@@ -1,6 +1,6 @@
 ---
 title: Creating a nopCommerce plugin
-uid: en/developer/plugins/index
+uid: ru/developer/plugins/index
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin
 ---

@@ -1,6 +1,6 @@
 ---
 title: Reports
-uid: en/user-guide/running/reports/index
+uid: ru/user-guide/running/reports/index
 author: git.AndreiMaz
 contributors: git.exileDev
 ---

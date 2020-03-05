@@ -1,12 +1,12 @@
 ---
 title: User guide
-uid: en/user-guide/index
+uid: ru/user-guide/index
 author: git.AndreiMaz
 contributors: git.exileDev, git.dunaenko
 ---
 # User guide
 
-**nopCommerce User Guide** helps you get started with the **nopCommerce** e-commerce platform. It explains how to install, configure, build, maintain, and develop an online store using the platform.
+**nopCommerce User Guide** поможет вам начать работу с платформой электронной коммерции **nopCommerce**. It explains how to install, configure, build, maintain, and develop an online store using the platform.
 
 In case you have questions that are not covered in this guide, please refer to our forum support: [https://www.nopcommerce.com/boards/](https://www.nopcommerce.com/boards/)
 

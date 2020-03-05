@@ -1,6 +1,6 @@
 ---
 title: Adding products
-uid: en/user-guide/running/product-management/products/adding-products/index
+uid: ru/user-guide/running/product-management/products/adding-products/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.sanju741, git.exileDev, git.IvanIvanIvanov
 ---
@@ -69,14 +69,14 @@ In the **Prices** section define:
 - **Unit of product** - measure of a previously entered value.
 - **Reference amount** - the base amount.
 - **Reference unit** - measure of a previously entered value.
-- **Discounts**. Learn how to set up discounts [here](xref:en/user-guide/marketing/promotional/discounts/index).
+- **Discounts**. Learn how to set up discounts [here](xref:ru/user-guide/marketing/promotional/discounts/index).
 - Whether the product is exempted from tax, by ticking **Tax exempt**. Otherwise, from the Tax category dropdown list, select the required tax classification for this product. Tax categories can be configured by the store owner in  the **Configuration → Tax → Tax Categories.**
 - The product as **Telecommunications, broadcasting, and electronic services**, to apply special tax rules used in the European Union. Find more info here.
-- Set up [tier prices](xref:en/user-guide/marketing/promotional/tier-prices) if required.
+- Set up [tier prices](xref:ru/user-guide/marketing/promotional/tier-prices) if required.
 
 ## Inventory settings
 
-Define the inventory settings for the product as described [here](xref:en/user-guide/running/order-management/inventory-management).
+Define the inventory settings for the product as described [here](xref:ru/user-guide/running/order-management/inventory-management).
 
 ## Shipping details
 
@@ -93,10 +93,10 @@ Define product-specific shipping details:
 
 In the Mappings section define:
 
-- **Categories**. You can assign a product to as many categories as you want in nopCommerce. Note that you can manage [product categories](xref:en/user-guide/running/product-management/categories) in **Catalog → Categories**.
-- **Manufacturer**. You can assign a product to as many manufacturers as you want in nopCommerce. Note that you can manage [manufacturers](xref:en/user-guide/running/product-management/manufacturers) in **Catalog → Manufacturers**.
-- **Limited to stores**, if the product is sold in specific stores. Leave the field empty in case this functionality is not required. Note that in order to use this functionality you have to disable the following setting: **Configuration → Catalog Settings → Ignore** **“Limit per store” rules **(sitewide). Learn how to set up several stores [here](xref:en/user-guide/configuring/setting-up/main-store/multiple-store).
-- **Vendor**. You can manage [vendors](xref:en/user-guide/configuring/setting-up/customers/vendors/index) in **Customers → Vendors**
+- **Categories**. You can assign a product to as many categories as you want in nopCommerce. Note that you can manage [product categories](xref:ru/user-guide/running/product-management/categories) in **Catalog → Categories**.
+- **Manufacturer**. You can assign a product to as many manufacturers as you want in nopCommerce. Note that you can manage [manufacturers](xref:ru/user-guide/running/product-management/manufacturers) in **Catalog → Manufacturers**.
+- **Limited to stores**, if the product is sold in specific stores. Leave the field empty in case this functionality is not required. Note that in order to use this functionality you have to disable the following setting: **Configuration → Catalog Settings → Ignore** **“Limit per store” rules **(sitewide). Learn how to set up several stores [here](xref:ru/user-guide/configuring/setting-up/main-store/multiple-store).
+- **Vendor**. You can manage [vendors](xref:ru/user-guide/configuring/setting-up/customers/vendors/index) in **Customers → Vendors**
 
 ## Customer roles
 
@@ -112,7 +112,7 @@ Define whether the product **Requires other product**. In this case select the R
 
 ## Related products and Cross-sells
 
-Set up Related products and Cross-sells as described [here](xref:en/user-guide/marketing/promotional/cross-sells-related-products)
+Set up Related products and Cross-sells as described [here](xref:ru/user-guide/marketing/promotional/cross-sells-related-products)
 
 ## Product pictures
 
@@ -128,7 +128,7 @@ Go to **Pictures** tab on Edit product details page to add product pictures.
 
 ## Attributes
 
-On the **Product attributes** tab, add Product attributes. Learn more about product attributes and how to create them [here](xref:en/user-guide/running/product-management/attributes/product-attributes). Once you have a list of the attributes created, click **Add new record** on the Attributes tab. The grid is expanded, as follows:
+On the **Product attributes** tab, add Product attributes. Learn more about product attributes and how to create them [here](xref:ru/user-guide/running/product-management/attributes/product-attributes). Once you have a list of the attributes created, click **Add new record** on the Attributes tab. The grid is expanded, as follows:
 
 ![product_attributes2](_static/index/product_attributes2.png)
 
@@ -159,7 +159,7 @@ On the **Attribute Combinations** tab, define different attribute combinations a
 - **Overridden price**, if the price for products with certain attributes is different from the product regular price
 - Product combination **quantity under which the admin will be notified**
 
-On the **Specification Attributes tab**, add Specification attributes. Learn more about specification attributes and how to create them [here](xref:en/user-guide/running/product-management/attributes/specification-attributes)
+On the **Specification Attributes tab**, add Specification attributes. Learn more about specification attributes and how to create them [here](xref:ru/user-guide/running/product-management/attributes/specification-attributes)
 
  To add a new attribute, fill the **Add a new product specification attribute** section:
 
@@ -188,7 +188,7 @@ Define the following SEO parameters for the product page:
 - **Meta title** - a title for the Web page.
 - **Search engine friendly page name** - a name of the page used by search engines. If you enter nothing then the product page URL is formed using the product name. If you enter custom-seo-page-name, then the following custom the URL will be used: `http://www.yourStore.com/custom-seo-page-name`.
 
-Read more about SEO [here](xref:en/user-guide/marketing/content/seo).
+Read more about SEO [here](xref:ru/user-guide/marketing/content/seo).
 
 ## Stock quantity history
 

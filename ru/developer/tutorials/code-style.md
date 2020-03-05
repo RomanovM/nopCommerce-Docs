@@ -1,6 +1,6 @@
 ---
 title: Configuring code style
-uid: en/developer/tutorials/code-style
+uid: ru/developer/tutorials/code-style
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin
 ---

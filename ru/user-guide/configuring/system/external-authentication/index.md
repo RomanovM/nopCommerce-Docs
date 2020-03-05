@@ -1,6 +1,6 @@
 ---
 title: External Authentication Method
-uid: en/user-guide/configuring/system/external-authentication/index
+uid: ru/user-guide/configuring/system/external-authentication/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---

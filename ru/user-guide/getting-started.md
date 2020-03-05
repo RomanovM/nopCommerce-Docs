@@ -1,6 +1,6 @@
 ---
 title: Getting started
-uid: en/user-guide/getting-started
+uid: ru/user-guide/getting-started
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
@@ -13,7 +13,7 @@ If you are a novice in nopCommerce, follow the steps below to set your store up 
 - [Configure general store settings](xref:en/user-guide/configuring/setting-up/main-store/index)
 - [Configure payment methods](xref:en/user-guide/configuring/setting-up/payments/methods/index)
 - [Configure shipping options](xref:en/user-guide/configuring/setting-up/shipping/index)
-- Configure users list: create [different groups](xref:en/user-guide/configuring/setting-up/customers/customer-roles) of users, give them [separate access to areas of your site](xref:en/user-guide/configuring/setting-up/customers/acl), offers and so on.
+- Configure users list: create [different groups](xref:ru/user-guide/configuring/setting-up/customers/customer-roles) of users, give them [separate access to areas of your site](xref:ru/user-guide/configuring/setting-up/customers/acl), offers and so on.
 
 ## 2. Create a catalog and add products
 
@@ -53,19 +53,19 @@ Marketing your store is essential to gain your customers loyalty and raise aware
 
 ### Discounts and special prices
 
-Applying special prices to products can encourage your customers to make a purchase sooner, and (or) to buy [more items](xref:en/user-guide/marketing/promotional/tier-prices).
+Applying special prices to products can encourage your customers to make a purchase sooner, and (or) to buy [more items](xref:ru/user-guide/marketing/promotional/tier-prices).
 
 ### Loyalty program
 
-The Reward Points functionality in nopCommerce allows customers to earn points for certain actions (registration, making purchases). Find out how to implement loyalty program [here](xref:en/user-guide/marketing/promotional/reward-points).
+The Reward Points functionality in nopCommerce allows customers to earn points for certain actions (registration, making purchases). Find out how to implement loyalty program [here](xref:ru/user-guide/marketing/promotional/reward-points).
 
 ### Cross-marketing
 
-In nopCommerce, you can offer your customers [additional products](xref:en/user-guide/marketing/promotional/cross-sells-related-products) they may like based on their shopping behavior. It is also a good opportunity for you to up-sell some products.
+In nopCommerce, you can offer your customers [additional products](xref:ru/user-guide/marketing/promotional/cross-sells-related-products) they may like based on their shopping behavior. It is also a good opportunity for you to up-sell some products.
 
 ### Email campaigns
 
-Create [email campaigns](xref:en/user-guide/marketing/content/email-campaigns/index) to easily and quickly reach your target audience with special offers, news, educational content, and so on.
+Create [email campaigns](xref:ru/user-guide/marketing/content/email-campaigns/index) to easily and quickly reach your target audience with special offers, news, educational content, and so on.
 
 ## 5. nopCommerce special features for stores of any kind
 
@@ -73,7 +73,7 @@ Whether you want to give a shot to a small project or you are to start a marketp
 
 ### Multi-store
 
-nopCommerce enables you to run more than one store using one interface from a single nopCommerce installation and manage all admin operations from a single panel. Learn [here](xref:en/user-guide/configuring/setting-up/main-store/multiple-store) how to set up several stores.
+nopCommerce enables you to run more than one store using one interface from a single nopCommerce installation and manage all admin operations from a single panel. Learn [here](xref:ru/user-guide/configuring/setting-up/main-store/multiple-store) how to set up several stores.
 
 ### Multi-Vendor
 

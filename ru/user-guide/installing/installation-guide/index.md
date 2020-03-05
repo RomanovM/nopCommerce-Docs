@@ -1,6 +1,6 @@
 ---
 title: Installation guide
-uid: en/user-guide/installing/installation-guide/index
+uid: ru/user-guide/installing/installation-guide/index
 author: git.AndreiMaz
 contributors: git.rajupaladiya, git.exileDev, git.DmitriyKulagin, git.IvanIvanIvanov
 ---

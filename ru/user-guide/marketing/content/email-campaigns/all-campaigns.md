@@ -1,6 +1,6 @@
 ---
 title: All campaigns
-uid: en/user-guide/marketing/content/email-campaigns/all-campaigns
+uid: ru/user-guide/marketing/content/email-campaigns/all-campaigns
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.IvanIvanIvanov
 ---

@@ -1,6 +1,6 @@
 ---
 title: Product reviews
-uid: en/user-guide/running/product-management/products/product-reviews
+uid: ru/user-guide/running/product-management/products/product-reviews
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin, git.dunaenko
 ---
@@ -51,7 +51,7 @@ Tick the **Is approved** checkbox, to approve the review.
 
 On this area, you can view the all addition reviews on current product. **Rating** displays the customer rating. All columns in the table cannot be edited.
 
-For more information on setting up and adding rating values, [click here](xref:en/user-guide/running/product-management/catalog-settings)
+For more information on setting up and adding rating values, [click here](xref:ru/user-guide/running/product-management/catalog-settings)
 
 ![r1](_static/product-reviews/review_types.png)
 

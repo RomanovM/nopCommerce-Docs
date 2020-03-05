@@ -1,6 +1,6 @@
 ---
 title: FAQ
-uid: en/user-guide/installing/faq
+uid: ru/user-guide/installing/faq
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.rajupaladiya, git.exileDev, git.IvanIvanIvanov
 ---
@@ -39,7 +39,7 @@ Adding a machine key to the web.config file should fix the problem of being logg
 
 ## How do I upgrade to the latest version
 
-Please see [Upgrading nopCommerce](xref:en/user-guide/installing/upgrading)
+Please see [Upgrading nopCommerce](xref:ru/user-guide/installing/upgrading)
 
 ## How to change texts strings in the store
 

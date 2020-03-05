@@ -1,6 +1,6 @@
 ---
 title: Discounts
-uid: en/user-guide/marketing/promotional/discounts/index
+uid: ru/user-guide/marketing/promotional/discounts/index
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin, git.IvanIvanIvanov
 ---
@@ -93,7 +93,7 @@ When customers apply a discount while proceeding to the checkout, it is displaye
 ## See also
 
 - More plugins on discount types and discount requirement types on [nopCommerce marketplace](http://www.nopcommerce.com/marketplace)
-- How to [install plugins](xref:en/user-guide/configuring/system/plugins)
+- How to [install plugins](xref:ru/user-guide/configuring/system/plugins)
 - [Common types of discounts](xref:en/user-guide/marketing/promotional/discounts/common-type-of-discounts)
 
 ## Tutorials

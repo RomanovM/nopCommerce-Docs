@@ -1,6 +1,6 @@
 ---
 title: How to deploy nopCommerce to Azure
-uid: en/developer/tutorials/azure-publish
+uid: ru/developer/tutorials/azure-publish
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---

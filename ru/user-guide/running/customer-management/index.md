@@ -1,6 +1,6 @@
 ---
 title: Customer management
-uid: en/user-guide/running/customer-management/index
+uid: ru/user-guide/running/customer-management/index
 author: git.AndreiMaz
 contributors: git.exileDev, git.dunaenko
 ---

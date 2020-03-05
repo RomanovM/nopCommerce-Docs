@@ -1,6 +1,6 @@
 ---
 title: Technology & System Requirements
-uid: en/user-guide/installing/technology-system-requirements
+uid: ru/user-guide/installing/technology-system-requirements
 author: git.AndreiMaz
 contributors: git.IvanIvanIvanov, git.rajupaladiya, git.exileDev, git.DmitriyKulagin
 ---

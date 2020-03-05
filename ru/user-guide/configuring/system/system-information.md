@@ -1,6 +1,6 @@
 ---
 title: System Information
-uid: en/user-guide/configuring/system/system-information
+uid: ru/user-guide/configuring/system/system-information
 author: git.AndreiMaz
 contributors: git.exileDev
 ---

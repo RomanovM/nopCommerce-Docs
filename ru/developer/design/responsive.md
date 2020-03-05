@@ -1,6 +1,6 @@
 ---
 title: Responsive Design
-uid: en/developer/design/responsive
+uid: ru/developer/design/responsive
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---

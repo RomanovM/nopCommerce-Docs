@@ -1,6 +1,6 @@
 ---
 title: nopCommerce Data Access Layer
-uid: en/developer/tutorials/data-access-layer
+uid: ru/developer/tutorials/data-access-layer
 author: git.AndreiMaz
 contributors: git.exileDev
 ---

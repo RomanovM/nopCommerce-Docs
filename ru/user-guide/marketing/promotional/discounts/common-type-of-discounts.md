@@ -1,6 +1,6 @@
 ---
 title: Common type of discounts
-uid: en/user-guide/marketing/promotional/discounts/common-type-of-discounts
+uid: ru/user-guide/marketing/promotional/discounts/common-type-of-discounts
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin, git.IvanIvanIvanov
 ---

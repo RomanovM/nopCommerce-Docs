@@ -1,6 +1,6 @@
 ---
 title: Online Customers
-uid: en/user-guide/running/customer-management/online-customers
+uid: ru/user-guide/running/customer-management/online-customers
 author: git.AndreiMaz
 contributors: git.exileDev, git.dunaenko
 ---

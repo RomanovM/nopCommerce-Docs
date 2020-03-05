@@ -1,6 +1,6 @@
 ---
 title: Creating / Writing your own theme (using current / default theme)
-uid: en/developer/design/new-theme
+uid: ru/developer/design/new-theme
 author: git.AndreiMaz
 contributors: git.a-patel, git.exileDev, git.DmitriyKulagin
 ---

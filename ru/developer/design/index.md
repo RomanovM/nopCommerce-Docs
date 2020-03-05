@@ -1,6 +1,6 @@
 ---
 title: Designer's Guide
-uid: en/developer/design/index
+uid: ru/developer/design/index
 author: git.AndreiMaz
 contributors: git.exileDev
 ---

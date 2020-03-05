@@ -1,9 +1,9 @@
 ---
 title: FAQs
-uid: en/developer/faqs
+uid: ru/developer/faqs
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
 # FAQs
 
-All Users and Developers FAQs are [here](xref:en/user-guide/installing/faq)
+All Users and Developers FAQs are [here](xref:ru/user-guide/installing/faq)

@@ -1,6 +1,6 @@
 ---
 title: Purchase order
-uid: en/user-guide/configuring/setting-up/payments/methods/purchase-order
+uid: ru/user-guide/configuring/setting-up/payments/methods/purchase-order
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---

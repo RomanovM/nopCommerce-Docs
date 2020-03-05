@@ -1,6 +1,6 @@
 ---
 title: Import/Export
-uid: en/user-guide/running/product-management/products/import-export
+uid: ru/user-guide/running/product-management/products/import-export
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.dunaenko
 ---

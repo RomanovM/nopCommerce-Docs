@@ -1,6 +1,6 @@
 ---
 title: Email campaigns
-uid: en/user-guide/marketing/content/email-campaigns/index
+uid: ru/user-guide/marketing/content/email-campaigns/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.IvanIvanIvanov
 ---

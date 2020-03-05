@@ -1,6 +1,6 @@
 ---
 title: Order management
-uid: en/user-guide/running/order-management/index
+uid: ru/user-guide/running/order-management/index
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
