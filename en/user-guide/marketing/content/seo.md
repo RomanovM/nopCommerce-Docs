@@ -54,11 +54,11 @@ There are several types of pages in nopCommerce for which you can set up individ
 - In the **Meta title** field, enter the required title. The title tag specifies the title of your Web page. It is a code which is inserted into the header of your web page and is in the following format:
 
     ```html
-    
+
           <head>
           <title> Creating Title Tags for Search Engine Optimization & Web Usability </title>
           </head>
-        
+
     ```
 
 - In the **Search engine friendly page name** field, enter the name of the page used by search engines. If you enter nothing then the web page URL is formed using the page name. If you enter custom-seo-page-name, then the following custom the URL will be used: `http://www.yourStore.com/custom-seo-page-name`

@@ -38,7 +38,7 @@ public class UPSComputationMethod : BasePlugin, IShippingRateComputationMethod
           {
           return $"{_webHelper.GetStoreLocation()}Admin/FixedOrByWeight/Configure";
           }
-        
+
 ```
 
 ## Conclusion

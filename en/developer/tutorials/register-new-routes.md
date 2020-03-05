@@ -19,7 +19,7 @@ ASP.NET Core routing is responsible for mapping incoming browser requests to par
           routeBuilder.MapLocalizedRoute("HomePage", "", new { controller = "Home", action = "Index" });
           }
           }
-        
+
 ```
 
 You can create as many RouteProvider classes as you need. For example, if your plugin has some custom routes which you want to register, then create a new class implementing the IRouteProvider interface and register the routes specific to your new plugin.
