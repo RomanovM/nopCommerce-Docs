@@ -17,7 +17,7 @@ Define the **following information:**
 
 * **Description** info
 
-* **Additional fee** amount  
+* **Additional fee** amount
 
 * Whether to set **additional fee as percentage**
 
