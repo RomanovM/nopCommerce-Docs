@@ -9,8 +9,7 @@ contributors: git.DmitriyKulagin, git.exileDev, git.dunaenko
 
 **Product tags** are keywords for product identification. They are used to sort the products by a certain feature and to enable a specific, narrow product search.
 
-> [!NOTE]
-> **For example**, if you sell apparel, and you want to create tags for T-shirts, it can be “t-shirt”, “cotton”, “polo”, etc.
+> [!NOTE] **For example**, if you sell apparel, and you want to create tags for T-shirts, it can be “t-shirt”, “cotton”, “polo”, etc.
 
 To edit product tags that are displayed in a public store, go to **Catalog → Product tags.**
 
