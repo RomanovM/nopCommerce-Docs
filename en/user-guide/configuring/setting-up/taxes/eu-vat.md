@@ -19,8 +19,7 @@ Click **Save** button.
 
 Go to **Configuration → Countries**. Check that all the countries which are in the scope of the VAT have "**Subject to VAT**" set to **true**.
 
-> [!NOTE]
-> Jersey, Guernsey, and the other Channel Islands are not a part of the UK and are not within the scope of VAT. If you sell to those places you may need to change that.
+> [!NOTE] Jersey, Guernsey, and the other Channel Islands are not a part of the UK and are not within the scope of VAT. If you sell to those places you may need to change that.
 
 Go to **Configuration → Tax Categories**. Set up a tax category for each VAT rate in your country. For example, "Standard Rate", "Zero rate", "Discounted rate". Delete default classes that are already there and are not applicable.
 
