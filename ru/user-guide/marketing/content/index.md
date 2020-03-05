@@ -1,6 +1,6 @@
 ---
 title: Content Management
-uid: en/user-guide/marketing/content/index
+uid: ru/user-guide/marketing/content/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
