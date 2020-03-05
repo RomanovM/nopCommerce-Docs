@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/main-store/countries
 author: git.AndreiMaz
 contributors: git.rajupaladiya, git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---
+
 # Countries
 
 This section describes how to manage countries (where your customers are located).
@@ -12,15 +13,13 @@ To define the country setting go to **Configuration → Countries.**
 
 ![countries](_static/countries/countries1_1.png)
 
-> [!TIP]
-> By default, all the countries are uploaded. You can Publish and Unpublish countries by selecting them and clicking the corresponding button.
+> [!TIP] By default, all the countries are uploaded. You can Publish and Unpublish countries by selecting them and clicking the corresponding button.
 
 ## Adding new countries
 
 You can **Export** a list of states of all the countries, which were added to the system, or Import the additional.
 
-> [!NOTE]
-> The format of your file to be imported should be the same as of the exported.
+> [!NOTE] The format of your file to be imported should be the same as of the exported.
 
 Or you can **add new countries** manually. To add a new country to your list, click **Add new.**
 
@@ -37,8 +36,7 @@ On the **country info** panel define the **following country settings:**
 * Enter **Numeric letter ISO** code of this country.
 * Select the **Subject to VAT** checkbox, to indicate customers in this country are charged EU VAT (the European Union Value Added Tax).
 
-> [!NOTE]
-> This field is used only when the EU VAT option is enabled on the Tax Settings page (Configuration → Tax → Tax Settings).
+> [!NOTE] This field is used only when the EU VAT option is enabled on the Tax Settings page (Configuration → Tax → Tax Settings).
 
 * Set store if vendor is **limited to sore**
 * Tick the **Published** checkbox, to enable this country to be visible for new account registrations and for the creation of shipping and billing addresses.
@@ -49,8 +47,7 @@ On the **country info** panel define the **following country settings:**
 
 On the **State and Provinces** panel, you can add states and provinces of the country.
 
-> [!TIP]
-> By default, the states of the USA are added.
+> [!TIP] By default, the states of the USA are added.
 
 ![addcountry2](_static/countries/addcountry2.png)
 
@@ -72,7 +69,6 @@ To tie a certain store to a country in the **Limited to stores** field of the Co
 
 ![countries4](_static/countries/countries4.png)
 
-> [!NOTE]
-> This list is used only when you have several stores configured. For further details refer to [Stores](xref:en/user-guide/configuring/setting-up/main-store/multiple-store).
+> [!NOTE] This list is used only when you have several stores configured. For further details refer to [Stores](xref:en/user-guide/configuring/setting-up/main-store/multiple-store).
 
 Click **Save**
