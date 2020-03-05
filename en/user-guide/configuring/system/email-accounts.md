@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/system/email-accounts
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # Email accounts
 
 This chapter describes how to set up email accounts associated with your store: a general contact email, a sales representative email, a customer support email and more.
