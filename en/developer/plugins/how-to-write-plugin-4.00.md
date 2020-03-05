@@ -22,7 +22,7 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
 1. Once the plugin project is created you have to open its `.csproj` file in any text editor and replace its content with the following one:
 
     ```xml
-    
+
           <Project Sdk="Microsoft.NET.Sdk">
           <PropertyGroup>
           <TargetFramework>net461</TargetFramework>
@@ -41,7 +41,7 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
        <MSBuild Projects="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj"    Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
           </Target>
           </Project>
-        
+
     ```
 
     Where PLUGIN_OUTPUT_DIRECTORY should be replaced with the plugin name, for example, Payments.PayPalStandard.
@@ -51,7 +51,7 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
 1. The next step is creating a `plugin.json` file required for each plugin. This file contains meta information describing your plugin. Just copy this file from any other existing plugin and modify it for your needs. For example, PayPal Standard payment plugin has the following `plugin.json` file:
 
     ```json
-    
+
           {
           "Group": "Payment methods",
           "FriendlyName": "PayPal Standard",
@@ -63,7 +63,7 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
           "FileName": "Nop.Plugin.Payments.PayPalStandard.dll",
           "Description": "This plugin allows paying with PayPal Standard"
           }
-        
+
     ```
 
     Actually all fields are self-descriptive, but here are some notes. **SystemName** field should be unique. **Version** field is a version number of your plugin; you can set it to any value you like. **SupportedVersions** field can contain a list of supported nopCommerce versions separated by commas (ensure that the current version of nopCommerce is included in this list, otherwise, it will not be loaded). **FileName** field has the following format *Nop.Plugin.{Group}.{Name}.dll* (it is your plugin assembly filename). Ensure that "Copy to Output Directory" property of this file is set to "Copy if newer".
@@ -104,10 +104,10 @@ So let's start:
 - Use the following attributes for your action method:
 
     ```csharp
-    
+
           [AuthorizeAdmin] //confirms access to the admin panel
           [Area(AreaNames.Admin)] //specifies the area containing a controller or action
-        
+
     ```
 
     For example, open PayPalStandard payment plugin and look at its implementation of PaymentPayPalStandardController.
@@ -150,7 +150,7 @@ For example, overridden "Install" method should include the following method cal
           _settingService.SaveSetting(settings);
           base.Install();
           }
-        
+
 ```
 
 > [!TIP] The list of installed plugins is located in `\App_Data\installedPlugins.json`. The list is created during installation.
@@ -162,7 +162,7 @@ Here we will have a look at how to register plugin routes. ASP.NET Core routing 
 - If you need to add some custom route, then create `RouteProvider.cs` file. It informs the nopCommerce system about plugin routes. For example, the following RouteProvider class adds a new route which can be accessed by opening your web browser and navigating to `http://www.yourStore.com/Plugins/PaymentPayPalStandard/PDTHandler` URL (used by PayPal plugin):
 
     ```csharp
-    
+
           public partial class RouteProvider : IRouteProvider
           {
           public void RegisterRoutes(IRouteBuilder routeBuilder)
@@ -178,7 +178,7 @@ Here we will have a look at how to register plugin routes. ASP.NET Core routing 
           }
           }
           }
-        
+
     ```
 
 ## Upgrading nopCommerce may break plugins
