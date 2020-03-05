@@ -31,7 +31,7 @@ You can also put any security (ACL) logic to this method. For example, validate 
           else
           rootNode.ChildNodes.Add(menuItem);
           }
-        
+
 ```
 
 In version 2.00-3.50 you should do it the following way:
@@ -64,7 +64,7 @@ In version 2.00-3.50 you should do it the following way:
 
           return menuItemBuilder;
           }
-        
+
 ```
 
 In the above code, you can find comments where you need to replace values depending on your requirements. Moreover, the above code also explains how you can add a child menu items inside main menu.

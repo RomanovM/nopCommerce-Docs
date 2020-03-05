@@ -13,17 +13,21 @@ This tutorial covers how to add a property to the "Category" entity that ships w
 Entities will have two classes that are used to map records to a table. The first class defines the properties, fields, and methods consumed by the web application.
 
 ```sh
-File System Location: [Project Root]\Libraries\Nop.Core\Domain\Catalog\Category.cs
-Assembly: Nop.Core
-Solution Location: Nop.Core.Domain.Catalog.Category.cs
+
+          File System Location: [Project Root]\Libraries\Nop.Core\Domain\Catalog\Category.cs
+          Assembly: Nop.Core
+          Solution Location: Nop.Core.Domain.Catalog.Category.cs
+
 ```
 
 The second class is used to map the properties defined in the class above to their respective SQL columns. The mapping class is also responsible for mapping relationships between different SQL tables.
 
 ```sh
-File System Location: [Project Root]\Libraries\Nop.Data\Mapping\Catalog\CategoryMap.cs
-Assembly: Nop.Data
-Solution Location: Nop.Data.Mapping.Catalog.CategoryMap.cs
+
+          File System Location: [Project Root]\Libraries\Nop.Data\Mapping\Catalog\CategoryMap.cs
+          Assembly: Nop.Data
+          Solution Location: Nop.Data.Mapping.Catalog.CategoryMap.cs
+
 ```
 
 Add the following property to the Category class.
@@ -35,10 +39,12 @@ public string SomeNewProperty { get; set; }
 Add the following code to the constructor of the CategoryMap class.
 
 ```csharp
-// This code maps a column in the database to the new property we created above
-// This creates a nullable nvarchar with a length of 255 characters
-// in the Category SQL table
-this.Property(m => m.SomeNewProperty).HasMaxLength(255).IsOptional();
+
+          // This code maps a column in the database to the new property we created above
+          // This creates a nullable nvarchar with a length of 255 characters
+          // in the Category SQL table
+          this.Property(m => m.SomeNewProperty).HasMaxLength(255).IsOptional();
+
 ```
 
 Because I’m all about results, at this point I would run the code, re-install the database, and verify that the column was created appropriately.
@@ -50,54 +56,66 @@ The presentation model is used to transport information from a controller to the
 We configured our database to only store 255 characters for the SomeNewProperty. If we try and save an SomeNewProperty with 300 characters the application will break (or truncate the text). We want the application to protect users from failures the best we can, and our view models help enforce requirements like string length.
 
 ```sh
-File System Location: [Project Root]\Presentation\Nop.Web\Areas\Admin\Models\Catalog\CategoryModel.cs
-Assembly: Nop.Admin
-Solution Location: Nop.Web.Areas.Admin.Models.Catalog.CategoryModel.cs
+
+          File System Location: [Project Root]\Presentation\Nop.Web\Areas\Admin\Models\Catalog\CategoryModel.cs
+          Assembly: Nop.Admin
+          Solution Location: Nop.Web.Areas.Admin.Models.Catalog.CategoryModel.cs
+
 ```
 
 The validator class is used to validate the data stored inside of the model class (e.g. required fields, max length, and required ranges).
 
 ```sh
-File System Location: [Project Root]\Presentation\Nop.Web\Areas\Admin\Validators\Catalog\CategoryValidator.cs
-Assembly: Nop.Web
-Solution Location: Nop.Web.Areas.Admin.Validators.Catalog.CategoryValidator.cs
+
+          File System Location: [Project Root]\Presentation\Nop.Web\Areas\Admin\Validators\Catalog\CategoryValidator.cs
+          Assembly: Nop.Web
+          Solution Location: Nop.Web.Areas.Admin.Validators.Catalog.CategoryValidator.cs
+
 ```
 
 Add the property to our view model.
 
 ```csharp
-// The NopResourceDisplayName provides the "key" used during localization
-// Keep an eye out for more about localization in future blogs
-[NopResourceDisplayName("Admin.Catalog.Categories.Fields.SomeNewProperty")]
-public string SomeNewProperty { get; set; }
+
+          // The NopResourceDisplayName provides the "key" used during localization
+          // Keep an eye out for more about localization in future blogs
+          [NopResourceDisplayName("Admin.Catalog.Categories.Fields.SomeNewProperty")]
+          public string SomeNewProperty { get; set; }
+
 ```
 
 The requirements code will be added in the constructor of the validator.
 
 ```csharp
-//I think this code can speak for itself
-RuleFor(m => m.SomeNewProperty).Length(0, 255);
+
+          //I think this code can speak for itself
+          RuleFor(m => m.SomeNewProperty).Length(0, 255);
+
 ```
 
 ## The view
 
 ```sh
-File System Location: [Project Root]\Presentation\Nop.Web\Administration\Views\Category\ _CreateOrUpdate.cshtml
-Assembly: Nop.Admin
+
+          File System Location: [Project Root]\Presentation\Nop.Web\Administration\Views\Category\ _CreateOrUpdate.cshtml
+          Assembly: Nop.Admin
+
 ```
 
 Views contain the html for displaying model data. Place this html under the "active" section.
 
 ```csharp
-<div class="form-group">
-     <div class="col-md-3">
-        <nop-label asp-for="" />
-     </div>
-     <div class="col-md-9">
-        <nop-editor asp-for="SomeNewProperty" />
-        <span asp-validation-for="SomeNewProperty"></span>
-     </div>
- </div>
+
+          <div class="form-group">
+          <div class="col-md-3">
+          <nop-label asp-for="" />
+          </div>
+          <div class="col-md-9">
+          <nop-editor asp-for="SomeNewProperty" />
+          <span asp-validation-for="SomeNewProperty"></span>
+          </div>
+          </div>
+
 ```
 
 ## The controller
@@ -105,10 +123,12 @@ Views contain the html for displaying model data. Place this html under the "act
 In this case the controller is responsible for mapping the domain data model to our view model and vice versa. The reason I choose the category model to update is because of the simplicity. I want this to be an introduction to the nopCommerce platform and I would like to keep it as simple as possible.
 
 ```sh
-File System Location: [Project Root]\Presentation\Nop.Web\Areas\Admin\Controllers\CategoryController.cs
-Assembly: Nop.Admin
-Solution Location:
-Nop.Web.Areas.Admin.Controllers.CategoryController.cs
+
+          File System Location: [Project Root]\Presentation\Nop.Web\Areas\Admin\Controllers\CategoryController.cs
+          Assembly: Nop.Admin
+          Solution Location:
+          Nop.Web.Areas.Admin.Controllers.CategoryController.cs
+
 ```
 
 We're going to make three updates to the CategoryController class.
@@ -124,8 +144,10 @@ In the appropriate methods ("Create", "Edit", or "PrepareSomeModel") add the cod
 In the public method to save entity (usually: "Create" or "Edit" methods with [HttpPost] attribute)
 
 ```csharp
-// Edit View Model → Data Model
-category.SomeNewProperty = model.SomeNewProperty;
+
+          // Edit View Model → Data Model
+          category.SomeNewProperty = model.SomeNewProperty;
+
 ```
 
 ## Database

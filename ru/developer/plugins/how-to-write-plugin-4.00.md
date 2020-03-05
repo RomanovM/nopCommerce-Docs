@@ -21,24 +21,26 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
 1. Once the plugin project is created you have to open its `.csproj` file in any text editor and replace its content with the following one:
 
     ```xml
-    <Project Sdk="Microsoft.NET.Sdk">
-     <PropertyGroup>
-       <TargetFramework>net461</TargetFramework>
-     </PropertyGroup>
-     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-       <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
-       <OutDir>$(OutputPath)</OutDir>
-     </PropertyGroup>
-     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-       <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
-       <OutDir>$(OutputPath)</OutDir>
-     </PropertyGroup>
+
+          <Project Sdk="Microsoft.NET.Sdk">
+          <PropertyGroup>
+          <TargetFramework>net461</TargetFramework>
+          </PropertyGroup>
+          <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+          <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
+          <OutDir>$(OutputPath)</OutDir>
+          </PropertyGroup>
+          <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+          <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
+          <OutDir>$(OutputPath)</OutDir>
+          </PropertyGroup>
      <!-- This target execute after "Build" target -->
      <Target Name="NopTarget" AfterTargets="Build">
        <!-- Delete unnecessary libraries from plugins path -->
        <MSBuild Projects="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj"    Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
-     </Target>
-    </Project>
+          </Target>
+          </Project>
+
     ```
 
     Where PLUGIN_OUTPUT_DIRECTORY should be replaced with the plugin name, for example, Payments.PayPalStandard.
@@ -48,17 +50,19 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
 1. The next step is creating a `plugin.json` file required for each plugin. This file contains meta information describing your plugin. Just copy this file from any other existing plugin and modify it for your needs. For example, PayPal Standard payment plugin has the following `plugin.json` file:
 
     ```json
-    {
-     "Group": "Payment methods",
-     "FriendlyName": "PayPal Standard",
-     "SystemName": "Payments.PayPalStandard",
-     "Version": "1.42",
-     "SupportedVersions": [ "4.00" ],
-     "Author": "nopCommerce team",
-     "DisplayOrder": 1,
-     "FileName": "Nop.Plugin.Payments.PayPalStandard.dll",
-     "Description": "This plugin allows paying with PayPal Standard"
-    }
+
+          {
+          "Group": "Payment methods",
+          "FriendlyName": "PayPal Standard",
+          "SystemName": "Payments.PayPalStandard",
+          "Version": "1.42",
+          "SupportedVersions": [ "4.00" ],
+          "Author": "nopCommerce team",
+          "DisplayOrder": 1,
+          "FileName": "Nop.Plugin.Payments.PayPalStandard.dll",
+          "Description": "This plugin allows paying with PayPal Standard"
+          }
+
     ```
 
     Actually all fields are self-descriptive, but here are some notes. **SystemName** field should be unique. **Version** field is a version number of your plugin; you can set it to any value you like. **SupportedVersions** field can contain a list of supported nopCommerce versions separated by commas (ensure that the current version of nopCommerce is included in this list, otherwise, it will not be loaded). **FileName** field has the following format *Nop.Plugin.{Group}.{Name}.dll* (it is your plugin assembly filename). Ensure that "Copy to Output Directory" property of this file is set to "Copy if newer".
@@ -100,8 +104,10 @@ So let's start:
 - Use the following attributes for your action method:
 
     ```csharp
-    [AuthorizeAdmin] //confirms access to the admin panel
-    [Area(AreaNames.Admin)] //specifies the area containing a controller or action
+
+          [AuthorizeAdmin] //confirms access to the admin panel
+          [Area(AreaNames.Admin)] //specifies the area containing a controller or action
+
     ```
 
     For example, open PayPalStandard payment plugin and look at its implementation of PaymentPayPalStandardController.
@@ -136,15 +142,17 @@ This step is optional. Some plugins can require additional logic during plugin i
 For example, overridden "Install" method should include the following method call: base.Install(). The "Install" method of PayPalStandard plugin looks like the code below
 
 ```csharp
-public override void Install()
-{
-    var settings = new PayPalStandardPaymentSettings()
-    {
-        UseSandbox = true
-    };
-    _settingService.SaveSetting(settings);
-    base.Install();
-}
+
+          public override void Install()
+          {
+          var settings = new PayPalStandardPaymentSettings()
+          {
+          UseSandbox = true
+          };
+          _settingService.SaveSetting(settings);
+          base.Install();
+          }
+
 ```
 
 > [!TIP]
@@ -157,21 +165,23 @@ Here we will have a look at how to register plugin routes. ASP.NET Core routing 
 - If you need to add some custom route, then create `RouteProvider.cs` file. It informs the nopCommerce system about plugin routes. For example, the following RouteProvider class adds a new route which can be accessed by opening your web browser and navigating to `http://www.yourStore.com/Plugins/PaymentPayPalStandard/PDTHandler` URL (used by PayPal plugin):
 
     ```csharp
-    public partial class RouteProvider : IRouteProvider
-    {
-        public void RegisterRoutes(IRouteBuilder routeBuilder)
-        {
-             routeBuilder.MapRoute("Plugin.Payments.PayPalStandard.PDTHandler", "Plugins/   PaymentPayPalStandard/PDTHandler",
-             new { controller = "PaymentPayPalStandard", action = "PDTHandler" });
-        }
-        public int Priority
-        {
-            get
-            {
-                return -1;
-            }
-        }
-    }
+
+          public partial class RouteProvider : IRouteProvider
+          {
+          public void RegisterRoutes(IRouteBuilder routeBuilder)
+          {
+          routeBuilder.MapRoute("Plugin.Payments.PayPalStandard.PDTHandler", "Plugins/   PaymentPayPalStandard/PDTHandler",
+          new { controller = "PaymentPayPalStandard", action = "PDTHandler" });
+          }
+          public int Priority
+          {
+          get
+          {
+          return -1;
+          }
+          }
+          }
+
     ```
 
 ## Upgrading nopCommerce may break plugins

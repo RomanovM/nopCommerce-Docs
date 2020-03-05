@@ -25,7 +25,7 @@ You can check into more details about this methods by going to its definition in
           //Third parameter value indicating whether to exclude this script from bundling
           Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/{PluginName}/Scripts/{JSFileName.js}", true);
           }
-        
+
 ```
 
 If you want to add resource link in the header then you can use ResourceLocation.Head and for footer you can use *ResourceLocation.Foot*.

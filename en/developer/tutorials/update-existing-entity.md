@@ -17,7 +17,7 @@ Entities will have two classes that are used to map records to a table. The firs
           File System Location: [Project Root]\Libraries\Nop.Core\Domain\Catalog\Category.cs
           Assembly: Nop.Core
           Solution Location: Nop.Core.Domain.Catalog.Category.cs
-        
+
 ```
 
 The second class is used to map the properties defined in the class above to their respective SQL columns. The mapping class is also responsible for mapping relationships between different SQL tables.
@@ -27,7 +27,7 @@ The second class is used to map the properties defined in the class above to the
           File System Location: [Project Root]\Libraries\Nop.Data\Mapping\Catalog\CategoryMap.cs
           Assembly: Nop.Data
           Solution Location: Nop.Data.Mapping.Catalog.CategoryMap.cs
-        
+
 ```
 
 Add the following property to the Category class.
@@ -44,7 +44,7 @@ Add the following code to the constructor of the CategoryMap class.
           // This creates a nullable nvarchar with a length of 255 characters
           // in the Category SQL table
           this.Property(m => m.SomeNewProperty).HasMaxLength(255).IsOptional();
-        
+
 ```
 
 Because I’m all about results, at this point I would run the code, re-install the database, and verify that the column was created appropriately.
@@ -60,7 +60,7 @@ We configured our database to only store 255 characters for the SomeNewProperty.
           File System Location: [Project Root]\Presentation\Nop.Web\Areas\Admin\Models\Catalog\CategoryModel.cs
           Assembly: Nop.Admin
           Solution Location: Nop.Web.Areas.Admin.Models.Catalog.CategoryModel.cs
-        
+
 ```
 
 The validator class is used to validate the data stored inside of the model class (e.g. required fields, max length, and required ranges).
@@ -70,7 +70,7 @@ The validator class is used to validate the data stored inside of the model clas
           File System Location: [Project Root]\Presentation\Nop.Web\Areas\Admin\Validators\Catalog\CategoryValidator.cs
           Assembly: Nop.Web
           Solution Location: Nop.Web.Areas.Admin.Validators.Catalog.CategoryValidator.cs
-        
+
 ```
 
 Add the property to our view model.
@@ -81,7 +81,7 @@ Add the property to our view model.
           // Keep an eye out for more about localization in future blogs
           [NopResourceDisplayName("Admin.Catalog.Categories.Fields.SomeNewProperty")]
           public string SomeNewProperty { get; set; }
-        
+
 ```
 
 The requirements code will be added in the constructor of the validator.
@@ -90,7 +90,7 @@ The requirements code will be added in the constructor of the validator.
 
           //I think this code can speak for itself
           RuleFor(m => m.SomeNewProperty).Length(0, 255);
-        
+
 ```
 
 ## The view
@@ -99,7 +99,7 @@ The requirements code will be added in the constructor of the validator.
 
           File System Location: [Project Root]\Presentation\Nop.Web\Administration\Views\Category\ _CreateOrUpdate.cshtml
           Assembly: Nop.Admin
-        
+
 ```
 
 Views contain the html for displaying model data. Place this html under the "active" section.
@@ -115,7 +115,7 @@ Views contain the html for displaying model data. Place this html under the "act
           <span asp-validation-for="SomeNewProperty"></span>
           </div>
           </div>
-        
+
 ```
 
 ## The controller
@@ -128,7 +128,7 @@ In this case the controller is responsible for mapping the domain data model to 
           Assembly: Nop.Admin
           Solution Location:
           Nop.Web.Areas.Admin.Controllers.CategoryController.cs
-        
+
 ```
 
 We're going to make three updates to the CategoryController class.
@@ -147,7 +147,7 @@ In the public method to save entity (usually: "Create" or "Edit" methods with [H
 
           // Edit View Model → Data Model
           category.SomeNewProperty = model.SomeNewProperty;
-        
+
 ```
 
 ## Database

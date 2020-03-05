@@ -11,17 +11,19 @@ Like any other website platforms nopCommerce has settings such as "Store name" o
 You can use **GetSettingByKey** and **SetSetting** methods of **ISettingService** implementation for loading and saving individual settings. The preferred approach for handling settings in nopCommerce is to create a new implementation of the **ISettings** interface. Each setting will be represented by a C# property and developers should rely on setting classes to be injected via the constructor when they are required. Below is an example settings class.
 
 ```csharp
-public class MediaSettings : ISettings
-{
-    public int AvatarPictureSize { get; set; }
-    public int ProductThumbPictureSize { get; set; }
-    public int ProductDetailsPictureSize { get; set; }
-    public int ProductThumbPictureSizeOnProductDetailsPage { get; set; }
-    public int ProductVariantPictureSize { get; set; }
-    public int CategoryThumbPictureSize { get; set; }
-    public int ManufacturerThumbPictureSize { get; set; }
-    public int CartThumbPictureSize { get; set; }
-    public bool DefaultPictureZoomEnabled { get; set; }
-    public int MaximumImageSize { get; set; }
-}
+
+          public class MediaSettings : ISettings
+          {
+          public int AvatarPictureSize { get; set; }
+          public int ProductThumbPictureSize { get; set; }
+          public int ProductDetailsPictureSize { get; set; }
+          public int ProductThumbPictureSizeOnProductDetailsPage { get; set; }
+          public int ProductVariantPictureSize { get; set; }
+          public int CategoryThumbPictureSize { get; set; }
+          public int ManufacturerThumbPictureSize { get; set; }
+          public int CartThumbPictureSize { get; set; }
+          public bool DefaultPictureZoomEnabled { get; set; }
+          public int MaximumImageSize { get; set; }
+          }
+
 ```

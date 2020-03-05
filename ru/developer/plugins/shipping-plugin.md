@@ -32,10 +32,12 @@ public class UPSComputationMethod : BasePlugin, IShippingRateComputationMethod
 - **GetConfigurationPageUrl**. As you remember we created a controller in the previous step. This method should return a url of its Configure method. For example:
 
 ```csharp
-public override string GetConfigurationPageUrl()
-{
-    return $"{_webHelper.GetStoreLocation()}Admin/FixedOrByWeight/Configure";
-}
+
+          public override string GetConfigurationPageUrl()
+          {
+          return $"{_webHelper.GetStoreLocation()}Admin/FixedOrByWeight/Configure";
+          }
+
 ```
 
 ## Conclusion

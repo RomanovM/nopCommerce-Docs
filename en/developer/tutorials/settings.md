@@ -25,5 +25,5 @@ You can use **GetSettingByKey** and **SetSetting** methods of **ISettingService*
           public bool DefaultPictureZoomEnabled { get; set; }
           public int MaximumImageSize { get; set; }
           }
-        
+
 ```

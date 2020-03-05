@@ -73,7 +73,7 @@ If you have access to the database  (using a tool like SSMS, etc) then un-delete
           update Customer
           set Deleted = 0
           where Id = 1
-        
+
 ```
 
 (Typically the Id for Admin is 1, but if not, then find Id, or use the Username - e.g where `Username = 'email@domain.com'`)

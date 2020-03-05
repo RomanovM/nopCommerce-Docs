@@ -11,7 +11,7 @@ Data validation is the process of ensuring that a program operates on clean, cor
 1. Create a class derived from AbstractValidator class and put all required logic there. See the source code below to get an idea:
 
     ```csharp
-    
+
           public class AddressValidator : BaseNopValidator<AddressModel>
           {
           public AddressValidator(ILocalizationService localizationService)
@@ -22,18 +22,18 @@ Data validation is the process of ensuring that a program operates on clean, cor
           .When(x => x.FirstNameEnabled && x.FirstNameRequired);
           }
           }
-        
+
     ```
 
 1. Annotate your model class with the ValidatorAttribute. Refer to the example below for guidance.
 
     ```csharp
-    
+
           [Validator(typeof(AddressValidator))]
           public partial class AddressModel : BaseNopEntityModel
           {
           //...
-        
+
     }
     ```
 

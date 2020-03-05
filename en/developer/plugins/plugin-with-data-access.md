@@ -50,7 +50,7 @@ Inside of the "domain" namespace we're going to create a public class named Prod
           public virtual bool IsRegistered { get; set; }
           }
           }
-        
+
 ```
 
 **File Locations**: To figure out where certain files should exist analyze the namespace and create the file accordingly.
@@ -83,7 +83,7 @@ The next class to create is the Entity Framework mapping class. Inside of the ma
           }
           }
           }
-        
+
 ```
 
 The next class is the most complicated and the most important class in the data access layer. The Entity Framework Object Context is a pass-through class that gives us database access and helps track entity state (e.g. add, update, delete). The context is also used to generate the database schema or update an existing schema. In custom context classes we cannot reference previously existing entities because those types are already associated to another object context. That is also why we do not have complex navigation properties in our tracking record.
@@ -124,7 +124,7 @@ The next class is the most complicated and the most important class in the data 
           }
 
           public virtual int ExecuteSqlCommand(RawSqlString sql, bool doNotEnsureTransaction = false, int?
-         
+
           timeout = null, params object[] parameters)
           {
           using (var transaction = Database.BeginTransaction())
@@ -156,7 +156,7 @@ The next class is the most complicated and the most important class in the data 
           throw new NotImplementedException();
           }
           public int ExecuteSqlCommand(string sql, bool doNotEnsureTransaction = false, int?
-         
+
           timeout = null, params object[] parameters)
           {
           throw new NotImplementedException();
@@ -185,7 +185,7 @@ The next class is the most complicated and the most important class in the data 
           }
           }
           }
-        
+
 ```
 
 ## Application Startup
@@ -236,7 +236,7 @@ This part registers the record object context we created in the previous step.
           public int Order => 11;
           }
           }
-        
+
 ```
 
 ## Service layer
@@ -251,8 +251,8 @@ The service layer connects the data access layer and the presentation layer. Sin
           {
           /// <summary>
           /// Logs the specified record.
-        
-        
+
+
           /// </summary>
           /// <param name="record">The record.</param>
           void Log(ProductViewTrackerRecord record);
@@ -271,8 +271,8 @@ The service layer connects the data access layer and the presentation layer. Sin
 
           /// <summary>
           /// Logs the specified record.
-        
-        
+
+
           /// </summary>
           /// <param name="record">The record.</param>
           public virtual void Log(ProductViewTrackerRecord record)
@@ -283,7 +283,7 @@ The service layer connects the data access layer and the presentation layer. Sin
           }
           }
           }
-        
+
 ```
 
 ## Dependency Injection
@@ -315,7 +315,7 @@ Martin Fowler has written a great description of dependency injection or Inversi
           public int Order => 1;
           }
           }
-        
+
 ```
 
 In the code above we register different types of objects so they can later be injected into controllers, services, and repositories. Now that we've covered the new topics I'll bring back some of the older ones so we can finish the plugin.
@@ -363,7 +363,7 @@ Let's create a view component:
           }
           }
           }
-        
+
 ```
 
 ## Plugin installer
@@ -391,7 +391,7 @@ Let's create a view component:
           }
           }
           }
-        
+
 ```
 
 ## The usage

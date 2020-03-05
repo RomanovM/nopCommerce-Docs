@@ -67,7 +67,7 @@ In the **SEO panel**, define the following **details**:
           <head>
           <title> Creating Title Tags for Search Engine Optimization & Web Usability </title>
           </head>
-        
+
 ```
 
 - **Search engine friendly page name** - the name of the page used by search engines. If you leave the field blank, then the category page URL would be formed using the manufacturer name. If you enter custom-seo-page-name, then the following custom URL will be used: `http://www.yourStore.com/custom-seo-page-name`
