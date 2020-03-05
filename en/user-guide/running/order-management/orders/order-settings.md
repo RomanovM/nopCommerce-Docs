@@ -4,6 +4,7 @@ uid: en/user-guide/running/order-management/orders/order-settings
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # Order Settings
 
 To define order settings, go to **Configuration → Settings → Order Settings**. The Order Settings window will be displayed:
