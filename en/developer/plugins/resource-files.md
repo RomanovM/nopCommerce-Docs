@@ -4,6 +4,7 @@ uid: en/developer/plugins/resource-files
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
+
 # Adding CSS and JS resource files into nopCommerce Plugin
 
 To load resource files correctly you need to add its references into your plugin's view files.
@@ -19,7 +20,7 @@ You can check into more details about this methods by going to its definition in
 @{
      //Loading CSS file
      Html.AddCssFileParts(ResourceLocation.Head, "~/Plugins/{PluginName}/Content/{CSSFileName.Css}");
-  
+
      //Loading js file
      //Third parameter value indicating whether to exclude this script from bundling
      Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/{PluginName}/Scripts/{JSFileName.js}", true);
