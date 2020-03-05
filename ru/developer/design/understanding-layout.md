@@ -1,6 +1,6 @@
 ---
 title: Understanding Layout / Design
-uid: en/developer/design/understanding-layout
+uid: ru/developer/design/understanding-layout
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin
 ---
