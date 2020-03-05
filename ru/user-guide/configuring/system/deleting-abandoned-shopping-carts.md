@@ -1,6 +1,6 @@
 ---
 title: Deleting Old Exported Files
-uid: en/user-guide/configuring/system/deleting-abandoned-shopping-carts
+uid: ru/user-guide/configuring/system/deleting-abandoned-shopping-carts
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
