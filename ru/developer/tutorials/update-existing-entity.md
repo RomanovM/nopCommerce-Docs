@@ -1,6 +1,6 @@
 ---
 title: Updating an existing entity. How to add a new property.
-uid: en/developer/tutorials/update-existing-entity
+uid: ru/developer/tutorials/update-existing-entity
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
