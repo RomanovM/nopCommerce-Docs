@@ -4,6 +4,7 @@ uid: en/user-guide/installing/linux
 author: git.AndreiMaz
 contributors: git.skoshelev
 ---
+
 # Installing on Linux
 
 This chapter describes how to install the nopCommerce software on Linux system on the example of XUbuntu 19.04:
@@ -41,7 +42,7 @@ Update the products available for installation, then install the .NET runtime:
 
 You may see all installed .Net Core runtimes by the following command:
 
-`dotnet --list-runtimes` 
+`dotnet --list-runtimes`
 
 ![nopCommerce installation](_static/linux/list_runtimes.jpg)
 
@@ -82,7 +83,7 @@ Install the nginx package:
 ![nopCommerce installation](_static/linux/Install_nginx.jpg)
 
 Run the nginx service:
- 
+
 `sudo systemctl start nginx`
 
 and check it status:
@@ -99,9 +100,9 @@ To configure nginx as a reverse proxy to forward requests to your ASP.NET Core a
 server {
     listen 80 default_server;
     listen [::]:80 default_server;
- 
+
     server_name   nopCommerce-420.com;
- 
+
     location / {
     proxy_pass         http://localhost:5000;
     proxy_http_version 1.1;
@@ -112,7 +113,7 @@ server {
     proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
     proxy_set_header   X-Forwarded-Proto $scheme;
     }
- 
+
     # SSL configuration
     #
     # listen 443 ssl default_server;
@@ -151,22 +152,20 @@ Create couple directories to run nopCommerce:
 
 `sudo mkdir bin`
 
-`sudo mkdir logs `  
+`sudo mkdir logs`
 
 Change the file permissions
 
-cd ..
-sudo chgrp -R www-data nopCommerce420/
-sudo chown -R www-data nopCommerce420/
+cd .. sudo chgrp -R www-data nopCommerce420/ sudo chown -R www-data nopCommerce420/
 
 ## 3. Create the nopCommerce service
 
 Create the /etc/systemd/system/nopCommerce420.service file with the following contents:
- 
+
 ```
 [Unit]
 Description=Example nopCommerce app running on XUbuntu
- 
+
 [Service]
 WorkingDirectory=/var/www/nopCommerce420
 ExecStart=/usr/bin/dotnet /var/www/nopCommerce420/Nop.Web.dll
@@ -178,13 +177,13 @@ SyslogIdentifier=nopCommerce420-example
 User=www-data
 Environment=ASPNETCORE_ENVIRONMENT=Production
 Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
- 
+
 [Install]
 WantedBy=multi-user.target
 ```
 
 Start the service
- 
+
 `sudo systemctl start nopCommerce420p.service`
 
 Check the nopCommerce service status
