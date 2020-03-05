@@ -4,7 +4,6 @@ uid: en/user-guide/installing/technology-system-requirements
 author: git.AndreiMaz
 contributors: git.IvanIvanIvanov, git.rajupaladiya, git.exileDev, git.DmitriyKulagin
 ---
-
 # Technology & System Requirements
 
 In order to run nopCommerce, you will need the **following installed on your server/computer**:

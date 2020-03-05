@@ -4,7 +4,6 @@ uid: en/user-guide/configuring/system/external-authentication/facebook
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
-
 # Facebook authentication
 
 You can configure Facebook authentication, in the Configure Facebook window, as described below.

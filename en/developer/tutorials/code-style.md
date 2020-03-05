@@ -4,7 +4,6 @@ uid: en/developer/tutorials/code-style
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin
 ---
-
 # Configuring code style
 
 Certain coding guidelines exist in a company nopCommerce, one has to follow these guidelines when creating source code. Visual Studio 2019 helps to maintain the necessary style of code using the [.editorconfig](https://github.com/nopSolutions/nopCommerce/blob/develop/.editorconfig) file.

@@ -4,7 +4,6 @@ uid: en/user-guide/configuring/system/widgets/nivo-slider
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
-
 # Nivo Slider widget plugin
 
 Nivo Slider widget plugin allows you to display a slider on the homepage of your store.

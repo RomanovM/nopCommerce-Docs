@@ -4,7 +4,6 @@ uid: en/user-guide/marketing/content/news/news-settings
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---
-
 # News settings
 
 You can manage news settings in **Configuration → Settings → News Settings**. This page is available in 2 modes: **advanced** and **basic**.

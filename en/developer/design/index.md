@@ -4,7 +4,6 @@ uid: en/developer/design/index
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
-
 # Designer's Guide
 
 * [Overview (Designer's Guide)](xref:en/developer/design/overview)

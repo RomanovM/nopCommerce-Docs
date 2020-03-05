@@ -4,7 +4,6 @@ uid: en/user-guide/running/order-management/return-requests/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
-
 # Return Requests
 
 Return Request feature enables customers to request a return on items previously purchased. This option is only available for completed orders. Return requests settings are managed in **Configuration → Settings → Order Settings on the Return Request settings tab**.
@@ -19,7 +18,8 @@ In the public store, go to the My Account window and click Orders, as follows: !
     * **Qty. to return** dropdown list allows selecting the number of items to be returned.
     * **Return Reason** dropdown list allows selecting the reason for requesting a return. For example, wrong product ordered, wrong product received and more. These reasons are defined by the store owner in the Return Request Settings.
     * **Return Action** dropdown list allows selecting the required return action to take. For example, repair product, replace product, issue credit and so on. These actions are defined by the store owner in the Return Request Settings.
-    * Choose the **Upload a file** option if you want to attach some additional documents, pictures to your request. > [!NOTE] > this option is available only when the checkbox **Allow file uploads** in **Configuration → Settings → Order Settings** on the **Return Request settings tab** is ticked.
+    * Choose the **Upload a file** option if you want to attach some additional documents, pictures to your request. > [!NOTE]
+    * Choose the **Upload a file** option if you want to attach some additional documents, pictures to your request. >  > this option is available only when the checkbox **Allow file uploads** in **Configuration → Settings → Order Settings** on the **Return Request settings tab** is ticked.
     * In the **Comments** field, a customer can enter an optional comment for information purposes.
 1. After using the Return Request feature, the customer can manage his/her requests from the **My Account** page in the public store, by clicking **Return Requests**: ![Return Requests](_static/index/return-requests.jpeg)
 
@@ -31,7 +31,8 @@ The store owner can now manage this return request in the Administration Area.
 
 ![Edit return request](_static/index/edit-return-requests.jpeg)
 
-> [!NOTE] The Request ID, Product, and Date fields are read-only and cannot be edited.
+> [!NOTE]
+>  The Request ID, Product, and Date fields are read-only and cannot be edited.
 
 * **Order link** allows viewing the associated order details page.
 * **Customer link** allows viewing the customer details page.
@@ -47,7 +48,8 @@ The store owner can now manage this return request in the Administration Area.
 * In the **Customer Comments** field, edit the comment entered by the customer, if necessary.
 * In the **Staff Notes** field, enter an optional note for information purposes.
 
-> [!NOTE] Click the Notify customer about status change button to send an email to the customer informing him/her on the return request status change. ![Control buttons](_static/index/control-elements.png)
+> [!NOTE]
+>  Click the Notify customer about status change button to send an email to the customer informing him/her on the return request status change. ![Control buttons](_static/index/control-elements.png)
 
 ## See also
 

@@ -4,7 +4,6 @@ uid: en/user-guide/running/order-management/shipments
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
-
 # Shipments
 
 To search for and view Shipments go to **Sales → Shipments**.

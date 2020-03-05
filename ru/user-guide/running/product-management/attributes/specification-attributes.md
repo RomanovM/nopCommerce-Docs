@@ -4,11 +4,11 @@ uid: en/user-guide/running/product-management/attributes/specification-attribute
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.dunaenko
 ---
-
 # Specification attributes
 
 Specification attributes are similar to [product attributes](xref:en/user-guide/running/product-management/attributes/product-attributes), however, they are **only used for information purposes** (visible on product details page) and **for filtering products** on the category details page. They don’t define a product price as well as can’t be used for the inventory tracking.
-> [!NOTE] By default, there are no specification attributes precreated in nopCommerce.
+> [!NOTE]
+>  By default, there are no specification attributes precreated in nopCommerce.
 
 To see and edit a list of specification attributes, go to **Catalog → Attributes → Specification Attributes.**
 
@@ -23,11 +23,13 @@ To see and edit a list of specification attributes, go to **Catalog → Attribut
 - On the **Options panel**, click **Add a new** option to add an attribute option.
 - Enter the option **Name** and **Display order** number.
 
-> [!NOTE] for a color attribute, you can also tick a Specify color box, in this case, color variants will be displayed as “color squares” instead of the text names.
+> [!NOTE]
+>  for a color attribute, you can also tick a Specify color box, in this case, color variants will be displayed as “color squares” instead of the text names.
 
 ![add_a_new_option](_static/specification-attributes/add_a_new_option.jpg)
 
-> [!NOTE] for a color attribute, you can also tick a Specify color box, in this case, color variants will be displayed as “color squares” instead of the text names.
+> [!NOTE]
+>  for a color attribute, you can also tick a Specify color box, in this case, color variants will be displayed as “color squares” instead of the text names.
 
 The **complete list of options** will look as follows.
 

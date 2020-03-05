@@ -4,7 +4,6 @@ uid: en/user-guide/configuring/setting-up/shipping/providers/manual/methods
 author: git.AndreiMaz
 contributors: git.rajupaladiya, git.exileDev
 ---
-
 # Shipping Methods (Shipping by Weight and By Total)
 
 A store owner can define required shipping methods in the shipping by weight section.

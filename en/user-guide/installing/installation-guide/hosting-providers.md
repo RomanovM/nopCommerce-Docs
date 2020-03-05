@@ -4,7 +4,6 @@ uid: en/user-guide/installing/installation-guide/hosting-providers
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.IvanIvanIvanov
 ---
-
 # Hosting providers
 
 Whether you intend to use nopCommerce out of the box or you want to make changes to the code, eventually you will need to host your website so that the public can visit your site and buy your products. Hosting providers literally host your website and provide a way for users to get to your site. nopCommerce can be hosted with almost any provider that uses Windows-based servers.

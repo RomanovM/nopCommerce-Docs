@@ -4,7 +4,6 @@ uid: en/user-guide/marketing/content/forums/settings
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
-
 # Forum settings
 
 To access forum settings go to **Configuration → Settings → Forum Settings**. This page is available in 2 modes: **advanced** and **basic**.
@@ -28,7 +27,8 @@ Define following **forum settings**:
 - Enable private messages by checking **Allow private messages** checkbox
 - Set the **size of Topics page, Posts page, Search results, Active discussions page** (e.g. 5 topics per page)
 
-  > [!NOTE] it is not recommended to change the forum editor type in the production environment
+  > [!NOTE]
+  >  it is not recommended to change the forum editor type in the production environment
 
 - Select the **Forum feeds enabled** checkbox to enable RSS feeds for each forum
 - In the **Forum feed count** field set the number of topics to be included in each feed

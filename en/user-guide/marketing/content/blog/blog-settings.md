@@ -4,7 +4,6 @@ uid: en/user-guide/marketing/content/blog/blog-settings
 author: git.AndreiMaz
 contributors: git.rajupaladiya, git.DmitriyKulagin, git.ivkadp
 ---
-
 # Blog settings
 
 You can manage blog settings in **Configuration → Settings → Blog Settings**. This page is available in 2 modes: **advanced** and **basic**.

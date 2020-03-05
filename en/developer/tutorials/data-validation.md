@@ -4,7 +4,6 @@ uid: en/developer/tutorials/data-validation
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
-
 # Data Validation
 
 Data validation is the process of ensuring that a program operates on clean, correct and useful data. Most .NET developers use Data Annotation Validators. But nopCommerce uses Fluent Validation. It's a small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules for your business objects. You have to complete two steps in order to add a validation to some models in nopCommerce:

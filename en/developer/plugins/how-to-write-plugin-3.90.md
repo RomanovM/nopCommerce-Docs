@@ -4,7 +4,6 @@ uid: en/developer/plugins/how-to-write-plugin-3.90
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
-
 # How to write a plugin for nopCommerce 3.90 (and previous versions)
 
 > In computing, a plug-in (or plugin) is a set of software components that add specific abilities to a larger software application (Wikipedia).
@@ -19,7 +18,7 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
 
     ![p1](_static/how-to-write-plugin-3.90/write_plugin_3.90_4.jpg)
 
-1. Once the plugin project is created update the project build output path. Set it to ``..\..\Presentation\Nop.Web\Plugins\{Group}.{Name}\`. For example, Authorize.NET payment plugin has the following output path:``..\..\Presentation\Nop.Web\Plugins\Payments.AuthorizeNet\`. After it's done, appropriate plugin DLLs will be automatically copied to the `\Presentation\Nop.Web\Plugins\` directory which is searched by the nopCommerce core for valid plugins. But please note that it's also not a requirement. And you can choose any output directory name for a plugin.
+1. Once the plugin project is created update the project build output path. Set it to `..\..\Presentation\Nop.Web\Plugins\{Group}.{Name}\`. For example, Authorize.NET payment plugin has the following output path: `..\..\Presentation\Nop.Web\Plugins\Payments.AuthorizeNet\`. After it's done, appropriate plugin DLLs will be automatically copied to the `\Presentation\Nop.Web\Plugins\` directory which is searched by the nopCommerce core for valid plugins. But please note that it's also not a requirement. And you can choose any output directory name for a plugin.
 
     ![p1](_static/how-to-write-plugin-3.90/write_plugin_3.90_1.jpg)
 
@@ -49,7 +48,8 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
 
 1. You should also created a web.config file and ensure that it's copied to output. Just copy it from any existing plugin.
 
-    > [!IMPORTANT] Going forward make sure "Copy local" properties of all third-party assembly references (including core libraries such as Nop.Services.dll or Nop.Web.Framework.dll) are set to "False" (do not copy)
+    > [!IMPORTANT]
+    >  Going forward make sure "Copy local" properties of all third-party assembly references (including core libraries such as Nop.Services.dll or Nop.Web.Framework.dll) are set to "False" (do not copy)
 
 1. The last required step is to create a class which implements IPlugin interface (Nop.Core.Plugins namespace). nopCommerce has BasePlugin class which already implements some IPlugin methods and allows you to avoid source code duplication. nopCommerce also provides you with some specific interfaces derived from IPlugin. For example, we have "IPaymentMethod" interface which is used for creating new payment method plugins. It contains some methods which are specific only for payment methods such as ProcessPayment() or GetAdditionalHandlingFee(). Currently nopCommerce has the following specific plugin interfaces:
 
@@ -63,7 +63,8 @@ Plugins are used to extend the functionality of nopCommerce. nopCommerce has sev
 
     If your plugin doesn't fit any of these interfaces, then use the "IMiscPlugin" interface.
 
-> [!IMPORTANT] After each project build, clean the solution before making changes. Some resources will be cached and can lead to developer insanity.
+> [!IMPORTANT]
+>  After each project build, clean the solution before making changes. Some resources will be cached and can lead to developer insanity.
 
 ## Handling requests. Controllers, models and views
 
@@ -146,7 +147,8 @@ This step is optional. Some plugins can require additional logic during plugin i
 - Install. This method will be invoked during plugin installation. You can initialize any settings here, insert new locale resources, or create some new database tables (if required).
 - Uninstall. This method will be invoked during plugin uninstallation.
 
-> [!IMPORTANT] If you override one of these methods, do not hide its base implementation.
+> [!IMPORTANT]
+>  If you override one of these methods, do not hide its base implementation.
 
 For example, the project structure of Authorize.NET plugin looks like the image below
 

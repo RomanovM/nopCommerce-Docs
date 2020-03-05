@@ -4,7 +4,6 @@ uid: en/user-guide/running/product-management/products/adding-products/downloada
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.IvanIvanIvanov, git.dunaenko
 ---
-
 # Downloadable product
 
 To create a **Downloadable product**, on the **product info tab** tick the corresponding checkbox.

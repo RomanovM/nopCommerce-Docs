@@ -4,7 +4,6 @@ uid: en/user-guide/getting-started
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
-
 # Getting started
 
 If you are a novice in nopCommerce, follow the steps below to set your store up and running:

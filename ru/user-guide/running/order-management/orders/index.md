@@ -4,7 +4,6 @@ uid: en/user-guide/running/order-management/orders/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
-
 # Order management
 
 **To view and manage Orders**, go to **Sales → Orders**. The Orders page lists all current orders. After a customer completes a transaction, a new order appears on the orders page.
@@ -30,7 +29,8 @@ __To search for orders__, enter one or more of the following search criteria:
 * **Order notes**
 * **Go directly to order number** - enter the order number and click Go to display the required order
 
-> [!NOTE] You can export the order data to an external file by clicking Export to XML(all) or Export to Excel (all). You can export selected order data to an external file by clicking Export to XML(selected) or Export to Excel (selected).
+> [!NOTE]
+>  You can export the order data to an external file by clicking Export to XML(all) or Export to Excel (all). You can export selected order data to an external file by clicking Export to XML(selected) or Export to Excel (selected).
 
 **To view the order full information**, click **View** beside the order in the list.
 

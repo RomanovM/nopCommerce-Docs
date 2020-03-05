@@ -4,7 +4,6 @@ uid: en/user-guide/configuring/system/system-information
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
-
 # System Information
 
 The following procedure describes how to view the system information of the store and system server.

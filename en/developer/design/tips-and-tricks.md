@@ -4,7 +4,6 @@ uid: en/developer/design/tips-and-tricks
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.sanju741, git.exileDev
 ---
-
 # Tips and Tricks
 
 1. One of the major issues in web development/designing is that different browsers use different default values for various CSS properties. While customizing or creating your own them – Always make sure that your styling is compatible with all the browsers. Test your website in major browsers like IE, Mozilla, Opera, Safari and Chrome.

@@ -4,7 +4,6 @@ uid: en/developer/tutorials/coding-standards
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin
 ---
-
 # Coding Standards
 
 There are three supported .NET coding convention categories:

@@ -4,12 +4,12 @@ uid: en/user-guide/configuring/setting-up/main-store/uploading-favicons
 author: git.RomanovM
 contributors: git.rajupaladiya, git.DmitriyKulagin
 ---
-
 # Uploading favicons
 
 Since the version 4.20 you can automatically upload favicons through the admin area.
 
-> [!NOTE] For multistore case you need to repeat this upload procedure for each store.
+> [!NOTE]
+>  For multistore case you need to repeat this upload procedure for each store.
 
 1. To upload favicons go to **Configuration → Settings → General Settings.** The "Favicon and app icons" block is displayed on the General Settings page: ![settings_block](_static/uploading-favicons/settings_block.png)
 

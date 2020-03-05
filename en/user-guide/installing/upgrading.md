@@ -4,7 +4,6 @@ uid: en/user-guide/installing/upgrading
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.rajupaladiya, git.exileDev, git.dunaenko
 ---
-
 # Upgrading nopCommerce
 
 This chapter describes how to upgrade nopCommerce to the [latest](https://www.nopcommerce.com/download-nopcommerce) version. You might want to do this because you've seen a message at the nopCommerce news section of your dashboard telling you that a new release is available. nopCommerce doesn’t support automatic upgrades, you have to do it manually.
@@ -18,7 +17,8 @@ This chapter describes how to upgrade nopCommerce to the [latest](https://www.no
 1. Rename file `setting.txt` to `.dataSettings.json` and `InstalledPlugins.txt` to `plugins.json` (for 4.00 and 4.10, rename `InstalledPlugins.txt` to `installedPlugins.json`) and update content with json structure.
 1. Ensure that everything is OK
 
-> [!NOTE] As you deploy, make sure that the target `Settings.txt` and `InstalledPlugins.txt` files are updated as per latest nopCommerce version, so that the production site continues to point to the production database.
+> [!NOTE]
+>  As you deploy, make sure that the target `Settings.txt` and `InstalledPlugins.txt` files are updated as per latest nopCommerce version, so that the production site continues to point to the production database.
 > 
 > If you stored your pictures on the file system, then also backup them (`\wwwroot\Images\`) and copy back after the upgrade.
 > 

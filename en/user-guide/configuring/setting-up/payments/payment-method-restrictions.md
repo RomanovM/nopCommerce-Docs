@@ -4,7 +4,6 @@ uid: en/user-guide/configuring/setting-up/payments/payment-method-restrictions
 author: git.AndreiMaz
 contributors: git.ivkadp
 ---
-
 # Payment Method Restrictions
 
 Payment method restrictions allow you to **restrict payments coming from certain countries.**

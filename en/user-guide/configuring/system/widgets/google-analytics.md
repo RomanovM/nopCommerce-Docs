@@ -4,7 +4,6 @@ uid: en/user-guide/configuring/system/widgets/google-analytics
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
-
 # Google Analytics Plugin
 
 This section describes how to add and integrate Google Analytics plugin in your store.
