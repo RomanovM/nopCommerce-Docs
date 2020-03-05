@@ -1,6 +1,6 @@
 ---
 title: Installing on Linux
-uid: en/user-guide/installing/linux
+uid: ru/user-guide/installing/linux
 author: git.AndreiMaz
 contributors: git.skoshelev
 ---
