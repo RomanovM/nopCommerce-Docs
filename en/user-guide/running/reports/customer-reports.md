@@ -37,8 +37,7 @@ Enter one or several search criteria to compile a report:
 
 ## Registered customers
 
-This report displays the number of Registered customers for a certain period.
-You can track the number of users registered within the last day, week, two weeks, month and year.
+This report displays the number of Registered customers for a certain period. You can track the number of users registered within the last day, week, two weeks, month and year.
 
 ![customer-registered](_static/customer-reports/customer-registered.png)
 
