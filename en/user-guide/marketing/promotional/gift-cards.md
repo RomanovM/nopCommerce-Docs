@@ -39,7 +39,7 @@ Define Gift card information:
 ![edit-gift-card](_static/gift-cards/gift-card-edit.jpg)
 
 > [!NOTE]
->
+> 
 > - **The sender and recipient emails will not be visible for physical gift cards. These mails are visible only for virtual gift cards**
 > - **The Notify Recipient button is relevant only for virtual gifts card and not physical gift cards**
 
