@@ -4,7 +4,6 @@ uid: en/developer/design/responsive
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
-
 # Responsive Design
 
 **Understanding Responsive Design.** Responsive Web Design is simply a design of a website that changes its layout according to different screen sizes in order to fit the content properly when it comes to a desktop, smartphones, tablets and other mobile devices. In this definition, there is a keyword here “properly” – In this context, by “properly”, it means consistent. While working on a responsive design, the web developers have to make sure that the user experience of a website remains consistent throughout all the devices, irrespective of their screen size. (Source: [nopCommerce Blog](https://www.nopcommerce.com/why-a-responsive-design-should-be-a-priority-for-your-business-website))

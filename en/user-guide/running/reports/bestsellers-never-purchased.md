@@ -4,7 +4,6 @@ uid: en/user-guide/running/reports/bestsellers-never-purchased
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
-
 # Bestsellers and products never purchased
 
 Knowing the **bestselling** and **never purchased products** is very important for any shop owner. First of all, this can help in making *better purchasing decisions*: you can scale up on your popular items and exclude unpopular ones from your order list. When analyzing, consider, for example, whether certain colors sell faster, or whether your product sales depend on a season. Secondly, defining most and least selling goods can help you to *re-evaluate product design and marketing*. Maybe your best items go faster just because of their placement in your web store, or because of a better description. Come up with different options and test them. To do it more effectively, engage with your customers. *Conduct different surveys* to find out why the best selling items are preferred, what makes them special for your buyers. Use the insights to improve your marketing and increase sales.

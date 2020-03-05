@@ -4,7 +4,6 @@ uid: en/user-guide/configuring/setting-up/main-store/gdpr-settings
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.ivkadp
 ---
-
 # GDPR settings
 
 *GDPR* (General Data Protection Regulation) is a revised European Union’s new data privacy law which impacts how all companies collect, use and share personal data of their European customers. The regulation entered into force on May 24, 2016 and applies since May 25, 2018. The regulation is an essential step to strengthen individuals' fundamental rights in the digital age and facilitate business by clarifying rules for companies and public bodies in the digital single market.
@@ -25,7 +24,7 @@ Additional settings will allow you to capture a log of the following activities:
 
 You can add consents on your nopCommerce site by clicking on **“Add consent”** button:
 
-![consent](_static/gdpr-settings/consent.PNG)
+![consent](_static/gdpr-settings/consent.png)
 
 While adding consents, you can define different options such as:
 
@@ -35,11 +34,11 @@ While adding consents, you can define different options such as:
 
 Here is an example of a consent option on customer info page:
 
-![agreement](_static/gdpr-settings/agreement.PNG)
+![agreement](_static/gdpr-settings/agreement.png)
 
 If you have enabled the consent log settings then you can see the log activity by going to: **Administration → Customers → GDPR requests (log)**
 
-![log](_static/gdpr-settings/log.PNG)
+![log](_static/gdpr-settings/log.png)
 
 When GDPR setting is *ENABLED*, store owner can also perform actions like:
 

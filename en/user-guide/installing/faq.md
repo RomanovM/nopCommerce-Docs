@@ -4,7 +4,6 @@ uid: en/user-guide/installing/faq
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.rajupaladiya, git.exileDev, git.IvanIvanIvanov
 ---
-
 # FAQ
 
 ## Why choose nopCommerce?
@@ -28,7 +27,8 @@ For versions below 4.00 to find out what went wrong you need to turn off the cus
 
 1. Open web.config file
 2. Find out the following line `<customErrors defaultRedirect="errorpage.htm" mode="RemoteOnly">`
-3. Replace it with `<customErrors defaultRedirect="errorpage.htm" mode="Off">` Also, check Admin → System → Log for any errors.
+3. Replace it with `<customErrors defaultRedirect="errorpage.htm" mode="Off">`
+Also, check Admin → System → Log for any errors.
 
 ## Why does my home page take so long to load?
 
@@ -48,7 +48,7 @@ Go to admin area → configuration → languages → "view strings resources" [o
 
 ## Getting "A generic error occurred in GDI+" error
 
-Give write permissions to ``\wwwroot\Images\ and \wwwroot\Images\Thumbs\` (for nopCommerce 3.90 or below version``\Content\Images\ and \Content\Images\Thumbs\`) directories
+Give write permissions to `\wwwroot\Images\ and \wwwroot\Images\Thumbs\` (for nopCommerce 3.90 or below version  `\Content\Images\ and \Content\Images\Thumbs\`) directories
 
 ## How to configure Multi-Vendor feature
 

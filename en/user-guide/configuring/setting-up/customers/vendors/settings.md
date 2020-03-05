@@ -4,7 +4,6 @@ uid: en/user-guide/configuring/setting-up/customers/vendors/settings
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---
-
 # Vendor settings
 
 This section describes how to define the **vendor settings** of your store. This includes the number of vendors to display, whether or not to show the vendor on the product details pages of the store and more.
@@ -21,7 +20,8 @@ Define the vendor settings, as follows:
 
 * **Allow customers to apply for vendor account.** Firstly, a vendor request is filled by a user, thus creating a vendor account. Then the request is presented to a store-owner (via email notification) to be accepted.
 
-    > [!WARNING] A store owner has to add an appropriate customer record to "Vendors" role manually if he wants to grant access to the admin area.
+    > [!WARNING]
+    > A store owner has to add an appropriate customer record to "Vendors" role manually if he wants to grant access to the admin area.
 
 * To require vendors to accept the **Terms of service** during registration.
 * **Allow vendors to edit info** allows vendors to provide personal information in public store.
@@ -55,7 +55,8 @@ In the **Attribute Info** panel, define the following information:
 * From the **Control Type** drop-down list, select the required method for displaying the attribute value: **Drop-down list, Radio button list, Checkbox, Textbox, Multiline textbox, Read-only checkbox.**
 * **Display order** - the vendor attribute display order.
 
-> [!NOTE] Dropdown lists, radio lists, checkbox and read-only checkbox  require the store owner to define values. Textbox and Multiline textbox control types do not require the store owner to define values since customers will be required to fill these textbox fields.
+> [!NOTE]
+> Dropdown lists, radio lists, checkbox and read-only checkbox  require the store owner to define values. Textbox and Multiline textbox control types do not require the store owner to define values since customers will be required to fill these textbox fields.
 
 Click **Save and Continue Edit** to proceed to the **values** editing tab.
 

@@ -4,7 +4,6 @@ uid: en/user-guide/running/order-management/index
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
-
 # Order management
 
 Order Management functionality is the “hub” of your store: all operational data, such as orders, payments, and shipment processing, inventory updates, return requests, is collected and managed here.

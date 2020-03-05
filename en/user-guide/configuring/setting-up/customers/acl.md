@@ -4,7 +4,6 @@ uid: en/user-guide/configuring/setting-up/customers/acl
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.ivkadp
 ---
-
 # Access Control List
 
 Access Control List (ACL) restricts or grants users an access to certain areas of the site. This list is managed by administrators. Therefore, the user must have administrator rights to be able to access it. The access list has the following characteristics:
@@ -23,8 +22,9 @@ Select the required roles beside the **Customer action** items. The selected rol
 
 Click **Save.**
 
-> [!TIP] Example: We need a role called Content Manager. The content Manager must have access to new products and manufacturers management, editing of the reviews on site, blogs, campaigns, and have no access to shopping carts.
-> 
+> [!TIP]
+> Example: We need a role called Content Manager. The content Manager must have access to new products and manufacturers management, editing of the reviews on site, blogs, campaigns, and have no access to shopping carts.
+>
 > 1. Create the Customer role called Content Manager in Customer Roles section (Customers → Customer Roles).
-> 2. In the ACL tick the checkbox next to the following permissions: Access admin area, Admin area. Manage Blog, Admin area. Manage Campaigns, Admin area. Manage Forums, Admin area. Manage News, Admin area. Manage Newsletter Subscribers, Public store. Allow navigation, Public store. Display Prices
-> 3. Save the changes
+> 1. In the ACL tick the checkbox next to the following permissions: Access admin area, Admin area. Manage Blog, Admin area. Manage Campaigns, Admin area. Manage Forums, Admin area. Manage News, Admin area. Manage Newsletter Subscribers, Public store. Allow navigation, Public store. Display Prices
+> 1. Save the changes

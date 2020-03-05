@@ -4,7 +4,6 @@ uid: en/user-guide/configuring/setting-up/shipping/providers/manual/fixed-rate-m
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
-
 # Shipping Methods (Fixed Rate Shipping)
 
 A store owner can define required shipping methods in the Fixed Rate Shipping section. To manage shipping methods:
@@ -29,4 +28,5 @@ Define the following fields for a new record:
 
 Click **Save**.
 
-> [!NOTE] You can click Edit in the Shipping methods window to edit existing shipping methods, as described above.
+> [!NOTE]
+> You can click Edit in the Shipping methods window to edit existing shipping methods, as described above.

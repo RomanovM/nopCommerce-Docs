@@ -4,7 +4,6 @@ uid: en/user-guide/installing/installation-guide/index
 author: git.AndreiMaz
 contributors: git.rajupaladiya, git.exileDev, git.DmitriyKulagin, git.IvanIvanIvanov
 ---
-
 ## Installation process
 
 nopCommerce requires write permissions for the directories and files described below
@@ -63,7 +62,8 @@ You can use any of the following authentication methods to connect to the server
 - **SQL Server Account:** When connecting using this method, logins are created in the SQL Server that is not based on the Windows user accounts. Both the user name and the password are created using the SQL Server and are stored in SQL Server. When using this method you must enter your login and password.
 - **Integrated Windows Authentication:** When connecting using this method, the SQL Server validates the account name and password using the Windows principal token in the operating system. This means the user identity is confirmed by Windows. The SQL Server does not request a password and does not perform the identity validation. Windows Authentication is the default authentication mode and is much more secure than SQL Server Authentication. Windows Authentication uses Kerberos security protocol, provides password policy enforcement with regard to complexity validation for strong passwords, provides support for account lockout, and supports password expiration. A connection made using Windows Authentication is sometimes called a trusted connection, because SQL Server trusts the credentials provided by Windows.
 
-Once you open the site for the first time, you’ll be redirected to the installation page, as follows: ![nopCommerce installation](_static/index/installation.jpg)
+Once you open the site for the first time, you’ll be redirected to the installation page, as follows:
+![nopCommerce installation](_static/index/installation.jpg)
 
 - **Admin user e-mail**: This is the e-mail address for the first admin of the site.
 - **Admin password**: You will need to supply a password for the admin account.
@@ -91,12 +91,12 @@ Specify Custom SQL Server collation: This is an advanced setting and should be l
 - Click **Install** to order to start the installation process. When the setup process is complete, your new site's home page is displayed.
 
 > [!NOTE]
-> 
+>
 > 1. The **Restart installation** button at the bottom of the installation page enables you to restart the installation process in case anything goes wrong.
-> 
-> 2. Ensure that your application pool is set to Integrated mode
-> 
-> 3. If you want to completely reset a nopCommerce site to its default settings, you can delete the `dataSettings.json` (`Settings.txt` for nopCommerce 3.90 or below version) file from App_Data directory. When using IIS you might want to read this article.
+>
+> 1. Ensure that your application pool is set to Integrated mode
+>
+> 1. If you want to completely reset a nopCommerce site to its default settings, you can delete the `dataSettings.json` (`Settings.txt` for nopCommerce 3.90 or below version) file from App_Data directory. When using IIS you might want to read this article.
 
 ## See also
 

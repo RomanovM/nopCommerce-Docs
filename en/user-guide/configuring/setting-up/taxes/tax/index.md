@@ -4,7 +4,6 @@ uid: en/user-guide/configuring/setting-up/taxes/tax/index
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
-
 # Tax
 
 ## Tax Providers

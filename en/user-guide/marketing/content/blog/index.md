@@ -4,7 +4,6 @@ uid: en/user-guide/marketing/content/blog/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---
-
 # Blog
 
 A Blog is a great way to connect with your existing customers, keeping them informed about latest product offerings or educating them, as well as to  find new customers.
@@ -15,11 +14,11 @@ To manage blog posts go to **Content management → Blog**
 
 Select tab: **Blog posts**.
 
-![p1](_static/index/Blog1.PNG)
+![p1](_static/index/Blog1.png)
 
 Click **Add new** and fill the information about a **new blog post**.
 
-![p2](_static/index/Blog2.PNG)
+![p2](_static/index/Blog2.png)
 
 Define **new blog post details**:
 
@@ -29,12 +28,13 @@ Define **new blog post details**:
 - You can specify the **Body overview** if you want only part of the whole text to be visible on the main blog page
 - Enter **Tags** to be displayed on the Blog page in the public store. The more blog posts are associated with a particular tag, the larger size it has in the Popular Tags area, displayed in the sidebar on the Blog page
 
-   ![p3](_static/index/Blog3.PNG)
+   ![p3](_static/index/Blog3.png)
 
 - Select the Allow comments checkbox, to enable customers to add comments to your blog post
 - Enter **Start and End date** for displaying this blog post in Coordinated Universal Time (UTC)
 
- > [!NOTE] You can leave these fields empty if you do not want to define blog post start and end dates
+ > [!NOTE]
+ > You can leave these fields empty if you do not want to define blog post start and end dates
 
 - Select the **Limited to stores** checkbox, to enable defining the stores where the blog post will be available
 
@@ -57,7 +57,7 @@ To manage blog comments select **Content management → Blog**
 
 Select tab: **Blog comments**.
 
-![p5](_static/index/Blog5.PNG)
+![p5](_static/index/Blog5.png)
 
 Here you can **delete** a blog comment, it will then be removed from the system.
 

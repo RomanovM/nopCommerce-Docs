@@ -4,7 +4,6 @@ uid: en/developer/plugins/menu-item
 author: git.AndreiMaz
 contributors: git.Sandeep911, git.DmitriyKulagin, git.exileDev
 ---
-
 # How to add a menu item into the administration area from a plugin
 
 In nopCommerce, administration menu is build from the *sitemap.config* file which is located in *~/Areas/Admin folder*.
@@ -40,7 +39,7 @@ public bool Authenticate()
 {
     return true;
 }
-
+  
 public  SiteMapNode BuildMenuItem() // SiteMapNode is Class in Nop.Web.Framework.Menu
 {
    var menuItemBuilder = new SiteMapNode()
@@ -59,7 +58,7 @@ public  SiteMapNode BuildMenuItem() // SiteMapNode is Class in Nop.Web.Framework
        RouteValues = new RouteValueDictionary() { {"Area", "Admin"} },
    };
    menuItemBuilder.ChildNodes.Add(SubMenuItem);
-
+  
    return menuItemBuilder;
 }
 ```

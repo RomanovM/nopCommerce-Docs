@@ -4,7 +4,6 @@ uid: en/user-guide/running/reports/customer-reports
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
-
 # Customer reports
 
 Customer reports give a store owner general information about registered customers and their orders. To view the reports, go to **Reports → Customer reports**.
@@ -37,7 +36,8 @@ Enter one or several search criteria to compile a report:
 
 ## Registered customers
 
-This report displays the number of Registered customers for a certain period. You can track the number of users registered within the last day, week, two weeks, month and year.
+This report displays the number of Registered customers for a certain period.
+You can track the number of users registered within the last day, week, two weeks, month and year.
 
 ![customer-registered](_static/customer-reports/customer-registered.png)
 

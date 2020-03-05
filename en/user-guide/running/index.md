@@ -4,7 +4,6 @@ uid: en/user-guide/running/index
 author: git.AndreiMaz
 contributors: git.exileDev, git.dunaenko
 ---
-
 # Running your store
 
 * [Product management](xref:en/user-guide/running/product-management/index)
