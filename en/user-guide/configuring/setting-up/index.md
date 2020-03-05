@@ -4,6 +4,7 @@ uid: en/user-guide/configuring/setting-up/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.ivkadp
 ---
+
 # Setting up your store
 
 This chapter describes how to set up your store(s). It includes several basiс settings:
