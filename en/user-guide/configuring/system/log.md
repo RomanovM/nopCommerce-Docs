@@ -27,8 +27,7 @@ The system log report displays a list of all the errors that were created in the
       * Fatal
 1. Click **Search**. The log system window is displayed based on the search criteria
 
-    > [!NOTE]
-    > You can click the Clear Log button at any time to remove all log entries from the system.
+    > [!NOTE] You can click the Clear Log button at any time to remove all log entries from the system.
 1. Click **View** to view additional details of the specific log, as follows:
 
     ![Log entry - Details](_static/log/log-details.jpg)
