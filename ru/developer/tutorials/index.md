@@ -1,6 +1,6 @@
 ---
 title: Developer tutorials
-uid: en/developer/tutorials/index
+uid: ru/developer/tutorials/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev
 ---
