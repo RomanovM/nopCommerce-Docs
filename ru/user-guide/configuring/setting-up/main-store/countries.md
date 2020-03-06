@@ -1,6 +1,6 @@
 ---
 title: Countries
-uid: en/user-guide/configuring/setting-up/main-store/countries
+uid: ru/user-guide/configuring/setting-up/main-store/countries
 author: git.AndreiMaz
 contributors: git.rajupaladiya, git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---
@@ -79,6 +79,6 @@ To tie a certain store to a country in the **Limited to stores** field of the Co
 
 > [!NOTE]
 > 
-> This list is used only when you have several stores configured. For further details refer to [Stores](xref:en/user-guide/configuring/setting-up/main-store/multiple-store).
+> This list is used only when you have several stores configured. For further details refer to [Stores](xref:ru/user-guide/configuring/setting-up/main-store/multiple-store).
 
 Click **Save**
