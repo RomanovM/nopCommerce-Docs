@@ -1,6 +1,6 @@
 ---
 title: Qualpay
-uid: en/user-guide/configuring/setting-up/payments/methods/qualpay
+uid: ru/user-guide/configuring/setting-up/payments/methods/qualpay
 author: git.AndreiMaz
 contributors: git.exileDev, git.ivkadp
 ---
