@@ -14,6 +14,7 @@ To use **PayPal Standard** plugin as a payment method please follow these steps:
     ![step1](_static/paypal-standard/signUp1step.png)
 
     > [!NOTE]
+    >
     > If you already have an account you will be redirected to the authorization
 
     ![step2](_static/paypal-standard/signUp2step.png)
@@ -62,6 +63,7 @@ For the **IPN** (Instant Payment Notification) activation:
 1. Click **Save.** You should get a message that you have successfully activated IPN.
 
 > [!NOTE]
+>
 > Instant Payment Notification (IPN) is PayPal's message service that sends a notification when a transaction is affected. Once IPN is integrated, sellers can automate their back office so they are not required to wait for payments to come in to trigger order fulfillment.
 
 ## Known Issues

@@ -36,4 +36,5 @@ Perform the following steps to enable Google Analytics integration:
 * Click **Save**. Google Analytics will be integrated into your store.
 
 > [!NOTE]
+>
 > After a widget has been added, you can click Edit in the Widgets window beside the required widget to display the **Edit Widget Details** window and then edit the widget details, as described above.

@@ -28,4 +28,5 @@ Add a new setting, as follows:
 Click Insert. The new setting in displayed in the All settings window.
 
 > [!NOTE]
+>
 > You can click the Edit button beside each parameter to edit the parameter value, as described above.

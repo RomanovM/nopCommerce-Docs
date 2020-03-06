@@ -19,6 +19,7 @@ This chapter describes how to upgrade nopCommerce to the [latest](https://www.no
 1. Ensure that everything is OK
 
 > [!NOTE]
+>
 > As you deploy, make sure that the target `Settings.txt` and `InstalledPlugins.txt` files are updated as per latest nopCommerce version, so that the production site continues to point to the production database.
 >
 > If you stored your pictures on the file system, then also backup them (`\wwwroot\Images\`) and copy back after the upgrade.
@@ -30,4 +31,5 @@ This chapter describes how to upgrade nopCommerce to the [latest](https://www.no
 If you experience problems after the upgrade, you can always restore your backup and replace the files with ones from your previous version. You can always post a question on our [forums](https://www.nopcommerce.com/boards/).
 
 > [!Note]
+>
 > If when doing advanced search you cannot find what you need, then try a Google search focused into nopCommerce site: [your search words **site:[nopcommerce.com](https://www.nopcommerce.com/ "nopcommerce.com")**]

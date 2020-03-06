@@ -12,6 +12,7 @@ contributors: git.exileDev, git.dunaenko, git.IvanIvanIvanov
 In nopCommerce, grouped products look like a single product details page displaying all possible options. It is a convenient and SEO-friendly tool to sell complex products.
 
 >[!TIP]
+>
 >**For example**, a base product, such as a camera body, can be grouped with different sets of lens. Another use case of a grouped product is selling one type of a product with different attribute sets. For example, chocolate with different flavours. In this case, a customer can easily see the main product and all its options on the same page.
 
 ![grouped](_static/grouped-products/grouped.png)
@@ -28,6 +29,7 @@ To create a grouped product, go to **Catalog → Products**. There are several *
     ![variants](_static/grouped-products/variants.png)
 
 >[!NOTE]
+>
 >
 > - In the public store, a customer sees a separate **Add to cart** button for each associated product on the **Grouped product** details page.
 > - A **Simple** product can be associated with only one **Grouped** product.

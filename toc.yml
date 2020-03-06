@@ -1,3 +1,9 @@
-﻿- name: English
+﻿---
+-
+  name: English
   href: en/
   topicHref: en/index.md
+-
+  name: Russian
+  href: ru/
+  topicHref: ru/index.md

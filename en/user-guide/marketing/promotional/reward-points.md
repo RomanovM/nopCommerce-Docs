@@ -37,6 +37,7 @@ To set up your reward point program, define these settings:
 - Click **Save**
 
 > [!NOTE]
+>
 > **Reward points are applied only to registered users**
 
 When a customer uses reward points when checkout it looks like that:

@@ -76,6 +76,7 @@ The next block sets up **Performance**. Having the following settings enabled ca
 - The **Share button code** field displays the pages button code.
 
 > [!TIP]
+>
 > By default, AddThis service is used ([http://www.addthis.com/](http://www.addthis.com/)).
 
 ![Share](_static/catalog-settings/zzz.png)

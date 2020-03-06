@@ -30,6 +30,7 @@ Define the **following details for news item**:
 - Select **Start and End date of a news** item in Coordinated Universal Time (UTC).
 
   > [!NOTE]
+  >
   > You can leave these fields empty if you do not want to define news item start and end dates
 - Select the Published checkbox, to publish this news item in your store
 

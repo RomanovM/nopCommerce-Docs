@@ -19,6 +19,7 @@ Define the **following details**:
 
 You can define a **recurring cycle** to any product in order to enable the system to automatically create repetitive orders. In this case, any time when the payment must be done, the system will use the payment details of the initial order for subsequent recurring orders. In addition, the original shipping charges will apply to subsequent orders.
 >[!NOTE]
+>
 >at least one of the active payment modules should support recurring payments.
 
 ## See also

@@ -24,6 +24,7 @@ Select the required roles beside the **Customer action** items. The selected rol
 Click **Save.**
 
 > [!TIP]
+>
 > Example: We need a role called Content Manager. The content Manager must have access to new products and manufacturers management, editing of the reviews on site, blogs, campaigns, and have no access to shopping carts.
 >
 > 1. Create the Customer role called Content Manager in Customer Roles section (Customers → Customer Roles).

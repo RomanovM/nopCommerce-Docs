@@ -93,6 +93,7 @@ Specify Custom SQL Server collation: This is an advanced setting and should be l
 
 > [!NOTE]
 >
+>
 > 1. The **Restart installation** button at the bottom of the installation page enables you to restart the installation process in case anything goes wrong.
 >
 > 1. Ensure that your application pool is set to Integrated mode

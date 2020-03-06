@@ -25,4 +25,5 @@ To load message queues:
 1. Click **Load** to load the message queues matching the criteria.
 
 > [!NOTE]
+>
 > You can click the Delete selected button to delete selected emails from the grid. You can click Delete All to remove all emails.

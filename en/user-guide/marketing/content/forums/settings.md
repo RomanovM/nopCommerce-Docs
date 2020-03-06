@@ -29,6 +29,7 @@ Define following **forum settings**:
 - Set the **size of Topics page, Posts page, Search results, Active discussions page** (e.g. 5 topics per page)
 
   > [!NOTE]
+  >
   > it is not recommended to change the forum editor type in the production environment
 
 - Select the **Forum feeds enabled** checkbox to enable RSS feeds for each forum
