@@ -34,7 +34,7 @@ Click **Edit** beside a shipping method and enter the fixed rate for it.
 Click **Update**.
 
 > [!NOTE]
->
+> 
 > you can add/remove shipping methods in the Shipping methods window, accessed by clicking ![button](_static/index/manual-shipping-manage-button.png) and restrict some methods for chosen countries by clicking ![restrictions](_static/index/manual-shipping-restrictions.png)
 
 ### By weight/Total
@@ -73,11 +73,7 @@ For example, if you have the following shipping conditions:
   * Order weight to: **99999**
   * Additional fixed cost: **15**
   * Lower weight limit: **2**
-  * Rate per weight unit: **3**
-    > [!NOTE]
-    >
-    > it will charge proportionally for additional weight;
-    > example for 2.1 pounds it will charge $15 + (0.1 * 6)= $15.6
+  * Rate per weight unit: **3** > [!NOTE] > > it will charge proportionally for additional weight; > example for 2.1 pounds it will charge $15 + (0.1 * 6)= $15.6
 
 To add a new shipping rule, click **Add record**. The Add new record window is displayed:
 
@@ -93,15 +89,15 @@ To add a new shipping rule, click **Add record**. The Add new record window is d
 * Configure the pricing rules for this record using fields **Order subtotal from, Order subtotal to, Additional fixed cost, Lower weight limit, Rate per weight unit, Charge percentage of subtotal**.
 
 > [!NOTE]
->
+> 
 > make sure that you settings "**Configuration → Settings → Shipping Settings → Consider associated products dimensions and weigh**" is true.
 
 Click **Save**.
 
 > [!NOTE]
->
+> 
 > you can add/remove shipping methods in the Shipping methods window, accessed by clicking ![button](_static/index/manual-shipping-manage-button.png) and restrict some methods for chosen countries by clicking ![restrictions](_static/index/manual-shipping-restrictions.png)
->
+> 
 > If you wish to limit your customers only to methods configured on that screen tick this checkbox on the bottom of the page.
 
 ## See also
