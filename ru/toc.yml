@@ -469,6 +469,9 @@
       href: developer/tutorials/index.md
       items:
         - 
+          name: System requirements for developing
+          href: developer/tutorials/system-requirements-for-developing
+        - 
           name: Configuring code style
           href: developer/tutorials/code-style.md
         - 
@@ -477,6 +480,9 @@
         - 
           name: Source code organization. Architecture of nopCommerce.
           href: developer/tutorials/source-code-organization.md
+        - 
+          name: Instruction on how to start developing on nopCommerce
+          href: developer/tutorials/instruction-on-how-to-start-developing-on-nopcommerce
         - 
           name: Updating an existing entity. How to add a new property
           href: developer/tutorials/update-existing-entity.md
@@ -493,6 +499,9 @@
           name: How do I register new routes?
           href: developer/tutorials/register-new-routes.md
         - 
+          name: A guide to expanding the functionality of the basic functions of nopCommerce through a plugin
+          href: developer/tutorials/guide-to-expanding-the-functionality-of-the-basic-functions-of-nop-commerce-through-a-plugin
+        - 
           name: Data Validation
           href: developer/tutorials/data-validation.md
         - 
@@ -505,6 +514,9 @@
           name: Settings API
           href: developer/tutorials/settings.md
         - 
+          name: Description of the web.config file in project
+          href: developer/tutorials/description-of-the-web-config-file-in-project
+        - 
           name: Step by step to deploy on Azure with GIT and automatic builds
           href: developer/tutorials/azure-deploy.md
         - 
@@ -513,6 +525,9 @@
         - 
           name: How to deploy nopCommerce to Azure
           href: developer/tutorials/azure-publish.md
+        - 
+          name: Guide to creating a page containing a reporting table of DataTables
+          href: developer/tutorials/guide-to-creating-a-page-containing-a-reporting-table-of-datatables
     - 
       name: Creating a nopCommerce plugin
       href: developer/plugins/index.md
