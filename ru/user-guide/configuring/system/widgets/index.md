@@ -1,6 +1,6 @@
 ---
 title: Widgets
-uid: en/user-guide/configuring/system/widgets/index
+uid: ru/user-guide/configuring/system/widgets/index
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
