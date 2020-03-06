@@ -1,6 +1,6 @@
 ---
 title: Payment Methods
-uid: en/user-guide/configuring/setting-up/payments/methods/index
+uid: ru/user-guide/configuring/setting-up/payments/methods/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---
@@ -15,7 +15,7 @@ To define payment methods go to **Configuration →  Payment Methods.**
 > 
 > By default, there are several payment methods available in nopCommerce, but you can find needed more payment plugins in nopCommerce [Marketplace](https://www.nopcommerce.com/marketplace).
 
-For further details, refer to the [document](xref:en/developer/plugins/payment-method) (recommended to be used only by developers).
+For further details, refer to the [document](xref:ru/developer/plugins/payment-method) (recommended to be used only by developers).
 
 ![methods](_static/index/methods.png)
 
