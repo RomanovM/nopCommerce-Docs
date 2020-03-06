@@ -1,6 +1,6 @@
 ---
 title: Uploading favicons
-uid: en/user-guide/configuring/setting-up/main-store/uploading-favicons
+uid: ru/user-guide/configuring/setting-up/main-store/uploading-favicons
 author: git.RomanovM
 contributors: git.rajupaladiya, git.DmitriyKulagin
 ---
