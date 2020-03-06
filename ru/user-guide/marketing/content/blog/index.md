@@ -1,6 +1,6 @@
 ---
 title: Blog
-uid: en/user-guide/marketing/content/blog/index
+uid: ru/user-guide/marketing/content/blog/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---
