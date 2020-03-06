@@ -1,6 +1,6 @@
 ---
 title: Product attributes
-uid: en/user-guide/running/product-management/attributes/product-attributes
+uid: ru/user-guide/running/product-management/attributes/product-attributes
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.dunaenko
 ---
@@ -55,7 +55,7 @@ In the **Add a new value** window a user has an opportunity to:
 
 > [!NOTE]
 > 
-> Some store owners prefer to highlight products differentiated by attributes and create a separate product with each specific attribute (for example, separately listed blue T-shirts and red T-shirts). In this case, we recommend creating a grouped product (shirts, as in the example) in order for all of the variations to be displayed on the same page, once the grouped product is being viewed by a customer. Read more about [grouped products](xref:en/user-guide/running/product-management/products/adding-products/grouped-products).
+> Some store owners prefer to highlight products differentiated by attributes and create a separate product with each specific attribute (for example, separately listed blue T-shirts and red T-shirts). In this case, we recommend creating a grouped product (shirts, as in the example) in order for all of the variations to be displayed on the same page, once the grouped product is being viewed by a customer. Read more about [grouped products](xref:ru/user-guide/running/product-management/products/adding-products/grouped-products).
 
 ## See also
 
