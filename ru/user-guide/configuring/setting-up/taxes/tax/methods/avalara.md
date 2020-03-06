@@ -1,6 +1,6 @@
 ---
 title: Avalara tax provider
-uid: en/user-guide/configuring/setting-up/taxes/tax/methods/avalara
+uid: ru/user-guide/configuring/setting-up/taxes/tax/methods/avalara
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
