@@ -1,6 +1,6 @@
 ---
 title: Setting up Payments
-uid: en/user-guide/configuring/setting-up/payments/index
+uid: ru/user-guide/configuring/setting-up/payments/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.exileDev, git.ivkadp
 ---
@@ -17,7 +17,7 @@ This chapter describes how to set up the payment methods, currency and Payment m
 
 > [!TIP]
 > 
-> How to install the payment (or any other) plugin is covered in [Plugins](xref:en/user-guide/configuring/system/plugins) chapter.
+> How to install the payment (or any other) plugin is covered in [Plugins](xref:ru/user-guide/configuring/system/plugins) chapter.
 
 ## See also
 
