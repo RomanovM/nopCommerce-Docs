@@ -1,6 +1,6 @@
 ---
 title: Deleting Old Exported Files
-uid: en/user-guide/configuring/system/deleting-old-exported-files
+uid: ru/user-guide/configuring/system/deleting-old-exported-files
 author: git.AndreiMaz
 contributors: git.exileDev
 ---
