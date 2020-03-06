@@ -10,7 +10,7 @@ contributors: git.exileDev
 Pickup point is an option providing customers the flexibility to select a point where they can receive parcels.
 
 > [!NOTE]
->
+> 
 > this option is available only when the checkbox "Pick Up in Store enabled" is ticked in Shipping Settings
 
 **To manage Pickup Point Providers:**

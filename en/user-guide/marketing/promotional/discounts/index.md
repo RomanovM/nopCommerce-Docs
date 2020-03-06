@@ -21,7 +21,7 @@ The top area of the page enables you to search for a discounts by different sear
 - **Start date** and **End date** for discounts created between these dates
 
 > [!NOTE]
->
+> 
 > **By default, there are no discounts available in nopCommerce, so you can create them from scratch and follow your own marketing strategy**
 
 ![discounts](_static/index/discounts.png)
@@ -56,7 +56,7 @@ Select the Requires coupon code checkbox, to enable a customer to supply a coupo
 After ticking the checkbox the **Coupon code option** appears. You can enter the **required coupon code** in this field. This enables customers to enter this coupon code during checkout to apply the discount.
 
 > [!TIP]
->
+> 
 > Customers can apply an unlimited number of **coupon codes** to one order if they fit it.
 
 You can also limit the number of times the discount will be used.  From the Discount limitation dropdown list, select the required limitation regarding the discount:
@@ -66,7 +66,7 @@ You can also limit the number of times the discount will be used.  From the Disc
 - **N Times per Customer**: Select this option and enter the number of times this discount will be available for one customer.
 
 > [!TIP]
->
+> 
 > In **Maximum discounted quantity** (only applies when Discount type is Assigned to Products or Categories) specify the maximum product quantity which could be discounted. It can be used for scenarios like "buy 2 get 1 free". Click **Save**.
 
 ## Adding discount requirements

@@ -11,5 +11,4 @@ Information in this document, including URL and other Internet Web site referenc
 
 Joint Copyright &copy; 2010, Nop Solutions, Inc and Andrei Mazoulnitsyn. All Rights Reserved.
 
-nopCommerce and the nopCommerce logo are either registered trademarks or trademarks of Nop Solutions, Inc.
-in the Russia and/or other countries. The names of actual companies and products mentioned herein may be the trademarks of their respective owners.
+nopCommerce and the nopCommerce logo are either registered trademarks or trademarks of Nop Solutions, Inc. in the Russia and/or other countries. The names of actual companies and products mentioned herein may be the trademarks of their respective owners.

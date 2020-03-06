@@ -9,9 +9,7 @@ contributors: git.DmitriyKulagin, git.exileDev, git.IvanIvanIvanov
 
 ## Issue: Installation issues - 500 Internal Error
 
-Server Error
-500 - Internal server error.
-There is a problem with the resource you are looking for, and it cannot be displayed.
+Server Error 500 - Internal server error. There is a problem with the resource you are looking for, and it cannot be displayed.
 
 ### Solution
 

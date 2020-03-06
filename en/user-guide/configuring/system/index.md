@@ -7,7 +7,7 @@ contributors: git.exileDev
 
 # System Administration
 
-This chapter covers **technical aspects of running a nopCommerce store**. It describes how to expand the store functionality by technical means, such as additional external plugins, external authentication for the easier checkout process, configuration of widgets and setting up the e-mail accounts.  
+This chapter covers **technical aspects of running a nopCommerce store**. It describes how to expand the store functionality by technical means, such as additional external plugins, external authentication for the easier checkout process, configuration of widgets and setting up the e-mail accounts.
 
 This chapter concentrates more on the back-end, the front-end is covered in chapter Design.
 

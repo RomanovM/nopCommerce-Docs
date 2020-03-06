@@ -35,7 +35,7 @@ Define **new blog post details**:
 - Enter **Start and End date** for displaying this blog post in Coordinated Universal Time (UTC)
 
  > [!NOTE]
- >
+ > 
  > You can leave these fields empty if you do not want to define blog post start and end dates
 
 - Select the **Limited to stores** checkbox, to enable defining the stores where the blog post will be available

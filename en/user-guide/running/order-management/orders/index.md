@@ -31,7 +31,7 @@ __To search for orders__, enter one or more of the following search criteria:
 * **Go directly to order number** - enter the order number and click Go to display the required order
 
 > [!NOTE]
->
+> 
 > You can export the order data to an external file by clicking Export to XML(all) or Export to Excel (all). You can export selected order data to an external file by clicking Export to XML(selected) or Export to Excel (selected).
 
 **To view the order full information**, click **View** beside the order in the list.
@@ -55,8 +55,7 @@ On the **Billing & Shipping panel**, view and edit the billing and shipping info
 * View and Edit a **shipping address**. Optionally you can click the** View address on Google maps** link to locate the required shipping address.
 * View and Edit a **shipping method**
 * View a **shipping status**. Note: Store owners can create several shipments per order. If you create a shipment but do not ship all products, then the shipping status of an order is **Partially shipped**. Once all the products are shipped, the status changes to **Shipped**. Once all the shipments are delivered, the status changes to **Delivered**.
-* View the **list of shipments**. Click **View** beside the shipment to view its details. The shipment information window will be displayed:
-    ![shipment-details](_static/index/shipment-details.jpeg)
+* View the **list of shipments**. Click **View** beside the shipment to view its details. The shipment information window will be displayed: ![shipment-details](_static/index/shipment-details.jpeg)
 
 **Add Shipment** - enables creating several shipments per order and is visible when there is at least one non-shipped product in the order. Add a new shipment in the Add a new shipment to order window. In the Quantity to ship column, enter the required quantity of the specific order to ship. Once a shipment is created, you can set it to shipped and then delivered, by clicking the Set as shipped and Set as delivered buttons accordingly.
 
@@ -71,8 +70,7 @@ On the *Products* tab a store owner can:
 * **View the product information**, including price, quantity, and total price
 * Click the Product name link to **view a product detail page** or the Download link to **download a product** if it is downloadable, alternatively, a user can upload a file to the downloadable product. In addition, when the Download activation type of a product is set to Manually, an administrator has the option to click **Activate** to enable **downloading** the product from the site or **Deactivate** to disable **downloading** the product from the site
 * **Edit** the product **price**, **quantity**, **discount** and **total**
-* **Delete** a product from the system
-Add Product. In the **Add a New Product to the Order** window find the required product, fill the required values and Add Product.
+* **Delete** a product from the system Add Product. In the **Add a New Product to the Order** window find the required product, fill the required values and Add Product.
 
 ![Order Products](_static/index/order-products.png)
 

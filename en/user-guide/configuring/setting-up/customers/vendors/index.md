@@ -39,7 +39,7 @@ Define the following vendor’s details:
 * Tick **Active** checkbox to activate the vendor
 
 > [!NOTE]
->
+> 
 > The appropriate message template is disabled by default, you can change it in [Message Templates](xref:en/user-guide/marketing/content/message-templates) section
 
 * **Admin comment**  an optional comment or information for internal use
@@ -110,7 +110,7 @@ Click **Edit** beside the customer record you want to assign a vendor to. The Ed
 * Ensure the **Vendors** customer role is selected in the **Customer Roles** field.
 
 > [!NOTE]
->
+> 
 > A Vendor customer account cannot have Administrators customer role (which is defined as the default).
 
 ![customerinfo](_static/index/vendor8.png)
@@ -118,7 +118,7 @@ Click **Edit** beside the customer record you want to assign a vendor to. The Ed
 After the vendor's customer account is set up, the vendor can use this customer account to manage his products, orders, shipments, and view reports. The Administration link at the top of the public store will be displayed after logging in.
 
 > [!TIP]
->
+> 
 > [YouTube tutorial: Managing Vendors](https://www.youtube.com/watch?v=MH6r6tqfLF8&list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4&index=9)
 
 ## See also

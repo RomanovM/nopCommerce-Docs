@@ -41,7 +41,7 @@ Update the products available for installation, then install the .NET runtime:
 
 You may see all installed .Net Core runtimes by the following command:
 
-`dotnet --list-runtimes` 
+`dotnet --list-runtimes`
 
 ![nopCommerce installation](_static/linux/list_runtimes.jpg)
 
@@ -151,13 +151,11 @@ Create couple directories to run nopCommerce:
 
 `sudo mkdir bin`
 
-`sudo mkdir logs `  
+`sudo mkdir logs`
 
 Change the file permissions
 
-cd ..
-sudo chgrp -R www-data nopCommerce420/
-sudo chown -R www-data nopCommerce420/
+cd .. sudo chgrp -R www-data nopCommerce420/ sudo chown -R www-data nopCommerce420/
 
 ## 3. Create the nopCommerce service
 

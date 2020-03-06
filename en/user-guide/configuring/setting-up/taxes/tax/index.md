@@ -18,7 +18,7 @@ To define tax rate providers go to **Configuration → Tax Providers**.
 In the Mark as primary provider column, click **Mark as primary provider** to select the default tax provider.
 
 > [!TIP]
->
+> 
 > If you wish to use **third-party integrations** with other tax rate providers, you can search for the required among integrations in the marketplace.
 
 The configuration of Tax providers is described in **following chapters**:

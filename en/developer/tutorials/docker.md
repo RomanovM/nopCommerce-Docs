@@ -54,12 +54,11 @@ This document describes a step-by-step guide to building and running a Docker co
     This command will launch our container in the background (flag [-d]) and set port 80 from the container to port 80 of the host machine (flag [–p]).
 
     > [!TIP]
-    >
+    > 
     > You can view the list of running containers using the next command:
-    >
-    > ```csharp
-    > [docker ps]
-    > ```
+    > 
+    > `csharp
+  [docker ps]`
 
     Since we are launching the docker through a virtual machine, we need to first get an IP address at which we can test the operation of the application. To do this, execute the command, which will start the redirection service and give us the IP address on which we can verify that the application has started.
 

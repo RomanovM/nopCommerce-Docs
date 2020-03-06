@@ -22,11 +22,9 @@ To edit SEO settings, go to **Configuration → Settings → General Settings.**
 - In the **Default title** field, enter the default title for the pages in your store
 - From the **Page Title SEO adjustment** field, select the required page title SEO adjustment, as follows:
 
-    A page name comes after the store name in the title:
-    `YOURSTORE.COM` | PAGENAME
+    A page name comes after the store name in the title: `YOURSTORE.COM` | PAGENAME
 
-    The store name comes after a page name in the title:
-    PAGENAME | `YOURSTORE.COM`
+    The store name comes after a page name in the title: PAGENAME | `YOURSTORE.COM`
 
 - Specify the **Page Title separator**.
 - Enter the **Default meta keywords description** for the pages in your store. This can be overridden for individual **categories, manufacturers, and products**.
