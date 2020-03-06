@@ -1,6 +1,6 @@
 ---
 title: Setting up your store
-uid: en/user-guide/configuring/setting-up/index
+uid: ru/user-guide/configuring/setting-up/index
 author: git.AndreiMaz
 contributors: git.DmitriyKulagin, git.ivkadp
 ---
