@@ -1,6 +1,6 @@
 ---
 title: Widgets (Designer's Guide)
-uid: en/developer/design/widgets
+uid: ru/developer/design/widgets
 author: git.AndreiMaz
 contributors: git.exileDev, git.DmitriyKulagin
 ---
