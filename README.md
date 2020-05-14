@@ -14,3 +14,5 @@ For more information, see the [Code of Conduct FAQ](https://opensource.microsoft
 Test feature
 
 Some changes after
+
+Test feature 2
