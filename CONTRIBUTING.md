@@ -28,10 +28,10 @@ Structuring rules:
 
 - The folder that unites articles into a group should include the root file `index.md`
 
-So, an image in the `developer/tutorials/source-code-organization.md` file is rendered by the following Markdown:
+So, an image in the `en/developer/tutorials/source-code-organization.md` file is rendered by the following Markdown:
 
 ```md
-![description of image for alt attribute](developer/tutorials/_static/source-code-organization/imagename.png)
+![description of image for alt attribute](en/developer/tutorials/_static/source-code-organization/imagename.png)
 ```
 
 All images should have [alternative (alt) text](https://wikipedia.org/wiki/Alt_attribute). For advice on specifying alt text, see online resources, such as [WebAIM: Alternative Text](https://webaim.org/techniques/alttext/).
@@ -66,10 +66,20 @@ As an optional step, ensure that any images and screenshots used in the document
 
 Test your changes with the [DocFX command-line tool](https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html#2-use-docfx-as-a-command-line-tool), which creates a locally hosted version of the site. DocFX doesn't render style and site extensions created for docs.microsoft.com.
 
+## Forking and submitting pull requests
+
+If you want to contribute some changes to nopCommerce documentation (article fix or some new post), then you should follow the next approach. Here is a short list of steps to contribute:
+
+- First of all, you have to create a fork. Please find more about repository forking on GitHub at [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/).
+- Clone it locally.
+- Create a new branch from "master". Please always create a new branch for each contribution. You should create it from our "master" branch only.
+- Write the code and push back to your GitHub fork.
+- Create pull request. Please read more about it at [https://help.github.com/articles/using-pull-requests/](https://help.github.com/articles/using-pull-requests/). And please always sync with our repository before doing it.
+
 ## Microsoft Writing Style Guide
 
 The [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/welcome/) provides writing style and terminology guidance for all forms of technology communication, including the nopCommerce documentation.
 
 ## Redirects
 
-If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article don't receive a 404 Not Found error. Add redirects to the [master redirect file](https://github.com/nopSolutions/nopCommerce-Docs/blob/master/.openpublishing.redirection.json).
+If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article don't receive a 404 Not Found error. Add redirects to the [web.config file](https://github.com/nopSolutions/nopCommerce-Docs/blob/master/web.config).
